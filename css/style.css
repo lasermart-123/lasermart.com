@@ -485,6 +485,27 @@ body {
     position: relative;
     margin-top: -119px;
 }
+.right-img img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    animation: floatImg 3s ease-in-out infinite;
+}
+/* Animation */
+@keyframes floatImg {
+
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(-20px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
 
 /*====== MOBILE =======*/
 
