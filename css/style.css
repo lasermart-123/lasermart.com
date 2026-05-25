@@ -313,6 +313,9 @@ body {
     height: 100%;
    background: rgb(0 0 0 / 25%);
 }
+.first-box {
+    padding-right: 11px;
+}
 
 /* Content above overlay */
 .hero-content,
