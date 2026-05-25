@@ -299,7 +299,7 @@ body {
 
 .hero-section{
     position: relative;
-    background: url('../img/hero-bg1.png') center/cover no-repeat;
+    background: url('../img/hero1-bg.png') center/cover no-repeat;
     padding: 100px 0;
     overflow: hidden;
 }
