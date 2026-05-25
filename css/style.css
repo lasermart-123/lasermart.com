@@ -382,12 +382,15 @@ body {
     color: black;
 }
 
-.feature-box {
+    .feature-box {
     display: flex;
     align-items: flex-start;
     gap: 18px;
     margin-bottom: 35px;
+    border: 1px solid;
+    padding: 11px;
 }
+
 
 .feature-box i {
     font-size: 30px;
