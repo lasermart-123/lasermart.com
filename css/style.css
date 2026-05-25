@@ -299,7 +299,7 @@ body {
 
 .hero-section {
     background: linear-gradient(to right, #050816, #0b1027);
-     background: url(../img/hero-bg.png) center center / cover no-repeat;
+     background: url(../img/hero-bg1.png) center center / cover no-repeat;
     min-height: 100vh;
     position: relative;
     overflow: hidden;
