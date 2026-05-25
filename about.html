@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Scroll Counter</title>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f4f4f4;
+}
+
+/* Extra space for scrolling demo */
+.top-space{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:40px;
+    font-weight:bold;
+}
+
+.container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:30px;
+    padding:60px 20px;
+}
+
+.counter-container{
+    background:#fff;
+    width:220px;
+    padding:30px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.counter-container:hover{
+    transform:translateY(-5px);
+}
+
+.counter-container i{
+    font-size:50px;
+    color:#000;
+    margin-bottom:15px;
+}
+
+.counter{
+    font-size:40px;
+    font-weight:bold;
+    margin:10px 0;
+}
+
+.counter-container span{
+    font-size:18px;
+    font-weight:bold;
+}
+
+@media(max-width:768px){
+    .container{
+        flex-direction:column;
+        align-items:center;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+
+
+<div class="container" id="counter-section">
+
+    <div class="counter-container">
+        <i class="fab fa-twitter"></i>
+        <div class="counter" data-target="12000">0</div>
+        <span>Twitter Followers</span>
+    </div>
+
+    <div class="counter-container">
+        <i class="fab fa-youtube"></i>
+        <div class="counter" data-target="5000">0</div>
+        <span>YouTube Subscribers</span>
+    </div>
+
+    <div class="counter-container">
+        <i class="fab fa-facebook"></i>
+        <div class="counter" data-target="7500">0</div>
+        <span>Facebook Fans</span>
+    </div>
+
+</div>
+
+<script>
+
+const counters = document.querySelectorAll('.counter');
+const section = document.querySelector('#counter-section');
+
+let started = false;
+
+function startCounters(){
+
+    if(started) return;
+
+    started = true;
+
+    counters.forEach(counter => {
+
+        const updateCounter = () => {
+
+            const target = +counter.getAttribute('data-target');
+            const current = +counter.innerText.replace(/,/g,'');
+
+            const increment = target / 200;
+
+            if(current < target){
+
+                counter.innerText =
+                `${Math.ceil(current + increment).toLocaleString()}`;
+
+                setTimeout(updateCounter, 10);
+
+            }else{
+                counter.innerText = target.toLocaleString();
+            }
+        };
+
+        updateCounter();
+    });
+}
+
+/* Start when section appears on screen */
+const observer = new IntersectionObserver((entries) => {
+
+    entries.forEach(entry => {
+
+        if(entry.isIntersecting){
+            startCounters();
+        }
+
+    });
+
+}, {
+    threshold: 0.5
+});
+
+observer.observe(section);
+
+</script>
+
+</body>
+</html>
