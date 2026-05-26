@@ -959,7 +959,7 @@
     <script src="./js/crousel.js"></script>
     <script src="./js/counter.js"></script>
 
-     <script>
+   <script>
 
 const flow = [
 
@@ -1112,8 +1112,6 @@ function showBotMessage(message){
 
   chatbox.appendChild(row);
 
-  scrollBottom();
-
 }
 
 /* USER MESSAGE */
@@ -1127,8 +1125,6 @@ function showUserMessage(text){
   div.innerText = text;
 
   chatbox.appendChild(div);
-
-  scrollBottom();
 
 }
 
@@ -1148,7 +1144,12 @@ function showOptions(optionsArray){
 
     btn.innerText = item.question;
 
-    btn.onclick = ()=>{
+    btn.onclick = (event)=>{
+
+      // IMPORTANT FIX
+      // STOP WINDOW CLICK EVENT
+
+      event.stopPropagation();
 
       // USER QUESTION
 
@@ -1182,15 +1183,11 @@ function showOptions(optionsArray){
 
   chatbox.appendChild(optionsDiv);
 
-  scrollBottom();
-
 }
 
-/* AUTO SCROLL */
+/* AUTO SCROLL DISABLED */
 
 function scrollBottom(){
-
-  
 
 }
 
@@ -1208,23 +1205,27 @@ setTimeout(()=>{
 
 },10000);
 
-// OUTSIDE CLICK CLOSE
+/* OUTSIDE CLICK CLOSE FIX */
 
-window.onclick = function(event){
+document.addEventListener("click", function(event){
 
   const chatbot = document.getElementById("chatbot");
 
-  if(
-    event.target !== chatbot &&
-    !chatbot.contains(event.target) &&
-    !event.target.classList.contains("chat-icon")
-  ){
+  const chatIcon = document.querySelector(".chat-icon");
 
-    chatbot.style.display = "none";
+  // IF CHATBOT CLOSED
+  if(chatbot.style.display === "none") return;
 
-  }
+  // CLICK INSIDE CHATBOT
+  if(chatbot.contains(event.target)) return;
 
-};
+  // CLICK CHAT ICON
+  if(chatIcon.contains(event.target)) return;
+
+  // OTHERWISE CLOSE CHAT
+  chatbot.style.display = "none";
+
+});
 
 </script>
 </body>
