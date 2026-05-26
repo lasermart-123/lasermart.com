@@ -840,10 +840,10 @@ body {
     margin-top: 15px;
     line-height: 1.6;
 }
-
-#cusoms a{
+#customs a {
     background: rgba(255, 255, 255, 0.6);
 }
+
 .btn-custom a {
     position: relative;
     display: inline-block;
