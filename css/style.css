@@ -460,11 +460,15 @@ body {
 .btn-3d-outline i{
     font-size:15px;
 }
-
+.feature-box {
+    display: flex;
+    padding-bottom: 27px;
+}
 
 .feature-box i {
     font-size: 30px;
     color: #3d8bff;
+    padding-right: 14px;
 }
 
 .feature-box h5 {
