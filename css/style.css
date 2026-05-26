@@ -311,9 +311,10 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-  /* background: rgb(0 0 0 / 25%);*/
+  background: #01153ed1;
 }
-.first-box {
+
+.first-box {   
     padding-right: 11px;
 }
 
@@ -349,7 +350,7 @@ body {
     margin-left:6px;
 }
 
-.hero-btns {
+/*.hero-btns {
     margin-top: 35px;
     display: flex;
     gap: 20px;
@@ -392,8 +393,72 @@ body {
     margin-bottom: 35px;
     border: 1px solid;
     padding: 11px;
-    background: #01153ed1;
+    /*background: #01153ed1;*
     border-radius: 15px;
+}*/
+.hero-btns{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+/* Blue 3D Button */
+.btn-3d-blue{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:16px 34px;
+    border-radius:16px;
+    background:linear-gradient(145deg,#0b2f87,#1547c9);
+    color:#fff;
+    font-size:16px;
+    font-weight:600;
+    text-decoration:none;
+    box-shadow:
+        0 8px 0 #07215e,
+        0 12px 25px rgba(11,47,135,0.35);
+    transition:all 0.2s ease;
+    position:relative;
+    top:0;
+}
+
+.btn-3d-blue:hover{
+    top:4px;
+    box-shadow:
+        0 4px 0 #07215e,
+        0 8px 18px rgba(11,47,135,0.25);
+}
+
+/* Outline 3D Button */
+.btn-3d-outline{
+    display:inline-flex;
+    align-items:center;
+    gap:12px;
+    padding:16px 34px;
+    border-radius:16px;
+    background:#fff;
+    border:2px solid #ff6600;
+    color:#ff6600;
+    font-size:16px;
+    font-weight:600;
+    text-decoration:none;
+    box-shadow:
+        0 8px 0 #d94f00,
+        0 12px 25px rgba(255,102,0,0.25);
+    transition:all 0.2s ease;
+    position:relative;
+    top:0;
+}
+
+.btn-3d-outline:hover{
+    top:4px;
+    box-shadow:
+        0 4px 0 #d94f00,
+        0 8px 18px rgba(255,102,0,0.18);
+}
+
+.btn-3d-outline i{
+    font-size:15px;
 }
 
 
@@ -470,20 +535,6 @@ body {
     transform: scale(1.1) rotate(-5deg);
 }*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .bottom-item h6 {
     font-weight: 600;
     color: #222;
@@ -493,8 +544,12 @@ body {
     position: relative;
     margin-top: -119px;
 }
+.img-box.img-one {
+    height: 383px;
+}
 .right-img img {
     width: 100%;
+    height: 100%;    
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     animation: floatImg 3s ease-in-out infinite;
@@ -626,7 +681,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 1px;
 }
 
 .flip-card-front {
