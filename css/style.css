@@ -725,7 +725,7 @@ body {
 }
 
 .flip-card-front .explore {
-    color: #667eea;
+    color: #e74426;
     font-weight: 600;
     font-size: 13px;
 }
@@ -751,7 +751,7 @@ body {
 
 .flip-card-back .btn {
     background: #fff;
-    color: #667eea;
+    color: #e74426;
     border: none;
     padding: 6px 16px;
     border-radius: 50px;
