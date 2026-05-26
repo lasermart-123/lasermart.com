@@ -205,7 +205,7 @@ body {
     overflow: hidden;
 }
 
-/* glossy shine effect */
+/* glossy shine effect *
 .header-btn::before{
     content: "";
     position: absolute;
@@ -224,7 +224,7 @@ body {
     transition: 0.7s;
 }
 
-/* hover animation */
+/* hover animation *
 .header-btn:hover{
     transform: translateY(-4px) scale(1.03);
 
@@ -239,10 +239,11 @@ body {
     left: 100%;
 }
 
-/* click effect */
+/* click effect *
 .header-btn:active{
     transform: scale(0.96);
-}
+}*/
+
 
 .custom-dropdown {
     background: #111827;
@@ -462,7 +463,10 @@ body {
 }
 .feature-box {
     display: flex;
-    padding-bottom: 27px;
+    border: 1px solid;
+    margin-bottom: 25px;
+    padding: 12px;
+    border-radius: 10px;
 }
 
 .feature-box i {
