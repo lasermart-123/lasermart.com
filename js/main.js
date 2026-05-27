@@ -85,10 +85,10 @@
                 title: "Contact Info",
 
                 items: [
-                    { icon: "fa-location-dot", text: "123 Medical Street, Ghaziabad, UP 201009" },
-                    { icon: "fa-phone", text: "+91 98765 43210" },
-                    { icon: "fa-envelope", text: "info@abc.com" },
-                    { icon: "fa-clock", text: "Mon - Sat: 9:00 AM - 6:00 PM" }
+                    { icon: "fa-location-dot", text: "D-1, Pocket D, Sanjay Park,New Delhi, 110091" },
+                    { icon: "fa-phone", text: "+91 89700 72991" },
+                    { icon: "fa-envelope", text: "info@lasermart.in" },
+                    { icon: "fa-clock", text: "Mon - Sat: 10:00 AM - 6:00 PM" }
                 ]
             },
 
