@@ -41,15 +41,17 @@
         });
 
 // active-nav //
-  const currentLocation = location.href;
-  const menuItems = document.querySelectorAll(".nav-link");
+    const currentPage = window.location.pathname.split("/").pop();
 
-  menuItems.forEach((item) => {
-    if (item.href === currentLocation) {
-      item.classList.add("active");
+  const navLinks = document.querySelectorAll(".nav-link");
+
+  navLinks.forEach(link => {
+    const linkPage = link.getAttribute("href");
+
+    if (linkPage === currentPage) {
+      link.classList.add("active");
     }
   });
-
         // Footer //
 
           const footerData = {
