@@ -1504,12 +1504,13 @@ body {
             display: flex;
             color: #555;
             margin: 0.7rem 0;
-            align-items: center;
+            /*align-items: center;*/
             font-size: 0.95rem;
         }
 
         .information i {
             color: #744374;
+            margin-top:4px;
         }
 
         .icon {
