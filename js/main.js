@@ -41,17 +41,27 @@
         });
 
 // active-nav //
-    const currentPage = window.location.pathname.split("/").pop();
+    document.addEventListener("DOMContentLoaded", function () {
 
-  const navLinks = document.querySelectorAll(".nav-link");
+    let currentPage = window.location.pathname.split("/").pop();
 
-  navLinks.forEach(link => {
-    const linkPage = link.getAttribute("href");
-
-    if (linkPage === currentPage) {
-      link.classList.add("active");
+    if (currentPage === "") {
+        currentPage = "index.html";
     }
-  });
+
+    let navLinks = document.querySelectorAll(".nav-link");
+
+    navLinks.forEach(link => {
+
+        let linkPage = link.getAttribute("href");
+
+        if (linkPage === currentPage) {
+            link.classList.add("active");
+        }
+
+    });
+
+});
         // Footer //
 
           const footerData = {
