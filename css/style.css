@@ -1313,7 +1313,7 @@ body {
 
 .about-hero {
     position: relative;
-    padding: 120px 0 80px;
+    padding: 55px 0 57px;
     background: linear-gradient(135deg, #021b4e, #04296d);
     overflow: hidden;
 }
@@ -1464,6 +1464,19 @@ body {
 
 /* FLOATING CARD */
 
+/*.floating-card {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    background: #fff;
+    padding: 18px 22px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+    z-index: 5;
+}*/
 .floating-card {
     position: absolute;
     bottom: 50px;
@@ -1476,6 +1489,26 @@ body {
     gap: 15px;
     box-shadow: 0 15px 30px rgba(0,0,0,0.2);
     z-index: 5;
+
+    /* ANIMATION */
+    animation: floatCard 3s ease-in-out infinite;
+}
+
+/* KEYFRAMES */
+
+@keyframes floatCard {
+
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
 }
 
 .floating-card i {
