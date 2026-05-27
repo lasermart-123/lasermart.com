@@ -1327,7 +1327,7 @@ body {
 
         .circle {
             border-radius: 50%;
-            background: linear-gradient(135deg, transparent 20%, #149279);
+            background: linear-gradient(135deg, transparent 20%, #ffffff);
             position: absolute;
         }
 
@@ -1350,7 +1350,7 @@ body {
             position: absolute;
             width: 26px;
             height: 26px;
-            background-color: #ffffff;
+            background-color: #e74426;
             transform: rotate(45deg);
             top: 50px;
             left: -13px;
@@ -1425,7 +1425,7 @@ body {
             background-color: #e74426;
             border: 2px solid #ffffff;
             font-size: 0.95rem;
-            color: #032b62;
+            color: #fff;
             line-height: 1;
             border-radius: 5px;
             outline: none;
@@ -1436,8 +1436,8 @@ body {
         }
 
         .btn:hover {
-            background-color: transparent;
-            color: #fff;
+            background-color: $ffffff;
+            color: #e74426;
         }
 
         .input-container span {
