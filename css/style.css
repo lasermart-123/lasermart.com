@@ -1320,7 +1320,7 @@ body {
 
 /* GLOW EFFECT */
 
-.about-hero::before {
+/*.about-hero::before {
     content: "";
     position: absolute;
     width: 500px;
@@ -1330,7 +1330,7 @@ body {
     top: -200px;
     right: -100px;
     filter: blur(80px);
-}
+}*/
 
 .about-content {
     position: relative;
@@ -1442,21 +1442,22 @@ body {
     z-index: 2;
 }
 
+
 .about-image img {
     width: 100%;
     max-width: 500px;
     position: relative;
+    margin-top: -187px;
     z-index: 2;
-    border-radius:50%;
+    border-radius: 50%;
 }
-
 .image-bg {
     position: absolute;
     width: 450px;
     height: 450px;
-    background: rgba(255,255,255,0.08);
+    background: rgba(255, 255, 255, 0.08);
     border-radius: 50%;
-    top: 50%;
+    top: 6%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
