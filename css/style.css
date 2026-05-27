@@ -1506,6 +1506,11 @@ body {
             /*align-items: center;*/
             font-size: 0.95rem;
         }
+        .information a {
+          display: flex;
+          text-decoration: none;
+          color: #555;
+        }
 
         .information i {
             color:#e74426;
