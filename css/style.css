@@ -1363,6 +1363,9 @@ body {
             position: relative;
             margin: 1rem 0;
         }
+       .disable{
+           display:none;
+       }
 
         .input {
             width: 100%;
