@@ -1496,9 +1496,9 @@ body {
         font-size: 16px;
     }
 
-    .hero-btns {
+   /* .hero-btns {
         flex-direction: column;
-    }
+    }*/
 
     .btn-blue,
     .btn-outline-custom {
