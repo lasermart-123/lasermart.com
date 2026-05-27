@@ -85,7 +85,7 @@
                 title: "Contact Info",
 
                 items: [
-                    { icon: "fa-location-dot", text: "D-1, Pocket D, Sanjay Park,New Delhi, 110091" },
+                    { icon: "fa-location-dot", text: "Office no. 719B, 7th floor, Tower B, Ithum  Tower, Glaxy Business Park, Block A, Industrial Area, Sector 62, Noida, Uttar Pradesh-201309" },
                     { icon: "fa-phone", text: "+91 89700 72991" },
                     { icon: "fa-envelope", text: "info@lasermart.in" },
                     { icon: "fa-clock", text: "Mon - Sat: 10:00 AM - 6:00 PM" }
