@@ -1350,7 +1350,7 @@ body {
             position: absolute;
             width: 26px;
             height: 26px;
-            background-color: #1abc9c;
+            background-color: #ffffff;
             transform: rotate(45deg);
             top: 50px;
             left: -13px;
@@ -1422,8 +1422,8 @@ body {
 
         .btn {
             padding: 0.6rem 1.3rem;
-            background-color: #fff;
-            border: 2px solid #fafafa;
+            background-color: #e74426;
+            border: 2px solid #ffffff;
             font-size: 0.95rem;
             color: #032b62;
             line-height: 1;
@@ -1509,7 +1509,7 @@ body {
         }
 
         .information i {
-            color: #744374;
+            color:#e74426;
             margin-top:4px;
         }
 
