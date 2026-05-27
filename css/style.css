@@ -1447,6 +1447,7 @@ body {
     max-width: 500px;
     position: relative;
     z-index: 2;
+    border-radius:50%;
 }
 
 .image-bg {
