@@ -671,14 +671,9 @@ body {
     border-radius: 2px;
 }
 
-/* 5 Card Per Row Class */
-.col-lg-5c {
-    flex: 0 0 auto;
-    width: 20%;
-    /* 100 / 5 = 20% */
-}
 
-/* Flip Card CSS */
+
+/* Flip Card CSS 
 .flip-card {
     background-color: transparent;
     height: 220px;
@@ -729,7 +724,7 @@ body {
     font-size: 45px;
     color: #667eea;
     margin-bottom: 15px;
-}*/
+}
 
 .flip-card-front h4 {
     font-size: 16px;
@@ -745,7 +740,7 @@ body {
 }
 
 .flip-card-back {
-    /*background: linear-gradient(135deg, #e94426 0%, #1b4f95 100%);*/
+    /*background: linear-gradient(135deg, #e94426 0%, #1b4f95 100%);*
     background: #032b62;
     color: white;
     transform: rotateY(180deg);
@@ -790,6 +785,99 @@ body {
 .icon:hover {
     transform: rotateX(0deg) rotateY(0deg) scale(1.1);
 }*/
+.card-section{
+    width: 100%;   
+    gap: 25px;
+    padding: 50px;
+}
+
+.custom-card {
+    position: relative;
+    height: 248px;
+    overflow: hidden;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.custom-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.overlay{
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top,
+    rgba(0,0,0,0.9),
+    rgba(0,0,0,0.2));
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 25px;
+    color: #fff;
+}
+
+.overlay h3{
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.overlay a{
+    width: fit-content;
+    text-decoration: none;
+    background: #ff6b00;
+    color: #fff;
+    padding: 10px 22px;
+    border-radius: 40px;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+
+.overlay p{
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+.custom-card:hover p{
+    max-height: 150px;
+    opacity: 1;
+}
+
+.custom-card:hover img{
+    transform: scale(1.1);
+}
+
+.custom-card:hover a{
+    background: #fff;
+    color: #000;
+}
+
+/* Responsive */
+
+@media(max-width:991px){
+
+    .card-section{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media(max-width:600px){
+
+    .card-section{
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+}
 
 /* Responsive: Mobile pe 2 card, Tablet pe 3 card */
 @media (max-width: 992px) {
