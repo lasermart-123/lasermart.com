@@ -1036,6 +1036,7 @@ body {
     height: 80px;
     object-fit: contain;
     margin: auto;
+    filter: brightness(0) invert(1);
 }
 
 .slide-content h3 {
