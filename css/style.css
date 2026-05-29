@@ -1686,7 +1686,7 @@ body {
             gap: 25px;
         }
 
-        .feature-box {
+        .features-box {
             display: flex;
             gap: 15px;
             background: #fff;
@@ -1696,11 +1696,11 @@ body {
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
         }
 
-        .feature-box:hover {
+        .features-box:hover {
             transform: translateY(-8px);
         }
 
-        .feature-box i {
+        .features-box i {
             width: 60px;
             height: 60px;
             background: #e74426;
@@ -1713,13 +1713,13 @@ body {
             flex-shrink: 0;
         }
 
-        .feature-box h5 {
+        .features-box h5 {
             font-size: 18px;
             color: #021b4e;
             margin-bottom: 8px;
         }
 
-        .feature-box p {
+        .features-box p {
             margin: 0;
             font-size: 14px;
             line-height: 1.6;
