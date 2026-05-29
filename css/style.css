@@ -1661,7 +1661,7 @@ body {
         .features-box {
             display: flex;
             gap: 15px;
-            background: #fff;
+            background: #dadde1a1;
             padding: 22px;
             border-radius: 18px;
             transition: 0.4s;
@@ -1671,19 +1671,19 @@ body {
         .features-box:hover {
             transform: translateY(-8px);
         }
-
-        .features-box img {
-            width: 60px;
-            height: 60px;
-            background: #e74426;
-            color: #fff;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 24px;
-            flex-shrink: 0;
-        }
+.features-box img {
+    width: 60px;
+    height: 60px;
+    background: #ffffff;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    flex-shrink: 0;
+    filter: brightness(-1) invert(1);
+}
 
         .features-box h5 {
             font-size: 18px;
