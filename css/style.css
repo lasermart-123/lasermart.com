@@ -602,7 +602,7 @@ body {
     }
 }
 
-/*====== MOBILE =======*/
+/*====== MOBILE =======
 
 @media(max-width:991px) {
 
@@ -622,7 +622,7 @@ body {
         display: inline-block;
     }
 
-    /*=== mega menu===*/
+    /*=== mega menu===*
     .mega-menu {
         position: static !important;
         width: 100%;
@@ -634,7 +634,7 @@ body {
         margin-bottom: 25px;
     }
 
-    /* hero section */
+    /* hero section *
     .hero-title {
         font-size: 48px;
     }
@@ -643,7 +643,7 @@ body {
         margin-top: 25px;
     }
 
-}
+}*/
 
 /*=======atb-speciality-section-=========*/
 .atb-speciality-section {
@@ -860,7 +860,7 @@ body {
     color: #000;
 }
 
-/* Responsive */
+/* Responsive
 
 @media(max-width:991px){
 
@@ -879,13 +879,13 @@ body {
 
 }
 
-/* Responsive: Mobile pe 2 card, Tablet pe 3 card */
+/* Responsive: Mobile pe 2 card, Tablet pe 3 card
 @media (max-width: 992px) {
     .col-lg-5c {
         width: 33.333%;
     }
 
-    /* Tablet: 3 card */
+   
 }
 
 @media (max-width: 576px) {
@@ -894,7 +894,7 @@ body {
     }
 
     /* Mobile: 2 card */
-}
+} */
 
 /*==== Why section ====*/
 .why-section {
@@ -1033,12 +1033,7 @@ body {
     color: #666;
 }
 
-/* MOBILE */
-@media(max-width:768px) {
-    .feature {
-        width: 100%;
-    }
-}
+
 
 /*===== Solution-section =======*/
 .section-solution{
@@ -1067,13 +1062,7 @@ body {
     height: 100%;
     background: #01153ed1;
 }
-@media(max-width:768px){
 
-    .section-solution{
-        background-attachment:scroll;
-    }
-
-}
 .sub-titles {
     font-size: 22px;
     /*margin-top:10px;*/
@@ -1266,12 +1255,7 @@ body {
     font-weight:bold;
 }
 
-@media(max-width:768px){
-    .atb-counter{
-        flex-direction:column;
-        align-items:center;
-    }
-}
+
 
 /*=== CTA-Section ====*/
 .consultation-banner {
@@ -1384,19 +1368,7 @@ body {
     }
 }
 
-/* Responsive */
-@media(max-width:768px) {
 
-    .banner-content {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .banner-text h2 {
-        font-size: 24px;
-    }
-
-}
 /* ============== About.Page =====================*/
         /* ABOUT HERO SECTION */
 
@@ -2313,53 +2285,7 @@ body {
             }
         }
 
-        @media (max-width: 480px) {
-            .container {
-                padding: 1.5rem;
-            }
-
-            .contact-info:before {
-                display: none;
-            }
-
-            .square,
-            .big-circle {
-                display: none;
-            }
-
-            form,
-            .contact-info {
-                padding: 1.7rem 1.6rem;
-            }
-
-            .text,
-            .information,
-            .social-media p {
-                font-size: 0.8rem;
-            }
-
-            .title {
-                font-size: 1.15rem;
-            }
-
-            .social-icons a {
-                width: 30px;
-                height: 30px;
-                line-height: 30px;
-            }
-
-            .icon {
-                width: 23px;
-            }
-
-            .input {
-                padding: 0.45rem 1.2rem;
-            }
-
-            .btn {
-                padding: 0.45rem 1.2rem;
-            }
-        }
+       
 .select-wrapper {
     position: relative;
 }
