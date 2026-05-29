@@ -2530,55 +2530,6 @@ body {
 .footer-policy-links span {
     color: #fff;
 }
-
-/* Mobile Responsive */
-@media(max-width:768px) {
-
-    .footer-bottom-content {
-        flex-direction: column;
-        text-align: center;
-    }
-
-}
-
-/* Purana .footer-logo wala CSS hata do */
-@media (max-width: 768px) {
-    .footer-main {
-        padding: 40px 0 0 0;
-    }
-
-    .footer-heading {
-        margin-top: 30px;
-    }
-}
-
-@media(max-width:576px) {
-
-    .hero-title {
-        font-size: 38px;
-    }
-
-    .hero-text {
-        font-size: 16px;
-    }
-
-   /* .hero-btns {
-        flex-direction: column;
-    }*/
-
-    .btn-blue,
-    .btn-outline-custom {
-        width: 100%;
-        text-align: center;
-    }
-    .flip-card-front img{
-            width: 54%;
-    }
-
-}
-
-
-
 /* FLOAT CHAT ICON */
 
 .chat-icon {
