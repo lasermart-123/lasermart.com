@@ -1672,7 +1672,7 @@ body {
             transform: translateY(-8px);
         }
 
-        .features-box i {
+        .features-box img {
             width: 60px;
             height: 60px;
             background: #e74426;
