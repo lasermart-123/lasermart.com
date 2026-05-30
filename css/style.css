@@ -2115,6 +2115,15 @@ section.atb-triple-section {
     width: 100%;
     text-align: center;
 }
+.triple-content {
+    font-size: 27px;
+    font-weight: 600;
+    padding-bottom: 26px;
+}
+.triple-content h3 {
+    font-size: 35px;
+    font-weight: 800;
+}
 
 /*=============== Contact.Page ==================*/
 .form-section {
