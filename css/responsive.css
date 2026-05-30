@@ -85,6 +85,16 @@
         left: 50%;
         transform: translateX(-50%);
     }
+    
+            .feature-grid,
+            .spec-grid,
+            .about-wrapper {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .hero-content h1 {
+                font-size: 48px;
+            }
 }
 
 @media(max-width:768px) {
@@ -155,6 +165,7 @@
     .mission-item p {
         font-size: 23px;
     }
+    
 }
 
 @media(max-width:576px) {
@@ -288,6 +299,32 @@
         font-size: 17px;
         line-height: 1.6;
     }
+    .feature-grid,
+            .spec-grid,
+            .about-wrapper {
+                grid-template-columns: 1fr;
+            }
+
+            .hero-content h1 {
+                font-size: 34px;
+            }
+
+            .hero-content p,
+            .about-content p,
+            .spec-box p {
+                font-size: 15px;
+            }
+
+            .hero-btns a {
+                width: 100%;
+                text-align: center;
+            }
+
+            .section-title h2,
+            .about-content h2,
+            .cta h2 {
+                font-size: 30px;
+            }
 }
  @media (max-width: 400px) {
             .container {
