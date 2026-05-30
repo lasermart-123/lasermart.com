@@ -917,6 +917,12 @@ document.addEventListener("click", function(event){
 });
 
 </script>
+
+  <script>
+document.querySelectorAll('.letter-animation span').forEach((span, index) => {
+    span.style.animationDelay = `${index * 0.1}s`;
+});
+</script>
 </body>
 
 </html>
