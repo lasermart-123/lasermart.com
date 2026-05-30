@@ -1943,7 +1943,7 @@ body {
             background:
                 linear-gradient(rgba(0, 18, 60, 0.85),
                     rgba(0, 18, 60, 0.85)),
-                url('./img/bg.jpg');
+                url('../img/bg.jpg');
             background-size: cover;
             background-position: center;
             display: flex;
