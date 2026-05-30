@@ -19,307 +19,132 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
      <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css">
-    <style>
-        /* HERO SECTION */
-
-        .dual-hero {
-            width: 100%;
-            min-height: 100vh;
-            background:
-                linear-gradient(rgba(0, 18, 60, 0.85),
-                    rgba(0, 18, 60, 0.85)),
-                url('./img/bg.jpg');
-            background-size: cover;
-            background-position: center;
-            display: flex;
-            align-items: center;
-            color: #fff;
-            padding: 100px 0;
-        }
-
-        .hero-content {
-            max-width: 650px;
-        }
-
-        .hero-content span {
-            background: #ff5b2e;
-            padding: 10px 18px;
-            border-radius: 30px;
-            font-size: 14px;
-            display: inline-block;
-            margin-bottom: 20px;
-        }
-
-        .hero-content h1 {
-            font-size: 65px;
-            line-height: 1.1;
-            margin-bottom: 25px;
-        }
-
-        .hero-content p {
-            font-size: 18px;
-            line-height: 1.8;
-            color: #ddd;
-            margin-bottom: 35px;
-        }
-
-        .hero-btns {
-            display: flex;
-            gap: 20px;
-            flex-wrap: wrap;
-        }
-
-        .hero-btns a {
-            text-decoration: none;
-            padding: 15px 35px;
-            border-radius: 50px;
-            font-weight: 600;
-            transition: 0.3s;
-        }
-
-        .btn1 {
-            background: #ff5b2e;
-            color: #fff;
-        }
-
-        .btn1:hover {
-            background: #fff;
-            color: #00123c;
-        }
-
-        .btn2 {
-            border: 2px solid #fff;
-            color: #fff;
-        }
-
-        .btn2:hover {
-            background: #fff;
-            color: #00123c;
-        }
-
-        /* FEATURES */
-
-        .features {
-            padding: 80px 0;
-        }
-
-        .section-title {
-            text-align: center;
-            margin-bottom: 60px;
-        }
-
-        .section-title h2 {
-            font-size: 42px;
-            color: #00123c;
-        }
-
-        .feature-grid {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 25px;
-        }
-
-        .feature-box {
-            background: #fff;
-            padding: 40px 25px;
-            border-radius: 20px;
-            text-align: center;
-            transition: 0.3s;
-            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
-        }
-
-        .feature-box:hover {
-            transform: translateY(-10px);
-        }
-
-        .feature-box i {
-            font-size: 45px;
-            color: #ff5b2e;
-            margin-bottom: 20px;
-        }
-
-        .feature-box h3 {
-            margin-bottom: 15px;
-            color: #00123c;
-        }
-
-        .feature-box p {
-            line-height: 1.7;
-            color: #555;
-        }
-
-        /* ABOUT SECTION */
-
-        .about {
-            padding: 90px 0;
-            background: #fff;
-        }
-
-        .about-wrapper {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 50px;
-            align-items: center;
-        }
-
-        .about-image img {
-            width: 100%;
-            border-radius: 25px;
-        }
-
-        .about-content h2 {
-            font-size: 45px;
-            color: #00123c;
-            margin-bottom: 20px;
-        }
-
-        .about-content p {
-            line-height: 1.9;
-            color: #555;
-            margin-bottom: 25px;
-        }
-
-        .about-list {
-            margin-top: 25px;
-        }
-
-        .about-list li {
-            list-style: none;
-            margin-bottom: 15px;
-            font-size: 17px;
-            color: #00123c;
-        }
-
-        .about-list i {
-            color: #ff5b2e;
-            margin-right: 10px;
-        }
-
-        /* PRODUCT SPEC */
-
-        .specs {
-            padding: 90px 0;
-        }
-
-        .spec-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 25px;
-        }
-
-        .spec-box {
-            background: #00123c;
-            padding: 40px 30px;
-            border-radius: 20px;
-            color: #fff;
-        }
-
-        .spec-box h3 {
-            margin-bottom: 15px;
-            font-size: 24px;
-        }
-
-        .spec-box p {
-            line-height: 1.8;
-            color: #ddd;
-        }
-
-        /* CTA */
-
-        .cta {
-            background: linear-gradient(90deg, #00123c, #0a2d80);
-            padding: 80px 0;
-            text-align: center;
-            color: #fff;
-        }
-
-        .cta h2 {
-            font-size: 45px;
-            margin-bottom: 20px;
-        }
-
-        .cta p {
-            max-width: 700px;
-            margin: auto;
-            line-height: 1.8;
-            margin-bottom: 35px;
-            color: #ddd;
-        }
-
-        .cta a {
-            text-decoration: none;
-            background: #ff5b2e;
-            color: #fff;
-            padding: 16px 40px;
-            border-radius: 50px;
-            display: inline-block;
-            transition: 0.3s;
-        }
-
-        .cta a:hover {
-            background: #fff;
-            color: #00123c;
-        }
-
-        /* FOOTER */
-
-        footer {
-            background: #000814;
-            color: #fff;
-            text-align: center;
-            padding: 25px 0;
-        }
-
-        /* RESPONSIVE */
-
-        @media(max-width:991px) {
-
-            .feature-grid,
-            .spec-grid,
-            .about-wrapper {
-                grid-template-columns: repeat(2, 1fr);
-            }
-
-            .hero-content h1 {
-                font-size: 48px;
-            }
-
-        }
-
-        @media(max-width:576px) {
-
-            .feature-grid,
-            .spec-grid,
-            .about-wrapper {
-                grid-template-columns: 1fr;
-            }
-
-            .hero-content h1 {
-                font-size: 34px;
-            }
-
-            .hero-content p,
-            .about-content p,
-            .spec-box p {
-                font-size: 15px;
-            }
-
-            .hero-btns a {
-                width: 100%;
-                text-align: center;
-            }
-
-            .section-title h2,
-            .about-content h2,
-            .cta h2 {
-                font-size: 30px;
-            }
-
-        }
-    </stule>
 
 </head>
 <body>
+      <!-- Header-start -->
+      <header class="main-header">
+
+        <div class="container">
+
+            <nav class="navbar navbar-expand-lg navbar-dark">
+
+                <!-- Logo -->
+                <a class="navbar-brand logo" href="index.html">
+                    <img src="./img/logo.jpeg" alt="logo" loading="lazy">
+                </a>
+
+                <!-- Mobile Toggle -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Menu -->
+                <div class="collapse navbar-collapse" id="navbarContent">
+
+                    <ul class="navbar-nav mx-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                               Products
+                            </a>
+
+                            <ul class="dropdown-menu custom-dropdown">
+
+                                <li>
+                                    <a class="dropdown-item" href="dual.html">Dual Wavelength</a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="#">Triple Wavelength</a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="#">Four Wavelength</a>
+                                </li>
+
+                            </ul>
+
+                        </li>
+                         <li class="nav-item dropdown">
+
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                               Training
+                            </a>
+
+                            <ul class="dropdown-menu custom-dropdown">
+
+                                <li>
+                                    <a class="dropdown-item" href="#">Proctology</a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="#">Varicose vein</a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="#">Cosmo Gynaecology</a>
+                                </li>
+
+                            </ul>
+
+                        </li>
+                          <li class="nav-item dropdown">
+
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                               Application
+                            </a>
+
+                            <ul class="dropdown-menu custom-dropdown">
+
+                                <li>
+                                    <a class="dropdown-item" href="#">Proctology</a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="#">Varicose vein</a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="#">Cosmetic Gynaecology</a>
+                                </li>
+
+                            </ul>
+
+                        </li>
+                      
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gallery</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+
+                    </ul>
+
+                    <!-- Button -->
+                    <a href="#" class="header-btn btn-3d-outline">
+                        Get Started
+                    </a>
+
+                </div>
+
+            </nav>
+
+        </div>
+
+    </header>
 
     <!-- HERO SECTION -->
 
@@ -398,201 +223,7 @@
         <div class="container">
             <h2 class="section-title">Step Into the Future with <span> Energy-Based Surgery</span></h2>
             <div class="section-line"></div>
-            <!--<div class="row">
-                <div class="col-lg-2 col-md-4 col-6">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="./img/Speciality/urology.avif" alt="urology" loading="lazy">
-                                <h4>Urology </h4>
-                                <span class="explore">Explore →</span>
-                            </div>
-                            <div class="flip-card-back">
-                                <h4>Urology</h4>
-                                <p>Precision for seamless, minimally invasive urological procedures.</p>
-                                <a href="#" class="btn">View Products</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-6">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="./img/proctology.png" alt="proctology" loading="lazy">
-                                <h4>Proctology </h4>
-                                <span class="explore">Explore →</span>
-                            </div>
-                            <div class="flip-card-back">
-                                <h4>Proctology </h4>
-                                <p>Minimally invasive solutions for precise anorectal procedures.</p>
-                                <a href="#" class="btn">View Products</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-6">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="./img/legs.png" alt="legs" srcset="">
-                                <h4>Vascular Surgery </h4>
-                                <span class="explore">Explore →</span>
-                            </div>
-                            <div class="flip-card-back">
-                                <h4>Vascular Surgery </h4>
-                                <p>Advanced tools engineered for safer vascular interventions.</p>
-                                <a href="#" class="btn">View Products</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-6">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="./img/Speciality/gyne.png" alt="gynecology" srcset="">
-                                <h4> Gynaecology </h4>
-                                <span class="explore">Explore →</span>
-                            </div>
-                            <div class="flip-card-back">
-                                <h4> Gynaecology </h4>
-                                <p>Advanced technologies empowering safer, simpler & smarter women’s healthcare.</p>
-                                <a href="#" class="btn">View Products</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-6">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="./img/Speciality/ent.png" alt="ent" srcset="">
-                                <h4>ENT</h4>
-                                <span class="explore">Explore →</span>
-                            </div>
-                            <div class="flip-card-back">
-                                <h4>ENT</h4>
-                                <p>Innovative precision solutions for advanced ear, nose & throat procedures.</p>
-                                <a href="#" class="btn">View Products</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-6">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="./img/plastic surgery.png" alt="surgery" srcset="">
-                                <h4>Plastic Surgery </h4>
-                                <span class="explore">Explore →</span>
-                            </div>
-                            <div class="flip-card-back">
-                                <h4>Plastic Surgery </h4>
-                                <p>Precision-crafted solutions designed for aesthetic excellence.</p>
-                                <a href="#" class="btn">View Products</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-6">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="./img/surgery.png" alt="surgery" srcset="">
-                                <h4>General Surgery </h4>
-                                <span class="explore">Explore →</span>
-                            </div>
-                            <div class="flip-card-back">
-                                <h4>General Surgery </h4>
-                                <p>Smart minimally invasive technologies for everyday surgical excellence.</p>
-                                <a href="#" class="btn">View Products</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-6">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="./img/dermatology.png" alt="dermatology" srcset="">
-                                <h4>Dermatology </h4>
-                                <span class="explore">Explore →</span>
-                            </div>
-                            <div class="flip-card-back">
-                                <h4>Dermatology </h4>
-                                <p>Innovative skin treatment solutions with precision & care.</p>
-                                <a href="#" class="btn">View Products</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-6">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="./img/dermatology.png" alt="dermatology" srcset="">
-                                <h4>Interventional Radiology </h4>
-                                <span class="explore">Explore →</span>
-                            </div>
-                            <div class="flip-card-back">
-                                <h4>Interventional Radiology </h4>
-                                <p>Precision for next-generation minimally invasive interventions.</p>
-                                <a href="#" class="btn">View Products</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>               
-                <div class="col-lg-2 col-md-4 col-6">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="./img/Speciality/dental.png" alt="dental" srcset="">
-                                <h4>Dental </h4>
-                                <span class="explore">Explore →</span>
-                            </div>
-                            <div class="flip-card-back">
-                                <h4>Dental </h4>
-                                <p>Precision-driven solutions for modern minimally invasive dentistry.</p>
-                                <a href="#" class="btn">View Products</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-6">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="./img/Speciality/dental.png" alt="dental" srcset="">
-                                <h4>Neuro & Spine</h4>
-                                <span class="explore">Explore →</span>
-                            </div>
-                            <div class="flip-card-back">
-                                <h4>Neuro & Spine </h4>
-                                <p>Redefining neuro & spine care with advanced surgical innovation.</p>
-                                <a href="#" class="btn">View Products</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-6">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="./img/pain.png" alt="pain" srcset="">
-                                <h4> Pain Management </h4>
-                                <span class="explore">Explore →</span>
-                            </div>
-                            <div class="flip-card-back">
-                                <h4> Pain Management </h4>
-                                <p>Targeted precision solutions designed for effective pain relief procedures.</p>
-                                <a href="#" class="btn">View Products</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>-->
+            
              <div class="row">
                 <!-- Card 1 -->
                 <div class="col-lg-3 col-md-4 col-12">
