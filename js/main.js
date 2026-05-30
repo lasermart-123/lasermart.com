@@ -41,7 +41,7 @@
         });
 
 // active-nav //
-    document.addEventListener("DOMContentLoaded", function () {
+    /*document.addEventListener("DOMContentLoaded", function () {
 
     let currentPage = window.location.pathname.split("/").pop();
 
@@ -57,6 +57,37 @@
 
         if (linkPage === currentPage) {
             link.classList.add("active");
+        }
+
+    });
+
+});*/
+document.addEventListener("DOMContentLoaded", function () {
+
+    let currentPage = window.location.pathname.split("/").pop();
+
+    if (currentPage === "") {
+        currentPage = "index.html";
+    }
+
+    // Sabhi links select karo
+    let links = document.querySelectorAll(".nav-link, .dropdown-item");
+
+    links.forEach(link => {
+
+        let linkPage = link.getAttribute("href");
+
+        if (linkPage === currentPage) {
+
+            // Current link active
+            link.classList.add("active");
+
+            // Agar dropdown item hai to parent dropdown bhi active karo
+            let dropdown = link.closest(".dropdown");
+
+            if (dropdown) {
+                dropdown.querySelector(".nav-link").classList.add("active");
+            }
         }
 
     });
