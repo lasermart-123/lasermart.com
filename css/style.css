@@ -2011,6 +2011,52 @@ body {
             background: #fff;
             color: #00123c;
         }
+ /* ABOUT SECTION */
+
+        .about-dual {
+            padding: 90px 0;
+            background: #fff;
+        }
+
+        .about-wrapper-dual {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 50px;
+            align-items: center;
+        }
+
+        .about-image-dual img {
+            width: 100%;
+            border-radius: 25px;
+        }
+
+        .about-content-dual h2 {
+            font-size: 45px;
+            color: #00123c;
+            margin-bottom: 20px;
+        }
+
+        .about-content-dual p {
+            line-height: 1.9;
+            color: #555;
+            margin-bottom: 25px;
+        }
+
+        .about-list-dual {
+            margin-top: 25px;
+        }
+
+        .about-list-dual li {
+            list-style: none;
+            margin-bottom: 15px;
+            font-size: 17px;
+            color: #00123c;
+        }
+
+        .about-list-dual i {
+            color: #ff5b2e;
+            margin-right: 10px;
+        }
 /* FEATURES */
 
         .features-product {
