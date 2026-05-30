@@ -1950,6 +1950,7 @@ body {
             align-items: center;
             color: #fff;
             padding: 100px 0;
+           overflow: hidden;
         }
 
         .dual-hero-content {
