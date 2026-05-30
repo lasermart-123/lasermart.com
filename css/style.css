@@ -1936,6 +1936,132 @@ body {
             font-size: 17px;
             line-height: 1.8;
         }
+/*=============== Dual.Page =====================*/
+.dual-hero {
+            width: 100%;
+            min-height: 100vh;
+            background:
+                linear-gradient(rgba(0, 18, 60, 0.85),
+                    rgba(0, 18, 60, 0.85)),
+                url('./img/bg.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            color: #fff;
+            padding: 100px 0;
+        }
+
+        .dual-hero-content {
+            max-width: 650px;
+        }
+
+        .dual-hero-content span {
+            background: #ff5b2e;
+            padding: 10px 18px;
+            border-radius: 30px;
+            font-size: 14px;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        .dual-hero-content h1 {
+            font-size: 65px;
+            line-height: 1.1;
+            margin-bottom: 25px;
+        }
+
+        .dual-hero-content p {
+            font-size: 18px;
+            line-height: 1.8;
+            color: #ddd;
+            margin-bottom: 35px;
+        }
+
+        .dual-hero-btns {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .dual-hero-btns a {
+            text-decoration: none;
+            padding: 15px 35px;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .-btn1 {
+            background: #ff5b2e;
+            color: #fff;
+        }
+
+        .btn1:hover {
+            background: #fff;
+            color: #00123c;
+        }
+
+        .btn2 {
+            border: 2px solid #fff;
+            color: #fff;
+        }
+
+        .btn2:hover {
+            background: #fff;
+            color: #00123c;
+        }
+/* FEATURES */
+
+        .features-product {
+            padding: 80px 0;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .section-title h2 {
+            font-size: 42px;
+            color: #00123c;
+        }
+
+        .feature-grid1 {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 25px;
+        }
+
+        .feature-product-box {
+            background: #fff;
+            padding: 40px 25px;
+            border-radius: 20px;
+            text-align: center;
+            transition: 0.3s;
+            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+        }
+
+        .feature-product-box:hover {
+            transform: translateY(-10px);
+        }
+
+        .feature-box i {
+            font-size: 45px;
+            color: #ff5b2e;
+            margin-bottom: 20px;
+        }
+
+        .feature-box h3 {
+            margin-bottom: 15px;
+            color: #00123c;
+        }
+
+        .feature-box p {
+            line-height: 1.7;
+            color: #555;
+        }
+/*=============== Triple.page ==================*/
 
 /*=============== Contact.Page ==================*/
 .form-section {
