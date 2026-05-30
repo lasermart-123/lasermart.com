@@ -2109,6 +2109,12 @@ body {
             color: #555;
         }
 /*=============== Triple.page ==================*/
+section.atb-triple-section {
+    background: #ffffff;
+    padding: 80px 0px;
+    width: 100%;
+    text-align: center;
+}
 
 /*=============== Contact.Page ==================*/
 .form-section {
