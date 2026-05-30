@@ -1984,7 +1984,7 @@ body {
             flex-wrap: wrap;
         }
 
-        .dual-hero-btns a {
+        .-dual-hero-btns a {
             text-decoration: none;
             padding: 15px 35px;
             border-radius: 50px;
@@ -1992,7 +1992,7 @@ body {
             transition: 0.3s;
         }
 
-        .-btn1 {
+        .btn1 {
             background: #ff5b2e;
             color: #fff;
         }
