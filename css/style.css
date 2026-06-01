@@ -1953,9 +1953,13 @@ body {
            overflow: hidden;
         }
 
-        .dual-hero-content {
+        /*.dual-hero-content {
             max-width: 650px;
-        }
+        }*/
+        strong {
+         color: #e74426;
+         font-size: 44px;
+       }
 
         .dual-hero-content span {
             background: #ff5b2e;
