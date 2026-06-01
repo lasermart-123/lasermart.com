@@ -2145,6 +2145,53 @@ section.atb-triple-section {
         transform:translateY(0);
     }
 }
+/*====== Faq ==========*/
+
+.faq-section{
+    background:#f8f9fb;
+}
+
+.faq-title{
+    font-size:48px;
+    font-weight:700;
+    color:#001f5c;
+}
+
+.faq-subtitle{
+    color:#666;
+    max-width:700px;
+    margin:auto;
+}
+
+.accordion-item{
+    border:none;
+    margin-bottom:15px;
+    border-radius:15px !important;
+    overflow:hidden;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.accordion-button{
+    font-size:18px;
+    font-weight:600;
+    color:#001f5c;
+    padding:20px;
+}
+
+.accordion-button:not(.collapsed){
+    background:#ff6b00;
+    color:#fff;
+}
+
+.accordion-button:focus{
+    box-shadow:none;
+}
+
+.accordion-body{
+    padding:20px;
+    color:#555;
+    line-height:1.8;
+}
 
 /*=============== Contact.Page ==================*/
 .form-section {
