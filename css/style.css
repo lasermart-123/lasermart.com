@@ -2192,6 +2192,173 @@ section.atb-triple-section {
     color:#555;
     line-height:1.8;
 }
+/*=============== Four.page======================*/
+.four-hero {
+            background: linear-gradient(135deg, #032b62, #032b62);
+            padding: 100px 0;
+            overflow: hidden;
+        }
+
+        .hero-tag {
+            display: inline-block;
+            background: #e74432;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .hero-content h1 {
+            color: #fff;
+            font-size: 65px;
+            font-weight: 800;
+            line-height: 1.1;
+            margin-bottom: 20px;
+        }
+
+        .hero-content h1 span {
+            color: #e74432;
+        }
+
+        .hero-content p {
+            color: #dbe5ff;
+            font-size: 18px;
+            line-height: 1.8;
+            margin-bottom: 35px;
+        }
+
+        .hero-btns {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .btn-orange {
+            background: #e74432;
+            color: #fff;
+            text-decoration: none;
+            padding: 14px 32px;
+            border-radius: 50px;
+            font-weight: 600;
+        }
+
+        .btn-outline {
+            border: 2px solid #fff;
+            color: #fff;
+            text-decoration: none;
+            padding: 14px 32px;
+            border-radius: 50px;
+            font-weight: 600;
+        }
+
+        /* MACHINE AREA */
+
+        .machine-wrapper {
+            position: relative;
+            text-align: center;
+            min-height: 600px;
+        }
+
+        .machine-img {
+            width: 100%;
+            max-width: 550px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+        }
+
+        .feature-card {
+            position: absolute;
+            width: 180px;
+            background: #fff;
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, .15);
+            z-index: 3;
+        }
+
+        .feature-card h4 {
+            color: #032b62;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+
+        .feature-card span {
+            color: #666;
+            font-size: 14px;
+        }
+
+        .card1 {
+            top: 40px;
+            left: 20px;
+        }
+
+        .card2 {
+            top: 40px;
+            right: 20px;
+        }
+
+        .card3 {
+            bottom: 40px;
+            left: 20px;
+        }
+
+        .card4 {
+            bottom: 40px;
+            right: 20px;
+        }
+ /*======= for-tech ========*/
+        .four-tech-section {
+            background: #f8f9fc;
+        }
+
+        .tech-img img {
+            width: 100%;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+        }
+
+        .tech-tag {
+            display: inline-block;
+            background: #e74432;
+            color: #fff;
+            padding: 10px 22px;
+            border-radius: 30px;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .tech-title {
+            font-size: 48px;
+            font-weight: 800;
+            color: #032b62;
+            margin-bottom: 20px;
+        }
+
+        .tech-text {
+            font-size: 18px;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        .feature-box {
+            background: #fff;
+            padding: 15px 18px;
+            border-radius: 12px;
+            font-weight: 600;
+            color: #032b62;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+            transition: .3s;
+        }
+
+        .feature-box:hover {
+            transform: translateY(-4px);
+        }
 
 /*=============== Contact.Page ==================*/
 .form-section {
