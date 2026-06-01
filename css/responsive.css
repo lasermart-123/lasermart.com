@@ -95,6 +95,30 @@
             .hero-content h1 {
                 font-size: 48px;
             }
+    .hero-content {
+                text-align: center;
+                margin-bottom: 50px;
+            }
+
+            .hero-content h1 {
+                font-size: 45px;
+            }
+
+            .machine-wrapper {
+                min-height: 700px;
+            }
+
+            .feature-card {
+                width: 150px;
+                padding: 15px;
+            }
+    .tech-title {
+                font-size: 36px;
+            }
+
+            .tech-text {
+                font-size: 16px;
+            }
 }
 
 @media(max-width:768px) {
@@ -336,6 +360,49 @@
             .about-content h2,
             .cta h2 {
                 font-size: 30px;
+            }
+     .tech-title {
+                font-size: 30px;
+            }
+
+            .feature-box {
+                font-size: 14px;
+            }
+     .hero-content h1 {
+                font-size: 34px;
+            }
+
+            .machine-wrapper {
+                min-height: 750px;
+            }
+
+            .machine-img {
+                max-width: 300px;
+            }
+
+            .feature-card {
+                width: 130px;
+                font-size: 13px;
+            }
+
+            .card1 {
+                top: 0;
+                left: 0;
+            }
+
+            .card2 {
+                top: 0;
+                right: 0;
+            }
+
+            .card3 {
+                bottom: 80px;
+                left: 0;
+            }
+
+            .card4 {
+                bottom: 80px;
+                right: 0;
             }
 }
  @media (max-width: 400px) {
