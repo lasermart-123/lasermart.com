@@ -119,6 +119,35 @@
             .tech-text {
                 font-size: 16px;
             }
+    .process-title{
+        font-size:38px;
+    }
+
+    .process-image{
+        margin-bottom:40px;
+    }
+     .section-title{
+        font-size:38px;
+    }
+
+    .machine-wrapper{
+        min-height:auto;
+        margin:40px 0;
+    }
+
+    .machine-img{
+        max-width:280px;
+    }
+
+    .pulse-1{
+        width:250px;
+        height:250px;
+    }
+
+    .pulse-2{
+        width:350px;
+        height:350px;
+    }
 }
 
 @media(max-width:768px) {
@@ -405,6 +434,31 @@
                 bottom: 80px;
                 right: 0;
             }
+    .process-title{
+        font-size:30px;
+    }
+
+    .timeline-item{
+        gap:15px;
+    }
+
+    .timeline-number{
+        width:50px;
+        height:50px;
+        min-width:50px;
+        font-size:18px;
+    }
+
+    .timeline-item:not(:last-child)::after{
+        left:24px;
+    }
+     .section-title{
+        font-size:30px;
+    }
+
+    .wave-card h3{
+        font-size:32px;
+    }
 }
  @media (max-width: 400px) {
             .container {
