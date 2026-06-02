@@ -2386,7 +2386,45 @@ section.atb-triple-section {
         .feature-box4:hover {
             transform: translateY(-4px);
         }
-
+/*================ Proctology ===================*/
+.proctology-hero {
+    /* background: #023b62; */
+    overflow: hidden;
+    position: relative;
+}
+.hero-tag {
+    display: inline-block;
+    background: #f04a23;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    /* margin-bottom: 25px; */
+}
+.procto-feature-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: 600;
+    color: #002b7f;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 19px;
+    box-shadow: #0000005c 10px 5px 2px 0px;
+}
+.procto-hero-image-wrapper {
+    position: relative;
+    text-align: right;
+    margin-top: -48px;
+}
+.procto-main-img {
+    width: 100%;
+    border-radius: 0 0 0 250px;
+    object-fit: cover;
+    border-left: 4px solid #e74426;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, .15);
+}
 /*=============== Contact.Page ==================*/
 .form-section {
     position: relative;
