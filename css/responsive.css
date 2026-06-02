@@ -105,7 +105,7 @@
             }
 
             .machine-wrapper {
-                min-height: 700px;
+                min-height: 491px;
             }
 
             .feature-card {
@@ -380,10 +380,11 @@
                 max-width: 300px;
             }
 
-            .feature-card {
-                width: 130px;
-                font-size: 13px;
-            }
+                .feature-card {
+        width: 130px;
+        font-size: 13px;
+        margin-bottom: -72px;
+    }
 
             .card1 {
                 top: 0;
