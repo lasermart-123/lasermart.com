@@ -149,21 +149,6 @@
         height:350px;
     }
     
-    .hero-content{
-        padding:60px 20px;
-    }
-
-    .hero-content h1{
-        font-size:46px;
-    }
-
-    .hero-image img{
-        height:600px;
-    }
-
-    .hero-image::before{
-        display:none;
-    }
 }
 
 @media(max-width:768px) {
@@ -475,19 +460,7 @@
     .wave-card h3{
         font-size:32px;
     }
-     .hero-content h1{
-        font-size:36px;
-    }
-
-    .hero-btns{
-        flex-direction:column;
-    }
-
-    .btn-book,
-    .btn-contact{
-        width:100%;
-        text-align:center;
-    }
+    
 }
  @media (max-width: 400px) {
             .container {
