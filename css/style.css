@@ -347,7 +347,7 @@ body {
 .hero-btns{
     color: #fff;
 }
-.hero-title h1 {
+h1.hero-title {
     font-size: 43px;
     font-weight: 700;
     line-height: 1.1;
