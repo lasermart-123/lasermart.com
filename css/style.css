@@ -1963,9 +1963,12 @@ h1.hero-title {
         /*.dual-hero-content {
             max-width: 650px;
         }*/
+p {
+    color: #fff;
+}
         strong {
          color: #e74426;
-         font-size: 44px;
+         font-size: 26px;
        }
 
         .dual-hero-content span {
