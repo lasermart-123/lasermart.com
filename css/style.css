@@ -2388,7 +2388,7 @@ section.atb-triple-section {
         }
 /*================ Proctology ===================*/
 .proctology-hero {
-    /* background: #023b62; */
+    background: #023b62; 
     overflow: hidden;
     position: relative;
 }
