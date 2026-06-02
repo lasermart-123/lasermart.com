@@ -489,6 +489,12 @@ body {
     padding-right: 14px;
 }
 
+.feature-box i {
+    font-size: 30px;
+    color: #3d8bff;
+    padding-right: 14px;
+}
+
 .feature-box h5 {
     margin-bottom: 6px;
     font-size: 20px;
