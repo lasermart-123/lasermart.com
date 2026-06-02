@@ -2617,6 +2617,84 @@ section.atb-triple-section {
         opacity:0;
     }
 }
+ /*===technology===*/
+
+        .why-surgeons-section {
+            background: #053763;
+            padding: 100px 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .why-surgeons-section::before {
+            content: '';
+            position: absolute;
+            width: 450px;
+            height: 450px;
+            background: rgba(255, 255, 255, 0.04);
+            border-radius: 50%;
+            top: -150px;
+            right: -150px;
+        }
+
+        .section-badge {
+            display: inline-block;
+            background: #f04a23;
+            color: #fff;
+            padding: 10px 25px;
+            border-radius: 50px;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 25px;
+        }
+
+        .section-title1 {
+            color: #fff;
+            font-size: 43px;
+            font-weight: 800;
+            line-height: 1.1;
+            margin-bottom: 25px;
+        }
+
+        .section-title1 span {
+            color: #f04a23;
+        }
+
+        .section-text {
+            color: rgba(255, 255, 255, 0.85);
+            line-height: 1.9;
+            font-size: 17px;
+            margin-bottom: 20px;
+        }
+
+        .premium-card {
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 25px;
+            padding: 35px 25px;
+            text-align: center;
+            height: 100%;
+            transition: 0.4s;
+        }
+
+        .premium-card:hover {
+            transform: translateY(-8px);
+        }
+
+        .premium-card h3 {
+            color: #f04a23;
+            font-size: 30px;
+            font-weight: 800;
+            margin-bottom: 10px;
+        }
+
+        .premium-card p {
+            color: #fff;
+            margin: 0;
+            font-size: 18px;
+            font-weight: 600;
+        }
 
 /*=============== Contact.Page ==================*/
 .form-section {
