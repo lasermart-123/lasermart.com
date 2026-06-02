@@ -2318,11 +2318,30 @@ section.atb-triple-section {
             background: #f8f9fc;
         }
 
-        .tech-img img {
+        /*.tech-img img {
             width: 100%;
             border-radius: 20px;
             box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
-        }
+        }*/
+       .tech-img {
+    position: relative;
+    min-height: 332px;
+}
+.big-img {
+    width: 80%;
+    height: 248px;
+    border-radius: 25px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, .15);
+}
+.small-img {
+    position: absolute;
+    width: 52%;
+    bottom: 0;
+    right: 0;
+    border: 8px solid #fff;
+    border-radius: 25px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, .15);
+}
 
         .tech-tag {
             display: inline-block;
@@ -2336,7 +2355,7 @@ section.atb-triple-section {
         }
 
         .tech-title {
-            font-size: 48px;
+            font-size: 30px;
             font-weight: 800;
             color: #032b62;
             margin-bottom: 20px;
