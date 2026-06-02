@@ -2218,23 +2218,18 @@ section.atb-triple-section {
         }
 
         .hero-content h1 {
-            color: #fff;
-            font-size: 65px;
-            font-weight: 800;
-            line-height: 1.1;
-            margin-bottom: 20px;
-        }
+    color: #fff;
+    font-size: 45px;
+    /* font-weight: 800; */
+    line-height: 1.1;
+    /* margin-bottom: 20px; */
+}
 
         .hero-content h1 span {
             color: #e74432;
         }
 
-        .hero-content p {
-            color: #dbe5ff;
-            font-size: 18px;
-            line-height: 1.8;
-            margin-bottom: 35px;
-        }
+        
 
         .hero-btns {
             display: flex;
