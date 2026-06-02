@@ -2402,6 +2402,10 @@ section.atb-triple-section {
     font-weight: 600;
     /* margin-bottom: 25px; */
 }
+.procto-hero-features {
+    display: flex;
+    gap: 14px;
+}
 .procto-feature-item {
     display: flex;
     align-items: center;
@@ -2411,20 +2415,20 @@ section.atb-triple-section {
     background: #ffffff;
     padding: 20px;
     border-radius: 19px;
-    box-shadow: #0000005c 10px 5px 2px 0px;
+    box-shadow: #0000005c 8px 13px 0px 0px;
 }
 .procto-hero-image-wrapper {
     position: relative;
     text-align: right;
-    margin-top: -48px;
+    /* margin-top: -207px; */
 }
 .procto-main-img {
-    width: 100%;
-    border-radius: 0 0 0 250px;
+    width: 100%;   
     object-fit: cover;
-    border-left: 4px solid #e74426;
+    border-radius: 76px;
+    border: 8px solid #e74426;
     box-shadow: 0 15px 40px rgba(0, 0, 0, .15);
-} 
+}
 /*=============== Contact.Page ==================*/
 .form-section {
     position: relative;
