@@ -347,7 +347,7 @@ body {
 .hero-btns{
     color: #fff;
 }
-.hero-title {
+.hero-title h1 {
     font-size: 43px;
     font-weight: 700;
     line-height: 1.1;
@@ -481,6 +481,7 @@ body {
     margin-bottom: 25px;
     padding: 12px;
     border-radius: 10px;
+    background:#032b6282;
 }
 
 .feature-product-box i {
