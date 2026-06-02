@@ -1981,10 +1981,13 @@ p {
         }
 
         .dual-hero-content h1 {
-            font-size: 65px;
+            font-size: 55px;
             line-height: 1.1;
             margin-bottom: 25px;
         }
+       .dual-hero-content h1 strong{
+           font-size:36px;
+       }
 
         .dual-hero-content p {
             font-size: 18px;
