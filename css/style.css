@@ -2346,7 +2346,7 @@ section.atb-triple-section {
             color: #555;
         }
 
-        .feature-box {
+        .feature-box4 {
             background: #fff;
             padding: 15px 18px;
             border-radius: 12px;
@@ -2356,7 +2356,7 @@ section.atb-triple-section {
             transition: .3s;
         }
 
-        .feature-box:hover {
+        .feature-box4:hover {
             transform: translateY(-4px);
         }
 
