@@ -2412,6 +2412,7 @@ section.atb-triple-section {
 }
 .procto-hero-features {   
     gap: 14px;
+    display:flex;
 }
 .procto-feature-item {
     display: flex;
