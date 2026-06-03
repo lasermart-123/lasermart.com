@@ -2038,6 +2038,10 @@ p {
         .about-dual {
             padding: 90px 0;
             background: #fff;
+            width: 100%;
+            overflow: hidden;
+            postion:relative
+            position: relative;
         }
 
         .about-wrapper-dual {
