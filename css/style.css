@@ -524,9 +524,12 @@ h1.hero-title {
     font-weight: 800;
     margin-left: 6px;
 }
-
-.bottom-item {
+.bottom-item {    
+    width: 100%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .bottom-item i {
