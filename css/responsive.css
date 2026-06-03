@@ -232,6 +232,7 @@
         padding:16px;
     }
     
+    
 }
 
 @media(max-width:576px) {
@@ -461,6 +462,12 @@
 
     .wave-card h3{
         font-size:32px;
+    }
+    .atb-speciality-section{
+        padding:12px 0px
+    }
+    .about-dual{
+        padding:6px 0px;
     }
     
 }
