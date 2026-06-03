@@ -472,6 +472,9 @@
     .dual-hero{
         padding:20px 0px
     }
+    .procto-hero-features{
+        display:block;
+    }
     
 }
  @media (max-width: 400px) {
