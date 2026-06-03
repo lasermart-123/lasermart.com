@@ -406,7 +406,7 @@
             }
 
             .machine-wrapper {
-                min-height: 750px;
+                min-height: 351px;
             }
 
             .machine-img {
@@ -414,7 +414,7 @@
             }
 
                 .feature-card {
-        width: 130px;
+        width: 148px;
         font-size: 13px;
         margin-bottom: -72px;
     }
