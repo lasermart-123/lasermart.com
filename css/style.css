@@ -1537,6 +1537,11 @@ h1.hero-title {
             z-index: 5;
             animation: floatCard 3s ease-in-out infinite;
         }
+        .floating-card img {
+    width: 55px;
+    height: 55px;
+    margin-top: -8px;
+}
 
         .floating-card i {
             width: 55px;
