@@ -2410,8 +2410,7 @@ section.atb-triple-section {
     font-weight: 600;
     /* margin-bottom: 25px; */
 }
-.procto-hero-features {
-    display: flex;
+.procto-hero-features {   
     gap: 14px;
 }
 .procto-feature-item {
