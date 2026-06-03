@@ -1583,6 +1583,7 @@ h1.hero-title {
             max-width: 500px;
             position: relative;
             z-index: 2;
+            border-radius: 23px;
         }
 
 
