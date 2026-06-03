@@ -469,6 +469,9 @@
     .about-dual{
         padding:6px 0px;
     }
+    .dual-hero{
+        padding:20px 0px
+    }
     
 }
  @media (max-width: 400px) {
