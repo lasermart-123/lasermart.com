@@ -2910,6 +2910,58 @@ section.atb-triple-section {
             color: #053763;
             font-weight: 600;
         }
+/*=============== Product.Page =================*/
+ .hero-product-section-title {
+    font-size: 43px;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 15px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+ .hero-product-section-title span{
+    color: #e74426;
+ }
+
+        .hero-product-section {
+            background: #032b62;
+            color: #ffffff;
+            padding: 70px;
+        }
+
+        .product-bottom-section {
+            padding: 70px;
+        }
+
+        .product-bottom-section1 {
+            padding: 70px;
+            background: #e74426;
+            color: #ffffff;
+        }
+
+        section.product-bottom-section2 {
+            padding: 70px;
+            background: #ffffff;
+            color: #000000;
+        }
+
+        .product-bottom-section3 {
+            padding: 70px;
+            background: #032b62;
+            color: #ffffff;
+        }
+
+        .product-bottom-section4 {
+            padding: 70px;
+            background: #ffffff;
+            color: #000000;
+        }
+
+        .product-bottom-section5 {
+            padding: 70px;
+            background: #e74426;
+            color: #ffffff;
+        }
 
 /*=============== Contact.Page ==================*/
 .form-section {
