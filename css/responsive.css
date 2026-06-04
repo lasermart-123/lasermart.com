@@ -475,6 +475,36 @@
     .procto-hero-features{
         display:block;
     }
+    .hero-product-section-title{
+        font-size: 31px;
+    }
+    .hero-product-section {            
+            padding: 17px;
+        }
+
+        .product-bottom-section {
+            padding: 17px;
+        }
+
+        .product-bottom-section1 {
+            padding: 17px;            
+        }
+
+        section.product-bottom-section2 {
+            padding: 17px;           
+        }
+
+        .product-bottom-section3 {
+            padding: 17px;            
+        }
+
+        .product-bottom-section4 {
+            padding: 17px;            
+        }
+
+        .product-bottom-section5 {
+            padding: 17px;            
+        }
     
 }
  @media (max-width: 400px) {
