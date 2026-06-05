@@ -2962,6 +2962,15 @@ section.atb-triple-section {
             background: #e74426;
             color: #ffffff;
         }
+       section.product-bottom-section p {
+          color: #000;
+      }
+     section.product-bottom-section2 p {
+        color: #000;
+      }
+     section.product-bottom-section4 p {
+       color: #000;
+    }
 
 /*=============== Contact.Page ==================*/
 .form-section {
