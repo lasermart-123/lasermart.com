@@ -921,6 +921,7 @@ h1.hero-title {
 .left-box h2 {
     font-size: 20px;
     font-weight: 400;
+    font-weight: 800;
 }
 
 .sub-title {
@@ -1006,7 +1007,7 @@ h1.hero-title {
 
 .right-box h3 {
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .features {
@@ -2238,8 +2239,8 @@ section.atb-triple-section {
 
         .hero-content h1 {
     color: #fff;
-    font-size: 45px;
-    /* font-weight: 800; */
+    font-size: 43px;
+    font-weight: 800; 
     line-height: 1.1;
     /* margin-bottom: 20px; */
 }
