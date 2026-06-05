@@ -3285,6 +3285,9 @@ section.atb-triple-section {
             border-radius: 50px;
             transition: .4s ease;
         }
+        #brand-btn {
+         background: #e74462;
+        }
 
         .brand-learn-btn:hover {
             background: #032b62;
