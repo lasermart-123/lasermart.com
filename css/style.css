@@ -2971,6 +2971,325 @@ section.atb-triple-section {
      section.product-bottom-section4 p {
        color: #000;
     }
+/*=============== Product-detail.Page ============*/
+ .premium-laser-hero {
+            padding: 60px 0;
+            background: #f5f5f5;
+        }
+
+        .premium-laser-box {
+            position: relative;
+            overflow: hidden;
+            border-radius: 40px;
+            padding: 70px 20px 40px;
+            background: linear-gradient(135deg,
+                    #032b62,
+                    #032b62);
+            box-shadow:
+                0 25px 60px rgba(0, 0, 0, .12);
+        }
+
+        /* Glass Circle */
+        .premium-laser-box::before {
+            content: "";
+            position: absolute;
+            width: 450px;
+            height: 450px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, .15);
+            top: -200px;
+            right: -100px;
+        }
+
+        .premium-laser-box::after {
+            content: "";
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, .1);
+            bottom: -150px;
+            left: -100px;
+        }
+
+        .premium-laser-title {
+            position: relative;
+            z-index: 2;
+            font-weight: 700;
+            line-height: 1.1;
+            color: #ffffff;
+            margin-bottom: 40px;
+        }
+
+        h1.premium-laser-title span {
+            color: #e74426;
+        }
+
+        .premium-laser-img {
+            position: relative;
+            z-index: 2;
+            max-height: 340px;
+            filter: drop-shadow(0 25px 35px rgba(0, 0, 0, .25));
+            animation: float 4s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            50% {
+                transform: translateY(-12px);
+            }
+        }
+
+        /*==== Brand-cards ======*/
+        /* ==========================
+   MAIN CARD
+========================== */
+        .bottom-brand-section {
+            padding-top: 80px;
+        }
+
+        .brand-content {
+            text-align: center;
+            padding-bottom: 36px;
+        }
+
+        .laser-card {
+            background: #fff;
+            padding: 15px;
+            border-radius: 12px;
+            text-align: center;
+            overflow: hidden;
+            position: relative;
+            box-shadow: 1px 1px 4px 6px rgb(0 0 0 / 77%);
+            transition: all .5s ease;
+            height: 100%;
+            word-break: break-word;
+            overflow-wrap: break-word;
+
+        }
+
+        .laser-card:hover {
+            transform: translateY(-15px);
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+        }
+
+        /* ==========================
+   MACHINE IMAGE SWAP
+========================== */
+
+        .machine-img {
+            position: relative;
+            width: 169px;
+            height: 150px;
+            margin: 0 auto 20px;
+        }
+
+        .machine-img img {
+            position: absolute;
+            left: 50%;
+            top: 0;
+            transform: translateX(-50%);
+            width: 100%;
+            transition: all .6s ease;
+        }
+
+        /* First Image */
+
+        .img-default {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        /* Second Image */
+
+        .img-hover {
+            opacity: 0;
+            visibility: hidden;
+            transform: translateX(-50%) scale(.8);
+        }
+
+        /* Hover Change */
+
+        .laser-card:hover .img-default {
+            opacity: 0;
+            visibility: hidden;
+            transform: translateX(-50%) scale(1.1);
+        }
+
+        .laser-card:hover .img-hover {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(-50%) scale(1.05);
+        }
+
+        /* ==========================
+   TITLE
+========================== */
+
+        .card-info h3 {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .card-info h3 span {
+            color: #e74426;
+        }
+
+        .card-info p {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 25px;
+        }
+
+        /* ==========================
+   APPLICATION BOX
+========================== */
+
+        .application-box {
+            position: relative;
+            height: 274px;
+            border-radius: 22px;
+            overflow: hidden;
+            background: url("./img/Speciality/Gynaecology.jpg") center center;
+            background-size: 100%;
+            background-size: cover;
+            background-position: 50%;
+
+            transition: all .8s ease;
+        }
+
+        /* Orange Overlay */
+
+        .application-box::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgb(3 43 98 / 85%), rgb(3 43 98 / 85%));
+            transition: .6s ease;
+        }
+
+        /* Orange → Pink */
+
+        .laser-card:hover .application-box::before {
+            background: linear-gradient(135deg, rgb(233 68 38 / 85%), rgb(233 68 38 / 85%));
+        }
+
+        /* Background Zoom */
+
+        .laser-card:hover .application-box {
+            background-size: 120%;
+        }
+
+        /* Shine Effect */
+
+        .application-box::after {
+            content: "";
+            position: absolute;
+
+            top: -120%;
+            left: -120%;
+
+            width: 60%;
+            height: 300%;
+
+            background: rgba(255, 255, 255, .2);
+
+            transform: rotate(25deg);
+            transition: .9s ease;
+        }
+
+        .laser-card:hover .application-box::after {
+            left: 180%;
+        }
+
+        /* ==========================
+   CONTENT
+========================== */
+
+        .content {
+            position: relative;
+            z-index: 2;
+            color: #fff;
+            padding: 50px 25px;
+            transition: .5s ease;
+        }
+
+        .content h4 {
+            font-size: 16px;
+            font-weight: 800;
+            margin-bottom: 25px;
+            line-height: 1.1;
+        }
+
+        .brand-content h2 {
+            font-weight: 700;
+            font-size: 43px;
+        }
+
+        .brand-content h2 span {
+            color: #e74426;
+        }
+
+        .brand-content p {
+            font-size: 23px;
+            font-weight: 600;
+        }
+
+        .brand-content p span {
+            color: #e74426;
+        }
+
+        .content ul {
+            text-align: left;
+            padding-left: 20px;
+            margin: 0;
+        }
+
+        .content ul li {
+            margin-bottom: 15px;
+            font-size: 17px;
+            transition: .4s ease;
+        }
+
+        /* Content Move */
+
+        .laser-card:hover .content {
+            transform: translateY(-10px);
+        }
+
+        /* List Slide */
+
+        .laser-card:hover .content ul li {
+            transform: translateX(10px);
+        }
+
+        section.atb-brand-bottom-content {
+            background: #e74426;
+            padding: 80px;
+            color: #ffffff;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .brand-learn-btn {
+            margin-top: auto;
+            display: inline-block;
+            width: fit-content;
+            padding: 12px 21px;
+            background: #ffffff;
+            color: #000000;
+            font-weight: 700;
+            text-decoration: none;
+            border-radius: 50px;
+            transition: .4s ease;
+        }
+
+        .brand-learn-btn:hover {
+            background: #032b62;
+            color: #fff;
+            transform: translateY(-3px);
+        }
+
 
 /*=============== Contact.Page ==================*/
 .form-section {
