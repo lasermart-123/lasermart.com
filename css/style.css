@@ -3076,7 +3076,7 @@ section.atb-triple-section {
    MACHINE IMAGE SWAP
 ========================== */
 
-        .machine-img {
+        .brand-machine-img {
             position: relative;
             width: 169px;
             height: 150px;
