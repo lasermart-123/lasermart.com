@@ -1192,7 +1192,7 @@ h1.hero-title {
 /* Hover effect */
 .slick-prev:hover,
 .slick-next:hover {
-    background: #ff6600 !important;
+    background: #e74426 !important;
 }
 
 /*=== Counter-section ====*/
@@ -2916,7 +2916,7 @@ section.atb-triple-section {
 }
 
 .overview-tag {
-    background: #f04a23;
+    background: #e74426;
     padding: 10px 24px;
     border-radius: 50px;
     display: inline-block;
