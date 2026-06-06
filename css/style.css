@@ -3029,12 +3029,14 @@ section.product-bottom-section4 p {
 
 .premium-laser-box {
     color: #ffffff;
+    padding-bottom:20px;
 }
 img.atb-ms-image {
     width: 100%;
 }
 img.atb-ms-image1 {
     width: 100%;
+    padding-bottom:20px;
 }
 section.atb-premium-laser1-section- {
     padding-top: 80px;
