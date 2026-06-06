@@ -3036,6 +3036,16 @@ img.atb-ms-image {
 img.atb-ms-image1 {
     width: 100%;
 }
+section.atb-premium-laser1-section- {
+    padding-top: 80px;
+}
+a.atb-laser1-btn {
+    background: #e74426;
+    padding: 16px;
+    border-radius: 34px;
+    color: #ffffff;
+    text-decoration: none;
+}
 
 
 
