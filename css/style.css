@@ -1622,7 +1622,7 @@ h1.hero-title {
     position: absolute;
     width: 351px;
     height: 487px;
-    background: rgb(30 30 30);
+    background: #000000;
     /* border-radius: 50%; */
     top: 50%;
     left: 32%;
