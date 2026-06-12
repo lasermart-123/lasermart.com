@@ -547,7 +547,7 @@ h1.hero-title {
 .bottom-item i {
     font-size: 40px;
     color: #000000;
-    text-shadow: 0 5px 0 rgb(235, 98, 0), 0 10px 15px rgba(0, 0, 0, 0.3);
+    text-shadow: 0 5px 0 rgb(255 255 255), 0 10px 15px rgba(0, 0, 0, 0.3);
     animation: floatIcon 3s ease-in-out infinite;
 }
 
@@ -678,9 +678,9 @@ h1.hero-title {
     color: #ffffff;
 }
 
-.section-title span {
+/*.section-title span {
    color: rgb(235, 98, 0);
-}
+}*/
 
 .section-line {
     width: 60px;
@@ -956,9 +956,9 @@ h1.hero-title {
     border-radius: 10px;
 }
 
-.sub-title span {
+/*.sub-title span {
     color: rgb(235, 98, 0);
-}
+}*/
 
 .left-box p {
     margin-top: 15px;
@@ -1116,9 +1116,9 @@ h1.hero-title {
     background: rgb(235, 98, 0);
 }
 
-#color {
+/*#color {
     color: rgb(235, 98, 0);
-}
+}*/
 
 .wrapper {
     /* width: 90%; */
@@ -2283,9 +2283,9 @@ section.atb-triple-section {
     /* margin-bottom: 20px; */
 }
 
-.hero-content h1 span {
+/*.hero-content h1 span {
     color: rgb(235, 98, 0);
-}
+}*/
 
 
 
@@ -2970,10 +2970,10 @@ section.atb-triple-section {
     padding-bottom: 20px;
 }
 
-.hero-product-section-title span {
+/*.hero-product-section-title span {
     color: rgb(235, 98, 0);
     color: rgb(235, 98, 0);
-}
+}*/
 
 .hero-product-section {
    /* background: #032b62;*/
