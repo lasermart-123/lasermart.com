@@ -924,7 +924,7 @@ h1.hero-title {
 
 /* LEFT SIDE */
 .left-box {
-    background-color: #032b62;
+    /*background-color: #032b62;*/
     color: #fff;
     padding: 67px 16px 142px 38px;
 }
@@ -1010,7 +1010,7 @@ h1.hero-title {
 
 /* RIGHT SIDE */
 .right-box {
-    background-color: #c8cbdd38;
+   /* background-color: #c8cbdd38;*/
     /* color: #fff; */
     padding: -2px 16px 0px 32px;
     padding: 52px 10px 53px 39px;
@@ -1021,6 +1021,7 @@ h1.hero-title {
     font-size: 20px;
     font-weight: 800;
     color:rgb(235, 98, 0);
+    color:#ffffff;
 }
 
 .features {
