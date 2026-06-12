@@ -2967,6 +2967,7 @@ section.atb-triple-section {
 
 .hero-product-section-title span {
     color: #e74426;
+    color: rgb(235, 98, 0);
 }
 
 .hero-product-section {
@@ -3295,7 +3296,7 @@ section.atb-brand-bottom-content {
 }
 
 #brand-btn {
-    background: #e74426;
+    background: rgb(235, 98, 0);;
 }
 
 .brand-learn-btn:hover {
