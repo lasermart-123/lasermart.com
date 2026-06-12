@@ -327,7 +327,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #01153ed1;
+   /* background: #01153ed1;*/
 }
 
 .first-box {
@@ -667,7 +667,7 @@ h1.hero-title {
 /*=======atb-speciality-section-=========*/
 .atb-speciality-section {
     padding: 80px 0;
-    background: #f8f9ff;
+    background:black;
 }
 
 .section-title {
@@ -675,11 +675,11 @@ h1.hero-title {
     font-size: 26px;
     font-weight: 600;
     margin-bottom: 15px;
-    color: #1a1a2e;
+    color: #ffffff;
 }
 
 .section-title span {
-    color: #e74426;
+   color: rgb(235, 98, 0);
 }
 
 .section-line {
@@ -848,7 +848,7 @@ h1.hero-title {
 .overlay a {
     width: fit-content;
     text-decoration: none;
-    background: #e74426;
+    background: rgb(235, 98, 0);
     color: #fff;
     padding: 10px 22px;
     border-radius: 40px;
@@ -938,7 +938,7 @@ h1.hero-title {
 .sub-title {
     font-size: 22px;
     /*margin-top:10px;*/
-    color: #ffffff;
+    color: #ffffff !mportant;
     position: relative;
     display: inline-block;
     font-weight: 800;
@@ -957,7 +957,7 @@ h1.hero-title {
 }
 
 .sub-title span {
-    color: #e74426;
+    color: rgb(235, 98, 0);
 }
 
 .left-box p {
@@ -973,7 +973,7 @@ h1.hero-title {
     position: relative;
     display: inline-block;
     padding: 14px 30px;
-    background: #e74426;
+    background: rgb(235, 98, 0);
     color: #ffffff;
     border-radius: 10px;
     text-decoration: none;
@@ -1020,6 +1020,7 @@ h1.hero-title {
 .right-box h3 {
     font-size: 20px;
     font-weight: 800;
+    color:rgb(235, 98, 0);
 }
 
 .features {
@@ -1102,7 +1103,7 @@ h1.hero-title {
     /* background: linear-gradient(135deg, #e74426 0%, #ffffff 100%);*/
     margin: 0 auto 50px;
     border-radius: 2px;
-    background: #e74426;
+    background:rgb(235, 98, 0);
 }
 
 .sections-line {
