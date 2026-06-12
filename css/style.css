@@ -2970,7 +2970,7 @@ section.atb-triple-section {
 }
 
 .hero-product-section {
-    background: #032b62;
+   /* background: #032b62;*/
     color: #ffffff;
     padding: 70px;
 }
@@ -2980,32 +2980,27 @@ section.atb-triple-section {
 }
 
 .product-bottom-section1 {
-    padding: 70px;
-    background: #e74426;
+    padding: 70px;   
     color: #ffffff;
 }
 
 section.product-bottom-section2 {
-    padding: 70px;
-    background: #ffffff;
+    padding: 70px;   
     color: #000000;
 }
 
 .product-bottom-section3 {
-    padding: 70px;
-    background: #032b62;
+    padding: 70px;   
     color: #ffffff;
 }
 
 .product-bottom-section4 {
-    padding: 70px;
-    background: #ffffff;
+    padding: 70px;   
     color: #000000;
 }
 
 .product-bottom-section5 {
-    padding: 70px;
-    background: #e74426;
+    padding: 70px;   
     color: #ffffff;
 }
 
