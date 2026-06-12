@@ -453,7 +453,7 @@ h1.hero-title {
     gap: 12px;
     padding: 16px 21px;
     border-radius: 16px;
-    background: #fff;
+    background: #000;
     border: 2px solid rgb(235, 98, 0);
     color: rgb(235, 98, 0);
     font-size: 16px;
@@ -1338,7 +1338,7 @@ h1.hero-title {
     position: relative;
     display: inline-block;
     padding: 14px 25px;
-    background: #fff;
+    background: #000000;
     color: rgb(235, 98, 0);
     border-radius: 10px;
     text-decoration: none;
