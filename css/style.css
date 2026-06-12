@@ -520,7 +520,7 @@ h1.hero-title {
 
 .bottom-box h6 {
     font-weight: 600;
-    color: #222;
+    color: #ffffff;
     text-align: center;
 }
 
@@ -536,6 +536,7 @@ h1.hero-title {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color:#ffffff;
 }
 
 .bottom-item i {
