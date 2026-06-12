@@ -511,7 +511,7 @@ h1.hero-title {
 }
 
 .bottom-box {
-    background: white;
+    background:rgb(235, 98, 0);
     border-radius: 25px;
     padding: 30px;
     margin-top: 60px;
@@ -667,7 +667,7 @@ h1.hero-title {
 /*=======atb-speciality-section-=========*/
 .atb-speciality-section {
     padding: 80px 0;
-    background:black;
+    background:#1c1c1c;
 }
 
 .section-title {
