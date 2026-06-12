@@ -546,7 +546,7 @@ h1.hero-title {
 
 .bottom-item i {
     font-size: 40px;
-    color: #032b62;
+    color: #000000;
     text-shadow: 0 5px 0 rgb(235, 98, 0), 0 10px 15px rgba(0, 0, 0, 0.3);
     animation: floatIcon 3s ease-in-out infinite;
 }
