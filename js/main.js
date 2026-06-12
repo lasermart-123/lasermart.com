@@ -106,7 +106,8 @@ document.addEventListener("DOMContentLoaded", function () {
                     { icon: "fa-facebook-f", link: "https://facebook.com" },
                     { icon: "fa-twitter", link: "https://twitter.com" },
                     { icon: "fa-instagram", link: "https://instagram.com" },
-                    { icon: "fa-linkedin-in", link: "https://linkedin.com" }
+                    { icon: "fa-linkedin-in", link: "https://linkedin.com" },
+                    { icon: "fa-youtube", link: "https://linkedin.com" }
                 ]
             },
 
