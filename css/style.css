@@ -451,7 +451,7 @@ h1.hero-title {
     display: inline-flex;
     align-items: center;
     gap: 12px;
-    padding: 16px 34px;
+    padding: 16px 21px;
     border-radius: 16px;
     background: #fff;
     border: 2px solid rgb(235, 98, 0);
@@ -1336,7 +1336,7 @@ h1.hero-title {
 .banner-btn a {
     position: relative;
     display: inline-block;
-    padding: 14px 30px;
+    padding: 14px 25px;
     background: #fff;
     color: rgb(235, 98, 0);
     border-radius: 10px;
