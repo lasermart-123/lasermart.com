@@ -111,7 +111,7 @@ body {
 
 .scroll-top {
     background: #032b62;
-    color: #e74426;
+    color: rgb(235, 98, 0);
     font-size: 24px;
     display: none;
     /* Initially hidden */
@@ -165,7 +165,7 @@ body {
 }
 
 .nav-link.active {
-    color: #e74426 !important;
+    color: rgb(235, 98, 0) !important;
     font-weight: 600;
     position: relative;
 }
@@ -177,7 +177,7 @@ body {
     bottom: -5px;
     width: 100%;
     height: 2px;
-    background: #e74426;
+    background: rgb(235, 98, 0);
 }
 
 /*.header-btn {
@@ -454,8 +454,8 @@ h1.hero-title {
     padding: 16px 34px;
     border-radius: 16px;
     background: #fff;
-    border: 2px solid #e74426;
-    color: #e74426;
+    border: 2px solid rgb(235, 98, 0);
+    color: rgb(235, 98, 0);
     font-size: 16px;
     font-weight: 600;
     text-decoration: none;
@@ -470,7 +470,7 @@ h1.hero-title {
 .btn-3d-outline:hover {
     top: 4px;
     box-shadow:
-        0 4px 0 #e74426,
+        0 4px 0 rgb(235, 98, 0),
         0 8px 18px rgba(255, 102, 0, 0.18);
 }
 
@@ -547,7 +547,7 @@ h1.hero-title {
 .bottom-item i {
     font-size: 40px;
     color: #032b62;
-    text-shadow: 0 5px 0 #e74426, 0 10px 15px rgba(0, 0, 0, 0.3);
+    text-shadow: 0 5px 0 rgb(235, 98, 0), 0 10px 15px rgba(0, 0, 0, 0.3);
     animation: floatIcon 3s ease-in-out infinite;
 }
 
@@ -753,7 +753,7 @@ h1.hero-title {
 }
 
 .flip-card-front .explore {
-    color: #e74426;
+    color: rgb(235, 98, 0);
     font-weight: 600;
     font-size: 13px;
 }
@@ -779,7 +779,7 @@ h1.hero-title {
 
 .flip-card-back .btn {
     background: #fff;
-    color: #e74426;
+    color: rgb(235, 98, 0);
     border: none;
     padding: 6px 16px;
     border-radius: 50px;
@@ -952,7 +952,7 @@ h1.hero-title {
     bottom: -6px;
     width: 39px;
     height: 3px;
-    background: #e74426;
+    background:rgb(235, 98, 0);
     border-radius: 10px;
 }
 
@@ -1085,7 +1085,7 @@ h1.hero-title {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #01153ed1;
+    background: #000000ba;
 }
 
 .sub-titles {
@@ -1100,7 +1100,7 @@ h1.hero-title {
 .section-line {
     width: 44px;
     height: 4px;
-    /* background: linear-gradient(135deg, #e74426 0%, #ffffff 100%);*/
+    /* background: linear-gradient(135deg, rgb(235, 98, 0) 0%, #ffffff 100%);*/
     margin: 0 auto 50px;
     border-radius: 2px;
     background:rgb(235, 98, 0);
@@ -1109,14 +1109,14 @@ h1.hero-title {
 .sections-line {
     width: 44px;
     height: 4px;
-    /* background: linear-gradient(135deg, #e74426 0%, #ffffff 100%); */
+    /* background: linear-gradient(135deg, rgb(235, 98, 0) 0%, #ffffff 100%); */
     margin: -21px auto 45px;
     border-radius: 2px;
-    background: #e74426;
+    background: rgb(235, 98, 0);
 }
 
 #color {
-    color: #e74426;
+    color: rgb(235, 98, 0);
 }
 
 .wrapper {
@@ -1194,7 +1194,7 @@ h1.hero-title {
 /* Hover effect */
 .slick-prev:hover,
 .slick-next:hover {
-    background: #e74426 !important;
+    background: rgb(235, 98, 0) !important;
 }
 
 /*=== Counter-section ====*/
@@ -1253,7 +1253,7 @@ h1.hero-title {
 .counter-container i {
     font-size: 40px;
     color: #ffffff;
-   /* text-shadow: 0 5px 0 #e74426, 0 10px 15px rgba(0, 0, 0, 0.3);*/
+   /* text-shadow: 0 5px 0 rgb(235, 98, 0), 0 10px 15px rgba(0, 0, 0, 0.3);*/
     animation: floatIcon 3s ease-in-out infinite;
 }
 .plus{
@@ -1338,7 +1338,7 @@ h1.hero-title {
     display: inline-block;
     padding: 14px 30px;
     background: #fff;
-    color: #e74426;
+    color: rgb(235, 98, 0);
     border-radius: 10px;
     text-decoration: none;
     font-weight: 600;
@@ -1440,7 +1440,7 @@ h1.hero-title {
 }
 
 .about-content h1 span {
-    color: #e74426;
+    color: rgb(235, 98, 0);
 }
 
 .about-content p {
@@ -1462,7 +1462,7 @@ h1.hero-title {
 
 .btn-primary-custom {
     padding: 14px 32px;
-    background: #e74426;
+    background: rgb(235, 98, 0);
     color: #fff;
     border-radius: 10px;
     text-decoration: none;
@@ -1506,7 +1506,7 @@ h1.hero-title {
 }
 
 .stat-box h3 {
-    color: #e74426;
+    color: rgb(235, 98, 0);
     font-size: 32px;
     margin-bottom: 5px;
 }
@@ -1572,7 +1572,7 @@ h1.hero-title {
 .floating-card i {
     width: 55px;
     height: 55px;
-    background: #e74426;
+    background: rgb(235, 98, 0);
     color: #fff;
     border-radius: 50%;
     display: flex;
@@ -1646,7 +1646,7 @@ h1.hero-title {
 
 .experience-card h3 {
     font-size: 38px;
-    color: #e74426;
+    color: rgb(235, 98, 0);
     margin-bottom: 5px;
 }
 
@@ -1665,7 +1665,7 @@ h1.hero-title {
     display: inline-block;
     padding: 8px 18px;
     background: rgba(2, 27, 78, 0.08);
-    color: #e74426;
+    color: rgb(235, 98, 0);
     /*text-align: center;*/
     border-radius: 50px;
     font-weight: 600;
@@ -1682,7 +1682,7 @@ h1.hero-title {
 }
 
 .why-content h2 span {
-    color: #e74426;
+    color: rgb(235, 98, 0);
 }
 
 .why-content p {
@@ -1804,7 +1804,7 @@ h1.hero-title {
     margin-bottom: 40px;
     padding: 8px 18px;
     background: rgba(2, 27, 78, 0.08);
-    color: #e74426;
+    color: rgb(235, 98, 0);
     /* text-align: center; */
     border-radius: 50px;
     font-weight: 600;
@@ -1845,7 +1845,7 @@ h1.hero-title {
 }
 
 .vision-content p span {
-    color: #e74426;
+    color: rgb(235, 98, 0);
     font-weight: 500;
 }
 
@@ -1921,7 +1921,7 @@ h1.hero-title {
 .left-side span {
     width: 4px;
     height: 75px;
-    background: #e74426;
+    background: rgb(235, 98, 0);
     display: block;
 }
 
@@ -1934,7 +1934,7 @@ h1.hero-title {
 
 
 .mission-item p strong {
-    color: #e74426;
+    color: rgb(235, 98, 0);
     font-weight: 500;
 }
 
@@ -2006,12 +2006,12 @@ p {
 }
 
 strong {
-    color: #e74426;
+    color: rgb(235, 98, 0);
     font-size: 26px;
 }
 
 .dual-hero-content span {
-    background: #e74426;
+    background: rgb(235, 98, 0);
     padding: 10px 18px;
     border-radius: 30px;
     font-size: 14px;
@@ -2051,7 +2051,7 @@ strong {
 }
 
 .btn1 {
-    background: #e74426;
+    background: rgb(235, 98, 0);
     color: #fff;
 }
 
@@ -2116,7 +2116,7 @@ strong {
 }
 
 .about-list-dual i {
-    color: #e74426;
+    color: rgb(235, 98, 0);
     margin-right: 10px;
 }
 
@@ -2157,7 +2157,7 @@ strong {
 
 .feature-product-box i {
     font-size: 45px;
-    color: #e74426;
+    color: rgb(235, 98, 0);
     margin-bottom: 20px;
 }
 
@@ -2243,7 +2243,7 @@ section.atb-triple-section {
 }
 
 .accordion-button:not(.collapsed) {
-    background: #e74426;
+    background: rgb(235, 98, 0);
     color: #fff;
 }
 
@@ -2266,7 +2266,7 @@ section.atb-triple-section {
 
 .hero-tag {
     display: inline-block;
-    background: #e74426;
+    background: rgb(235, 98, 0);
     color: #fff;
     padding: 10px 20px;
     border-radius: 30px;
@@ -2284,7 +2284,7 @@ section.atb-triple-section {
 }
 
 .hero-content h1 span {
-    color: #e74426;
+    color: rgb(235, 98, 0);
 }
 
 
@@ -2296,7 +2296,7 @@ section.atb-triple-section {
 }
 
 .btn-orange {
-    background: #e74426;
+    background: rgb(235, 98, 0);
     color: #fff;
     text-decoration: none;
     padding: 14px 32px;
@@ -2406,7 +2406,7 @@ section.atb-triple-section {
 
 .tech-tag {
     display: inline-block;
-    background: #e74426;
+    background: rgb(235, 98, 0);
     color: #fff;
     padding: 10px 22px;
     border-radius: 30px;
@@ -2451,7 +2451,7 @@ section.atb-triple-section {
 
 .hero-tag {
     display: inline-block;
-    background: #e74426;
+    background: rgb(235, 98, 0);
     color: #fff;
     padding: 12px 25px;
     border-radius: 50px;
@@ -2487,7 +2487,7 @@ section.atb-triple-section {
     width: 100%;
     object-fit: cover;
     border-radius: 76px;
-    border: 8px solid #e74426;
+    border: 8px solid rgb(235, 98, 0);
     box-shadow: 0 15px 40px rgba(0, 0, 0, .15);
 }
 
@@ -2497,7 +2497,7 @@ section.atb-triple-section {
 
 .process-tag {
     display: inline-block;
-    background: #e74426;
+    background: rgb(235, 98, 0);
     color: #fff;
     padding: 10px 25px;
     border-radius: 30px;
@@ -2513,7 +2513,7 @@ section.atb-triple-section {
 }
 
 .process-title span {
-    color: #e74426;
+    color: rgb(235, 98, 0);
 }
 
 .process-image {
@@ -2588,7 +2588,7 @@ section.atb-triple-section {
 }
 
 .section-badge {
-    background: #e74426;
+    background: rgb(235, 98, 0);
     color: #fff;
     padding: 10px 22px;
     border-radius: 50px;
@@ -2605,7 +2605,7 @@ section.atb-triple-section {
 }
 
 .section-title span {
-    color: #e74426;
+    color: rgb(235, 98, 0);
 }
 
 .wave-card {
@@ -2623,7 +2623,7 @@ section.atb-triple-section {
 }
 
 .wave-card h3 {
-    color: #e74426;
+    color: rgb(235, 98, 0);
     font-size: 42px;
     font-weight: 800;
     margin-bottom: 10px;
@@ -2701,7 +2701,7 @@ section.atb-triple-section {
 
 .section-badge {
     display: inline-block;
-    background: #e74426;
+    background: rgb(235, 98, 0);
     color: #fff;
     padding: 10px 25px;
     border-radius: 50px;
@@ -2719,7 +2719,7 @@ section.atb-triple-section {
 }
 
 .section-title1 span {
-    color: #e74426;
+    color: rgb(235, 98, 0);
 }
 
 .section-text {
@@ -2745,7 +2745,7 @@ section.atb-triple-section {
 }
 
 .premium-card h3 {
-    color: #e74426;
+    color: rgb(235, 98, 0);
     font-size: 30px;
     font-weight: 800;
     margin-bottom: 10px;
@@ -2770,7 +2770,7 @@ section.atb-triple-section {
 }
 
 .hero-badge-varico {
-    background: #e74426;
+    background: rgb(235, 98, 0);
     color: #fff;
     padding: 12px 28px;
     border-radius: 50px;
@@ -2788,7 +2788,7 @@ section.atb-triple-section {
 }
 
 .hero-content-varico h1 span {
-    color: #e74426;
+    color: rgb(235, 98, 0);
 }
 
 .hero-content-varico p {
@@ -2833,7 +2833,7 @@ section.atb-triple-section {
 }
 
 .btn-book-varico {
-    background: #e74426;
+    background: rgb(235, 98, 0);
     color: #fff;
     padding: 15px 35px;
     border-radius: 12px;
@@ -2921,7 +2921,7 @@ section.atb-triple-section {
 }
 
 .overview-tag {
-    background: #e74426;
+    background: rgb(235, 98, 0);
     padding: 10px 24px;
     border-radius: 50px;
     display: inline-block;
@@ -2950,7 +2950,7 @@ section.atb-triple-section {
 }
 
 .stat-card h3 {
-    color: #e74426;
+    color: rgb(235, 98, 0);
     font-size: 42px;
     font-weight: 800;
 }
@@ -2971,7 +2971,7 @@ section.atb-triple-section {
 }
 
 .hero-product-section-title span {
-    color: #e74426;
+    color: rgb(235, 98, 0);
     color: rgb(235, 98, 0);
 }
 
@@ -3047,7 +3047,7 @@ section.atb-premium-laser1-section- {
     padding-top: 80px;
 }
 a.atb-laser1-btn {
-    background: #e74426;
+    background: rgb(235, 98, 0);
     padding: 16px;
     border-radius: 34px;
     color: #ffffff;
@@ -3149,7 +3149,7 @@ a.atb-laser1-btn {
 }
 
 .card-info h3 span {
-    color: #e74426;
+    color: rgb(235, 98, 0);
 }
 
 .card-info p {
@@ -3244,7 +3244,7 @@ a.atb-laser1-btn {
 }
 
 .brand-content h2 span {
-    color: #e74426;
+    color: rgb(235, 98, 0);
 }
 
 .brand-content p {
@@ -3254,7 +3254,7 @@ a.atb-laser1-btn {
 }
 
 .brand-content p span {
-    color: #e74426;
+    color: rgb(235, 98, 0);
 }
 
 .content ul {
@@ -3282,7 +3282,7 @@ a.atb-laser1-btn {
 }
 
 section.atb-brand-bottom-content {
-    background: #e74426;
+    background: rgb(235, 98, 0);
     padding: 80px 0px;
     color: #ffffff;
     font-size: 20px;
@@ -3367,7 +3367,7 @@ section.atb-brand-bottom-content {
     position: absolute;
     width: 26px;
     height: 26px;
-    background-color: #e74426;
+    background-color: rgb(235, 98, 0);
     transform: rotate(45deg);
     top: 50px;
     left: -13px;
@@ -3440,7 +3440,7 @@ textarea.input {
 
 .btn {
     padding: 0.6rem 1.3rem;
-    background-color: #e74426;
+    background-color: rgb(235, 98, 0);
     border: 2px solid #ffffff;
     font-size: 0.95rem;
     color: #fff;
@@ -3455,7 +3455,7 @@ textarea.input {
 
 .btn:hover {
     background-color: #ffffff;
-    color: #e74426;
+    color: rgb(235, 98, 0);
 }
 
 .input-container span {
@@ -3533,7 +3533,7 @@ textarea.input {
 }
 
 .information i {
-    color: #e74426;
+    color: rgb(235, 98, 0);
     margin-top: 4px;
 }
 
@@ -3784,7 +3784,7 @@ textarea.input {
     width: 40px;
     height: 3px;
     /*background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);*/
-    background: #e74426;
+    background: rgb(235, 98, 0);
 }
 
 .footer-links {
@@ -3805,7 +3805,7 @@ textarea.input {
 }
 
 .footer-links a:hover {
-    color: #e74426;
+    color: rgb(235, 98, 0);
     padding-left: 5px;
 }
 
@@ -3818,7 +3818,7 @@ textarea.input {
 }
 
 .footer-contact-item i {
-    color: #667eea;
+    color: rgb(235, 98, 0);
     margin-top: 4px;
 }
 
@@ -3831,7 +3831,7 @@ textarea.input {
 .social-icons a {
     width: 40px;
     height: 40px;
-    background: #032b62;
+    background:rgb(235, 98, 0);
     color: #fff;
     display: flex;
     align-items: center;
