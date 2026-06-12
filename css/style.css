@@ -354,9 +354,9 @@ h1.hero-title {
     line-height: 1.1;
 }
 
-.hero-title span {
+/*.hero-title span {
     color: #2979ff;
-}
+}*/
 
 .hero-text {
     color: #ffffff;
@@ -2604,9 +2604,9 @@ section.atb-triple-section {
     margin-bottom: 15px;
 }
 
-.section-title span {
+/*.section-title span {
     color: rgb(235, 98, 0);
-}
+}*/
 
 .wave-card {
     background: #fff;
