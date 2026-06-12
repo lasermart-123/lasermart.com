@@ -1299,7 +1299,7 @@ h1.hero-title {
 
 .atb-cta {
     /* background: linear-gradient(90deg, #0052cc, #008cff);*/
-    background: #222222;
+    background: #1c1c1c;
     padding: 25px 40px;
     border-radius: 12px;
     position: relative;
@@ -1410,7 +1410,7 @@ h1.hero-title {
 .about-hero {
     position: relative;
     padding: 39px 0 80px;
-    background: linear-gradient(135deg, #021b4e, #04296d);
+    /*background: linear-gradient(135deg, #021b4e, #04296d);*/
     overflow: hidden;
 }
 
@@ -1596,7 +1596,8 @@ h1.hero-title {
 /* WHY CHOOSE SECTION */
 
 .why-choose-section {
-    padding: 100px 0;   
+    padding: 100px 0;
+    background: #1c1c1c;
     overflow: hidden;
 }
 
@@ -1763,23 +1764,24 @@ h1.hero-title {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    color: #fff;
     gap: 30px;
     padding: 60px 20px;
     position: relative;
     padding: 80px 0;
-    background: url(../img/bg.jpg) center center / cover no-repeat;
-    background-attachment: fixed;
+    /* background: url(../img/bg.jpg) center center / cover no-repeat; */
+    /* background-attachment: fixed; */
     overflow: hidden;
+    background: black;
 }
-
-.atb-count.overlay {
+/*.atb-count.overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background: #01153ed1;
-}
+}*/
 
 
 
