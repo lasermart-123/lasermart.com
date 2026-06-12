@@ -1596,8 +1596,7 @@ h1.hero-title {
 /* WHY CHOOSE SECTION */
 
 .why-choose-section {
-    padding: 100px 0;
-    background: #f8fbff;
+    padding: 100px 0;   
     overflow: hidden;
 }
 
@@ -1622,7 +1621,7 @@ h1.hero-title {
     position: absolute;
     width: 351px;
     height: 487px;
-    background: rgb(3 43 98);
+    background: rgb(30 30 30);
     /* border-radius: 50%; */
     top: 50%;
     left: 32%;
@@ -1635,7 +1634,7 @@ h1.hero-title {
     position: absolute;
     bottom: 30px;
     left: 0;
-    background: #021b4e;
+    background: #000000;
     color: #fff;
     padding: 20px 30px;
     border-radius: 20px;
@@ -1677,7 +1676,7 @@ h1.hero-title {
     font-size: 32px;
     font-weight: 700;
     line-height: 1.3;
-    color: #021b4e;
+    color: #ffffff;
     margin-bottom: 25px;
 }
 
@@ -1703,7 +1702,7 @@ h1.hero-title {
 .features-box {
     display: flex;
     gap: 15px;
-    background: #dadde1a1;
+    background: #181818fa;
     padding: 22px;
     border-radius: 18px;
     transition: 0.4s;
@@ -1730,7 +1729,7 @@ h1.hero-title {
 
 .features-box h5 {
     font-size: 18px;
-    color: #021b4e;
+    color: rgb(235, 98, 0);
     margin-bottom: 8px;
 }
 
@@ -1738,6 +1737,7 @@ h1.hero-title {
     margin: 0;
     font-size: 14px;
     line-height: 1.6;
+    color:#ffffff !important;
 }
 
 /* FLOAT ANIMATION */
@@ -1827,7 +1827,7 @@ h1.hero-title {
 
 .vision-icon img {
     width: 110px;
-    filter: brightness(-1) invert(1);
+    filter: brightness(0) invert(1);
 }
 
 .divider {
