@@ -938,7 +938,7 @@ h1.hero-title {
 .sub-title {
     font-size: 22px;
     /*margin-top:10px;*/
-    color: #ffffff !mportant;
+    color: #ffffff;
     position: relative;
     display: inline-block;
     font-weight: 800;
@@ -1253,9 +1253,12 @@ h1.hero-title {
 
 .counter-container i {
     font-size: 40px;
-    color: #032b62;
-    text-shadow: 0 5px 0 #e74426, 0 10px 15px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+   /* text-shadow: 0 5px 0 #e74426, 0 10px 15px rgba(0, 0, 0, 0.3);*/
     animation: floatIcon 3s ease-in-out infinite;
+}
+.plus{
+    color:rgb(235, 98, 0) !important;
 }
 
 
