@@ -3029,7 +3029,7 @@ section.product-bottom-section4 p {
 /*=============== Product-detail.Page ============*/
 .premium-laser-hero {
     padding: 60px 0;
-    background: #032b62;
+    background: #000000;
 }
 
 .premium-laser-box {
@@ -3068,6 +3068,7 @@ a.atb-laser1-btn {
 .brand-content {
     text-align: center;
     padding-bottom: 36px;
+    color:#ffffff;
 }
 
 .laser-card {
@@ -3244,19 +3245,19 @@ a.atb-laser1-btn {
     font-size: 43px;
 }
 
-.brand-content h2 span {
+/*.brand-content h2 span {
     color: rgb(235, 98, 0);
-}
+}*/
 
 .brand-content p {
     font-size: 23px;
     font-weight: 600;
-    color: #000
+    color:#ffffff;
 }
 
-.brand-content p span {
+/*.brand-content p span {
     color: rgb(235, 98, 0);
-}
+}*/
 
 .content ul {
     text-align: left;
@@ -3283,7 +3284,7 @@ a.atb-laser1-btn {
 }
 
 section.atb-brand-bottom-content {
-    background: rgb(235, 98, 0);
+    background: rgb(26, 26, 26);
     padding: 80px 0px;
     color: #ffffff;
     font-size: 20px;
