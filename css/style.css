@@ -417,7 +417,7 @@ h1.hero-title {
     gap: 20px;
     flex-wrap: wrap;
 }
-a.btn-3-outline {
+.btn-3-outline {
     background: #ffffff;
     color: rgb(235, 98, 0);
 }
@@ -967,10 +967,7 @@ a.btn-3-outline {
 /*#customs a {
     background: rgb(235, 98, 0);
 }*/
-a.btn-3-outline {
-    background: #ffffff;
-    color: rgb(235, 98, 0);
-}
+
 
 .btn-custom a {
     position: relative;
