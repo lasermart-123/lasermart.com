@@ -968,8 +968,12 @@ a.btn-3-outline {
     line-height: 1.6;
 }
 
-#customs a {
+/*#customs a {
     background: rgb(235, 98, 0);
+}*/
+a.btn-3-outline {
+    background: #ffffff;
+    color: rgb(235, 98, 0);
 }
 
 .btn-custom a {
@@ -1005,8 +1009,7 @@ a.btn-3-outline {
 }
 
 /* Slight zoom */
-.btn-custom a:hover {
-    background: #032b62;
+.btn-custom a:hover {    
     transform: translateY(-3px);
     /*box-shadow: 0 10px 20px rgba(0,0,0,0.2);*/
 }
