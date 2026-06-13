@@ -477,7 +477,7 @@ h1.hero-title {
     font-size: 15px;
 }
 
-.feature-box {
+/*.feature-box {
     display: flex;
     border: 1px solid;
     margin-bottom: 25px;
@@ -507,7 +507,7 @@ h1.hero-title {
     margin: 0;
     color: #c5c5c5;
     font-size: 15px;
-}
+}*/
 
 .bottom-box {
     background:rgb(235, 98, 0);
@@ -593,7 +593,7 @@ h1.hero-title {
     margin-top: -119px;
 }
 
-.img-box.img-one {
+/*.img-box.img-one {
     height: 383px;
 }
 
@@ -603,7 +603,7 @@ h1.hero-title {
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     animation: floatImg 3s ease-in-out infinite;
-}
+}*/
 
 /* Animation */
 @keyframes floatImg {
