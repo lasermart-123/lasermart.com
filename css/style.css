@@ -673,11 +673,7 @@ a.btn-3-outline {
     background:#1c1c1c;
 }
 
-.section-title {
-    text-align: center;
-    font-size: 26px;
-    font-weight: 600;
-    margin-bottom: 15px;
+.section-title {   
     color: #ffffff;
 }
 
@@ -2605,7 +2601,7 @@ section.atb-triple-section {
 }
 
 .section-title {
-    font-size: 52px;
+    font-size: 37px;
     font-weight: 800;   
     margin-bottom: 15px;
 }
