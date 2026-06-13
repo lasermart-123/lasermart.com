@@ -417,10 +417,7 @@ h1.hero-title {
     gap: 20px;
     flex-wrap: wrap;
 }
-.btn-3-outline {
-    background: #ffffff;
-    color: rgb(235, 98, 0);
-}
+
 /* Blue 3D Button */
 .btn-3d-blue {
     display: inline-flex;
@@ -980,6 +977,10 @@ h1.hero-title {
     font-weight: 600;
     overflow: hidden;
     transition: 0.3s ease;
+}
+.btn-3-outline {
+    background: #ffffff;
+    color: rgb(235, 98, 0);
 }
 
 
