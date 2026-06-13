@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded", function () {
           const footerData = {
 
             brand: {
-                logo: "./img/logo.jpeg",
+                logo: "./img/logoimg1.png",
                 alt: "Lasermart",
                 desc: "We provide high-quality medical instruments and surgical equipment. Trusted by hospitals and clinics across India since 2010.",
 
