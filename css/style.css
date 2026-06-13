@@ -1161,9 +1161,9 @@ h1.hero-title {
     text-align: center;
     filter: brightness(0) invert(1);    
 }
-#logo-slide-1{
-     width: 120px;
-    height: 120px;
+#logo-slide-1 img{
+     width: 120px ;
+    height: 120px ;
 }
 
 .slide-content h3 {
