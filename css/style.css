@@ -979,8 +979,8 @@ h1.hero-title {
     transition: 0.3s ease;
 }
 .btn-3-outline {
-    background: #ffffff;
-    color: rgb(235, 98, 0);
+    background: #ffffff !important;
+    color: rgb(235, 98, 0) !important;
 }
 
 
