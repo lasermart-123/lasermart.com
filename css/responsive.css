@@ -232,7 +232,8 @@
         padding:16px;
     }
     .hero-content.first-box{
-      width:100%;    
+      width:100%;
+      max-width:100%;
     }
     
     
@@ -509,7 +510,8 @@
             padding: 17px;            
         }
        .hero-content.first-box{
-          width:100%;        
+          width:100%; 
+          max-width:100%;
          }
     
 }
