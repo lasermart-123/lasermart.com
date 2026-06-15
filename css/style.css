@@ -3205,8 +3205,9 @@ a.atb-laser1-btn {
     content: "";
     position: absolute;
     inset: 0;
-    background: linear-gradient(135deg, rgb(3 43 98 / 85%), rgb(3 43 98 / 85%));
+    background: linear-gradient(135deg, rgb(2 2 2 / 78%), rgb(0 0 0 / 70%));
     transition: .6s ease;
+    /* background: rgb(0 0 0 / 62%); */
 }
 
 /* Orange → Pink */
@@ -3318,8 +3319,8 @@ section.atb-brand-bottom-content {
     display: inline-block;
     width: fit-content;
     padding: 12px 21px;
-    background: #ffffff;
-    color: #000000;
+    background:#000000;
+    color: #ffffff;
     font-weight: 700;
     text-decoration: none;
     border-radius: 50px;
@@ -3331,7 +3332,7 @@ section.atb-brand-bottom-content {
 }
 
 .brand-learn-btn:hover {
-    background: #032b62;
+    background: rgb(235, 98, 0);
     color: #fff;
     transform: translateY(-3px);
 }
