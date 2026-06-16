@@ -4,12 +4,12 @@ $(document).ready(function(){
 
     $('.my-slider').slick({
         slidesToShow: 5,
-        slidesToScroll: 1,
+        slidesToScroll: 2,
         arrows: true,
         dots: false,
         infinite: true,
         autoplay: true,
-        autoplaySpeed: 300,
+        autoplaySpeed: 200,
 
         responsive: [
             {
