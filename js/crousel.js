@@ -4,7 +4,7 @@ $(document).ready(function(){
 
     $('.my-slider').slick({
         slidesToShow: 5,
-        slidesToScroll: 2,
+        slidesToScroll: 1,
         arrows: true,
         dots: false,
         infinite: true,
