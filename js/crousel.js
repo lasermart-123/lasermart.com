@@ -48,6 +48,50 @@ $(document).ready(function(){
             }
         ]
     });
+     $('.laserSlider-left').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,        
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 2500,
+
+        responsive: [
+            {
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ]
+    });
+     $('.laserSlider-right').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,        
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 2500,
+
+        responsive: [
+            {
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ]
+    });
 
 });
 
