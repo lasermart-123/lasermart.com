@@ -63,121 +63,59 @@
 </head>
 <body>
 
-<div class="container py-5">
+<div id="customSlider" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
 
-    <div class="row">
-
-        <!-- Left Slider -->
-        <div class="col-lg-6">
-            <div id="leftSlider" class="carousel slide slider-box" data-bs-ride="carousel">
-
-                <div class="carousel-inner">
-
-                    <div class="carousel-item active">
-                        <img src="https://picsum.photos/id/1015/800/500" alt="">
-                        <div class="overlay-content">
-                            <h3>Left Slide 1</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <img src="https://picsum.photos/id/1025/800/500" alt="">
-                        <div class="overlay-content">
-                            <h3>Left Slide 2</h3>
-                            <p>Professional laser treatment solutions.</p>
-                        </div>
-                    </div>
-
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="https://picsum.photos/800/500?1" class="img-fluid rounded">
                 </div>
-
-                <button class="carousel-control-prev" type="button" data-bs-target="#leftSlider" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </button>
-
-                <button class="carousel-control-next" type="button" data-bs-target="#leftSlider" data-bs-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </button>
-
+                <div class="col-md-6 p-5">
+                    <h2>Slide 1</h2>
+                    <p>Image Left, Content Right</p>
+                </div>
             </div>
         </div>
 
-        <!-- Right Slider -->
-        <div class="col-lg-6">
-            <div id="rightSlider" class="carousel slide slider-box" data-bs-ride="carousel">
-
-                <div class="carousel-inner">
-
-                    <div class="carousel-item active">
-                        <img src="https://picsum.photos/id/1040/800/500" alt="">
-                        <div class="overlay-content">
-                            <h3>Right Slide 1</h3>
-                            <p>Advanced medical technology solutions.</p>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <img src="https://picsum.photos/id/1060/800/500" alt="">
-                        <div class="overlay-content">
-                            <h3>Right Slide 2</h3>
-                            <p>High precision laser systems.</p>
-                        </div>
-                    </div>
-
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+            <div class="row align-items-center">
+                <div class="col-md-6 p-5">
+                    <h2>Slide 2</h2>
+                    <p>Content Left, Image Right</p>
                 </div>
+                <div class="col-md-6">
+                    <img src="https://picsum.photos/800/500?2" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
 
-                <button class="carousel-control-prev" type="button" data-bs-target="#rightSlider" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </button>
-
-                <button class="carousel-control-next" type="button" data-bs-target="#rightSlider" data-bs-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </button>
-
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="https://picsum.photos/800/500?3" class="img-fluid rounded">
+                </div>
+                <div class="col-md-6 p-5">
+                    <h2>Slide 3</h2>
+                    <p>Image Left, Content Right</p>
+                </div>
             </div>
         </div>
 
     </div>
 
-    <!-- Bottom Slider -->
-    <div class="row">
-        <div class="col-12">
+    <button class="carousel-control-prev" type="button"
+        data-bs-target="#customSlider" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
 
-            <div id="bottomSlider" class="carousel slide slider-box" data-bs-ride="carousel">
-
-                <div class="carousel-inner">
-
-                    <div class="carousel-item active">
-                        <img src="https://picsum.photos/id/1050/1200/500" alt="">
-                        <div class="overlay-content">
-                            <h3>Bottom Slide 1</h3>
-                            <p>Complete medical laser solutions for clinics and hospitals.</p>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <img src="https://picsum.photos/id/1074/1200/500" alt="">
-                        <div class="overlay-content">
-                            <h3>Bottom Slide 2</h3>
-                            <p>Trusted by healthcare professionals worldwide.</p>
-                        </div>
-                    </div>
-
-                </div>
-
-                <button class="carousel-control-prev" type="button" data-bs-target="#bottomSlider" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </button>
-
-                <button class="carousel-control-next" type="button" data-bs-target="#bottomSlider" data-bs-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </button>
-
-            </div>
-
-        </div>
-    </div>
-
+    <button class="carousel-control-next" type="button"
+        data-bs-target="#customSlider" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
