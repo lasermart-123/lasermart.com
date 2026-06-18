@@ -9,13 +9,7 @@
 body {
     background: #0c0808;
 }
-.laserSlider-right{
-    direction: rtl;
-}
 
-.laserSlider-right .slide-box{
-    direction: ltr;
-}
 .preloader {
     position: fixed;
     top: 0;
