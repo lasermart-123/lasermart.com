@@ -9,13 +9,7 @@
 body {
     background: #0c0808;
 }
-.laserSlider-right{
-    direction: rtl;
-}
 
-.laserSlider-right .slide-box{
-    direction: ltr;
-}
 .preloader {
     position: fixed;
     top: 0;
@@ -2007,6 +2001,28 @@ h1.hero-title {
     color: #d7d7d7;
     font-size: 17px;
     line-height: 1.8;
+}
+.slide-logo-abt {
+    position: relative;   
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.slide-logo-abt img {
+    width: 85px;
+    height: 85px;
+    object-fit: contain;
+    margin: auto;
+    text-align: center;
+    filter: brightness(0) invert(1);    
+}
+.laserSlider-right{
+    direction: rtl;
+}
+
+.laserSlider-right .slide-box{
+    direction: ltr;
 }
 
 /*=============== Dual.Page =====================*/
