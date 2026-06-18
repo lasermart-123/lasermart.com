@@ -53,9 +53,9 @@ $(document).ready(function(){
         slidesToScroll: 1,        
         infinite: true,
         autoplay: true,
-          rtl: true,
         autoplaySpeed: 2500,
-
+        rtl: true,  
+     
         responsive: [
             {
                 breakpoint: 991,
