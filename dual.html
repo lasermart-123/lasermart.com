@@ -1,144 +1,924 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Image Content Sliders</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laser Hero Section</title>
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<style>
-.grid-box{
-    display:grid;
-    grid-template-columns:repeat(5,1fr);
-    gap:20px;
-}
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <!-- Style.Css -->
+    <link rel="stylesheet" href="./css/style.css">
+     <link rel="stylesheet" href="./css/responsive.css">
 
-.service-box{
-    background:#0f6fb3;
-    color:#fff;
-    text-align:center;
-    padding:30px 15px;
-    min-height:170px;
-    border-radius:4px;
-    position:relative;
-}
+    <!-- Slick CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 
-.service-box::before,
-.service-box::after{
-    content:'';
-    position:absolute;
-    top:0;
-    bottom:0;
-    width:1px;
-    background:#fff;
-}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+     <!--font-family-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-.service-box::before{
-    left:-10px;
-}
 
-.service-box::after{
-    right:-10px;
-}
-
-.service-box img{
-    width:50px;
-    height:50px;
-    object-fit:contain;
-    margin-bottom:20px;
-}
-
-.service-box h4{
-    font-size:20px;
-    line-height:1.4;
-    margin:0;
-    font-weight:600;
-}
-
-@media(max-width:991px){
-    .grid-box{
-        grid-template-columns:repeat(3,1fr);
-    }
-}
-
-@media(max-width:576px){
-    .grid-box{
-        grid-template-columns:repeat(2,1fr);
-    }
-}
-</style>
 </head>
+
 <body>
 
-<div class="swiper mySwiper">
-    <div class="swiper-wrapper">
+  <div class="preloader" id="preloader">
+        <div class="theme-loader"></div>
+    </div>
 
-        <!-- Slide 1 -->
-        <div class="swiper-slide">
-            <div class="grid-box">
+<header class="main-header">
 
-                <div class="service-box">
-                    <img src="icon1.png" alt="">
-                    <h4>Energy Initiatives</h4>
+        <div class="container">
+
+            <nav class="navbar navbar-expand-lg navbar-dark">
+
+                <!-- Logo -->
+                <a class="navbar-brand logo" href="index.html">
+                    <img src="./img/logoimg1.png" alt="logo" loading="lazy">
+                </a>
+
+                <!-- Mobile Toggle -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Menu -->
+                <div class="collapse navbar-collapse" id="navbarContent">
+
+                    <ul class="navbar-nav mx-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="product.html">Products</a>
+                        </li>                       
+                         <li class="nav-item dropdown">
+
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                               Training
+                            </a>
+
+                            <ul class="dropdown-menu custom-dropdown">
+
+                                <li>
+                                    <a class="dropdown-item" href="#">Proctology</a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="#">Varicose vein</a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="#">Cosmo Gynaecology</a>
+                                </li>
+
+                            </ul>
+
+                        </li>
+                          <li class="nav-item dropdown">
+
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                               Application
+                            </a>
+
+                            <ul class="dropdown-menu custom-dropdown">
+
+                                <li>
+                                    <a class="dropdown-item" href="proctology.html">Proctology</a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="varicose-veins.html">Varicose vein</a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="#">Cosmetic Gynaecology</a>
+                                </li>
+
+                            </ul>
+
+                        </li>
+
+                        <!--<li class="nav-item dropdown position-static">
+
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                                Specialities
+                            </a>
+
+                            <div class="dropdown-menu mega-menu">
+
+                                <div class="container">
+
+                                    <div class="row">
+
+                                        <!-- Column 1 --
+                                        <div class="col-lg-3">
+
+                                            <h5>Laser Treatments</h5>
+
+                                            <a href="#">Urology Laser</a>
+                                            <a href="#">ENT Laser</a>
+                                            <a href="#">Gynecology Laser</a>
+                                            <a href="#">Proctology Laser</a>
+
+                                        </div>
+
+                                        <!-- Column 2 --
+                                        <div class="col-lg-3">
+
+                                            <h5>Medical Devices</h5>
+
+                                            <a href="#">Fiber Devices</a>
+                                            <a href="#">Laser Accessories</a>
+                                            <a href="#">Surgical Tools</a>
+                                            <a href="#">Safety Products</a>
+
+                                        </div>
+
+                                        <!-- Column 3 --
+                                        <div class="col-lg-3">
+
+                                            <h5>Support</h5>
+
+                                            <a href="#">Installation</a>
+                                            <a href="#">Training</a>
+                                            <a href="#">Maintenance</a>
+                                            <a href="#">Consultation</a>
+
+                                        </div>
+
+                                        <!-- Column 4 --
+                                        <div class="col-lg-3">
+
+                                            <h5>Contact</h5>
+
+                                            <a href="#">Book Demo</a>
+                                            <a href="#">Talk to Expert</a>
+                                            <a href="#">Customer Care</a>
+                                            <a href="#">Service Center</a>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </li>-->
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gallery</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+
+                    </ul>
+
+                    <!-- Button -->
+                    <a href="#" class="header-btn btn-3d-outline">
+                        Get Started
+                    </a>
+
                 </div>
 
-                <div class="service-box">
-                    <img src="icon2.png" alt="">
-                    <h4>Healthcare</h4>
-                </div>
+            </nav>
 
-                <div class="service-box">
-                    <img src="icon3.png" alt="">
-                    <h4>Jewellery & Lifestyle</h4>
-                </div>
-
-                <!-- 15 Boxes -->
-            </div>
         </div>
 
-        <!-- Slide 2 -->
-        <div class="swiper-slide">
-            <div class="grid-box">
+    </header>
+   <!-- About-section-start-->
+    <section class="about-hero">
 
-                <div class="service-box">
-                    <img src="icon4.png" alt="">
-                    <h4>Laser Surgery</h4>
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <!-- LEFT CONTENT -->
+                <div class="col-lg-6">
+
+                    <div class="about-content">
+
+                        <span class="about-tag">
+                            About Lasermart
+                        </span>
+
+                        <h1>
+                            Advancing Surgical Precision 
+                            <span>Across Every Specialty</span>
+                        </h1>
+
+                        <p>
+                            Lasermart is a trusted provider of advanced medical laser and energy-based surgical solutions,
+                            serving hospitals, clinics, and healthcare professionals across multiple specialties.
+                            <br><br>Driven by innovation, precision, and clinical relevance, we help surgeons adapt modern technologies designed to enhance surgical efficiency,
+                            improve patient recovery, and support better clinical outcomes. <br><br>
+                           At Lasermart, we understand that choosing the right technology is more than a purchasing
+                            decision - it is a step toward advancing patient care and building future-ready surgical practices.
+                        </p>
+
+
+                        <div class="hero-btns">
+
+                            <a href="#" class="btn-primary-custom">
+                                Explore Products
+                            </a>
+
+                            <a href="contact.html" class="btn-outline-custom">
+                                Contact Us
+                            </a>
+
+                        </div>
+
+                    </div>
+
                 </div>
 
-                <div class="service-box">
-                    <img src="icon5.png" alt="">
-                    <h4>ENT Procedures</h4>
-                </div>
+                <!-- RIGHT IMAGE -->
+                <div class="col-lg-6">
 
-                <!-- More Boxes -->
+                    <div class="about-image">
+
+                        <div class="image-bg"></div>
+
+                        <img src="./img/Speciality/right-img1.jfif" alt="about">
+
+                        <!-- FLOATING CARD -->
+                        <div class="floating-card">
+                            <img src="./img/Speciality/advance-icon.jfif" alt="advance">
+
+                            <!--<i class="fas fa-heartbeat"></i>-->
+
+                            <div>
+                                <h5>Advanced Care</h5>
+                                <p>Modern Laser Solutions</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                   <div class="row mt-4">
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="atb-hero-box">
+                                <div class="atb-icon">
+                                    <i class="fas fa-brain"></i>
+                                </div>
+                                <h4>Clinical Understanding</h4>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="atb-hero-box">
+                                <div class="atb-icon">
+                                    <i class="fas fa-user-md"></i>
+                                </div>
+                                <h4>Speciality-Focused Consultation</h4>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="atb-hero-box">
+                                <div class="atb-icon">
+                                    <i class="fas fa-microchip"></i>
+                                </div>
+                                <h4>Advanced Technologies</h4>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="atb-hero-box">
+                                <div class="atb-icon">
+                                    <i class="fas fa-shield-alt"></i>
+                                </div>
+                                <h4>Reliable Support</h4>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="atb-hero-box">
+                                <div class="atb-icon">
+                                    <i class="fas fa-chart-line"></i>
+                                </div>
+                                <h4>Long-Term Partnership</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="pera mt-3">With growing presence and commitment to excellence,
+                        Lasermart continues to support healthcare professionals with solutions tailored to modern surgical needs.
+                    </p>
+
+                </div>
 
             </div>
+
+
+        </div>
+
+    </section>
+    <!--About-section-end-->
+    <!-- Why-choose-us-section-start -->
+
+    <section class="why-choose-section">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <!-- LEFT IMAGE -->
+
+                <div class="col-lg-6">
+
+
+                    <div class="why-image">
+
+                        <div class="image-circle"></div>
+
+                        <img src="./img/Speciality/right-img1.jfif" alt="why choose">
+
+                        <!-- FLOATING EXPERIENCE CARD -->
+
+                        <div class="experience-card">
+
+                            <h3>15+</h3>
+                            <p>Years Experience</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- RIGHT CONTENT -->
+                <div class="col-lg-6">
+
+                    <div class="why-content">
+                        <span class="section-tag">
+                            Why Choose Us
+                        </span>
+
+                        <h2>
+                            Delivering Precision Through
+                            <span>Advanced Laser Technology</span>
+                        </h2>
+
+                        <!-- FEATURES -->
+
+                        <div class="features-grid">
+
+                            <div class="features-box">
+
+                               <img src="./img/user.png" alt="user">
+
+                                <div>
+                                    <h5>Multi-speciality Expertise</h5>
+                                    <p>Modern laser systems for accurate treatments.</p>
+                                </div>
+
+                            </div>
+
+                            <div class="features-box">
+
+                               <img src="./img/driven.png" alt="driven">
+
+                                <div>
+                                    <h5>Precision-Driven Solutions</h5>
+                                    <p>Professional guidance and medical assistance.</p>
+                                </div>
+
+                            </div>
+
+                            <div class="features-box">
+
+                               <img src="./img/advance.png" alt="advance">
+
+                                <div>
+                                    <h5>Advanced Technologies</h5>
+                                    <p>Reliable and internationally approved devices.</p>
+                                </div>
+
+                            </div>
+
+                            <div class="features-box">
+
+                                <img src="./img/surgeon.png" alt="surgeon">
+
+                                <div>
+                                    <h5>Surgeon-Focused Approach</h5>
+                                    <p>Dedicated customer support anytime.</p>
+                                </div>
+
+                            </div>
+                            <div class="features-box">
+
+                               <img src="./img/traning-user.png" alt="training">
+
+                                <div>
+                                    <h5>Training & Support Focused</h5>
+                                    <p>Dedicated customer support anytime.</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Why-choose-us-section-end-->
+    <!-- Counter-Section-Start-->
+
+    <div class="atb-count" id="counter-section">       
+
+        <div class="container">
+
+            <div class="row">
+
+                <!-- COUNTER 1 -->
+                <div class=" col-lg-3 col-md-6 col-12">
+                    <div class="counter-container aos-init aos-animate" data-aos="fade-up" data-aos-duration="800" data-aos-delay="0" id="counter-line">
+                        <i class="fas fa-tools"></i>
+
+                        <div class="counter-content">
+                            <div class="counter-wrapper">
+                                <div class="counter" data-target="500">500</div>
+                                <span class="plus">+</span>
+                            </div>
+                            <span>Instalitaions</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- COUNTER 2 -->
+               <div class="col-lg-3 col-md-6 col-12">
+                    <div class="counter-container aos-init aos-animate" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" id="counter-line">
+                        <i class="fas fa-user-doctor"></i>
+
+                        <div class="counter-content">
+                            <div class="counter-wrapper">
+                                <div class="counter" data-target="1000">1,000</div>
+                                <span class="plus">+</span>
+                            </div>
+
+                            <span>Sergeons Assisted</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- COUNTER 3 -->
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="counter-container aos-init aos-animate" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400" id="counter-line">
+                        <i class="fa-solid fa-street-view"></i>
+
+                        <div class="counter-content">
+                            <div class="counter-wrapper">
+                                <div class="counter" data-target="50">50</div>
+                                <span class="plus">+</span>
+                            </div>
+                            <span>Cities</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- COUNTER 4 -->
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="counter-container aos-init aos-animate" data-aos="fade-up" data-aos-duration="800" data-aos-delay="600">
+                        <i class="fas fa-headset"></i>
+                        <div class="counter-content">
+                            <h4 class="counters">24/7</h4>
+                            <span>Support</span>
+                        </div>
+                    </div>
+                </div>        
+
+            </div>
+
         </div>
 
     </div>
 
-    <div class="swiper-pagination"></div>
+    <!-- COUNTER SECTION END -->
+    <!-- vision-mission-section-->
+
+    <section class="vision-mission">
+
+        <div class="vm-box">
+
+            <!-- VISION -->
+            <div class="vision-area">
+
+                <h2>OUR VISION</h2>
+
+                <div class="vision-content">
+
+                    <div class="vision-icon">
+                        <img src="./img/telescope.png" alt="telescope" loading="lazy">
+                    </div>
+
+                    <div class="divider"></div>
+
+                    <p>
+                        To become <span>India's most trusted</span> parter for advanced surgical laser and energy-based medical solutions.
+                        
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- MISSION -->
+            <div class="mission-area">
+
+                <h2>OUR MISSION</h2>
+
+                <!-- ITEM -->
+                <div class="mission-item">
+
+                    <div class="left-side">
+                        <img src="./img/technology.png" alt="technology" loading="lazy">
+                        <span></span>
+                    </div>
+
+                    <p>
+                        
+                        Enable access to <strong>modern and advanced</strong> surgical technologies.
+                    </p>
+
+                </div>
+
+                <!-- ITEM -->
+                <div class="mission-item">
+
+                    <div class="left-side">
+                        <img src="./img/psychiatrist.png" alt="psychiatrist" loading="lazy">
+                        <span></span>
+                    </div>
+
+                    <p>
+                       
+                        Support surgeons with the <strong>right solutions</strong> for their speciality and practice.
+                    </p>
+
+                </div>
+
+                <!-- ITEM -->
+                <div class="mission-item">
+
+                    <div class="left-side">
+                        <img src="./img/sales.png" alt="sales-support" loading="lazy">
+                        <span></span>
+                    </div>
+
+                    <p>
+                       
+                        Deliver <strong>dependable service, training</strong> and after-sales support.
+                    </p>
+
+                </div>
+
+                <!-- ITEM -->
+                <div class="mission-item">
+
+                    <div class="left-side">
+                        <img src="./img/Speciality/settings.png" alt="bulbleb" loading="lazy">
+                        <span></span>
+                    </div>
+
+                    <p>
+                        Drive <strong>innovation</strong> and clinical excellence across specialities.
+                    </p>
+
+                </div>
+
+                <!-- ITEM -->
+                <div class="mission-item border-none">
+
+                    <div class="left-side">
+                        <img src="./img/handshake.png" alt="handshake" loading="lazy">
+                        <span></span>
+                    </div>
+
+                    <p>
+                       
+                        Build <strong>long-term partnerships</strong> that help practices grow and thrive
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Solutions Section Start -->
+<div class="laser-solutions-section" id="laser-solutions">
+    <div class="laser-overlay"></div>
+
+    <div class="container">
+        <div class="laser-wrapper">
+
+            <h4 class="laser-heading">
+                Laser Solutions For <span class="highlight-text">Better Outcome</span>
+            </h4>
+
+            <div class="laser-divider"></div>
+
+            <div class="laser-slider" id="laserSlider">
+
+                <!-- Card 1 -->
+                <div class="laser-card">
+                    <div class="laser-icon">
+                        <img src="./img/piles.png" alt="Piles" loading="lazy">
+                    </div>
+                    <div class="laser-text">
+                        <h3>Piles/Hemorrhoids</h3>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="laser-card">
+                    <div class="laser-icon">
+                        <img src="./img/fissurs-2.png" alt="Fissures" loading="lazy">
+                    </div>
+                    <div class="laser-text">
+                        <h3>Fissures</h3>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="laser-card">
+                    <div class="laser-icon">
+                        <img src="./img/fistula.png" alt="Fistula" loading="lazy">
+                    </div>
+                    <div class="laser-text">
+                        <h3>Fistula</h3>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="laser-card">
+                    <div class="laser-icon">
+                        <img src="./img/legs.png" alt="Varicose Veins" loading="lazy">
+                    </div>
+                    <div class="laser-text">
+                        <h3>Varicose Veins</h3>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="laser-card">
+                    <div class="laser-icon">
+                        <img src="./img/body-contouring.png" alt="Body Lipolysis" loading="lazy">
+                    </div>
+                    <div class="laser-text">
+                        <h3>Body Lipolysis</h3>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="laser-card">
+                    <div class="laser-icon">
+                        <img src="./img/gynecomastia.png" alt="Gynecomastia" loading="lazy">
+                    </div>
+                    <div class="laser-text">
+                        <h3>Gynecomastia</h3>
+                    </div>
+                </div>
+
+                <!-- Card 7 -->
+                <div class="laser-card">
+                    <div class="laser-icon">
+                        <img src="./img/bedsores.png" alt="Bedsores" loading="lazy">
+                    </div>
+                    <div class="laser-text">
+                        <h3>Bedsores</h3>
+                    </div>
+                </div>
+
+                <!-- Card 8 -->
+                <div class="laser-card">
+                    <div class="laser-icon">
+                        <img src="./img/Non-Healing Ulcers.png" alt="Non-Healing Ulcers" loading="lazy">
+                    </div>
+                    <div class="laser-text">
+                        <h3>Non-Healing Ulcers</h3>
+                    </div>
+                </div>
+
+                <!-- Card 9 -->
+                <div class="laser-card">
+                    <div class="laser-icon">
+                        <img src="./img/Stress Urine Incontinence.png" alt="Stress Urine Incontinence" loading="lazy">
+                    </div>
+                    <div class="laser-text">
+                        <h3>Stress Urine Incontinence</h3>
+                    </div>
+                </div>
+
+                <!-- Card 10 -->
+                <div class="laser-card">
+                    <div class="laser-icon">
+                        <img src="./img/ent.png" alt="ENT Procedures" loading="lazy">
+                    </div>
+                    <div class="laser-text">
+                        <h3>ENT Procedures</h3>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Solutions Section End -->
+
+
+  <!-- CTA-section-start-->
+    <section class="consultation-banner">
+        <div class="container">
+            <div class="row">
+                <div class="atb-cta">
+                    <div class="banner-content">
+
+                        <!-- Left Content -->
+                        <div class="banner-text">
+                            <h2>Not Sure Which Laser Is Right For You?</h2>
+                            <p>Talk to Our Laser Expert Today.</p>
+                        </div>
+
+                        <!-- Button -->
+                       <div class="banner-btn">
+                            <a href="tel:+91 89700 72991">Call us +91 89700 72991</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--CTA-section-end-->
+    <div id="footer-placeholder"></div>
+
+    <!-- Footer Structure - Khali hai, JS se data aayega -->
+
+    <footer class="footer-main" id="dynamic-footer">
+
+        <div class="container">
+            <div class="row" id="footer-content"></div>
+        </div>
+
+        <div class="footer-bottom">
+
+            <div class="container footer-bottom-content">
+
+                <p id="footer-copyright"></p>
+
+                <div class="footer-policy-links">
+
+                    <a href="/privacy-policy">
+                        Privacy Policy
+                    </a>
+
+                    <span>|</span>
+
+                    <a href="/terms-condition">
+                        Terms & Conditions
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+    <div class="contact-btn-right">
+
+        <!-- Phone -->
+        <a href="tel:+918970072991" class="btn-floating phone">
+
+            <img src="https://i.imgur.com/FZuns9L.png" alt="Phone">
+
+        </a>
+
+        <!-- WhatsApp -->
+        <a href="https://wa.me/919258372575?text=Hello%20Lasermart,%20I%20want%20to%20know%20about%20your%20products"
+            target="_blank" class="btn-floating whatsapp">
+
+            <img src="https://i.imgur.com/LBW2Lso.png" alt="WhatsApp">
+
+        </a>
+        <!-- Scroll Top -->
+        <button class="scroll-top" id="scrollTopBtn">
+
+            <span class="fa fa-angle-up"></span>
+
+        </button>
+
+    </div>
+      
+    <div class="chat-icon" onclick="openChat()">
+💬
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!-- POPUP -->
 
-<script>
-new Swiper(".mySwiper", {
-    loop: true,
-    autoplay: {
-        delay: 3000,
-        disableOnInteraction: false,
-    },
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    },
-});
-</script>
+<div class="welcome-popup" id="welcomePopup">
 
+  <div class="popup-close" onclick="closePopup()">×</div>
+
+  <h3>Welcome to Lasermart 👋</h3>
+
+  <p>
+    India’s advanced energy-based surgical solutions partner.
+    <br><br>
+    How may we assist you today?
+  </p>
+
+</div>
+
+<!-- CHATBOT -->
+
+<div class="chatbot" id="chatbot">
+
+  <!-- HEADER -->
+
+  <div class="header">
+
+    <div class="header-top">
+
+      <div class="chat-logo-area">
+
+        <div class="chat-logo">L</div>
+
+        <div class="title">
+          <h2>Lasermart</h2>
+          <p>Here for You 24/7</p>
+        </div>
+
+      </div>
+
+      <div style="cursor:pointer;font-size:28px;" onclick="closeChat()">×</div>
+
+    </div>
+
+  </div>
+
+  <!-- CHAT AREA -->
+
+  <div class="chatbox" id="chatbox">
+
+  </div>
+
+  <!-- INPUT -->
+
+  <div class="input-area">
+
+    <div class="input-box">
+
+      <div class="plus">+</div>
+
+      <input type="text" placeholder="Message Lasermart Assist..." />
+
+      <div class="mic">🎤</div>
+
+    </div>
+
+  </div>
+
+</div>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!--slick-->
+    <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- main.js -->
+    <script>
+        AOS.init()
+
+    </script>
+    <script src="./js/main.js"></script>
+    <script src="./js/crousel.js"></script>
+    <script src="./js/counter.js"></script>
+    <script src="./js/custom.js"></script>
+
+  
 </body>
 </html>
