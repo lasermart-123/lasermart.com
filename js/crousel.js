@@ -28,7 +28,8 @@ $(document).ready(function(){
     });
      $('.laserSlider').slick({
         slidesToShow: 5,
-        slidesToScroll: 1,        
+        slidesToScroll: 1, 
+        arrows: false,
         infinite: true,
         autoplay: true,
         autoplaySpeed: 2500,
@@ -50,7 +51,8 @@ $(document).ready(function(){
     });
      $('.laserSlider-left').slick({
         slidesToShow: 5,
-        slidesToScroll: 1,        
+        slidesToScroll: 1,
+         arrows: false,
         infinite: true,
         autoplay: true,
         autoplaySpeed: 2500,         
@@ -72,7 +74,8 @@ $(document).ready(function(){
     });
      $('.laserSlider-right').slick({
         slidesToShow: 5,
-        slidesToScroll: 1,        
+        slidesToScroll: 1, 
+          arrows: false,
         infinite: true,
         autoplay: true,
         autoplaySpeed: 2500, 
