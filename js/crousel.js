@@ -76,8 +76,8 @@ $(document).ready(function(){
         infinite: true,
         autoplay: true,
         autoplaySpeed: 2500, 
-        cssEase: 'linear',
-         rtl: true
+        cssEase: 'linear',       
+        rtl: true,
 
         responsive: [
             {
