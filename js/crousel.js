@@ -75,8 +75,7 @@ $(document).ready(function(){
         slidesToScroll: 1,        
         infinite: true,
         autoplay: true,
-        autoplaySpeed: 2500,
-        rtl: true,
+        autoplaySpeed: 2500,      
 
         responsive: [
             {
