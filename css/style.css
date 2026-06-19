@@ -2040,14 +2040,21 @@ h4.sub-titles-abt {
 /*.laserSlider-right .slide-box{
     direction: ltr;
 }*/
-.journey-wrapper {
+section.jurney-section {
+    padding-top: 60px;
+}
+       .journey-wrapper {
             display: flex;
             justify-content: space-between;
             position: relative;
             text-align: center;
-            gap: 20px;
-            padding:47px
+            gap: 20px;          
         }
+       section.jurney-section h4 {
+    color: #ffffff;
+    text-align: center;
+    padding: 47px;
+}
 
         .journey-step {
             flex: 1;
