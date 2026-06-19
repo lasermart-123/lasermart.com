@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", function () {
             brand: {
                 logo: "./img/logoimg1.png",
                 alt: "Lasermart",
-                desc: "We provide high-quality medical instruments and surgical equipment. Trusted by hospitals and clinics across India since 2010.",
+                desc: "Advanced energy-based surgical technologies across every speciality. Solutions designed to empower better outcomes since 2016.",
 
                 social: [
                     { icon: "fa-facebook-f", link: "https://facebook.com" },
@@ -127,11 +127,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 title: "Categories",
 
                 links: [
-                    { name: "General Instruments", url: "/general" },
-                    { name: "Surgical Tools", url: "/surgical" },
-                    { name: "Dental Equipment", url: "/dental" },
-                    { name: "Orthopedic", url: "/orthopedic" },
-                    { name: "Lab Instruments", url: "/lab" }
+                    { name: "Proctology", url: "/general" },
+                    { name: "Vascular Surgery", url: "/surgical" },
+                    { name: "Gynaecology", url: "/dental" },
+                    { name: "Plastic Surgery", url: "/orthopedic" },
+                    { name: "Urology", url: "/lab" }
                 ]
             },
 
