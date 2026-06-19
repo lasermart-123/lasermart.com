@@ -277,6 +277,32 @@ body {
     background: #1565ff;
     color: white;
 }
+.dropdown-submenu{
+    position: relative;
+}
+
+.dropdown-submenu .submenu{
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    min-width: 220px;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 0;
+}
+
+.dropdown-submenu:hover .submenu{
+    display: block;
+}
+
+.submenu li{
+    list-style: none;
+}
+
+.submenu .dropdown-item{
+    padding: 10px 15px;
+}
 
 /*======== MEGA MENU ===========*/
 
