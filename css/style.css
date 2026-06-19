@@ -2040,6 +2040,57 @@ h4.sub-titles-abt {
 /*.laserSlider-right .slide-box{
     direction: ltr;
 }*/
+.journey-wrapper {
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+            text-align: center;
+            gap: 20px;
+        }
+
+        .journey-step {
+            flex: 1;
+            position: relative;
+        }
+
+        /* Horizontal Line */
+        .journey-step:not(:last-child)::after {
+            content: "";
+            position: absolute;
+            top: 35px;
+            left: 60%;
+            width: 100%;
+            height: 2px;
+            background: #d9d9d9;
+            z-index: 0;
+        }
+
+        /* Arrow */
+        .journey-step:not(:last-child)::before {
+            content: "➜";
+            position: absolute;
+            top: 23px;
+            right: -12px;
+            color: #bcbcbc;
+            font-size: 16px;
+            z-index: 2;
+        }
+
+        .icon-box {
+            width: 70px;
+            height: 70px;
+            margin: auto;
+            border-radius: 50%;
+            background: #0a3b7a;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 26px;
+            border: 4px solid #eef2f7;
+            position: relative;
+            z-index: 3;
+        }
 
 /*=============== Dual.Page =====================*/
 .dual-hero {
