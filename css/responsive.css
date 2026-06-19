@@ -235,6 +235,19 @@
       width:100%;
       max-width:100%;
     }
+     .journey-wrapper {
+                flex-wrap: wrap;
+            }
+
+            .journey-step {
+                width: 50%;
+                flex: none;
+            }
+
+            .journey-step::before,
+            .journey-step::after {
+                display: none;
+            }
     
     
 }
