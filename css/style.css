@@ -2012,7 +2012,7 @@ h1.hero-title {
     justify-content: center;
     align-items: center;
     border: 1px solid #000000;
-    background: white;
+    /*background: white;*/
     width: 153px;
     clip-path: polygon(10px 0%, calc(100% - 10px) 0%, 100% 10px, 100% calc(100% - 10px), calc(100% - 10px) 100%, 10px 100%, 0% calc(100% - 10px), 0% 10px);
 }
