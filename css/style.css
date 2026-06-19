@@ -1062,6 +1062,110 @@ h1.hero-title {
     margin: 0;
     color: #ffffff;
 }
+.why-surgeons {
+            background: #111111;
+            color: #fff;
+        }
+
+        .small-title {
+            color: rgb(235, 98, 0);
+            letter-spacing: 3px;
+            font-size: 14px;
+        }
+
+        .why-surgeons h2 {
+            font-size: 52px;
+            font-weight: 700;
+        }
+
+        .why-surgeons h2 span {
+            color: rgb(235, 98, 0);
+        }
+
+        .sub-text {
+            color: rgb(235, 98, 0);
+            text-transform: uppercase;
+            letter-spacing: 4px;
+        }
+
+       
+
+        .feature-box:hover {
+            transform: translateY(-5px);
+        }
+
+       
+
+        .stat-box {
+            background: #101010;
+            border: 1px solid rgba(212, 162, 75, .3);
+            text-align: center;
+            padding: 20px;
+            height: 100%;
+        }
+
+        .stat-box h3 {
+            color: rgb(235, 98, 0);
+            font-size: 34px;
+            font-weight: 700;
+        }
+
+        .stat-box p {
+            margin: 0;
+            color: #fff;
+        }
+        .abt-flip-card{
+    height: 156px;
+    perspective: 1000px;
+}
+
+.abt-flip-card-inner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.abt-flip-card:hover .abt-flip-card-inner{
+    transform: rotateY(180deg);
+}
+
+.abt-flip-card-front,
+.abt-flip-card-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid rgb(235, 98, 0);
+    background: rgba(255,255,255,.04);
+}
+
+.abt-flip-card-front{
+    z-index: 2;
+}
+.abt-flip-card-front i {
+    font-size: 45px;
+    color: rgb(235, 98, 0);
+    margin-bottom: 15px;
+}
+
+.abt-flip-card-back{
+    transform: rotateY(180deg);
+    background: #111111;
+}
+.abt-flip-card-back p {
+    font-size: 15px;
+}
 
 
 
