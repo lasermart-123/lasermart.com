@@ -236,11 +236,13 @@
       max-width:100%;
     }
      .journey-wrapper {
+                display: flex;
                 flex-wrap: wrap;
+                gap: 20px;
             }
 
             .journey-step {
-                width: 50%;
+                width: calc(50% - 10px);
                 flex: none;
             }
 
