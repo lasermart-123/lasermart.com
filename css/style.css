@@ -2046,11 +2046,13 @@ h4.sub-titles-abt {
             position: relative;
             text-align: center;
             gap: 20px;
+            padding:47px
         }
 
         .journey-step {
             flex: 1;
             position: relative;
+            color:#ffffff;
         }
 
         /* Horizontal Line */
@@ -2076,12 +2078,12 @@ h4.sub-titles-abt {
             z-index: 2;
         }
 
-        .icon-box {
+        .journey-icon-box {
             width: 70px;
             height: 70px;
             margin: auto;
             border-radius: 50%;
-            background: #0a3b7a;
+            background: rgb(235, 98, 0);
             color: #fff;
             display: flex;
             align-items: center;
