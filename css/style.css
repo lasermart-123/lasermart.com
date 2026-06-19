@@ -2002,14 +2002,19 @@ h1.hero-title {
     font-size: 17px;
     line-height: 1.8;
 }
+.section-solution-abt {
+    background: #ffffff;
+}
+
 .slide-logo-abt {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid white;
+    border: 1px solid #000000;
     background: white;
-    width: 156px;
+    width: 153px;
+    clip-path: polygon(10px 0%, calc(100% - 10px) 0%, 100% 10px, 100% calc(100% - 10px), calc(100% - 10px) 100%, 10px 100%, 0% calc(100% - 10px), 0% 10px);
 }
 
 .slide-logo-abt img {
@@ -2019,6 +2024,11 @@ h1.hero-title {
     margin: auto;
     text-align: center;
     /* filter: brightness(0) invert(1); */
+}
+h4.sub-titles-abt {
+    text-align: center;
+    font-weight: 600;
+    color: #000000;
 }
 .laserSlider-right{
     direction: rtl;
