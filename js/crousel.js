@@ -32,7 +32,7 @@ $(document).ready(function(){
         arrows: false,
         infinite: true,
         autoplay: true,
-        autoplaySpeed: 2500,
+        autoplaySpeed: 2000,
 
         responsive: [
             {
@@ -55,7 +55,7 @@ $(document).ready(function(){
          arrows: false,
         infinite: true,
         autoplay: true,
-        autoplaySpeed: 2500,         
+        autoplaySpeed: 1900,         
      
         responsive: [
             {
@@ -78,7 +78,7 @@ $(document).ready(function(){
           arrows: false,
         infinite: true,
         autoplay: true,
-        autoplaySpeed: 2500, 
+        autoplaySpeed: 1600, 
         cssEase: 'linear',       
         rtl: true,
 
