@@ -1065,6 +1065,7 @@ h1.hero-title {
 .why-surgeons {
             background: #111111;
             color: #fff;
+           padding:80px 0px;
         }
 
         .small-title {
@@ -2105,6 +2106,7 @@ h1.hero-title {
 }
 .section-solution-abt {
     background: #ffffff;
+    padding-bottom:80px
 }
 
 .slide-logo-abt {
