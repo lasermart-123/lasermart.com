@@ -2007,19 +2007,22 @@ h1.hero-title {
 }
 
 .slide-logo-abt {
-    position: relative;
+    /* position: relative; */
     display: flex;
     justify-content: center;
+    width: 190px;
+    padding: 17px;
+    border-radius: 7px;
     align-items: center;
     /*border: 1px solid #000000;*/
-    /*background: white;*/
-    /*width: 153px;*/
+    background: white;
+    box-shadow: 0px 0px 7px 0px #dcdcdcad;
     /*clip-path: polygon(10px 0%, calc(100% - 10px) 0%, 100% 10px, 100% calc(100% - 10px), calc(100% - 10px) 100%, 10px 100%, 0% calc(100% - 10px), 0% 10px);*/
 }
 
 .slide-logo-abt img {
     width: 100%;
-    height: 83px;
+    height: 60px;
     object-fit: contain;
     margin: auto;
     text-align: center;
