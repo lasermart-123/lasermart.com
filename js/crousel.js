@@ -27,7 +27,7 @@ $(document).ready(function(){
         ]
     });
      $('.laserSlider').slick({
-        slidesToShow: 5,
+        slidesToShow: 4,
         slidesToScroll: 1, 
         arrows: false,
         infinite: true,
@@ -50,7 +50,7 @@ $(document).ready(function(){
         ]
     });
      $('.laserSlider-left').slick({
-        slidesToShow: 5,
+        slidesToShow: 4,
         slidesToScroll: 1,
          arrows: false,
         infinite: true,
@@ -73,7 +73,7 @@ $(document).ready(function(){
         ]
     });
      $('.laserSlider-right').slick({
-        slidesToShow: 5,
+        slidesToShow: 4,
         slidesToScroll: 1, 
           arrows: false,
         infinite: true,
