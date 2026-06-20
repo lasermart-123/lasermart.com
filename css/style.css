@@ -3958,7 +3958,7 @@ textarea.input {
 
 .map-section {
     padding: 80px 0;
-    background: #f8f9fa;
+    background: #000000;
 }
 
 .map-heading {
@@ -3969,12 +3969,12 @@ textarea.input {
 .map-heading h2 {
     font-size: 40px;
     font-weight: 700;
-    color: #0a2c6b;
+    color: #ffffff;
     margin-bottom: 10px;
 }
 
 .map-heading p {
-    color: #666;
+    color: #e3dcdc;
     font-size: 16px;
 }
 
