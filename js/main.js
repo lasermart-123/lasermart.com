@@ -103,10 +103,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 desc: "Advanced energy-based surgical technologies across every speciality. Solutions designed to empower better outcomes since 2016.",
 
                 social: [
-                    { icon: "fa-facebook-f", link: "https://facebook.com" },
+                    { icon: "fa-facebook-f", link: "https://www.facebook.com/Laser360Clinic/" },
                     { icon: "fa-twitter", link: "https://twitter.com" },
-                    { icon: "fa-instagram", link: "https://instagram.com" },
-                    { icon: "fa-linkedin-in", link: "https://linkedin.com" },
+                    { icon: "fa-instagram", link: "https://www.instagram.com/laser360clinic/" },
+                    { icon: "fa-linkedin-in", link: "https://in.linkedin.com/company/laser360clinic" },
                     { icon: "fa-youtube", link: "https://linkedin.com" }
                 ]
             },
@@ -115,11 +115,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 title: "Quick Links",
 
                 links: [
-                    { name: "Home", url: "/" },
-                    { name: "About Us", url: "/about" },
-                    { name: "Products", url: "/products" },
+                    { name: "Home", url: "index.html" },
+                    { name: "About Us", url: "about.html" },
+                    { name: "Products", url: "products.html" },
                     { name: "Services", url: "/services" },
-                    { name: "Contact", url: "/contact" }
+                    { name: "Contact", url: "contact.html" }
                 ]
             },
 
