@@ -291,13 +291,12 @@ body {
     border: 1px solid #ddd;
     padding: 0;
 }
-
-/*.dropdown-submenu:hover .submenu{
-    display: block;
-}*/
-.dropdown-submenu:focus-within .submenu {
+.dropdown-submenu:hover .submenu{
     display: block;
 }
+/*.dropdown-submenu:focus-within .submenu {
+    display: block;
+}*/
 
 .submenu li{
     list-style: none;
