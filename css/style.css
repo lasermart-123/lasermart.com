@@ -274,7 +274,7 @@ body {
 }
 
 .custom-dropdown .dropdown-item:hover {
-    background: #1565ff;
+    background: rgb(235, 98, 0);
     color: white;
 }
 .dropdown-submenu{
@@ -286,7 +286,7 @@ body {
     position: absolute;
     left: 100%;
     top: 0;
-    min-width: 220px;
+    min-width: 144px;
     background: #111827;
     border: 1px solid #ddd;
     padding: 0;
