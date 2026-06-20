@@ -3429,6 +3429,7 @@ a.atb-laser1-btn {
 }
 #application-boxes1 {
     height: 370px;
+    height:305px;
 }
 
 /* Orange Overlay */
@@ -3492,6 +3493,7 @@ a.atb-laser1-btn {
     font-size: 16px;
     font-weight: 800;
     margin-bottom: 25px;
+    margin-bottom: 15px;
     line-height: 1.1;
 }
 
@@ -3521,7 +3523,7 @@ a.atb-laser1-btn {
 }
 
 .content ul li {
-    margin-bottom: 15px;
+    margin-bottom: 9px;
     font-size: 15px;
     transition: .4s ease;
 }
