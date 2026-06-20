@@ -3495,6 +3495,7 @@ a.atb-laser1-btn {
     margin-bottom: 25px;
     margin-bottom: 15px;
     line-height: 1.1;
+    margin-top: -22px;
 }
 
 .brand-content h2 {
@@ -3560,7 +3561,7 @@ section.atb-brand-bottom-content {
     text-decoration: none;
     border-radius: 50px;
     transition: .4s ease;
-    margin-top: 37px;
+    margin-top: 46px;
 }
 
 #brand-btn {
@@ -3573,7 +3574,7 @@ section.atb-brand-bottom-content {
     transform: translateY(-3px);
 }
 a#brand-learn-btn-1 {
-    margin-top: 63px;
+    margin-top: 77px;
 }
 a#brand-learn-btn-2 {
     margin-top: -44px;
