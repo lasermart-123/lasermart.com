@@ -160,7 +160,7 @@ body {
 }
 
 .nav-link:hover {
-    color: #2979ff !important;
+    color: rgb(235, 98, 0) !important;
 }
 
 .nav-link.active {
