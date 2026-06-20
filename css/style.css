@@ -3520,6 +3520,7 @@ a.atb-laser1-btn {
     text-align: left;
     padding-left: 20px;
     margin: 0;
+    padding-bottom:27px
 }
 
 .content ul li {
@@ -3571,7 +3572,10 @@ section.atb-brand-bottom-content {
     transform: translateY(-3px);
 }
 a#brand-learn-btn-1 {
-    margin-top: 37px;
+    margin-top: 33px;
+}
+a#brand-learn-btn-2 {
+    margin-top: 33px;
 }
 
 
