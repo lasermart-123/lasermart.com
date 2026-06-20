@@ -292,7 +292,10 @@ body {
     padding: 0;
 }
 
-.dropdown-submenu.submenu{
+/*.dropdown-submenu:hover .submenu{
+    display: block;
+}*/
+.dropdown-submenu:focus-within .submenu {
     display: block;
 }
 
