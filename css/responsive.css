@@ -148,7 +148,35 @@
         width:350px;
         height:350px;
     }
-    
+     .dropdown-menu {
+        position: static !important;
+        width: 100%;
+        border: none;
+        box-shadow: none;
+    }
+
+    .dropdown-submenu {
+        position: relative;
+    }
+
+    .dropdown-submenu .submenu {
+        position: static !important;
+        display: none;
+        width: 100%;
+        margin-left: 15px;
+        padding-left: 10px;
+        border-left: 2px solid #ddd;
+    }
+
+    .dropdown-submenu.active .submenu {
+        display: block;
+    }
+
+    .dropdown-submenu > a {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
 @media(max-width:768px) {
@@ -250,6 +278,35 @@
             .journey-step::after {
                 display: none;
             }
+     .dropdown-menu {
+        position: static !important;
+        width: 100%;
+        border: none;
+        box-shadow: none;
+    }
+
+    .dropdown-submenu {
+        position: relative;
+    }
+
+    .dropdown-submenu .submenu {
+        position: static !important;
+        display: none;
+        width: 100%;
+        margin-left: 15px;
+        padding-left: 10px;
+        border-left: 2px solid #ddd;
+    }
+
+    .dropdown-submenu.active .submenu {
+        display: block;
+    }
+
+    .dropdown-submenu > a {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
     
     
 }
