@@ -292,7 +292,7 @@ body {
     padding: 0;
 }
 
-.dropdown-submenu:hover .submenu{
+.dropdown-submenu.submenu{
     display: block;
 }
 
