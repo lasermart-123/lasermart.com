@@ -1695,8 +1695,8 @@ h1.hero-title {
             object-fit: cover;
         }
 
-        .why-lasermart {
-            background: #06111f;
+        .why-lasermart {           
+            padding-top:60px;
         }
 
 
