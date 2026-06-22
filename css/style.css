@@ -3491,6 +3491,7 @@ a.atb-laser1-btn {
 }
 .video-wrapper{
     position:relative;
+    border:2px solid;
 }
 
 .play-icon{
@@ -3500,7 +3501,7 @@ a.atb-laser1-btn {
     transform:translate(-50%,-50%);
     width:80px;
     height:80px;
-    background:rgba(22,118,185,.9);
+    background:rgb(235, 98, 0);
     border-radius:50%;
     display:flex;
     align-items:center;
