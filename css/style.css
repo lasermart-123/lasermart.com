@@ -3523,28 +3523,27 @@ a.atb-laser1-btn {
     color: #ff2d2d;
 }
 
- .laser-line {
-            position: absolute;
-            left: 0;
-            right: 0;
-            top: 74%;
-            height: 3px;
-            transform: translateY(-50%);
-            background: linear-gradient(90deg,
-                    transparent,
-                    #ff3b3b,
-                    #ff8c66,
-                    #ff3b3b,
-                    transparent);
-            box-shadow:
-                0 0 10px #ff4444,
-                0 0 20px #ff4444,
-                0 0 40px #ff4444;
-        }
+.laser-line {
+    position: absolute;
+    left: 0;
+    right: 0;
+    /* bottom: 21px; */
+    /* top: -2%; */
+    height: 4px;
+    transform: translateY(-50%);
+    background: linear-gradient(90deg, transparent, #ff3b3b, #ff8c66, #ff3b3b, transparent);
+    box-shadow: 0 0 10px #ff4444, 0 0 20px #ff4444, 0 0 40px #ff4444;
+    /* position: relative; */
+    /* height: 3px; */
+    /* background: linear-gradient(to right, #ff2d2d, #ff7b7b, #ff2d2d); */
+    margin-top: -88px;
+    /* margin: 8px 0; */
+    /* box-shadow: 0 0 15px rgba(255, 0, 0, .8); */
+}
 
 .brain-circle{
-    width: 180px;
-    height: 180px;
+    width: 145px;
+    height: 145px;
     border-radius: 50%;
     background: radial-gradient(circle,#ff6b6b,#b30000);
     margin: auto;
