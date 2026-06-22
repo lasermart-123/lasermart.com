@@ -3459,11 +3459,13 @@ a.atb-laser1-btn {
     color: #ffffff;
     text-decoration: none;
 }
+.video-wrapper{
+    width: 100%;
+}
+
 .atb-ms-video{
     width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 10px;
+    height: 500px; /* apni requirement ke hisab se */
     object-fit: cover;
 }
 
