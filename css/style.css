@@ -3696,13 +3696,13 @@ a.atb-laser1-btn {
     transform: translateX(10px);
 }
 
-section.atb-brand-bottom-content {
+/*section.atb-brand-bottom-content {
     background: rgb(26, 26, 26);
     padding: 80px 0px;
     color: #ffffff;
     font-size: 20px;
     font-weight: 600;
-}
+}*/
 
 .brand-learn-btn {
     margin-top: auto;
