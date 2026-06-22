@@ -3492,8 +3492,7 @@ a.atb-laser1-btn {
     }
 }
 .video-wrapper{
-    position:relative;
-    border:2px solid;
+    position:relative;  
 }
 
 .play-icon{
