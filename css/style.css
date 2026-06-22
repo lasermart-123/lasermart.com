@@ -3512,46 +3512,23 @@ a.atb-laser1-btn {
 }
 
 
-  .science-section {
-            background: #000000;
-            padding-top: 40px;
-            overflow: hidden;
-        }
+  .dual-laser-section{
+    background: #050505;
+    color: #fff;
+    padding: 60px 0;
+    overflow: hidden;
+}
 
-        .science-left h4 {
-            color: #fff;
-            font-size: 33px;
-            font-weight: 700;
-            line-height: 1.1;
-        }
+.red-text{
+    color: #ff2d2d;
+}
 
-        .science-left p {
-            color: #d4d4d4;
-            margin-top: 15px;
-        }
-
-        .brain-area {
-            position: relative;
-            text-align: center;
-            min-height: 280px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .brain-img {
-            max-width: 280px;
-            position: relative;
-            z-index: 3;
-        }
-
-        /* Laser Beam */
-        .laser-line {
+ .laser-line {
             position: absolute;
             left: 0;
             right: 0;
-            top: 50%;
-            height: 4px;
+            top: 74%;
+            height: 3px;
             transform: translateY(-50%);
             background: linear-gradient(90deg,
                     transparent,
@@ -3565,100 +3542,51 @@ a.atb-laser1-btn {
                 0 0 40px #ff4444;
         }
 
-        .wave-left-label {
-            position: absolute;
-            left: 60px;
-            top: 70px;
-            color: #fff;
-            font-size: 42px;
-            font-weight: 700;
-            z-index: 5;
-        }
+.brain-circle{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background: radial-gradient(circle,#ff6b6b,#b30000);
+    margin: auto;
+    box-shadow: 0 0 40px rgba(255,0,0,.8);
+}
 
-        .wave-right-label {
-            position: absolute;
-            right: 60px;
-            top: 70px;
-            color: #fff;
-            font-size: 42px;
-            font-weight: 700;
-            z-index: 5;
-        }
+.wavelength{
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+}
 
-        .science-right h4 {
-            color: #fff;
-            font-size: 33px;
-            font-weight: 600;
-            margin-bottom: 18px;
-        }
+.info-title{
+    font-weight: 600;
+    margin-top: 10px;
+}
 
-        .brain-area {
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 20px;
-            min-height: 280px;
-        }
+.info-text{
+    color: #cfcfcf;
+    font-size: 14px;
+}
 
-        .wave-content {
-            position: relative;
-            z-index: 5;
-            color: #fff;
-            width: 180px;
-        }
+.right-text h3{
+    font-weight: 700;
+    line-height: 1.5;
+}
 
-        .wave-content h3 {
-            font-size: 42px;
-            font-weight: 700;
-            margin-bottom: 10px;
-        }
+@media(max-width:768px){
+    .wavelength{
+        font-size: 30px;
+    }
 
-        .wave-content h3 span {
-            font-size: 22px;
-        }
+    .brain-circle{
+        width: 120px;
+        height: 120px;
+    }
 
-        .wave-content p {
-            margin: 0;
-            color: #d7d7d7;
-            font-size: 14px;
-            line-height: 1.6;
-        }
-
-        .left-content h3 {
-            color: #fff;
-        }
-
-        .right-content h3 {
-            color: #fff;
-        }
-
-        .brain-img {
-            width: 260px;
-            position: relative;
-            z-index: 4;
-            filter:
-                drop-shadow(0 0 20px #ff4d4d) drop-shadow(0 0 40px #ff4d4d);
-        }
-
-
-        @media(max-width:991px) {
-
-            .brain-area {
-                flex-direction: column;
-                text-align: center;
-            }
-
-            .laser-line {
-                display: none;
-            }
-
-            .wave-content {
-                width: 100%;
-            }
-        }
-
-
+    .right-text{
+        text-align:center;
+        margin-top:30px;
+    }
+}
 
         .section-title {
             font-size: 2rem;
