@@ -3519,9 +3519,6 @@ a.atb-laser1-btn {
     overflow: hidden;
 }
 
-.red-text{
-    color: #ff2d2d;
-}
 
 .laser-line {
     position: absolute;
@@ -3566,7 +3563,7 @@ a.atb-laser1-btn {
     font-size: 14px;
 }
 
-.right-text h3{
+.right-text h5{
     font-weight: 700;
     line-height: 1.5;
 }
