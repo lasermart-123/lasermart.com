@@ -1673,73 +1673,7 @@ h1.hero-title {
 
 
 
-.stats-box{
-    background: linear-gradient(180deg,#071423,#04101d);
-    border: 1px solid rgba(255,255,255,0.08);
-    border-radius: 16px;
-    padding: 18px 10px;
-    position: relative;
-    overflow: hidden;
-}
 
-.stats-box::before{
-    content:'';
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:1px;
-    background:rgba(255,255,255,.15);
-}
-
-.stat-item{
-    text-align:center;
-    position:relative;
-}
-
-.stat-item:not(:last-child)::after{
-    content:'';
-    position:absolute;
-    top:10%;
-    right:0;
-    width:1px;
-    height:80%;
-    background:rgba(255,255,255,.1);
-}
-
-.stat-icon{
-    color:#2d7df6;
-    font-size:30px;
-    margin-bottom:8px;
-}
-
-.stat-number{
-    color:#fff;
-    font-size:32px;
-    font-weight:700;
-    line-height:1;
-}
-
-.stat-text{
-    color:#c7d0db;
-    font-size:14px;
-    margin-top:5px;
-}
-
-@media(max-width:767px){
-
-    .stat-item{
-        margin-bottom:20px;
-    }
-
-    .stat-item::after{
-        display:none;
-    }
-
-    .stat-number{
-        font-size:24px;
-    }
-}
 
 /* IMAGE */
 
