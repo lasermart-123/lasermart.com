@@ -3459,6 +3459,36 @@ a.atb-laser1-btn {
     color: #ffffff;
     text-decoration: none;
 }
+.atb-ms-video{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Desktop */
+@media (min-width: 992px){
+    .atb-ms-video{
+        max-height: 500px;
+    }
+}
+
+/* Tablet */
+@media (max-width: 991px){
+    .atb-ms-video{
+        max-height: 400px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767px){
+    .atb-ms-video{
+        width: 100%;
+        max-height: 250px;
+        border-radius: 8px;
+    }
+}
 
 
 
