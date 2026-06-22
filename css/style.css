@@ -3468,15 +3468,11 @@ a.atb-laser1-btn {
             overflow: hidden;
         }
 
-        .science-left h2 {
+        .science-left h4 {
             color: #fff;
             font-size: 48px;
             font-weight: 700;
             line-height: 1.1;
-        }
-
-        .science-left h2 span {
-            color: #ff3030;
         }
 
         .science-left p {
