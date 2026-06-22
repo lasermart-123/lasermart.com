@@ -3533,22 +3533,22 @@ a.atb-laser1-btn {
     /* position: relative; */
     /* height: 3px; */
     /* background: linear-gradient(to right, #ff2d2d, #ff7b7b, #ff2d2d); */
-    margin-top: -88px;
+    margin-top: -74px;
     /* margin: 8px 0; */
     /* box-shadow: 0 0 15px rgba(255, 0, 0, .8); */
 }
 
-.brain-circle{
+.brain-circle {
     width: 145px;
     height: 145px;
     border-radius: 50%;
-    background: radial-gradient(circle,#ff6b6b,#b30000);
+    background: radial-gradient(circle, #ff6b6b, #b30000);
     margin: auto;
-    box-shadow: 0 0 40px rgba(255,0,0,.8);
+    box-shadow: 0 0 40px rgba(255, 0, 0, .8);
 }
 
 .wavelength{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
     color: #fff;
 }
@@ -3556,16 +3556,20 @@ a.atb-laser1-btn {
 .info-title{
     font-weight: 600;
     margin-top: 10px;
+    font-size:15px;
 }
 
 .info-text{
     color: #cfcfcf;
     font-size: 14px;
 }
-
+.text-center h4 {
+    font-size: 24px;
+}
 .right-text h5{
     font-weight: 700;
     line-height: 1.5;
+    font-size:24px;
 }
 
 @media(max-width:768px){
