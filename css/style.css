@@ -3323,7 +3323,7 @@ a.atb-laser1-btn {
 
 .laser-card {
     background: #fff;
-    padding: 15px;
+    padding: 10px;
     border-radius: 12px;
     text-align: center;
     overflow: hidden;
@@ -3395,7 +3395,7 @@ a.atb-laser1-btn {
 ========================== */
 
 .card-info h3 {
-    font-size: 22px;
+    font-size: 17px;
     font-weight: 700;
     margin-bottom: 10px;
 }
