@@ -3596,11 +3596,7 @@ a.atb-laser1-btn {
             text-align: center;
         }
 
-        .section-title .multi {
-            color: #ff3b3b;
-        }
-
-        .app-card {
+               .app-card {
             border: none;
             border-radius: 12px;
             overflow: hidden;
