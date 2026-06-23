@@ -3661,20 +3661,27 @@ a.atb-laser1-btn {
             font-weight: bold;
             margin-right: 5px;
         }
-       .card-body .btn-download {
-  background-color: #eb6200;
-  color: #fff;
-  border: none;
-  padding: 10px 7px;
-  border-radius: 10px;
-  font-weight: 600;
-  transition: all 0.3s ease;
+   .card-body .btn-download {
+    background-color: #eb6200;
+    color: #fff;
+    border: none;
+    padding: 10px 7px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    margin-top: 5px;
 }
 
 .card-body .btn-download:hover {
   background-color: #d94d00;
   color: #fff;
   transform: translateY(-1px);
+}
+a#down-2 {
+    margin-top: 34px;
+}
+a#down-4 {
+    margin-top: 53px;
 }
 
 
