@@ -3928,6 +3928,8 @@ section.smartxt-section h3 {
 }
 .wave-boxs h6 {
     font-size: 11px;
+    padding-top: 12px;
+    margin-left: 7px;
 }
 
 @media(max-width:991px){
