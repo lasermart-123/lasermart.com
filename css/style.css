@@ -3884,9 +3884,10 @@ section.smartxt-section h3 {
     width:100%;
 }
 
-.advantage-box h4{
-    font-size:28px;
-    margin-bottom:20px;
+.advantage-box h4 {
+    font-size: 18px;
+    /* margin-bottom: 19px; */
+    font-weight: 700;
 }
 
 .advantage-box ul{
@@ -3895,9 +3896,10 @@ section.smartxt-section h3 {
 }
 
 .advantage-box ul li{
-    margin-bottom:12px;
+    margin-bottom:11px;
     position:relative;
     padding-left:25px;
+    font-size:14px;
 }
 
 .advantage-box ul li::before{
