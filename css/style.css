@@ -3794,6 +3794,24 @@ a.atb-laser1-btn {
                 font-size: 22px;
             }
         }
+       .table tbody tr:first-child td {
+            background-color: #eb6200 !important;
+            color: #fff;
+            text-align: center;
+            /* horizontal center */
+            vertical-align: middle;
+            /* vertical center */
+        }
+       .laser-table td:first-child {
+    text-align: left;
+    font-weight: 600;
+    width: 30%;
+}
+.laser-table td {
+    vertical-align: middle !important;
+    padding: 10px 20px;
+    border: 1px solid #dee2e6;
+}
 
 
 
