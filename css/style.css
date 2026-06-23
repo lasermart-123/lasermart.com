@@ -3820,13 +3820,12 @@ a.atb-laser1-btn {
     font-weight: 600;
     text-align: left;
 }
-.laser-table .model-row td {
-  background-color: #000 !important;
-  color: #fff !important;
-  text-align: center;
-  vertical-align: middle;
-  padding: 12px 6px;
-  font-weight: 600;
+.table tbody tr td {
+    background: black !important;
+    color: #fff !important;
+}
+.nav-pills .nav-link.active{
+    background:#fff;
 }
 
 
