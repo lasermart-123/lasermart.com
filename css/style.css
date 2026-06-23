@@ -3865,6 +3865,9 @@ a#down-4 {
     color:#fff;
     overflow:hidden;
 }
+section.smartxt-section h3 {
+    font-size: 17px;
+}
 
 .orange-text{
     color:#eb6200;
@@ -3904,19 +3907,27 @@ a#down-4 {
     left:0;
 }
 
-.wave-box{
-    border-left:1px solid rgba(255,255,255,.2);
-    padding:15px;
-    height:100%;
+.wave-box {
+    border-left: 1px solid rgba(255, 255, 255, .2);
+    /* height: 100%; */
+    gap: 22px;
 }
 
 .wave-box h4{
     font-weight:700;
+    font-size: 17px;
 }
 
 .wave-box p{
     font-size:14px;
     margin-bottom:0;
+}
+.wave-boxs img {
+    filter: brightness(0) invert(1);
+    width: 100%;
+}
+.wave-boxs h6 {
+    font-size: 11px;
 }
 
 @media(max-width:991px){
