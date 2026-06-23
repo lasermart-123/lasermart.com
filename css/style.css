@@ -3665,8 +3665,8 @@ a.atb-laser1-btn {
   background-color: #eb6200;
   color: #fff;
   border: none;
-  padding: 10px 16px;
-  border-radius: 6px;
+  padding: 10px 7px;
+  border-radius: 10px;
   font-weight: 600;
   transition: all 0.3s ease;
 }
