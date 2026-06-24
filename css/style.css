@@ -4175,7 +4175,7 @@ h5.atb {
     width: 100%;
 }
 .speciality-col{
-    width:12.5%; /* 100 / 8 = 12.5% */
+    width:20%; /* 100 / 8 = 12.5% */
     padding:0 8px;
 }
 @media(max-width:1199px){
