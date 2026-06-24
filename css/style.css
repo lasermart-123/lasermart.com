@@ -1855,7 +1855,7 @@ h1.hero-title {
 
         }
 .equipment-section{
-    background: linear-gradient(90deg,#03132f,#071f4b);
+    background: #000;
     padding: 80px 0;
     color: #fff;
     overflow: hidden;
@@ -1867,9 +1867,6 @@ h1.hero-title {
     margin-bottom: 15px;
 }
 
-.equipment-content h2 span{
-    color: #2b8cff;
-}
 
 .equipment-content p{
     color: #d8d8d8;
@@ -1894,7 +1891,7 @@ h1.hero-title {
     position: absolute;
     left: 0;
     top: 0;
-    color: #3f8cff;
+    color: rgb(235, 98, 0);
     font-weight: 700;
 }
 
