@@ -3912,7 +3912,14 @@ section.smartxt-section h3 {
 .wave-box {
     border-right: 1px solid rgba(255, 255, 255, .2);
     /* height: 100%; */
-    gap: 22px;
+    /* gap: 22px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+}
+.col-lg{
+    width:20%;
 }
 
 .wave-box h4 {
