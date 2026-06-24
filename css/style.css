@@ -9,13 +9,17 @@
 body {
     background: #0c0808;
 }
-
+section.tectimonia {
+    color: #fff;
+    padding: 40px 0;
+    background: #000;
+}
 .testimonial-slider .item{
     padding: 0 10px;
 }
 
 .review-card{
-    background: linear-gradient(180deg,#0b2248,#08172f);
+    background: linear-gradient(180deg, #1e1e1e, #2a2a2a);
     border-radius: 14px;
     padding: 20px;
     min-height: 220px;
@@ -44,7 +48,7 @@ body {
 .doctor-info h6{
     margin: 0;
     font-size: 14px;
-    color: #fff;
+    color: rgb(235, 98, 0);
 }
 
 .doctor-info span{
