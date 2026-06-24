@@ -180,6 +180,16 @@
      .wave-col{
         width:33.33%;
     }
+    .left-content,
+    .stoma-img{
+        position: sticky;
+        top: 100px;
+    }
+
+    .col-lg-4:last-child{
+        height: 85vh;
+        overflow-y: auto;
+    }
     
 }
 
