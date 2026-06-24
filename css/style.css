@@ -1566,6 +1566,9 @@ h1.hero-title {
     /*background: linear-gradient(135deg, #021b4e, #04296d);*/
     overflow: hidden;
 }
+.about-image img {
+    width: 100%;
+}
 
 
 .about-content {
