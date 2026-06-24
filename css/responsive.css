@@ -177,6 +177,9 @@
         justify-content: space-between;
         align-items: center;
     }
+     .wave-col{
+        width:33.33%;
+    }
 }
 
 @media(max-width:768px) {
@@ -306,6 +309,9 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+     .wave-col{
+        width:50%;
     }
     
     
