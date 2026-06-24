@@ -1996,15 +1996,15 @@ h1.hero-title {
 
 /* WHY CHOOSE SECTION */
 
-.why-choose-section {
+/*.why-choose-section {
     padding: 100px 0;
     background: #1c1c1c;
     overflow: hidden;
-}
+}*/
 
 /* LEFT IMAGE */
 
-.why-image {
+/*.why-image {
     position: relative;
     text-align: center;
     margin-bottom: 152px;
@@ -2024,15 +2024,15 @@ h1.hero-title {
     width: 351px;
     height: 487px;
     background: #000000;
-    /* border-radius: 50%; */
+    /* border-radius: 50%; *
     top: 50%;
     left: 32%;
     transform: translate(-50%, -50%);
-}
+}*/
 
 /* EXPERIENCE CARD */
 
-.experience-card {
+/*.experience-card {
     position: absolute;
     bottom: 30px;
     left: 0;
@@ -2043,9 +2043,9 @@ h1.hero-title {
     z-index: 5;
     animation: floatCard 3s ease-in-out infinite;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
-}
+}*/
 
-.experience-card h3 {
+/*.experience-card h3 {
     font-size: 38px;
     color: rgb(235, 98, 0);
     margin-bottom: 5px;
@@ -2054,11 +2054,11 @@ h1.hero-title {
 .experience-card p {
     margin: 0;
     font-size: 15px;
-}
+}*/
 
 /* CONTENT */
 
-.why-content {
+/*.why-content {
     padding-left: 20px;
 }
 
@@ -2067,14 +2067,14 @@ h1.hero-title {
     padding: 8px 18px;
     background: rgba(2, 27, 78, 0.08);
     color: rgb(235, 98, 0);
-    /*text-align: center;*/
+    /*text-align: center;*
     border-radius: 50px;
     font-weight: 600;
     font-size: 25px;
     margin-bottom: 20px;
-}
+}*/
 
-.why-content h2 {
+/*.why-content h2 {
     font-size: 32px;
     font-weight: 700;
     line-height: 1.3;
@@ -2091,7 +2091,7 @@ h1.hero-title {
     font-size: 16px;
     line-height: 1.8;
     margin-bottom: 40px;
-}
+}*/
 
 /* FEATURES */
 
