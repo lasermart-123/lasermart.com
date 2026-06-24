@@ -1940,13 +1940,12 @@ section.tectimonia {
     font-size: 12px;
     color: #cbd5e1;
 }
-.surgeons-section {
-  background: #0a1428;
-  color: #fff;
-  padding: 80px 0;
+.atb-surgeons-section {
+  background: #000;
+  color: #fff;  
 }
 
-.section-title {
+.atb-surgn-title {
   color: #4da3ff;
   font-size: 2.5rem;
   font-weight: 700;
