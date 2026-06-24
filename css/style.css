@@ -3915,10 +3915,9 @@ section.smartxt-section h3 {
     /* gap: 22px; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 20%;
+    justify-content: center;   
 }
-.col-lg{
+.wave-col{
     width:20%;
 }
 
@@ -3929,7 +3928,7 @@ section.smartxt-section h3 {
 }
 
 .wave-box p{
-    font-size:14px;
+    font-size:12px;
     margin-bottom:0;
 }
 .wave-boxs img {
