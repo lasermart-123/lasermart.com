@@ -3904,14 +3904,17 @@ a.atb-laser1-btn {
   color: #fff;
   transform: translateY(-1px);
 }
+a#down-1{
+    margin-top:53px;
+}
 a#down-2 {
-    margin-top: 34px;
+    margin-top: 51px;
 }
 a#down-3 {
-    margin-top: 34px;
+    margin-top: 83px;
 }
 a#down-4 {
-    margin-top: 53px;
+    margin-top: -8px;
 }
 
 
@@ -4608,10 +4611,10 @@ textarea.input {
 }
 
 .btn {
-    padding: 0.6rem 1.3rem;
     background-color: rgb(235, 98, 0);
+    padding: 11px 3px;
     border: 2px solid #ffffff;
-    font-size: 0.95rem;
+    font-size: 13px;
     color: #fff;
     line-height: 1;
     border-radius: 5px;
