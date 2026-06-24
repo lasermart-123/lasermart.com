@@ -3943,35 +3943,7 @@ section.smartxt-section h3 {
     padding-top: 12px;
     margin-left: 7px;
 }
-  /* Left Content Sticky */
-    .left-content{
-        position: sticky;
-        top: 100px;
-    }
-
-    /* Center Image Sticky */
-    .stoma-img{
-        position: sticky;
-        top: 100px;
-        max-height: 80vh;
-    }
-
-    /* Right Content Scroll */
-    .col-lg-4:last-child{
-        height: 85vh;
-        overflow-y: auto;
-        padding-right: 10px;
-    }
-
-    /* Scrollbar */
-    .col-lg-4:last-child::-webkit-scrollbar{
-        width: 6px;
-    }
-
-    .col-lg-4:last-child::-webkit-scrollbar-thumb{
-        background: #eb6200;
-        border-radius: 10px;
-    }
+ 
     
 @media(max-width:991px){
 
