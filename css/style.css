@@ -4173,15 +4173,11 @@ h5.atb {
 .wave-boxs img {
     filter: brightness(0) invert(1);
     width: 100%;
+    max-width:42%;
 }
 .speciality-col{
     width:20%; /* 100 / 8 = 12.5% */
     padding:0 8px;
-}
-@media(max-width:1199px){
-    .speciality-col{
-        width:25%;
-    }
 }
 
 /* Tablet */
