@@ -17,7 +17,15 @@ section.tectimonia {
 .testimonial-slider .item{
     padding: 0 10px;
 }
+.rating{
+    margin-bottom: 15px;
+}
 
+.rating i{
+    color: #ffc107;
+    font-size: 13px;
+    margin-right: 2px;
+}
 .review-card{
     background: linear-gradient(180deg, #1e1e1e, #2a2a2a);
     border-radius: 14px;
