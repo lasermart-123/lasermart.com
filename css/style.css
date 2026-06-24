@@ -4174,6 +4174,29 @@ h5.atb {
     filter: brightness(0) invert(1);
     width: 100%;
 }
+.speciality-col{
+    width:12.5%; /* 100 / 8 = 12.5% */
+    padding:0 8px;
+}
+@media(max-width:1199px){
+    .speciality-col{
+        width:25%;
+    }
+}
+
+/* Tablet */
+@media(max-width:991px){
+    .speciality-col{
+        width:33.33%;
+    }
+}
+
+/* Mobile */
+@media(max-width:767px){
+    .speciality-col{
+        width:50%;
+    }
+}
 .wave-boxs h6 {
     font-size: 11px;
     padding-top: 12px;
