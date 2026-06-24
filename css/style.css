@@ -15,18 +15,24 @@ body {
     overflow: visible !important;
 }
 
-/* 2. Sticky right wale col pe lagega */
-.col-lg-4 .right-scroll {
-    position: sticky;
-    position: -webkit-sticky;
-    top: 80px; /* navbar + gap. 100px kar de agar navbar bada hai */
-    align-self: flex-start;
+.smartxt-section, 
+.smartxt-section .row, 
+.smartxt-section [class*="col-"] {
+    overflow: visible !important;
+    transform: none !important;
 }
 
-/* 3. Left wale wrapper se height hata de */
-.sticky-wrapper {
-    height: auto !important;
-    min-height: auto;
+/* 2. Sticky direct col-lg-4 pe */
+.col-lg-4 {
+    align-self: flex-start !important;
+}
+
+/* 3. Right scroll box */
+.col-lg-4 .right-scroll {
+    position: sticky !important;
+    position: -webkit-sticky !important;
+    top: 100px !important; /* navbar + 20px gap */
+    z-index: 9;
 }
 
 .preloader {
