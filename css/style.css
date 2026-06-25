@@ -4288,15 +4288,22 @@ h5.atb {
     margin-bottom:0;
 }
 .wave-boxs img {
-    filter: brightness(0) invert(1);
+    /* filter: brightness(0) invert(1); */
     width: 100%;
-    max-width:42%;
+    max-width: 82%;
+    height: 85px;
 }
 .speciality-col{
     width:20%; /* 100 / 8 = 12.5% */
     padding:0 8px;
-    flex: 0 0 calc(12.5% - 13.125px); /* 8 boxes per row */
-    max-width: calc(12.5% - 13.125px);
+    flex: 0 0 calc(14.5% - 15.125px); /* 8 boxes per row */
+    max-width: calc(12.5% - 0.125px);
+}
+.wave-boxs {
+    background: #fff;
+    border-radius: 50%;
+    height: 110px;
+    width: 110px;
 }
 
 /* Tablet */
