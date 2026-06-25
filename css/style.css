@@ -2786,6 +2786,7 @@ strong {
     );
     opacity: 0;
     transition: 0.4s ease;
+    pointer-events: none;
 }
 
 .atb-feature-product-box:hover{
