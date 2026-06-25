@@ -4295,19 +4295,28 @@ h5.atb {
 .speciality-col{
     width:20%; /* 100 / 8 = 12.5% */
     padding:0 8px;
+    flex: 0 0 calc(12.5% - 13.125px); /* 8 boxes per row */
+    max-width: calc(12.5% - 13.125px);
 }
 
 /* Tablet */
 @media(max-width:991px){
     .speciality-col{
-        width:33.33%;
+       flex: 0 0 calc(25% - 12px);
+        max-width: calc(25% - 12px);
     }
 }
 
 /* Mobile */
 @media(max-width:767px){
-    .speciality-col{
-        width:50%;
+     flex: 0 0 calc(33.333% - 10px);
+        max-width: calc(33.333% - 10px);
+    }
+}
+@media (max-width: 575px) {
+    .speciality-col {
+        flex: 0 0 calc(50% - 8px);
+        max-width: calc(50% - 8px);
     }
 }
 .wave-boxs h6 {
