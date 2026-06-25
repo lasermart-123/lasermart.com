@@ -9,7 +9,7 @@ $(document).ready(function(){
         dots: false,
         infinite: true,
         autoplay: true,
-        autoplaySpeed: 400,
+        autoplaySpeed: 700,
 
         responsive: [
             {
@@ -32,7 +32,7 @@ $(document).ready(function(){
         arrows: false,
         infinite: true,
         autoplay: true,
-        autoplaySpeed: 400,
+        autoplaySpeed: 700,
 
         responsive: [
             {
@@ -55,7 +55,7 @@ $(document).ready(function(){
          arrows: false,
         infinite: true,
         autoplay: true,
-        autoplaySpeed: 400,         
+        autoplaySpeed: 700,         
      
         responsive: [
             {
