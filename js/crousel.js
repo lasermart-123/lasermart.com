@@ -9,7 +9,7 @@ $(document).ready(function(){
         dots: false,
         infinite: true,
         autoplay: true,
-        autoplaySpeed: 200,
+        autoplaySpeed: 400,
 
         responsive: [
             {
@@ -27,7 +27,7 @@ $(document).ready(function(){
         ]
     });
      $('.laserSlider').slick({
-        slidesToShow: 4,
+        slidesToShow: 3,
         slidesToScroll: 1, 
         arrows: false,
         infinite: true,
@@ -50,12 +50,12 @@ $(document).ready(function(){
         ]
     });
      $('.laserSlider-left').slick({
-        slidesToShow: 4,
+        slidesToShow: 3,
         slidesToScroll: 1,
          arrows: false,
         infinite: true,
         autoplay: true,
-        autoplaySpeed: 300,         
+        autoplaySpeed: 400,         
      
         responsive: [
             {
@@ -73,12 +73,12 @@ $(document).ready(function(){
         ]
     });
      $('.laserSlider-right').slick({
-        slidesToShow: 4,
+        slidesToShow: 3,
         slidesToScroll: 1, 
           arrows: false,
         infinite: true,
         autoplay: true,
-        autoplaySpeed: 200, 
+        autoplaySpeed: 400, 
         cssEase: 'linear',       
         rtl: true,
 
