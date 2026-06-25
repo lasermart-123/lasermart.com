@@ -135,41 +135,7 @@ $(document).ready(function(){
         }
     ]
 });
-     $('.laserSlider-2').slick({
-        slidesToShow: 4,  // 6 logo ek saath
-        slidesToScroll: 1,                // 2 row ke liye 
-        arrows: false,
-        infinite: true,
-        autoplay: true,
-        autoplaySpeed: 1000,
-
-        responsive: [
-            {
-                breakpoint: 991,
-              settings: {
-                    slidesToShow: 4,
-                    slidesToScroll: 4,
-                    rows: 2
-                }
-            },
-            {
-                breakpoint: 767,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
-                    rows: 2
-                }
-            }
-            {
-             breakpoint: 576,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
-                    rows: 2
-                }
-            }
-        ]
-    });
+     
     
 
 });
