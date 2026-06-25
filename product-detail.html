@@ -1305,11 +1305,8 @@
     <!--slick-->
     <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>   
    <!-- jQuery - Slick ke liye zaruri -->
-<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-
-<!-- Slick JS - tere page wala link -->
+ <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
 
     <!-- main.js -->
     <script>
@@ -1320,17 +1317,19 @@
     <script src="./js/crousel.js"></script>
     <script src="./js/counter.js"></script>
     <script src="./js/custom.js"></script>
-    <script>
+
+
+<script>
 $(document).ready(function(){
     $('.category-slider').slick({
         dots: true,
         infinite: true,
         speed: 300,
-        slidesToShow: 6,  // Desktop: 6 column
+        slidesToShow: 6,  // 6 logo ek saath
         slidesToScroll: 6,
-        rows: 2,          // 2 row banane ke liye ye line
+        rows: 2,          // 2 row ke liye
         autoplay: true,
-        autoplaySpeed: 4000,
+        autoplaySpeed: 3000,
         responsive: [
             {
                 breakpoint: 1024,
