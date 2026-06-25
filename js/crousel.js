@@ -136,9 +136,8 @@ $(document).ready(function(){
     ]
 });
      $('.laserSlider-2').slick({
-        slidesToShow: 6,  // 6 logo ek saath
-        slidesToScroll: 6,
-        rows: 2,          // 2 row ke liye 
+        slidesToShow: 4,  // 6 logo ek saath
+        slidesToScroll: 1,                // 2 row ke liye 
         arrows: false,
         infinite: true,
         autoplay: true,
