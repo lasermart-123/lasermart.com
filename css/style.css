@@ -2521,7 +2521,7 @@ section.tectimonia {
     /* position: relative; */
     display: flex;
     justify-content: center;
-    width: 190px;
+    /*width: 190px;*/
     padding: 17px;
     border-radius: 7px;
     align-items: center;
