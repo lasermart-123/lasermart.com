@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+     <link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     
      <!--font-family-->
      <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -517,61 +519,94 @@
             </div>
         </div>
     </section>
+    <!--testimonials-section-start-->
+
+   
+
+<section class="testimonial-section">
+
+<div class="container">
+
+<div class="swiper testimonialSwiper">
+
+<div class="swiper-wrapper">
+
+<div class="swiper-slide">
+
+<div class="testimonial-card">
+
+<div class="client-img">
+<img src="https://i.pravatar.cc/150?img=12" alt="">
+</div>
+
+<p>
+Dramatically maintain clicks-and-mortar solutions without
+functional solutions. Completely synergize resource taxing
+relationships via premier niche markets.
+</p>
+
+<div class="client-name">
+LARA ATKINSON
+</div>
+
+</div>
+
+</div>
+
+<div class="swiper-slide">
+
+<div class="testimonial-card">
+
+<div class="client-img">
+<img src="https://i.pravatar.cc/150?img=32" alt="">
+</div>
+
+<p>
+Completely leverage existing technologies while maintaining
+high quality customer experiences for modern healthcare.
+</p>
+
+<div class="client-name">
+JANE DOE
+</div>
+
+</div>
+
+</div>
+
+<div class="swiper-slide">
+
+<div class="testimonial-card">
+
+<div class="client-img">
+<img src="https://i.pravatar.cc/150?img=48" alt="">
+</div>
+
+<p>
+Professionally cultivate one-to-one customer service with
+resource maximizing expertise and premium support.
+</p>
+
+<div class="client-name">
+JOHN SMITH
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="swiper-pagination"></div>
+
+</div>
+
+</div>
+
+</section>
       <!--atb-premium-laser-section-start-->
     <section class="smartxt-section">
-        <div class="container">
-             <div class="row">
-        <div class="col-sm-12">
-          <div id="customers-testimonials" class="owl-carousel">
-
-            <!--TESTIMONIAL 1 -->
-            <div class="item">
-              <div class="shadow-effect">
-                <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
-                <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
-              </div>
-              <div class="testimonial-name">EMILIANO AQUILANI</div>
-            </div>
-            <!--END OF TESTIMONIAL 1 -->
-            <!--TESTIMONIAL 2 -->
-            <div class="item">
-              <div class="shadow-effect">
-                <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
-                <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
-              </div>
-              <div class="testimonial-name">ANNA ITURBE</div>
-            </div>
-            <!--END OF TESTIMONIAL 2 -->
-            <!--TESTIMONIAL 3 -->
-            <div class="item">
-              <div class="shadow-effect">
-                <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
-                <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
-              </div>
-              <div class="testimonial-name">LARA ATKINSON</div>
-            </div>
-            <!--END OF TESTIMONIAL 3 -->
-            <!--TESTIMONIAL 4 -->
-            <div class="item">
-              <div class="shadow-effect">
-                <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
-                <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
-              </div>
-              <div class="testimonial-name">IAN OWEN</div>
-            </div>
-            <!--END OF TESTIMONIAL 4 -->
-            <!--TESTIMONIAL 5 -->
-            <div class="item">
-              <div class="shadow-effect">
-                <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
-                <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
-              </div>
-              <div class="testimonial-name">MICHAEL TEDDY</div>
-            </div>
-            <!--END OF TESTIMONIAL 5 -->
-          </div>
-        </div>
-      </div>
+        <div class="container">            
             <!-- Wavelength Section -->
             <div class="row mt-5 align-items-center">             
 
@@ -1287,7 +1322,49 @@
     <script src="./js/crousel.js"></script>
     <script src="./js/counter.js"></script>
     <script src="./js/custom.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+<script>
+new Swiper(".testimonialSwiper",{
+
+loop:true,
+centeredSlides:true,
+grabCursor:true,
+
+slidesPerView:3,
+spaceBetween:40,
+
+autoplay:{
+delay:3000,
+disableOnInteraction:false,
+},
+
+pagination:{
+el:".swiper-pagination",
+clickable:true,
+},
+
+breakpoints:{
+
+0:{
+slidesPerView:1.15,
+spaceBetween:20
+},
+
+768:{
+slidesPerView:2,
+spaceBetween:30
+},
+
+1200:{
+slidesPerView:3,
+spaceBetween:40
+}
+
+}
+
+});
+</script>
 
 
 </body>
