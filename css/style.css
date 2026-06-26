@@ -4022,13 +4022,13 @@ a.atb-laser1-btn {
   transform: translateY(-1px);
 }
 a#down-1{
-    margin-top:20px;
+    margin-top:53px;
 }
 a#down-2 {
-    margin-top: 51px;
+    margin-top: 54px;
 }
 a#down-3 {
-    margin-top: 83px;
+    margin-top: 117px;
 }
 a#down-4 {
     margin-top: -8px;
@@ -4513,7 +4513,7 @@ h5.atb {
 
 .application-box {
     position: relative;
-    height: 301px;
+    height: 333px;
     border-radius: 22px;
     overflow: hidden;
     background: url("../img/Speciality/Interventional Radiology.avif") center center;
@@ -4523,10 +4523,10 @@ h5.atb {
 
     transition: all .8s ease;
 }
-#application-boxes1 {
+/*#application-boxes1 {
     height: 370px;
     height:305px;
-}
+}*/
 
 /* Orange Overlay */
 
