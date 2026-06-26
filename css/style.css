@@ -77,6 +77,30 @@ body {
 .swiper-pagination-bullet-active{
     background:#0d6efd;
 }
+.testimonialSwiper{
+    overflow: visible;
+}
+
+.swiper{
+    overflow: visible;
+}
+
+.swiper-wrapper{
+    align-items:center;
+}
+
+.swiper-slide{
+    transition:all .5s ease;
+}
+
+.swiper-slide-active{
+    z-index:10;
+}
+
+.swiper-slide-prev,
+.swiper-slide-next{
+    z-index:5;
+}
 
 
 @media(max-width:991px){
