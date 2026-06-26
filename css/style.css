@@ -21,7 +21,7 @@ body {
 .testimonial-card{
     background:#fff;
     border-radius:10px;
-    padding:70px 30px 40px;
+    padding:10px 30px 10px;
     text-align:center;
     position:relative;
     box-shadow:0 10px 30px rgba(0,0,0,.08);
@@ -94,8 +94,8 @@ body {
     font-size:16px;
     line-height:28px;
     color:#000;
-    margin-bottom:30px;
-     padding-top:25px;
+    margin-bottom:6px;
+     padding-top:12px;
 }
 
 .client-name{
