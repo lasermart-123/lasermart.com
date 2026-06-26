@@ -1388,11 +1388,14 @@ JOHN SMITH
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 <script>
-    new Swiper(".testimonialSwiper", {
+   new Swiper(".testimonialSwiper", {
+    effect: "coverflow",   // <-- Ye missing hai
+
     loop: true,
     centeredSlides: true,
     grabCursor: true,
-         coverflowEffect: {
+
+    coverflowEffect: {
         rotate: 0,
         stretch: -100,
         depth: 250,
@@ -1404,31 +1407,25 @@ JOHN SMITH
     slidesPerView: 3,
     spaceBetween: -80,
 
-    speed: 3000, // Slide animation speed (default 300)
-    
-    autoplay: {
-        delay: 1500, // Har 1.5 second me slide change
-        disableOnInteraction: false,
-        pauseOnMouseEnter: false,
-    },
+    speed: 1200,
 
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
+    autoplay: {
+        delay: 2000,
+        disableOnInteraction: false,
     },
 
     breakpoints: {
         0: {
-            slidesPerView: 1.15,
+            slidesPerView: 1.2,
             spaceBetween: 20
         },
         768: {
             slidesPerView: 2,
-            spaceBetween: 30
+            spaceBetween: 20
         },
         1200: {
             slidesPerView: 3,
-            spaceBetween: 40
+            spaceBetween: -80   // 40 mat rakho
         }
     }
 });
