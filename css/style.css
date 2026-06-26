@@ -4318,6 +4318,7 @@ h5.atb {
 
 /* Mobile */
 @media(max-width:767px){
+     .speciality-col{
      flex: 0 0 calc(33.333% - 10px);
         max-width: calc(33.333% - 10px);
     }
@@ -4327,6 +4328,7 @@ h5.atb {
         flex: 0 0 calc(50% - 8px);
         max-width: calc(50% - 8px);
     }
+    
 }
 .wave-boxs h6 {
     font-size: 15px;
