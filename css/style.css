@@ -62,8 +62,8 @@ body {
 }
 
 .client-img{
-    width:90px;
-    height:90px;
+    width:180px;
+    height:120px;
     border-radius:50%;
     overflow:hidden;
     position:absolute;
@@ -80,7 +80,7 @@ body {
     object-fit:cover;
 }
 
-.rating{
+.ratings{
     margin-left:auto;
     display:flex;
     align-items:center;
