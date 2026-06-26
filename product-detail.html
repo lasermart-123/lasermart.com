@@ -573,6 +573,69 @@ JANE DOE
 </div>
 
 </div>
+    <div class="swiper-slide">
+
+<div class="testimonial-card">
+
+<div class="client-img">
+<img src="https://i.pravatar.cc/150?img=32" alt="">
+</div>
+
+<p>
+Completely leverage existing technologies while maintaining
+high quality customer experiences for modern healthcare.
+</p>
+
+<div class="client-name">
+JANE DOE
+</div>
+
+</div>
+
+</div>
+
+    <div class="swiper-slide">
+
+<div class="testimonial-card">
+
+<div class="client-img">
+<img src="https://i.pravatar.cc/150?img=32" alt="">
+</div>
+
+<p>
+Completely leverage existing technologies while maintaining
+high quality customer experiences for modern healthcare.
+</p>
+
+<div class="client-name">
+JANE DOE
+</div>
+
+</div>
+
+</div>
+
+    <div class="swiper-slide">
+
+<div class="testimonial-card">
+
+<div class="client-img">
+<img src="https://i.pravatar.cc/150?img=32" alt="">
+</div>
+
+<p>
+Completely leverage existing technologies while maintaining
+high quality customer experiences for modern healthcare.
+</p>
+
+<div class="client-name">
+JANE DOE
+</div>
+
+</div>
+
+</div>
+
 
 <div class="swiper-slide">
 
@@ -1325,44 +1388,41 @@ JOHN SMITH
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 <script>
-new Swiper(".testimonialSwiper",{
+    new Swiper(".testimonialSwiper", {
+    loop: true,
+    centeredSlides: true,
+    grabCursor: true,
 
-loop:true,
-centeredSlides:true,
-grabCursor:true,
+    slidesPerView: 3,
+    spaceBetween: 40,
 
-slidesPerView:3,
-spaceBetween:40,
+    speed: 600, // Slide animation speed (default 300)
+    
+    autoplay: {
+        delay: 1500, // Har 1.5 second me slide change
+        disableOnInteraction: false,
+        pauseOnMouseEnter: false,
+    },
 
-autoplay:{
-delay:3000,
-disableOnInteraction:false,
-},
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
 
-pagination:{
-el:".swiper-pagination",
-clickable:true,
-},
-
-breakpoints:{
-
-0:{
-slidesPerView:1.15,
-spaceBetween:20
-},
-
-768:{
-slidesPerView:2,
-spaceBetween:30
-},
-
-1200:{
-slidesPerView:3,
-spaceBetween:40
-}
-
-}
-
+    breakpoints: {
+        0: {
+            slidesPerView: 1.15,
+            spaceBetween: 20
+        },
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 30
+        },
+        1200: {
+            slidesPerView: 3,
+            spaceBetween: 40
+        }
+    }
 });
 </script>
 
