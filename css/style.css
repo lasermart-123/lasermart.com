@@ -101,6 +101,22 @@ body {
 .swiper-slide-next{
     z-index:5;
 }
+.swiper-slide-prev{
+    transform: translateX(80px) scale(.88) !important;
+    z-index: 5;
+    opacity: .5;
+}
+
+.swiper-slide-next{
+    transform: translateX(-80px) scale(.88) !important;
+    z-index: 5;
+    opacity: .5;
+}
+
+.swiper-slide-active{
+    transform: scale(1) !important;
+    z-index: 10;
+}
 
 
 @media(max-width:991px){
