@@ -4022,7 +4022,7 @@ a.atb-laser1-btn {
   transform: translateY(-1px);
 }
 a#down-1{
-    margin-top:53px;
+    margin-top:20px;
 }
 a#down-2 {
     margin-top: 51px;
@@ -4552,7 +4552,7 @@ h5.atb {
     position: relative;
     z-index: 2;
     color: #fff;
-    padding: 50px 25px;
+    padding: 50px 22px;
     transition: .5s ease;
 }
 
