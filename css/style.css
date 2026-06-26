@@ -11,15 +11,11 @@ body {
 }
 .testimonial-section{
     padding:80px 0;
-    background:#f8f9fa;
+    background:#fff;
 }
 
 .testimonialSwiper{
     padding:40px 0 80px;
-}
-.testimonialSwiper {
-    overflow: visible;
-    padding: 60px 0;
 }
 
 .testimonial-card{
@@ -81,41 +77,7 @@ body {
 .swiper-pagination-bullet-active{
     background:#0d6efd;
 }
-.swiper-wrapper {
-    align-items: center;
-}
 
-.swiper-slide {
-    transition: all .5s ease;
-    opacity: .25;
-    transform: scale(.82);
-    filter: blur(2px);
-    z-index: 1;
-}
-
-/* Active Card */
-.swiper-slide-active {
-    opacity: 1;
-    transform: scale(1) translateY(0);
-    filter: blur(0);
-    z-index: 10;
-}
-
-/* Left Card */
-.swiper-slide-prev {
-    transform: translateX(70px) scale(.88);
-    opacity: .45;
-    filter: blur(2px);
-    z-index: 2;
-}
-
-/* Right Card */
-.swiper-slide-next {
-    transform: translateX(-70px) scale(.88);
-    opacity: .45;
-    filter: blur(2px);
-    z-index: 2;
-}
 
 @media(max-width:991px){
 
