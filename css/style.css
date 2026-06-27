@@ -1516,6 +1516,22 @@ h1.hero-title {
 .banner-btn a:hover::before {
     left: 120%;
 }
+a.atb-chat-icon {
+    padding: 3px 3px;
+    /* border-radius: 50%; */
+    height: 49px;
+    width: 49px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+a.atb-chat-icon i {
+    font-size: 35px;
+    left: 9%;
+    top: 10%;
+    position: relative;
+}
 
 /* Slight zoom */
 .banner-btn a:hover {
