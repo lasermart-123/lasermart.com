@@ -699,7 +699,7 @@ h1.hero-title {
 
 /*=======atb-speciality-section-=========*/
 .atb-speciality-section {
-    padding: 80px 0;
+    padding: 37px 0;
     background:#1c1c1c;
 }
 
@@ -2552,7 +2552,7 @@ h4.sub-titles-abt {
     direction: ltr;
 }*/
 section.jurney-section {
-    padding-top: 60px;
+    padding-top: 30px;
 }
        .journey-wrapper {
             display: flex;
@@ -4440,7 +4440,7 @@ h5.atb {
     margin-bottom: 25px;
 }
 .testimonial-section{
-    padding:80px 0;
+    padding:37px 0;
     background:#000;
 }
 
