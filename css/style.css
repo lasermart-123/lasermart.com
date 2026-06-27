@@ -11,7 +11,7 @@ body {
 }
 .testimonial-section{
     padding:80px 0;
-    background:#f8f9fa;
+    background:#000;
 }
 
 .testimonialSwiper{
@@ -20,6 +20,7 @@ body {
 
 .testimonial-card{
     background:#fff;
+    background:#000000;
     border-radius:10px;
     padding:10px 30px 10px;
     text-align:center;
@@ -93,14 +94,14 @@ body {
 .testimonial-card p{
     font-size:16px;
     line-height:28px;
-    color:#000;
+    color:#fff;
     margin-bottom:6px;
      padding-top:28px;
 }
 p.testimonial-pera {
     font-size: 16px;
     line-height: 28px;
-    color: #000;
+    color: #fff;
     margin-bottom: 6px;
     padding-top: 5px;
 }
