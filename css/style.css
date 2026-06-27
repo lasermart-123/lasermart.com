@@ -4145,7 +4145,7 @@ a#down-4 {
     color:#fff;
     overflow:hidden;
    padding-bottom: 104px;
-    padding-top: 40px;
+   /* padding-top: 40px;*/
 }
 section.smartxt-section h3 {
     font-size: 17px;
