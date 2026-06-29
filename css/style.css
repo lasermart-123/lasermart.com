@@ -2038,6 +2038,79 @@ a.atb-chat-icon i {
         height:130px;
     }
 }
+.support-item{
+    display:flex;
+    align-items:flex-start;
+    gap:18px;
+    padding:22px 0;
+    border-bottom:1px solid rgba(255,255,255,.08);
+}
+
+.support-icon{
+    width:68px;
+    height:68px;
+    background:#121212;
+    border-radius:14px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-shrink:0;
+    transition:.3s;
+}
+
+.support-icon i{
+    font-size:28px;
+    color:#ff6b00;
+}
+
+.support-content h5{
+    color:#fff;
+    font-size:24px;
+    font-weight:700;
+    margin-bottom:8px;
+}
+
+.support-content p{
+    color:#b7b7b7;
+    line-height:28px;
+    margin:0;
+    font-size:16px;
+}
+
+.support-item:hover .support-icon{
+    background:#ff6b00;
+    transform:translateY(-4px);
+}
+
+.support-item:hover .support-icon i{
+    color:#fff;
+}
+
+@media(max-width:991px){
+
+.support-item{
+    padding:18px 0;
+}
+
+.support-content h5{
+    font-size:20px;
+}
+
+.support-content p{
+    font-size:15px;
+    line-height:25px;
+}
+
+.support-icon{
+    width:60px;
+    height:60px;
+}
+
+.support-icon i{
+    font-size:24px;
+}
+
+}
 /* FLOATING CARD */
 
 .floating-card {
