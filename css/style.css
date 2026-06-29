@@ -9,192 +9,165 @@
 body {
     background: #0c0808;
 }
-
-/*=========================
+/*==========================
 ABOUT HERO
-=========================*/
+==========================*/
 
 .about-hero{
-    background:#060606;
+    background:#070707;
+    padding:80px 0;
     overflow:hidden;
     position:relative;
-    padding:90px 0;
 }
 
-/* Blue Glow */
-
-.about-hero::before{
-    content:"";
-    position:absolute;
-    right:-250px;
-    top:-180px;
-    width:700px;
-    height:700px;
-    border-radius:50%;
-    background:radial-gradient(circle,
-    rgba(25,120,255,.25),
-    transparent 70%);
-}
-
-/* Orange Glow */
-
-.about-hero::after{
-    content:"";
-    position:absolute;
-    left:-250px;
-    bottom:-200px;
-    width:600px;
-    height:600px;
-    border-radius:50%;
-    background:radial-gradient(circle,
-    rgba(255,106,0,.15),
-    transparent 70%);
-}
-
-/*=========================
-LEFT CONTENT
-=========================*/
-
-.about-content{
+.hero-box{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:40px;
     position:relative;
-    z-index:2;
 }
 
-.hero-tag{
+/*==========================
+LEFT CONTENT
+==========================*/
 
+.hero-content{
+    width:42%;
+    position:relative;
+    z-index:5;
+}
+
+.hero-badge{
     display:inline-block;
     padding:8px 18px;
-    border:1px solid rgba(255,106,0,.4);
-    border-radius:50px;
-    color:#ff6a00;
-    font-size:14px;
+    border-radius:30px;
+    background:#ff6b00;
+    color:#fff;
+    font-size:13px;
     font-weight:600;
     margin-bottom:25px;
-
-    background:rgba(255,106,0,.08);
-
 }
 
-.about-content h1{
-
+.hero-content h1{
     color:#fff;
-    font-size:62px;
-    line-height:1.15;
+    font-size:58px;
+    line-height:1.12;
     font-weight:700;
     margin-bottom:25px;
-
 }
 
-.about-content h1 span{
-    color:#ff6a00;
+.hero-content span{
+    color:#ff6b00;
 }
 
-.about-content p{
-
+.hero-content p{
     color:#bdbdbd;
-    font-size:18px;
-    line-height:32px;
-    margin-bottom:40px;
-
+    line-height:30px;
+    font-size:17px;
+    margin-bottom:35px;
 }
-
-/*=========================
-BUTTONS
-=========================*/
 
 .hero-btns{
-
     display:flex;
-    gap:18px;
+    gap:15px;
     flex-wrap:wrap;
-
 }
 
 .btn-orange{
-
-    background:#ff6a00;
+    background:#ff6b00;
     color:#fff;
     padding:15px 34px;
     border-radius:8px;
     font-weight:600;
+}
 
+.btn-outline{
+    border:2px solid rgba(255,255,255,.3);
+    color:#fff;
+    padding:15px 34px;
+    border-radius:8px;
 }
 
 .btn-orange:hover{
-
     background:#fff;
-    color:#ff6a00;
-
+    color:#ff6b00;
 }
 
-.btn-outline-light{
-
-    padding:15px 34px;
-    border-radius:8px;
-    border:2px solid rgba(255,255,255,.3);
-
-}
-
-.btn-outline-light:hover{
-
+.btn-outline:hover{
     background:#fff;
     color:#111;
-
 }
 
-/*=========================
+/*==========================
 RIGHT SIDE
-=========================*/
+==========================*/
 
-.hero-image{
-
+.hero-graphics{
+    width:58%;
     position:relative;
-    text-align:center;
-    min-height:650px;
-
+    height:650px;
 }
+
+/* Machine */
 
 .machine{
-
-    position:relative;
+    position:absolute;
+    width:470px;
+    left:50%;
+    top:15px;
+    transform:translateX(-50%);
     z-index:5;
-    width:520px;
-    animation:float 4s ease-in-out infinite;
+}
 
+/* Hand */
+
+.laser-hand{
+    position:absolute;
+    width:360px;
+    right:-90px;
+    top:170px;
+    z-index:6;
 }
 
 /* Platform */
 
 .platform{
-
     position:absolute;
-    bottom:60px;
-    left:50%;
-    transform:translateX(-50%);
     width:430px;
-    height:90px;
+    height:70px;
+    left:50%;
+    bottom:70px;
+    transform:translateX(-50%);
     border-radius:50%;
-    background:#101010;
+    background:#111;
 
     box-shadow:
-
-    0 0 0 3px #0c4eff,
-
-    0 0 30px #0c4eff,
-
-    0 0 70px rgba(255,90,0,.5);
-
+    0 0 0 3px #0b61ff,
+    0 0 25px #0b61ff,
+    0 0 70px rgba(255,90,0,.45);
 }
 
-/* Laser Hand */
+/* Laser Beam */
 
-.laser-hand{
+.laser-beam{
 
     position:absolute;
-    right:-30px;
-    top:70px;
-    width:270px;
-    z-index:6;
+
+    right:150px;
+    top:320px;
+
+    width:170px;
+    height:2px;
+
+    background:linear-gradient(
+    to right,
+    transparent,
+    red);
+
+    transform:rotate(-18deg);
+
+    z-index:5;
 
 }
 
@@ -204,44 +177,68 @@ RIGHT SIDE
 
     position:absolute;
 
-    right:155px;
-    top:250px;
+    right:140px;
+    top:312px;
 
-    width:16px;
-    height:16px;
+    width:14px;
+    height:14px;
 
     border-radius:50%;
 
-    background:#ff2d00;
+    background:red;
 
     box-shadow:
+    0 0 15px red,
+    0 0 35px red,
+    0 0 60px red;
 
-    0 0 20px red,
-
-    0 0 40px red,
-
-    0 0 70px red;
-
-}
-
-/* Floating */
-
-@keyframes float{
-
-0%{
-transform:translateY(0);
-}
-
-50%{
-transform:translateY(-12px);
-}
-
-100%{
-transform:translateY(0);
-}
+    z-index:6;
 
 }
 
+/*==========================
+BACKGROUND GLOW
+==========================*/
+
+.about-hero::before{
+
+    content:"";
+
+    position:absolute;
+
+    right:-200px;
+    top:-150px;
+
+    width:650px;
+    height:650px;
+
+    border-radius:50%;
+
+    background:radial-gradient(circle,
+    rgba(0,110,255,.18),
+    transparent 70%);
+
+}
+
+.about-hero::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:-150px;
+    bottom:-180px;
+
+    width:500px;
+    height:500px;
+
+    border-radius:50%;
+
+    background:radial-gradient(circle,
+    rgba(255,90,0,.15),
+    transparent 70%);
+
+}
 
 
 .preloader {
