@@ -68,36 +68,6 @@ LEFT CONTENT
     margin-bottom:35px;
 }
 
-.hero-btns{
-    display:flex;
-    gap:15px;
-    flex-wrap:wrap;
-}
-
-.btn-orange{
-    background:#ff6b00;
-    color:#fff;
-    padding:15px 34px;
-    border-radius:8px;
-    font-weight:600;
-}
-
-.btn-outline{
-    border:2px solid rgba(255,255,255,.3);
-    color:#fff;
-    padding:15px 34px;
-    border-radius:8px;
-}
-
-.btn-orange:hover{
-    background:#fff;
-    color:#ff6b00;
-}
-
-.btn-outline:hover{
-    background:#fff;
-    color:#111;
-}
 
 /*==========================
 RIGHT SIDE
@@ -132,20 +102,16 @@ RIGHT SIDE
 
 /* Platform */
 
-.platform{
-    position:absolute;
-    width:430px;
-    height:70px;
-    left:50%;
-    bottom:70px;
-    transform:translateX(-50%);
-    border-radius:50%;
-    background:#111;
-
-    box-shadow:
-    0 0 0 3px #0b61ff,
-    0 0 25px #0b61ff,
-    0 0 70px rgba(255,90,0,.45);
+.platform {
+    position: absolute;
+    width: 430px;
+    height: 70px;
+    left: 50%;
+    bottom: 168px;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background: #000000;
+    box-shadow: 0 0 0 3px #eb6200, 0 0 25px #eb6200, 0 0 70px rgb(255 90 0 / 38%);
 }
 
 /* Laser Beam */
