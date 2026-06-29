@@ -116,95 +116,63 @@ RIGHT SIDE
 
 /* Laser Beam */
 
-.laser-beam{
-
+/*.laser-beam{
     position:absolute;
-
     right:150px;
     top:320px;
-
     width:170px;
     height:2px;
-
-    background:linear-gradient(
-    to right,
-    transparent,
-    red);
-
+    background:linear-gradient(to right,transparent, red);
     transform:rotate(-18deg);
-
     z-index:5;
-
-}
+}*/
 
 /* Laser Dot */
 
-.laser-dot{
-
+/*.laser-dot{
     position:absolute;
-
     right:140px;
     top:312px;
-
     width:14px;
     height:14px;
-
     border-radius:50%;
-
     background:red;
-
     box-shadow:
     0 0 15px red,
     0 0 35px red,
     0 0 60px red;
-
     z-index:6;
-
-}
+}*/
 
 /*==========================
 BACKGROUND GLOW
 ==========================*/
 
 .about-hero::before{
-
     content:"";
-
     position:absolute;
-
     right:-200px;
     top:-150px;
-
     width:650px;
     height:650px;
-
     border-radius:50%;
-
     background:radial-gradient(circle,
     rgba(0,110,255,.18),
     transparent 70%);
-
 }
 
-.about-hero::after{
-
+/*.about-hero::after{
     content:"";
-
     position:absolute;
-
     left:-150px;
     bottom:-180px;
-
     width:500px;
     height:500px;
-
     border-radius:50%;
-
     background:radial-gradient(circle,
     rgba(255,90,0,.15),
     transparent 70%);
-
-}
+}*/
 
 
 .preloader {
@@ -260,7 +228,6 @@ BACKGROUND GLOW
     justify-content: center;
     cursor: pointer;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-
     transition: 0.3s;
 }
 
