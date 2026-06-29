@@ -2381,14 +2381,16 @@ a.atb-chat-icon i {
 /* VISION */
 
 .vision-content {
-    display: flex;
+    /*display: flex;*/
     align-items: center;
-    gap: 35px;
+    /*gap: 35px;*/
     margin-bottom: 80px;
 }
 
 .vision-icon {
     min-width: 120px;
+    display: flex;
+    gap: 30px;
 }
 
 .vision-icon img {
