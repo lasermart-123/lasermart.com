@@ -2421,12 +2421,12 @@ a.atb-chat-icon i {
 .mission-item {
     display: flex;
     align-items: flex-start;
-    gap: 35px;
+    gap: 24px;
     /* border-bottom: 1px dotted rgba(255, 255, 255, 0.5); */
     background: #b1b1b12b;
     border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 28px;
-    padding: 35px 30px;
+    padding: 18px 15px;
     transition: 0.4s;
     position: relative;
     margin-bottom: 20px;
@@ -2459,7 +2459,7 @@ a.atb-chat-icon i {
     display: flex;
     align-items: center;
     gap: 25px;
-    /*min-width:230px;*/
+    /* min-width: 230px; */
 }
 
 .left-side i {
@@ -2491,9 +2491,9 @@ a.atb-chat-icon i {
     display: block;
 }
 
-.mission-item p {   
-    font-size: 29px;
-    line-height: 1.5;
+.mission-item p {
+    font-size: 18px;
+    /* line-height: 25px; */
     font-weight: 300;
 }
 
@@ -2501,6 +2501,7 @@ a.atb-chat-icon i {
 .mission-item p strong {
     color: rgb(235, 98, 0);
     font-weight: 500;
+    font-size:18px;
 }
 
 .border-none {
