@@ -2041,40 +2041,39 @@ a.atb-chat-icon i {
 .support-item{
     display:flex;
     align-items:flex-start;
-    gap:18px;
+    gap:5px;
     padding:22px 0;
     border-bottom:1px solid rgba(255,255,255,.08);
 }
 
-.support-icon{
-    width:68px;
-    height:68px;
-    background:#121212;
-    border-radius:14px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    flex-shrink:0;
-    transition:.3s;
+.support-icon {
+    width: 40px;
+    height: 40px;
+    background: #121212;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    transition: .3s;
 }
 
-.support-icon i{
-    font-size:28px;
-    color:#ff6b00;
+.support-icon i {
+    font-size: 25px;
+    color: #ff6b00;
 }
 
-.support-content h5{
-    color:#fff;
-    font-size:24px;
-    font-weight:700;
-    margin-bottom:8px;
+.support-content h5 {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 8px;
 }
-
-.support-content p{
-    color:#b7b7b7;
-    line-height:28px;
-    margin:0;
-    font-size:16px;
+.support-content p {
+    color: #b7b7b7;
+    line-height: 21px;
+    margin: 0;
+    font-size: 15px;
 }
 
 .support-item:hover .support-icon{
