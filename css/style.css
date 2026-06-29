@@ -9,171 +9,6 @@
 body {
     background: #0c0808;
 }
-/*==========================
-ABOUT HERO
-==========================*/
-
-.about-hero{
-    background:#070707;
-    padding:80px 0;
-    overflow:hidden;
-    position:relative;
-}
-
-.hero-box{
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    gap:40px;
-    position:relative;
-}
-
-/*==========================
-LEFT CONTENT
-==========================*/
-
-.hero-content{
-    width:42%;
-    position:relative;
-    z-index:5;
-}
-
-.hero-badge{
-    display:inline-block;
-    padding:8px 18px;
-    border-radius:30px;
-    background:#ff6b00;
-    color:#fff;
-    font-size:13px;
-    font-weight:600;
-    margin-bottom:25px;
-}
-
-.hero-content h1{
-    color:#fff;
-    font-size:58px;
-    line-height:1.12;
-    font-weight:700;
-    margin-bottom:25px;
-}
-
-.hero-content span{
-    color:#fff;
-}
-
-.hero-content p{
-    color:#bdbdbd;
-    line-height:30px;
-    font-size:17px;
-    margin-bottom:35px;
-}
-
-
-/*==========================
-RIGHT SIDE
-==========================*/
-
-.hero-graphics{
-    width:58%;
-    position:relative;
-    height:650px;
-}
-
-/* Machine */
-
-.machine{
-    position:absolute;
-    width:470px;
-    left:50%;
-    top:15px;
-    transform:translateX(-50%);
-    z-index:5;
-}
-
-/* Hand */
-
-.laser-hand{
-    position:absolute;
-    width:360px;
-    right:-90px;
-    top:170px;
-    z-index:6;
-}
-
-/* Platform */
-
-.platform {
-    position: absolute;
-    width: 430px;
-    height: 70px;
-    left: 50%;
-    bottom: 168px;
-    transform: translateX(-50%);
-    border-radius: 50%;
-    background: #000000;
-    box-shadow: 0 0 0 3px #eb6200, 0 0 25px #eb6200, 0 0 70px rgb(255 90 0 / 38%);
-}
-
-/* Laser Beam */
-
-/*.laser-beam{
-    position:absolute;
-    right:150px;
-    top:320px;
-    width:170px;
-    height:2px;
-    background:linear-gradient(to right,transparent, red);
-    transform:rotate(-18deg);
-    z-index:5;
-}*/
-
-/* Laser Dot */
-
-/*.laser-dot{
-    position:absolute;
-    right:140px;
-    top:312px;
-    width:14px;
-    height:14px;
-    border-radius:50%;
-    background:red;
-    box-shadow:
-    0 0 15px red,
-    0 0 35px red,
-    0 0 60px red;
-    z-index:6;
-}*/
-
-/*==========================
-BACKGROUND GLOW
-==========================*/
-
-.about-hero::before{
-    content:"";
-    position:absolute;
-    right:-200px;
-    top:-150px;
-    width:650px;
-    height:650px;
-    border-radius:50%;
-    background:radial-gradient(circle,
-    rgba(0,110,255,.18),
-    transparent 70%);
-}
-
-/*.about-hero::after{
-    content:"";
-    position:absolute;
-    left:-150px;
-    bottom:-180px;
-    width:500px;
-    height:500px;
-    border-radius:50%;
-    background:radial-gradient(circle,
-    rgba(255,90,0,.15),
-    transparent 70%);
-}*/
-
 
 .preloader {
     position: fixed;
@@ -1739,6 +1574,170 @@ a.atb-chat-icon i {
 
 /* ============== About.Page =====================*/
 /* ABOUT HERO SECTION */
+/*==========================
+ABOUT HERO
+==========================*/
+
+.about-hero{
+    background:#070707;
+    padding:80px 0;
+    overflow:hidden;
+    position:relative;
+}
+
+.hero-box{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:40px;
+    position:relative;
+}
+
+/*==========================
+LEFT CONTENT
+==========================*/
+
+.hero-content{
+    width:42%;
+    position:relative;
+    z-index:5;
+}
+
+.hero-badge{
+    display:inline-block;
+    padding:8px 18px;
+    border-radius:30px;
+    background:#ff6b00;
+    color:#fff;
+    font-size:13px;
+    font-weight:600;
+    margin-bottom:25px;
+}
+
+.hero-content h1{
+    color:#fff;
+    font-size:58px;
+    line-height:1.12;
+    font-weight:700;
+    margin-bottom:25px;
+}
+
+.hero-content span{
+    color:#fff;
+}
+
+.hero-content p{
+    color:#bdbdbd;
+    line-height:30px;
+    font-size:17px;
+    margin-bottom:35px;
+}
+
+
+/*==========================
+RIGHT SIDE
+==========================*/
+
+.hero-graphics{
+    width:58%;
+    position:relative;
+    height:650px;
+}
+
+/* Machine */
+
+.machine{
+    position:absolute;
+    width:470px;
+    left:50%;
+    top:15px;
+    transform:translateX(-50%);
+    z-index:5;
+}
+
+/* Hand */
+
+.laser-hand{
+    position:absolute;
+    width:360px;
+    right:-90px;
+    top:170px;
+    z-index:6;
+}
+
+/* Platform */
+
+.platform {
+    position: absolute;
+    width: 430px;
+    height: 70px;
+    left: 50%;
+    bottom: 168px;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background: #000000;
+    box-shadow: 0 0 0 3px #eb6200, 0 0 25px #eb6200, 0 0 70px rgb(255 90 0 / 38%);
+}
+
+/* Laser Beam */
+
+/*.laser-beam{
+    position:absolute;
+    right:150px;
+    top:320px;
+    width:170px;
+    height:2px;
+    background:linear-gradient(to right,transparent, red);
+    transform:rotate(-18deg);
+    z-index:5;
+}*/
+
+/* Laser Dot */
+
+/*.laser-dot{
+    position:absolute;
+    right:140px;
+    top:312px;
+    width:14px;
+    height:14px;
+    border-radius:50%;
+    background:red;
+    box-shadow:
+    0 0 15px red,
+    0 0 35px red,
+    0 0 60px red;
+    z-index:6;
+}*/
+
+/*==========================
+BACKGROUND GLOW
+==========================*/
+
+.about-hero::before{
+    content:"";
+    position:absolute;
+    right:-200px;
+    top:-150px;
+    width:650px;
+    height:650px;
+    border-radius:50%;
+    background:radial-gradient(circle,
+    rgba(0,110,255,.18),
+    transparent 70%);
+}
+
+/*.about-hero::after{
+    content:"";
+    position:absolute;
+    left:-150px;
+    bottom:-180px;
+    width:500px;
+    height:500px;
+    border-radius:50%;
+    background:radial-gradient(circle,
+    rgba(255,90,0,.15),
+    transparent 70%);
+}*/
 
 .about-hero {
     position: relative;
