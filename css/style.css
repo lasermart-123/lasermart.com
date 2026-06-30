@@ -1892,12 +1892,14 @@ BACKGROUND GLOW
 
 .stat-icon{
     color:rgb(235, 98, 0);
+    color:#fff;
     font-size:30px;
     margin-bottom:8px;
 }
 
 .stat-number{
     color:#fff;
+    color:rgb(235, 98, 0)
     font-size:32px;
     font-weight:700;
     line-height:1;
@@ -2033,7 +2035,7 @@ BACKGROUND GLOW
             position: relative;
             z-index: 2;
             color: #ffffff;
-            font-size: 19px;
+            font-size: 18px;
 
         }
 .equipment-section{
