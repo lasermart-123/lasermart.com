@@ -350,6 +350,9 @@
 .hero-graphics img{
     max-width:100%;
 }
+    .hero-content{
+        width:100%;
+    }
     
     
 }
