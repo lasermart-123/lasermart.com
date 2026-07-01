@@ -2912,22 +2912,6 @@ section.jurney-section {
     text-align:center;
 }
 
-.hero-content{
-    max-width:700px;
-    margin:auto;
-}
-
-.hero-content h1{
-    color:#fff;
-    font-size:70px;
-    font-weight:700;
-}
-
-.hero-content p{
-    color:#fff;
-    font-size:20px;
-    margin:20px 0 30px;
-}
 
 .hero-btn{
     display:inline-block;
@@ -2944,13 +2928,7 @@ section.jurney-section {
         height:50vh;
     }
 
-    .hero-content h1{
-        font-size:42px;
-    }
-
-    .hero-content p{
-        font-size:16px;
-    }
+   
 }
 
 /*=============== Dual.Page =====================*/
