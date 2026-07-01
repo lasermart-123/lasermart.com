@@ -180,6 +180,20 @@
      .wave-col{
         width:33.33%;
     }
+    .hero-box{
+    flex-direction:column;
+    text-align:center;
+    gap:30px;
+}
+
+.hero-content{
+    order:1;
+}
+
+.hero-graphics{
+    order:2;
+}
+
   
 }
 
@@ -314,6 +328,28 @@
      .wave-col{
         width:50%;
     }
+    .about-hero{
+    padding:70px 0;
+}
+
+.hero-box{
+    flex-direction:column;
+    gap:25px;
+}
+
+.hero-content h1{
+    font-size:32px;
+    line-height:1.2;
+}
+
+.hero-content p{
+    font-size:16px;
+    line-height:1.7;
+}
+
+.hero-graphics img{
+    max-width:100%;
+}
     
     
 }
