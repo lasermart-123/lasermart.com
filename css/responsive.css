@@ -353,7 +353,21 @@
     .hero-content{
         width:100%;
     }
-    
+    .hero-graphics{
+   width:60px;
+        height:378px;
+}
+    .platform{
+        width:320px;
+        height:70px;
+    }
+    .laser-hand {
+    position: absolute;
+    width: 360px;
+    right: -90px;
+    top: 40px;
+    z-index: 6;
+}
     
 }
 
@@ -631,6 +645,21 @@
           width:100%; 
           max-width:100%;
          }
+     .hero-graphics{
+   width:60px;
+        height:378px;
+}
+    .platform{
+        width:320px;
+        height:70px;
+    }
+    .laser-hand {
+    position: absolute;
+    width: 360px;
+    right: -90px;
+    top: 40px;
+    z-index: 6;
+}
     
 }
  @media (max-width: 400px) {
