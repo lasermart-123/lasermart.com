@@ -3449,321 +3449,7 @@ section.atb-triple-section {
     transform: translateY(-4px);
 }
 
-/*================ Proctology ===================*/
-.proctology-hero {
-    background: #023b62;
-    overflow: hidden;
-    position: relative;
-}
 
-.hero-tag {
-    display: inline-block;
-    background: rgb(235, 98, 0);
-    color: #fff;
-    padding: 12px 25px;
-    border-radius: 50px;
-    font-size: 14px;
-    font-weight: 600;
-    /* margin-bottom: 25px; */
-}
-
-.procto-hero-features {
-    gap: 14px;
-    display: flex;
-}
-
-.procto-feature-item {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    font-weight: 600;
-    color: #002b7f;
-    background: #ffffff;
-    padding: 15px;
-    border-radius: 19px;
-    box-shadow: #0000005c 8px 13px 0px 0px;
-}
-
-.procto-hero-image-wrapper {
-    position: relative;
-    text-align: right;
-    /* margin-top: -207px; */
-}
-
-.procto-main-img {
-    width: 100%;
-    object-fit: cover;
-    border-radius: 76px;
-    border: 8px solid rgb(235, 98, 0);
-    box-shadow: 0 15px 40px rgba(0, 0, 0, .15);
-}
-
-.treatment-process {
-    background: #f8f9fc;
-}
-
-.process-tag {
-    display: inline-block;
-    background: rgb(235, 98, 0);
-    color: #fff;
-    padding: 10px 25px;
-    border-radius: 30px;
-    font-size: 14px;
-    font-weight: 600;
-}
-
-.process-title {
-    font-size: 50px;
-    font-weight: 800;
-    color: #002b7f;
-    margin-top: 20px;
-}
-
-.process-title span {
-    color: rgb(235, 98, 0);
-}
-
-.process-image {
-    position: relative;
-}
-
-.process-image img {
-    width: 100%;
-    border-radius: 25px;
-    box-shadow: 0 15px 40px rgba(0, 0, 0, .12);
-}
-
-.timeline-item {
-    display: flex;
-    gap: 25px;
-    position: relative;
-    padding-bottom: 35px;
-}
-
-.timeline-item:last-child {
-    padding-bottom: 0;
-}
-
-.timeline-item:not(:last-child)::after {
-    content: '';
-    position: absolute;
-    left: 29px;
-    top: 70px;
-    width: 2px;
-    height: 70px;
-    background: #d9d9d9;
-}
-
-.timeline-number {
-    width: 60px;
-    height: 60px;
-    min-width: 60px;
-    background: #002b7f;
-    color: #fff;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 20px;
-    font-weight: 700;
-}
-
-.timeline-content {
-    background: #fff;
-    padding: 20px 25px;
-    border-radius: 15px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, .08);
-    width: 100%;
-}
-
-.timeline-content h4 {
-    color: #002b7f;
-    font-weight: 700;
-    margin-bottom: 10px;
-}
-
-.timeline-content p {
-    margin: 0;
-    color: #666;
-    line-height: 1.7;
-}
-
-/*laser-benefit========*/
-.wavelength-section {
-    background: #f8f9fc;
-    overflow: hidden;
-}
-
-.section-badge {
-    background: rgb(235, 98, 0);
-    color: #fff;
-    padding: 10px 22px;
-    border-radius: 50px;
-    font-size: 14px;
-    font-weight: 600;
-    display: inline-block;
-    margin-bottom: 20px;
-}
-
-.section-title {
-    font-size: 37px;
-    font-weight: 800;   
-    margin-bottom: 15px;
-}
-
-/*.section-title span {
-    color: rgb(235, 98, 0);
-}*/
-
-.wave-card {
-    background: #fff;
-    padding: 30px;
-    border-radius: 20px;
-    text-align: center;
-    margin-bottom: 25px;
-    box-shadow: 0 6px 5px 8px rgb(0 0 0 / 45%);
-    transition: .3s;
-}
-
-.wave-card:hover {
-    transform: translateY(-8px);
-}
-
-.wave-card h3 {
-    color: rgb(235, 98, 0);
-    font-size: 42px;
-    font-weight: 800;
-    margin-bottom: 10px;
-}
-
-.wave-card p {
-    margin: 0;
-    color: #666;
-}
-
-.machine-wrapper {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 500px;
-}
-
-.machines-img {
-    max-width: 380px;
-    width: 100%;
-    position: relative;
-    z-index: 2;
-}
-
-.pulse {
-    position: absolute;
-    border: 2px solid rgba(240, 74, 35, .3);
-    border-radius: 50%;
-    animation: pulse 3s infinite;
-}
-
-.pulse-1 {
-    width: 350px;
-    height: 350px;
-}
-
-.pulse-2 {
-    width: 500px;
-    height: 500px;
-    animation-delay: 1s;
-}
-
-@keyframes pulse {
-    0% {
-        transform: scale(.8);
-        opacity: 1;
-    }
-
-    100% {
-        transform: scale(1.3);
-        opacity: 0;
-    }
-}
-
-/*===technology===*/
-
-.why-surgeons-section {
-    background: #053763;
-    padding: 100px 0;
-    position: relative;
-    overflow: hidden;
-}
-
-.why-surgeons-section::before {
-    content: '';
-    position: absolute;
-    width: 450px;
-    height: 450px;
-    background: rgba(255, 255, 255, 0.04);
-    border-radius: 50%;
-    top: -150px;
-    right: -150px;
-}
-
-.section-badge {
-    display: inline-block;
-    background: rgb(235, 98, 0);
-    color: #fff;
-    padding: 10px 25px;
-    border-radius: 50px;
-    font-size: 14px;
-    font-weight: 600;
-    margin-bottom: 25px;
-}
-
-.section-title1 {
-    color: #fff;
-    font-size: 43px;
-    font-weight: 800;
-    line-height: 1.1;
-    margin-bottom: 25px;
-}
-
-.section-title1 span {
-    color: rgb(235, 98, 0);
-}
-
-.section-text {
-    color: rgba(255, 255, 255, 0.85);
-    line-height: 1.9;
-    font-size: 17px;
-    margin-bottom: 20px;
-}
-
-.premium-card {
-    background: rgba(255, 255, 255, 0.08);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 25px;
-    padding: 35px 25px;
-    text-align: center;
-    height: 100%;
-    transition: 0.4s;
-}
-
-.premium-card:hover {
-    transform: translateY(-8px);
-}
-
-.premium-card h3 {
-    color: rgb(235, 98, 0);
-    font-size: 30px;
-    font-weight: 800;
-    margin-bottom: 10px;
-}
-
-.premium-card p {
-    color: #fff;
-    margin: 0;
-    font-size: 18px;
-    font-weight: 600;
-}
 
 /*=============== varicose vein.page ==================*/
 .varicose-hero {
@@ -6017,6 +5703,90 @@ textarea.input {
     font-size: 18px;
     color: #0089b0;
 }
+/*================ Proctology ===================*/
+.proctology-hero {
+    background: #023b62;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-tag {
+    display: inline-block;
+    background: rgb(235, 98, 0);
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    /* margin-bottom: 25px; */
+}
+
+.procto-hero-features {
+    gap: 14px;
+    display: flex;
+}
+
+.procto-feature-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: 600;
+    color: #002b7f;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 19px;
+    box-shadow: #0000005c 8px 13px 0px 0px;
+}
+
+.procto-hero-image-wrapper {
+    position: relative;
+    text-align: right;
+    /* margin-top: -207px; */
+}
+
+.procto-main-img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 76px;
+    border: 8px solid rgb(235, 98, 0);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, .15);
+}
+
+.treatment-process {
+    background: #f8f9fc;
+}
+
+.process-tag {
+    display: inline-block;
+    background: rgb(235, 98, 0);
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.process-title {
+    font-size: 50px;
+    font-weight: 800;
+    color: #002b7f;
+    margin-top: 20px;
+}
+
+.process-title span {
+    color: rgb(235, 98, 0);
+}
+
+.process-image {
+    position: relative;
+}
+
+.process-image img {
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, .12);
+}
+
 
 /*=================================== 
          Proctology.Page-1
