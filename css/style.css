@@ -2551,6 +2551,10 @@ BACKGROUND GLOW
     /*gap: 35px;*/
     margin-bottom: 80px;
 }
+.vision-right {
+    border-left: 2px solid #ddd;
+    padding-left: 30px;
+}
 
 .vision-icon {
     min-width: 120px;
@@ -2569,10 +2573,10 @@ BACKGROUND GLOW
     border-left: 2px solid #ffffff;
 }
 
-.vision-content p {    
-    font-size: 32px;
+.vision-content p {
+    font-size: 20px;
     line-height: 1.6;
-    max-width: 750px;
+    /* max-width: 750px; */
     font-weight: 300;
 }
 
