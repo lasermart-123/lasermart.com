@@ -5703,9 +5703,12 @@ textarea.input {
     font-size: 18px;
     color: #0089b0;
 }
-/*================ Proctology ===================*/
+
+/*=================================== 
+         Proctology.Page-1
+====================================*/
 .proctology-hero {
-    background: #023b62;
+    background: #000;
     overflow: hidden;
     position: relative;
 }
@@ -5744,53 +5747,7 @@ textarea.input {
     /* margin-top: -207px; */
 }
 
-.procto-main-img {
-    width: 100%;
-    object-fit: cover;
-    border-radius: 76px;
-    border: 8px solid rgb(235, 98, 0);
-    box-shadow: 0 15px 40px rgba(0, 0, 0, .15);
-}
 
-.treatment-process {
-    background: #f8f9fc;
-}
-
-.process-tag {
-    display: inline-block;
-    background: rgb(235, 98, 0);
-    color: #fff;
-    padding: 10px 25px;
-    border-radius: 30px;
-    font-size: 14px;
-    font-weight: 600;
-}
-
-.process-title {
-    font-size: 50px;
-    font-weight: 800;
-    color: #002b7f;
-    margin-top: 20px;
-}
-
-.process-title span {
-    color: rgb(235, 98, 0);
-}
-
-.process-image {
-    position: relative;
-}
-
-.process-image img {
-    width: 100%;
-    border-radius: 25px;
-    box-shadow: 0 15px 40px rgba(0, 0, 0, .12);
-}
-
-
-/*=================================== 
-         Proctology.Page-1
-====================================*/
 .procto-feature-item {
     display: flex;
     align-items: center;
@@ -5814,7 +5771,9 @@ textarea.input {
     color: #fff;
     background-color: rgb(235, 98, 0);
 }
-
+.atb-pro-img img {
+    width: 100%;
+}
 
 
 
