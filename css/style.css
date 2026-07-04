@@ -5746,6 +5746,13 @@ textarea.input {
     text-align: right;
     /* margin-top: -207px; */
 }
+.procto-main-img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 76px;
+    border: 8px solid rgb(235, 98, 0);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, .15);
+}
 
 
 .procto-feature-item {
