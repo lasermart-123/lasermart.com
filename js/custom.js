@@ -289,9 +289,6 @@ document.addEventListener("click", function(event){
 });
 
 
-AOS.init({
-  duration: 1200,
-})
 
 
 
