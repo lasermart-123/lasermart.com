@@ -3564,7 +3564,7 @@ section.atb-triple-section {
     background: linear-gradient(to right, #000000 0%, rgb(0 0 0 / 80%) 40%, transparent 100%);
 }
 
-.patient-card {
+/*.patient-card {
     position: absolute;
     top: 40px;
     right: 40px;
@@ -3583,7 +3583,7 @@ section.atb-triple-section {
 
 .patient-card p {
     margin: 0;
-}
+}*/
 
 /*========program==========*/
 .program-overview {
