@@ -3699,6 +3699,17 @@ section.why-treat-section h2 {
 section.why-treat-section p span {
    color:rgb(235, 98, 0);   
 }
+section.atb-indication {    
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+section.atb-indication {
+    color: #fff;   
+}
+.atb-indicat-img img {
+    width: 100%;
+}
 
 /*=============== Product.Page =================*/
 .hero-product-section-title {
