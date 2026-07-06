@@ -3664,6 +3664,23 @@ section.atb-triple-section {
 .atb-var-content p span {
     color: rgb(235, 98, 0);
 }
+section.atb-var-whay-section {
+    padding-top: 50px;
+    background: #000;
+}
+.atb-var-why-content h4 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 32px;
+    padding-bottom: 13px;
+}
+.var-why-img img {
+    width: 100%;
+}
+p.atb-var-pera {
+    background: #eb6200;
+    padding: 30px;
+}
 
 /*=============== Product.Page =================*/
 .hero-product-section-title {
