@@ -3705,11 +3705,13 @@ section.atb-indication {
     overflow: hidden;
 }
 section.atb-indication ul {
-    color: #fff;   
+    color: #fff;
+    font-size: 23px;
+    padding-bottom: 22px;
 }
 .atb-indicat-img {
     position: relative;
-    width: 239px;
+    width: 292px;
     height: 277px;
 }
 .atb-indicat-img img {
