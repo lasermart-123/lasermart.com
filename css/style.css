@@ -3462,7 +3462,7 @@ section.atb-triple-section {
     padding: 80px 60px;
 }
 
-.hero-badge-varico {
+/*.hero-badge-varico {
     background: rgb(235, 98, 0);
     color: #fff;
     padding: 12px 28px;
@@ -3470,7 +3470,7 @@ section.atb-triple-section {
     display: inline-block;
     font-weight: 600;
     margin-bottom: 30px;
-}
+}*/
 
 .hero-content-varico h1 {
     color: #fff;
@@ -3491,7 +3491,7 @@ section.atb-triple-section {
     margin-bottom: 35px;
 }
 
-.feature-item-varico {
+/*.feature-item-varico {
     display: flex;
     gap: 18px;
     align-items: flex-start;
@@ -3517,7 +3517,7 @@ section.atb-triple-section {
 
 .feature-item-varico span {
     color: #bfc8d8;
-}
+}*/
 
 .hero-btns-varico {
     display: flex;
