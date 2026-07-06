@@ -3704,7 +3704,7 @@ section.atb-indication {
     width: 100%;
     overflow: hidden;
 }
-section.atb-indication {
+section.atb-indication ul {
     color: #fff;   
 }
 .atb-indicat-img img {
