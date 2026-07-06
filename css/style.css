@@ -3588,7 +3588,7 @@ section.atb-triple-section {
 
 /*========program==========*/
 
-.overview-box {
+/*.overview-box {
     background: #053763;
     color: #fff;
     padding: 60px;
@@ -3627,7 +3627,7 @@ section.atb-triple-section {
     font-size: 18px;
     line-height: 1.9;
     opacity: .9;
-}
+}*/
 
 /*.stat-card {
     background: #fff;
