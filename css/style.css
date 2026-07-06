@@ -3587,9 +3587,6 @@ section.atb-triple-section {
 }*/
 
 /*========program==========*/
-.program-overview {
-    background: #ffffff;
-}
 
 .overview-box {
     background: #053763;
@@ -3632,7 +3629,7 @@ section.atb-triple-section {
     opacity: .9;
 }
 
-.stat-card {
+/*.stat-card {
     background: #fff;
     text-align: center;
     padding: 35px;
@@ -3649,7 +3646,7 @@ section.atb-triple-section {
 .stat-card span {
     color: #053763;
     font-weight: 600;
-}
+}*/
 
 /*=============== Product.Page =================*/
 .hero-product-section-title {
