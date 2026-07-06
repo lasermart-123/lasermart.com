@@ -3453,7 +3453,7 @@ section.atb-triple-section {
 
 /*=============== varicose vein.page ==================*/
 .varicose-hero {
-    background: #031f44;
+    background: #000;
     min-height: 100vh;
     overflow: hidden;
 }
@@ -3561,10 +3561,7 @@ section.atb-triple-section {
     top: 0;
     width: 220px;
     height: 100%;
-    background: linear-gradient(to right,
-            #031f44 0%,
-            rgba(3, 31, 68, 0.8) 40%,
-            transparent 100%);
+    background: linear-gradient(to right, #000000 0%, rgb(0 0 0 / 80%) 40%, transparent 100%);
 }
 
 .patient-card {
