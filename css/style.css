@@ -3458,9 +3458,9 @@ section.atb-triple-section {
     overflow: hidden;
 }
 
-.hero-content-varico {
+/*.hero-content-varico {
     padding: 80px 60px;
-}
+}*/
 
 /*.hero-badge-varico {
     background: rgb(235, 98, 0);
@@ -3474,9 +3474,9 @@ section.atb-triple-section {
 
 .hero-content-varico h1 {
     color: #fff;
-    font-size: 43px;
-    font-weight: 800;
-    line-height: 1.05;
+    font-size: 30px;
+    font-weight: 700;
+    /* line-height: 1.05; */
     margin-bottom: 25px;
 }
 
@@ -3486,8 +3486,8 @@ section.atb-triple-section {
 
 .hero-content-varico p {
     color: #d4dbea;
-    font-size: 18px;
-    line-height: 1.8;
+    font-size: 16px;
+    /* line-height: 1.8; */
     margin-bottom: 35px;
 }
 
@@ -3550,7 +3550,7 @@ section.atb-triple-section {
 
 .hero-image-varico img {
     width: 100%;
-    height: 180vh;
+    height: 75vh;
     object-fit: cover;
 }
 
