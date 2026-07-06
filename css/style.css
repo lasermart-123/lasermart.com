@@ -3647,6 +3647,10 @@ section.atb-triple-section {
     color: #053763;
     font-weight: 600;
 }*/
+.atb-var-right-img img {
+    width: 100%;
+    height: 55vh;
+}
 
 /*=============== Product.Page =================*/
 .hero-product-section-title {
@@ -3656,6 +3660,14 @@ section.atb-triple-section {
     margin-bottom: 15px;
     text-align: center;
     padding-bottom: 20px;
+}
+.atb-var-content {
+    color: #fff;
+}
+.atb-var-content h2 {
+    font-weight: 700;
+    background: #eb6200;
+    padding: 9px;
 }
 
 /*.hero-product-section-title span {
