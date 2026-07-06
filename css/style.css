@@ -3707,20 +3707,22 @@ section.atb-indication {
 section.atb-indication ul {
     color: #fff;   
 }
+.atb-indicat-img {
+    position: relative;
+    width: 239px;
+    height: 277px;
+}
 .atb-indicat-img img {
     width: 100%;
 }
-section.atb-indication {
-    /* position: relative; */
-    /* width: 100%; */
-    /* overflow: hidden; */
-    /* position: relative; */
-    width: 100%;
-    /* overflow: hidden; */
+section.atb-indication {   
+    width: 100%;   
     position: relative;
-    background: url('../img/photonics (3).webp') center/cover no-repeat;
-    padding: 100px 0;
+    background: url('../img/photonics (3).webp') center/cover no-repeat;   
     overflow: hidden;
+}
+.atb-indicat-content {
+    padding-top: 57px;
 }
 
 /*=============== Product.Page =================*/
