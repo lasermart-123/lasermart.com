@@ -3682,6 +3682,24 @@ p.atb-var-pera {
     padding: 30px;
 }
 
+/*============================================
+         Gyneacology.Page
+=============================================*/
+section.why-treat-section {
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+    padding: 40px 0;
+}
+section.why-treat-section h2 {
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+section.why-treat-section p span {
+   color:rgb(235, 98, 0);   
+}
+
 /*=============== Product.Page =================*/
 .hero-product-section-title {
     font-size: 43px;
