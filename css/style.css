@@ -3454,8 +3454,9 @@ section.atb-triple-section {
 /*=============== varicose vein.page ==================*/
 .varicose-hero {
     background: #000;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     overflow: hidden;
+    padding: 0px 0px 0px 40px;
 }
 
 /*.hero-content-varico {
@@ -3550,7 +3551,7 @@ section.atb-triple-section {
 
 .hero-image-varico img {
     width: 100%;
-    height: 75vh;
+    height: 87vh;
     object-fit: cover;
 }
 
