@@ -3710,6 +3710,18 @@ section.atb-indication ul {
 .atb-indicat-img img {
     width: 100%;
 }
+section.atb-indication {
+    /* position: relative; */
+    /* width: 100%; */
+    /* overflow: hidden; */
+    /* position: relative; */
+    width: 100%;
+    /* overflow: hidden; */
+    position: relative;
+    background: url('../img/photonics (3).webp') center/cover no-repeat;
+    padding: 100px 0;
+    overflow: hidden;
+}
 
 /*=============== Product.Page =================*/
 .hero-product-section-title {
