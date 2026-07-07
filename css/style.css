@@ -5833,6 +5833,17 @@ textarea.input {
 .atb-pro-img img {
     width: 100%;
 }
+aection.atb-procto-why-section h3 {
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    font-size: 33px;
+    padding: 63px 0;
+}
+.atb-procto-feature-section {
+    background: rgb(235, 98, 0);
+    padding: 20px;
+}
 
 /*.hero-tag {
     display: inline-block;
