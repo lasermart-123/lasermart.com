@@ -3751,12 +3751,16 @@ section.atb-gyne-why-section {
 section.atb-gyne-why-section h5 {
     text-align: center;
     color: rgb(235, 98, 0);
+    color:#fff;
     font-weight: 600;
     font-size: 37px;
     padding-bottom: 21px;
 }
 .atb-gyne-text p span {
     color: rgb(235, 98, 0);
+}
+.atb-gyne-why-text p span {
+   color: rgb(235, 98, 0);
 }
 
 /*=============== Product.Page =================*/
