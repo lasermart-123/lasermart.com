@@ -5823,6 +5823,16 @@ textarea.input {
     overflow: hidden;
     position: relative;
 }
+.intro-section h2 {
+    color: #Fff;
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+    padding: 26px 0;
+}
+.atb-pro-img img {
+    width: 100%;
+}
 
 /*.hero-tag {
     display: inline-block;
@@ -5890,9 +5900,7 @@ textarea.input {
     background-color: rgb(235, 98, 0);
 }*/
 
-.atb-pro-img img {
-    width: 100%;
-}
+
 
 
 
