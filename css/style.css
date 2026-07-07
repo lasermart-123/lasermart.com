@@ -3742,6 +3742,9 @@ section.atb-gyne-content-section h4 {
     align-items: center;
     padding-top: 27px;
 }
+.atb-gyne-img img {
+    width: 100%;
+}
 section.atb-gyne-why-section {
     padding-top: 57px;    
 }
