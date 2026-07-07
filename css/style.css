@@ -5824,7 +5824,7 @@ textarea.input {
     position: relative;
 }
 
-.hero-tag {
+/*.hero-tag {
     display: inline-block;
     background: rgb(235, 98, 0);
     color: #fff;
@@ -5833,14 +5833,14 @@ textarea.input {
     font-size: 14px;
     font-weight: 600;
     /* margin-bottom: 25px; */
-}
+}*/
 
-.procto-hero-features {
+/*.procto-hero-features {
     gap: 14px;
     display: flex;
-}
+}*/
 
-.procto-feature-item {
+/*.procto-feature-item {
     display: flex;
     align-items: center;
     gap: 12px;
@@ -5850,23 +5850,23 @@ textarea.input {
     padding: 15px;
     border-radius: 19px;
     box-shadow: #0000005c 8px 13px 0px 0px;
-}
+}*/
 
-.procto-hero-image-wrapper {
+/*.procto-hero-image-wrapper {
     position: relative;
     text-align: right;
     /* margin-top: -207px; */
-}
-.procto-main-img {
+}*/
+/*.procto-main-img {
     width: 100%;
     object-fit: cover;
     border-radius: 76px;
     border: 8px solid rgb(235, 98, 0);
     box-shadow: 0 15px 40px rgba(0, 0, 0, .15);
-}
+}*/
 
 
-.procto-feature-item {
+/*.procto-feature-item {
     display: flex;
     align-items: center;
     gap: 11px;
@@ -5876,8 +5876,8 @@ textarea.input {
     padding: 7px;
     border-radius: 19px;
     box-shadow: #0000005c 8px 13px 0px 0px;
-}
-.icon-circles {
+}*/
+/*.icon-circles {
    width: 54px;
     height: 28px;
     border-radius: 50%;
@@ -5888,7 +5888,7 @@ textarea.input {
     font-size: 17px;
     color: #fff;
     background-color: rgb(235, 98, 0);
-}
+}*/
 .atb-pro-img img {
     width: 100%;
 }
