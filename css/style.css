@@ -3726,6 +3726,35 @@ section.atb-indication {
 .atb-indicat-content {
     padding-top: 57px;
 }
+.pera-section {
+    padding: 40px 0;
+}
+section.atb-gyne-content-section h4 {   
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 27px;
+    color: rgb(235, 98, 0);
+}
+.atb-gyne-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 27px;
+}
+section.atb-gyne-why-section {
+    padding-top: 57px;    
+}
+section.atb-gyne-why-section h5 {
+    text-align: center;
+    color: rgb(235, 98, 0);
+    font-weight: 600;
+    font-size: 37px;
+    padding-bottom: 21px;
+}
+.atb-gyne-text p span {
+    color: rgb(235, 98, 0);
+}
 
 /*=============== Product.Page =================*/
 .hero-product-section-title {
