@@ -2905,38 +2905,31 @@ section.jurney-section {
 
 
 /*====gallery-heo ======*/
-.gallery-hero{
+/*.gallery-hero{
     height:60vh;
-    background:
+    /*background:
     linear-gradient(rgba(0,31,92,.75),
     rgba(0,31,92,.75)),
-    url('img/gallery-banner.jpg');
+    url('img/gallery-banner.jpg');*
 
     background-size:cover;
     background-position:center;
     display:flex;
     align-items:center;
     text-align:center;
-}
+}*/
 
 
-.hero-btn{
+/*.hero-btn{
     display:inline-block;
     background:#ff6b00;
     color:#fff;
     padding:15px 35px;
     border-radius:50px;
     text-decoration:none;
-}
+}*/
 
-@media(max-width:768px){
 
-    .gallery-hero{
-        height:50vh;
-    }
-
-   
-}
 
 /*=============== Dual.Page =====================*/
 .dual-hero {
