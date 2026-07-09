@@ -3757,6 +3757,47 @@ section.atb-gyne-why-section h5 {
    color: rgb(235, 98, 0);
 }
 
+        .benefit-card{
+            border:1px solid #f2d7dd;
+            border-radius:12px;
+            padding:20px;
+            height:100%;
+            transition:.3s;
+            background:#fff;
+        }
+
+        .benefit-card:hover{
+            transform:translateY(-5px);
+            box-shadow:0 10px 25px rgba(0,0,0,.08);
+        }
+
+        .benefit-icon{
+            width:60px;
+            height:60px;
+            border:2px solid #f3b7c3;
+            border-radius:50%;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            color:#c86a82;
+            font-size:28px;
+            margin-bottom:15px;
+        }
+
+        .benefit-card h5{
+            color:#8f3652;
+            font-weight:700;
+            font-size:18px;
+            margin-bottom:10px;
+        }
+
+        .benefit-card p{
+            font-size:14px;
+            color:#666;
+            margin:0;
+            line-height:1.6;
+        }
+
 /*=============== Product.Page =================*/
 .hero-product-section-title {
     font-size: 43px;
