@@ -19,11 +19,6 @@ body {
     font-weight: 600;
 }
 
-.specialist-grid{
-    display:grid;
-    grid-template-columns:repeat(5,1fr);
-    gap:12px;
-}
 
 .specialist-card {
     width: 100%;
@@ -64,34 +59,6 @@ body {
 .section-desc{
     color:#b8c3d6;
 }
-@media(max-width:991px){
-
-.specialist-grid{
-    grid-template-columns:repeat(3,1fr);
-}
-
-}
-
-@media(max-width:767px){
-
-.specialist-grid{
-    grid-template-columns:repeat(2,1fr);
-}
-
-}
-
-@media(max-width:480px){
-
-.specialist-grid{
-    grid-template-columns:1fr;
-}
-
-}
-
-
-
-
-
 
 
 .preloader {
