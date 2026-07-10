@@ -5998,6 +5998,7 @@ section.abt-neuro-hero-section {
     overflow: hidden;
     display: flex;
     align-items: center;
+     gap: 13px;
 }
 
 .clinical-card::before{
@@ -6032,11 +6033,12 @@ section.abt-neuro-hero-section {
     margin-bottom:20px;
     color:#fff;
     font-size:30px;
+    flex-shrink: 0;
 }
 
 .clinical-card h5{
     color:#fff;
-    font-size:20px;
+    font-size:15px;
     font-weight:600;
     line-height:1.5;
 }
