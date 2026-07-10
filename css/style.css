@@ -5986,16 +5986,18 @@ section.abt-neuro-hero-section {
 .neuro-clinic-content h2 {
     font-weight: 600;
 }
-.clinical-card{
-    background:#0b1324;
-    border:1px solid rgba(255,122,0,.25);
-    border-radius:16px;
-    padding:30px 20px;
-    text-align:center;
-    height:100%;
-    transition:.4s;
-    position:relative;
-    overflow:hidden;
+.clinical-card {
+    background: #0b1324;
+    border: 1px solid rgba(255, 122, 0, .25);
+    border-radius: 16px;
+    padding: 7px 10px;
+    text-align: center; 
+    height: 100%;
+    transition: .4s;
+     position: relative; 
+    overflow: hidden;
+    display: flex;
+    align-items: center;
 }
 
 .clinical-card::before{
@@ -6026,8 +6028,7 @@ section.abt-neuro-hero-section {
     background:linear-gradient(135deg,#ff7a00,#ff9d2f);
     display:flex;
     align-items:center;
-    justify-content:center;
-    margin:auto;
+    justify-content:center;    
     margin-bottom:20px;
     color:#fff;
     font-size:30px;
