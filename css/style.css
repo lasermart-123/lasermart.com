@@ -5982,12 +5982,13 @@ section.abt-neuro-hero-section {
 .neuro-clinic-content {
     text-align: center;
     color: #fff;
+    padding-bottom: 30px;
 }
 .neuro-clinic-content h2 {
     font-weight: 600;
 }
 .clinical-card {
-    background: #0b1324;
+    background: #000;
     border: 1px solid rgba(255, 122, 0, .25);
     border-radius: 16px;
     padding: 7px 10px;
@@ -6022,7 +6023,7 @@ section.abt-neuro-hero-section {
     box-shadow:0 15px 35px rgba(255,122,0,.25);
 }
 
-.clinical-icon{
+/*.clinical-icon{
     width:75px;
     height:75px;
     border-radius:50%;
@@ -6034,7 +6035,7 @@ section.abt-neuro-hero-section {
     color:#fff;
     font-size:30px;
     flex-shrink: 0;
-}
+}*/
 
 .clinical-card h5{
     color:#fff;
