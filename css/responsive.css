@@ -368,6 +368,9 @@
     top: 40px;
     z-index: 6;
 }
+    .neuro-img img {
+    width: 100%;
+}
     
 }
 
@@ -660,6 +663,9 @@
     top: 40px;
     z-index: 6;
 }
+    .neuro-img img {
+    width: 100%;
+}
     
 }
  @media (max-width: 400px) {
@@ -708,4 +714,7 @@
             .btn {
                 padding: 0.45rem 1.2rem;
             }
+     .neuro-img img {
+    width: 100%;
+}
         }
