@@ -5979,6 +5979,13 @@ section.abt-neuro-hero-section {
     padding: 40px 0;
     background: #000;
 }
+.neuro-clinic-content {
+    text-align: center;
+    color: #fff;
+}
+.neuro-clinic-content h2 {
+    font-weight: 600;
+}
 .clinical-card{
     background:#0b1324;
     border:1px solid rgba(255,122,0,.25);
