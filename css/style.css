@@ -6048,13 +6048,13 @@ section.abt-neuro-hero-section {
     background:#05070d;
 }
 
-.why-neuro-laser-box{
+/*.why-neuro-laser-box{
     background:#0b1324;
     border:1px solid rgba(255,122,0,.25);
     border-radius:20px;
     overflow:hidden;
     box-shadow:0 15px 35px rgba(0,0,0,.35);
-}
+}*/
 
 .why-neuro-laser-img{
     height:100%;
@@ -6093,23 +6093,23 @@ section.abt-neuro-hero-section {
     margin-bottom:25px;
 }
 
-.neuro-feature-item{
-    display:flex;
-    align-items:flex-start;
-    gap:12px;
-    padding:12px 15px;
-    background:#111b31;
-    border:1px solid rgba(255,122,0,.15);
-    border-radius:12px;
-    transition:.35s;
-    height:100%;
+.neuro-feature-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+   /* padding: 12px 15px;*/
+    /* background: #111b31; */
+    /* border: 1px solid rgba(255, 122, 0, .15); */
+    /*border-radius: 12px;*/
+   /* transition: .35s;*/
+    /* height: 100%; */
 }
 
-.neuro-feature-item:hover{
+/*.neuro-feature-item:hover{
     transform:translateY(-4px);
     border-color:#ff7a00;
     box-shadow:0 10px 25px rgba(255,122,0,.15);
-}
+}*/
 
 .neuro-feature-item i{
     color:#ff7a00;
@@ -6119,17 +6119,14 @@ section.abt-neuro-hero-section {
 
 .neuro-feature-item span{
     color:#fff;
-    font-size:16px;
-    line-height:1.5;
+    font-size:15px;
+    /*line-height:1.5;*/
 }
 
 
 
 @media(max-width:767px){
 
-.why-neuro-laser-box{
-    padding:15px;
-}
 
 .section-title{
     font-size:28px;
