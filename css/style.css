@@ -5956,6 +5956,22 @@ aection.atb-procto-why-section h3 {
     background-color: rgb(235, 98, 0);
 }*/
 
+/*============================================
+      Neuro & Spine.Page
+============================================*/
+section.abt-neuro-hero-section {
+    color: #fff;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding: 40px 0;
+    background: #000;
+}
+section.abt-neuro-hero-section h1 {
+    font-weight: 600;
+    font-size: 27px;
+}
+
 
 
 
