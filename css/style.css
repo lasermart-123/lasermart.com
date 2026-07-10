@@ -5971,6 +5971,59 @@ section.abt-neuro-hero-section h1 {
     font-weight: 600;
     font-size: 27px;
 }
+.clinical-card{
+    background:#0b1324;
+    border:1px solid rgba(255,122,0,.25);
+    border-radius:16px;
+    padding:30px 20px;
+    text-align:center;
+    height:100%;
+    transition:.4s;
+    position:relative;
+    overflow:hidden;
+}
+
+.clinical-card::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:-100%;
+    width:100%;
+    height:100%;
+    background:linear-gradient(90deg,transparent,rgba(255,255,255,.08),transparent);
+    transition:.7s;
+}
+
+.clinical-card:hover::before{
+    left:100%;
+}
+
+.clinical-card:hover{
+    transform:translateY(-10px);
+    border-color:#ff7a00;
+    box-shadow:0 15px 35px rgba(255,122,0,.25);
+}
+
+.clinical-icon{
+    width:75px;
+    height:75px;
+    border-radius:50%;
+    background:linear-gradient(135deg,#ff7a00,#ff9d2f);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:auto;
+    margin-bottom:20px;
+    color:#fff;
+    font-size:30px;
+}
+
+.clinical-card h5{
+    color:#fff;
+    font-size:20px;
+    font-weight:600;
+    line-height:1.5;
+}
 
 
 
