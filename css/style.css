@@ -10,6 +10,79 @@ body {
     background: #0c0808;
 }
 
+.specialist-grid{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:20px;
+}
+
+.specialist-card{
+    background:#0b1324;
+    border:1px solid rgba(255,122,0,.25);
+    border-radius:18px;
+    padding:30px 20px;
+    text-align:center;
+    transition:.3s;
+}
+
+.specialist-card:hover{
+    transform:translateY(-8px);
+    border-color:#ff7a00;
+}
+
+.specialist-card img{
+    width:60px;
+    margin-bottom:15px;
+}
+
+.specialist-card h6{
+    color:#fff;
+    font-size:16px;
+    line-height:1.5;
+    margin:0;
+}
+
+.section-title{
+    color:#fff;
+}
+
+.section-title span{
+    color:#ff7a00;
+}
+
+.section-desc{
+    color:#b8c3d6;
+}
+@media(max-width:991px){
+
+.specialist-grid{
+    grid-template-columns:repeat(3,1fr);
+}
+
+}
+
+@media(max-width:767px){
+
+.specialist-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+@media(max-width:480px){
+
+.specialist-grid{
+    grid-template-columns:1fr;
+}
+
+}
+
+
+
+
+
+
+
 .preloader {
     position: fixed;
     top: 0;
