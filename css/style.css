@@ -5961,6 +5961,18 @@ aection.atb-procto-why-section h3 {
     background-color: rgb(235, 98, 0);
 }*/
 
+/*=========================================
+      Plastic-Surgery.Page
+==========================================*/
+.atb-plas-hero-content span {
+    color: #fff;
+    font-size: 23px;
+    font-weight: 500;
+    background: rgb(235, 98, 0);
+    padding: 10px;
+    border-radius: 21px;
+}
+
 /*============================================
       Neuro & Spine.Page
 ============================================*/
