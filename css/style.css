@@ -10,116 +10,6 @@ body {
     background: #0c0808;
 }
 
-section.atb-neuro-choose-section.py-5{
-    background:#05070d;
-}
-
-.section-heading h2{
-    color:#fff;
-    font-size:42px;
-    font-weight:700;
-}
-
-.section-heading span{
-    color:#ff7a00;
-}
-
-.neuro-choose-grid{
-    display:grid;
-    grid-template-columns:repeat(8,1fr);
-    gap:15px;
-}
-
-.neuro-choose-card{
-    background:#091323;
-    border:1px solid rgba(255,122,0,.18);
-    border-radius:15px;
-    text-align:center;
-    padding:30px 12px;
-    transition:.35s;
-    height:100%;
-}
-
-.neuro-choose-card:hover{
-    transform:translateY(-6px);
-    border-color:#ff7a00;
-    box-shadow:0 10px 25px rgba(255,122,0,.15);
-}
-
-.neuro-choose-card img{
-    width:58px;
-    height:58px;
-    object-fit:contain;
-    margin-bottom:18px;
-}
-
-.neuro-choose-card h6{
-    color:#fff;
-    font-size:15px;
-    line-height:1.5;
-    font-weight:500;
-    margin:0;
-}
-/* Large Tablet */
-@media (max-width:1199px){
-
-.neuro-choose-grid{
-    grid-template-columns:repeat(4,1fr);
-}
-
-}
-
-/* Tablet */
-@media (max-width:991px){
-
-.neuro-choose-grid{
-    grid-template-columns:repeat(3,1fr);
-}
-
-.section-heading h2{
-    font-size:34px;
-}
-
-}
-
-/* Mobile */
-@media (max-width:767px){
-
-.neuro-choose-grid{
-    grid-template-columns:repeat(2,1fr);
-}
-
-.neuro-choose-card{
-    padding:20px 10px;
-}
-
-.neuro-choose-card img{
-    width:45px;
-    height:45px;
-}
-
-.neuro-choose-card h6{
-    font-size:14px;
-}
-
-.section-heading h2{
-    font-size:28px;
-}
-
-}
-
-/* Small Mobile */
-@media (max-width:480px){
-
-.neuro-choose-grid{
-    grid-template-columns:1fr;
-}
-
-}
-
-
-
-
 .preloader {
     position: fixed;
     top: 0;
@@ -6313,6 +6203,133 @@ section.atb-neuro-Advantage-section {
     font-weight: 600;
     font-size: 33px;
     padding: 52px 0px 12px 0px;
+}
+section.atb-neuro-choose-section.py-5{
+    background:#05070d;
+}
+
+.section-heading h2{
+    color:#fff;
+    font-size:42px;
+    font-weight:700;
+}
+
+.section-heading span{
+    color:#ff7a00;
+}
+
+.neuro-choose-grid{
+    display:grid;
+    grid-template-columns:repeat(8,1fr);
+    gap:15px;
+}
+
+.neuro-choose-card{
+    background:#091323;
+    border:1px solid rgba(255,122,0,.18);
+    border-radius:15px;
+    text-align:center;
+    padding:30px 12px;
+    transition:.35s;
+    height:100%;
+}
+
+.neuro-choose-card:hover{
+    transform:translateY(-6px);
+    border-color:#ff7a00;
+    box-shadow:0 10px 25px rgba(255,122,0,.15);
+}
+
+.neuro-choose-card img{
+    width:58px;
+    height:58px;
+    object-fit:contain;
+    margin-bottom:18px;
+}
+
+.neuro-choose-card h6{
+    color:#fff;
+    font-size:15px;
+    line-height:1.5;
+    font-weight:500;
+    margin:0;
+}
+/* Large Tablet */
+@media (max-width:1199px){
+
+.neuro-choose-grid{
+    grid-template-columns:repeat(4,1fr);
+}
+
+}
+
+/* Tablet */
+@media (max-width:991px){
+
+.neuro-choose-grid{
+    grid-template-columns:repeat(3,1fr);
+}
+
+.section-heading h2{
+    font-size:34px;
+}
+
+}
+
+/* Mobile */
+@media (max-width:767px){
+
+.neuro-choose-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.neuro-choose-card{
+    padding:20px 10px;
+}
+
+.neuro-choose-card img{
+    width:45px;
+    height:45px;
+}
+
+.neuro-choose-card h6{
+    font-size:14px;
+}
+
+.section-heading h2{
+    font-size:28px;
+}
+
+}
+
+/* Small Mobile */
+@media (max-width:480px){
+
+.neuro-choose-grid{
+    grid-template-columns:1fr;
+}
+
+}
+/*======================================
+       Dental.Page
+======================================*/
+.hero-content-dent span
+Specificity: (0,1,1)
+ {
+    color: #fff;
+    font-weight: 700;
+    font-size: 21px;
+    background: rgb(235, 98, 0);
+    padding: 7px;
+    border-radius: 18px;
+}
+.hero-content-dent h1
+Specificity: (0,1,1)
+ {
+    color: #fff;
+    font-weight: 700;
+    font-size: 31px;
+    padding: 27px 0px 11px 0px;
 }
 
 
