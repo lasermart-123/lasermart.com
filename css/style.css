@@ -5983,6 +5983,54 @@ section.abt-plas-hero-section {
     position: absolute;
     margin-top: 3px;
 }
+/*====== Clinical-application==========*/
+.atb-pla-clinical-applications{
+    background:#080808;
+}
+
+.atb-pla-clinical-applications p{
+    color:#bdbdbd;
+    font-size:15px;
+}
+
+.atb-pla-application-card{
+    background:#111;
+    border:1px solid rgba(247,148,29,.35);
+    border-radius:14px;
+    overflow:hidden;
+    transition:.35s;
+    height:100%;
+}
+
+.atb-pla-application-card img{
+    width:100%;
+    height:150px;
+    object-fit:cover;
+    transition:.5s;
+}
+
+.atb-pla-application-card h6{
+    color:#fff;
+    font-size:14px;
+    font-weight:600;
+    text-align:center;
+    line-height:1.5;
+    padding:14px 10px 16px;
+    margin:0;
+    min-height:72px;
+}
+
+.atb-pla-application-card:hover{
+    transform:translateY(-8px);
+    border-color:#f7941d;
+    box-shadow:0 12px 30px rgba(247,148,29,.25);
+}
+
+.atb-pla-application-card:hover img{
+    transform:scale(1.08);
+}
+
+
 
 /*============================================
       Neuro & Spine.Page
