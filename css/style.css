@@ -3685,6 +3685,11 @@ section.why-treat-section {
     position: relative;
     padding: 40px 0;
 }
+section.abt-gyn-hero-section h1.hero-title {
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 1.1;
+}
 section.why-treat-section h2 {
     text-align: center;
     font-weight: 600;
