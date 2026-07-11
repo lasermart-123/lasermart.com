@@ -59,7 +59,7 @@ body {
     color:#ff7a1a;
 }
 .global-support{
-    background:#040812;
+    background:#000000;
     position:relative;
     overflow:hidden;
 }
@@ -109,16 +109,10 @@ body {
     }
 }
 .demo-section{
-    background:#f8f9fa;
+    background:#000000;
 }
 
-.demo-wrapper{
-    background:#071420;
-    border:1px solid rgba(255,255,255,.08);
-    border-radius:16px;
-    overflow:hidden;
-    box-shadow:0 10px 30px rgba(0,0,0,.25);
-}
+
 
 .demo-img{
     height:100%;
