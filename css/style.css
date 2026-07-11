@@ -28,15 +28,6 @@ body {
 .machine-box:hover img{
     transform:scale(1.03);
 }
-
-.sub-title{
-    color:#ff7a1a;
-    font-size:14px;
-    text-transform:uppercase;
-    letter-spacing:2px;
-    font-weight:600;
-}
-
 .more-laser h2{
     color:#fff;
     font-size:42px;
@@ -44,14 +35,35 @@ body {
     margin:10px 0 20px;
 }
 
-.more-laser h2 span{
-    color:#ff7a1a;
-}
-
 .more-laser p{
     color:#c9d2df;
     line-height:1.9;
     font-size:17px;
+}
+.feature-list{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.feature-more-list li{
+    color:#fff;
+    margin-bottom:18px;
+    font-size:17px;
+    display:flex;
+    align-items:center;
+    transition:.3s;
+}
+
+.feature-more-list li i{
+    color:#ff7a1a;
+    margin-right:12px;
+    font-size:18px;
+}
+
+.feature-more-list li:hover{
+    transform:translateX(8px);
+    color:#ff7a1a;
 }
 
 
