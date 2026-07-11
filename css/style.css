@@ -5983,6 +5983,58 @@ section.abt-plas-hero-section {
     position: absolute;
     margin-top: 3px;
 }
+/*====== Clinical benefit =============*/
+.clinical-benefits{
+    background:#000000;
+}
+
+.benefit-image img{
+    border-radius:18px;
+    width:100%;
+}
+
+.benefit-card{
+    display:flex;
+    align-items:flex-start;
+    gap:15px;
+    background:#131313;
+    border:1px solid rgba(247,148,29,.2);
+    padding:18px;
+    border-radius:12px;
+    transition:.35s;
+    height:100%;
+}
+
+.benefit-card i{
+    color:#f7941d;
+    font-size:22px;
+    margin-top:3px;
+}
+
+.benefit-card span{
+    color:#fff;
+    font-size:15px;
+    line-height:1.6;
+}
+
+.benefit-card:hover{
+    transform:translateY(-5px);
+    border-color:#f7941d;
+    box-shadow:0 10px 30px rgba(247,148,29,.15);
+}
+
+
+@media(max-width:767px){
+
+.benefit-card{
+    padding:15px;
+}
+
+.benefit-card span{
+    font-size:14px;
+}
+
+}
 /*====== Clinical-application==========*/
 .atb-pla-clinical-applications{
     background:#080808;
