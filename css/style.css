@@ -5971,7 +5971,7 @@ section.abt-plas-hero-section {
     color: #fff;
     font-size: 30px;
     font-weight: 700;
-    padding: 86px 0px 18px 0px;
+    padding: 109px 0px 18px 0px;
 }
 .atb-plas-hero-content span {
     color: #fff;
@@ -5981,7 +5981,14 @@ section.abt-plas-hero-section {
     padding: 10px;
     border-radius: 21px;
     position: absolute;
-    margin-top: 3px;
+    margin-top: 31px;
+}
+.why-pla-img img {
+    width: 100%;
+}
+.why-pla-content h2 {
+    color: #fff;
+    font-weight: 700;
 }
 /*====== Clinical benefit =============*/
 .clinical-benefits{
@@ -6038,6 +6045,11 @@ section.abt-plas-hero-section {
 /*====== Clinical-application==========*/
 .atb-pla-clinical-applications{
     background:#080808;
+}
+section.atb-pla-clinical-applications h2 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 41px;
 }
 
 .atb-pla-clinical-applications p{
