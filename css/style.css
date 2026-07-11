@@ -6327,7 +6327,7 @@ section.atb-neuro-choose-section.py-5{
     padding: 27px 0px 11px 0px;
 }
 .specialties-section{
-    background:#050b16;
+    background:#000000;
     padding:80px 0;
 }
 
@@ -6354,7 +6354,7 @@ section.atb-neuro-choose-section.py-5{
 }
 
 .speciality-card {
-    background: #0b1220;
+    background: #121212;
     border: 1px solid rgba(255, 255, 255, .08);
     border-radius: 18px;
     padding: 12px 7px;
@@ -6426,11 +6426,11 @@ section.atb-neuro-choose-section.py-5{
 
 }
 .why-Practices-choose{
-    background:#05070d;
+    background:#000000;
 }
 
 .choose-Practices-card{
-    background:#09101d;
+    background:#141414;
     border:1px solid rgba(255,255,255,.08);
     border-radius:16px;
     padding:35px 25px;
@@ -6501,6 +6501,9 @@ section.atb-neuro-choose-section.py-5{
     font-size:15px;
     line-height:1.8;
     margin:0;
+}
+.image-box img {
+    width: 100%;
 }
 
 
