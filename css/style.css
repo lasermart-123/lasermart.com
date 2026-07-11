@@ -5965,12 +5965,13 @@ aection.atb-procto-why-section h3 {
       Plastic-Surgery.Page
 ==========================================*/
 section.abt-plas-hero-section {
-    padding: 40px 0;
+    background: #000;   
 }
 .atb-plas-hero-content h1 {
     color: #fff;
     font-size: 30px;
     font-weight: 700;
+    padding: 53px 0px 18px 0px;
 }
 .atb-plas-hero-content span {
     color: #fff;
