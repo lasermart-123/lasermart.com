@@ -6581,6 +6581,10 @@ section.atb-neuro-choose-section.py-5{
     radial-gradient(circle at 10% 10%, rgba(0,140,255,.08), transparent 30%);
     pointer-events:none;
 }
+section.global-support h2.title {
+    font-size: 32px;
+    font-weight: 700;
+}
 
 
 .global-support p{
