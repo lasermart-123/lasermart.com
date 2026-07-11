@@ -17,17 +17,9 @@ body {
     padding:54px 0;
 }
 
-.machine-box{
-    position:relative;
-}
-
-.machine-box img{
-    max-width:100%;
-    transition:.5s;
-}
-
-.machine-box:hover img{
-    transform:scale(1.03);
+.hero-more-graphics {   
+    position: relative;
+    height: 650px;
 }
 .more-laser h2{
     color:#fff;
