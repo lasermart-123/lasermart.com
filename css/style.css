@@ -6589,20 +6589,10 @@ section.atb-neuro-choose-section.py-5{
 .world-map{
     width:100%;
     max-width:700px;
-    animation:floatMap 5s ease-in-out infinite;
+    /*animation:floatMap 5s ease-in-out infinite;*/
 }
 
-@keyframes floatMap{
-    0%{
-        transform:translateY(0px);
-    }
-    50%{
-        transform:translateY(-8px);
-    }
-    100%{
-        transform:translateY(0px);
-    }
-}
+
 .demo-section{
     background:#000000;
 }
