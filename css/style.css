@@ -6425,6 +6425,68 @@ section.atb-neuro-choose-section.py-5{
 }
 
 }
+.why-Practices-choose{
+    background:#05070d;
+}
+
+.choose-Practices-card{
+    background:#09101d;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:16px;
+    padding:35px 25px;
+    transition:.4s;
+    height:100%;
+    position:relative;
+    overflow:hidden;
+}
+
+.choose-Practices-card::before{
+    content:'';
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:3px;
+    background:#ff7a1a;
+    transform:scaleX(0);
+    transition:.4s;
+}
+
+.choose-Practices-card:hover::before{
+    transform:scaleX(1);
+}
+
+.choose-Practices-card:hover{
+    transform:translateY(-10px);
+    border-color:#ff7a1a;
+    box-shadow:0 15px 40px rgba(255,122,26,.15);
+}
+
+
+.choose-Practices-card:hover .icon-box{
+    background:#ff7a1a;
+}
+
+.choose-Practices-card:hover .icon-box i{
+    color:#fff;
+}
+
+.choose-Practices-card h5{
+    color:#fff;
+    font-weight:700;
+    margin-bottom:15px;
+    font-size:22px;
+    line-height:1.4;
+}
+
+.choose-Practices-card p{
+    color:#c8d0dd;
+    font-size:15px;
+    line-height:1.8;
+    margin:0;
+}
+
+
 
 
 
