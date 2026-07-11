@@ -371,6 +371,10 @@
     .neuro-img img {
     width: 100%;
 }
+    .machine-more {   
+    width: 391px;    
+    top: -43px;  
+}
     
 }
 
@@ -654,7 +658,7 @@
 }
     .hero-more-graphics{
          width: 100%;
-        height: 537px;
+        height: 434px;
     }
     .platform{
         width:320px;
@@ -670,6 +674,13 @@
     .neuro-img img {
     width: 100%;
 }
+      .machine-more {   
+    width: 391px;    
+    top: -43px;  
+}
+    .platform-more{
+        width:376px;
+    }
     
 }
  @media (max-width: 400px) {
