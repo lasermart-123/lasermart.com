@@ -5971,7 +5971,7 @@ section.abt-plas-hero-section {
     color: #fff;
     font-size: 30px;
     font-weight: 700;
-    padding: 53px 0px 18px 0px;
+    padding: 86px 0px 18px 0px;
 }
 .atb-plas-hero-content span {
     color: #fff;
@@ -5980,6 +5980,8 @@ section.abt-plas-hero-section {
     background: rgb(235, 98, 0);
     padding: 10px;
     border-radius: 21px;
+    position: absolute;
+    margin-top: 3px;
 }
 
 /*============================================
