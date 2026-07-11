@@ -58,6 +58,59 @@ body {
     transform:translateX(8px);
     color:#ff7a1a;
 }
+.global-support{
+    background:#040812;
+    position:relative;
+    overflow:hidden;
+}
+
+.global-support::before{
+    content:'';
+    position:absolute;
+    inset:0;
+    background:
+    radial-gradient(circle at 80% 40%, rgba(255,122,26,.08), transparent 35%),
+    radial-gradient(circle at 10% 10%, rgba(0,140,255,.08), transparent 30%);
+    pointer-events:none;
+}
+
+.title{
+    color:#fff;
+    font-size:48px;
+    font-weight:700;
+    line-height:1.2;
+}
+
+.title span{
+    color:#ff7a1a;
+}
+
+.global-support p{
+    color:#bfc9d8;
+    font-size:17px;
+    line-height:1.9;
+}
+
+.world-map{
+    width:100%;
+    max-width:700px;
+    animation:floatMap 5s ease-in-out infinite;
+}
+
+@keyframes floatMap{
+    0%{
+        transform:translateY(0px);
+    }
+    50%{
+        transform:translateY(-8px);
+    }
+    100%{
+        transform:translateY(0px);
+    }
+}
+
+
+
 
 
 
