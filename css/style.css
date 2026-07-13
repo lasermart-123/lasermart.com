@@ -5962,8 +5962,9 @@ aection.atb-procto-why-section h3 {
       Plastic-Surgery.Page
 ==========================================*/
 section.abt-plas-hero-section {
-    background: #000;   
+    background: #000;
 }
+
 .atb-plas-hero-content h1 {
     color: #fff;
     font-size: 30px;
@@ -5983,13 +5984,18 @@ section.abt-plas-hero-section {
 .why-pla-img img {
     width: 100%;
 }
+section.why-pla-section {
+    padding: 40px 0;
+    background: #000;
+}
 .why-pla-content h2 {
     color: #fff;
     font-weight: 700;
 }
 /*====== Clinical benefit =============*/
-.clinical-benefits{
-    background:#000000;
+.clinical-benefits {
+    background: #000000;
+    color: #fff;
 }
 
 .benefit-image img{
