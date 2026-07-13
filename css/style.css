@@ -19,7 +19,7 @@ body {
     background:#111;
     border:1px solid rgba(255,255,255,.12);
     border-radius:18px;
-    padding:25px 18px;
+    padding:0px 7px;
     text-align:center;
     height:100%;
     transition:.35s;
@@ -36,8 +36,8 @@ body {
 }
 
 .feature-plasti-card img{
-    width:48px;
-    height:48px;
+    width:60px;
+    height:60px;
     object-fit:contain;
     margin-bottom:18px;
 }
