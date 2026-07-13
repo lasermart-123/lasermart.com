@@ -9,6 +9,51 @@
 body {
     background: #0c0808;
 }
+.features-section{
+    background:#000;
+}
+
+.section-title{
+    color:#fff;
+    font-size:32px;
+    font-weight:700;
+    letter-spacing:2px;
+}
+
+.feature-card{
+    background:#111;
+    border:1px solid rgba(255,255,255,.12);
+    border-radius:18px;
+    padding:25px 18px;
+    text-align:center;
+    height:100%;
+    transition:.35s;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.feature-card:hover{
+    transform:translateY(-8px);
+    border-color:#d8893a;
+    box-shadow:0 12px 30px rgba(216,137,58,.18);
+}
+
+.feature-card img{
+    width:48px;
+    height:48px;
+    object-fit:contain;
+    margin-bottom:18px;
+}
+
+.feature-card h6{
+    color:#fff;
+    font-size:15px;
+    font-weight:500;
+    line-height:1.5;
+    margin:0;
+}
 .preloader {
     position: fixed;
     top: 0;
