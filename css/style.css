@@ -3252,8 +3252,12 @@ section.atb-triple-section {
 
 .accordion-body {
     padding: 20px;
-    color: #555;
+    color: #ffffff;
     line-height: 1.8;
+    background: #2e2c2c;
+}
+.accordion-button::after {
+    filter: brightness(0) invert(1);
 }
 
 /*=============== Four.page======================*/
