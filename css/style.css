@@ -6155,8 +6155,18 @@ section.atb-pla-clinical-applications h2 {
     transform:translateY(-3px);
 }
 
-.plastic-image{
-    height:100%;
+.plastic-image {   
+    position: relative;
+    height: 100%;
+}
+.plastic-image::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 220px;
+    height: 100%;
+    background: linear-gradient(to right, #000000 0%, rgb(0 0 0 / 80%) 40%, transparent 100%);
 }
 
 .plastic-image img{
