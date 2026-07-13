@@ -6113,8 +6113,8 @@ section.atb-pla-clinical-applications h2 {
     color:#fff;
 }
 
-.small-title{
-    color:#d6d6d6;
+.small-titles{
+    color: rgb(235, 98, 0);
     font-size:15px;
     letter-spacing:2px;
     font-weight:600;
@@ -6122,16 +6122,13 @@ section.atb-pla-clinical-applications h2 {
     margin-bottom:8px;
 }
 
-.plastic-content h2{
-    font-size:52px;
-    font-weight:800;
-    line-height:1.05;
-    margin-bottom:25px;
+.plastic-content h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.05;
+    margin-bottom: 25px;
 }
 
-.plastic-content h2 span{
-    color:#f7941d;
-}
 
 .plastic-content p{
     color:#bdbdbd;
