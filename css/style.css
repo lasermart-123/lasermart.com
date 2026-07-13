@@ -58,9 +58,9 @@ body {
     align-items:center;
     gap:8px;
     padding:8px 18px;
-    border:1px solid rgba(216,137,58,.35);
+    border:1px solid rgb(235, 98, 0);
     border-radius:30px;
-    color:#d8893a;
+    color:rgb(235, 98, 0);
     font-size:14px;
 }
 
@@ -71,10 +71,6 @@ body {
     margin-bottom:20px;
 }
 
-.clinical-support h2 span{
-    color:#d8893a;
-}
-
 .clinical-support p{
     color:#bdbdbd;
     line-height:1.9;
@@ -83,7 +79,7 @@ body {
 
 .support-card{
     background:#111;
-    border:1px solid rgba(255,255,255,.08);
+    border:1px solid rgb(235, 98, 0);
     border-radius:18px;
     padding:30px 22px;
     height:100%;
@@ -93,7 +89,7 @@ body {
 .support-card:hover{
     transform:translateY(-8px);
     border-color:#d8893a;
-    box-shadow:0 15px 35px rgba(216,137,58,.18);
+    box-shadow:0 15px 35px rgb(235, 98, 0);
 }
 
 .support-card i{
@@ -101,7 +97,7 @@ body {
     height:65px;
     border-radius:50%;
     background:rgba(216,137,58,.12);
-    color:#d8893a;
+    color:rgb(235, 98, 0);
     display:flex;
     align-items:center;
     justify-content:center;
