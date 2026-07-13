@@ -3236,8 +3236,9 @@ section.atb-triple-section {
 .accordion-button {
     font-size: 18px;
     font-weight: 600;
-    color: #001f5c;
+    color: #fff;
     padding: 20px;
+    background:#262525;
 }
 
 .accordion-button:not(.collapsed) {
