@@ -9,6 +9,46 @@
 body {
     background: #0c0808;
 }
+.features-plasti-section{
+    background:#000;
+}
+
+
+
+.feature-plasti-card{
+    background:#111;
+    border:1px solid rgba(255,255,255,.12);
+    border-radius:18px;
+    padding:25px 18px;
+    text-align:center;
+    height:100%;
+    transition:.35s;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.feature-plasti-card:hover{
+    transform:translateY(-8px);
+    border-color:#d8893a;
+    box-shadow:0 12px 30px rgba(216,137,58,.18);
+}
+
+.feature-plasti-card img{
+    width:48px;
+    height:48px;
+    object-fit:contain;
+    margin-bottom:18px;
+}
+
+.feature-plasti-card h6{
+    color:#fff;
+    font-size:15px;
+    font-weight:500;
+    line-height:1.5;
+    margin:0;
+}
 
 .preloader {
     position: fixed;
