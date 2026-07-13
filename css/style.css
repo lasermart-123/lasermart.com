@@ -5971,6 +5971,9 @@ section.abt-plas-hero-section {
     font-weight: 700;
     padding: 109px 0px 18px 0px;
 }
+section.abt-plas-hero-section {
+    background: #000000;
+}
 .atb-plas-hero-content span {
     color: #fff;
     font-size: 23px;
@@ -5987,6 +5990,9 @@ section.abt-plas-hero-section {
 section.why-pla-section {
     padding: 40px 0;
     background: #000;
+}
+.why-pla-content {
+    padding-top: 44px;
 }
 .why-pla-content h2 {
     color: #fff;
@@ -6009,14 +6015,14 @@ section.why-pla-section {
     gap:15px;
     background:#131313;
     border:1px solid rgba(247,148,29,.2);
-    padding:18px;
+    padding:5px;
     border-radius:12px;
     transition:.35s;
     height:100%;
 }
 
 .benefit-card i{
-    color:#f7941d;
+    color:rgb(235, 98, 0);
     font-size:22px;
     margin-top:3px;
 }
