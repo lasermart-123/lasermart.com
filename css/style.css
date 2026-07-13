@@ -53,119 +53,98 @@ body {
     background:#000;
 }
 
-.support-badge{
-    display:inline-block;
-    color:#d8893a;
-    border:1px solid rgba(216,137,58,.4);
+.support-tag{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
     padding:8px 18px;
+    border:1px solid rgba(216,137,58,.35);
     border-radius:30px;
+    color:#d8893a;
     font-size:14px;
-    letter-spacing:1px;
 }
 
-.section-title{
+.clinical-support h2{
     color:#fff;
     font-size:42px;
     font-weight:700;
+    margin-bottom:20px;
 }
 
-.section-title span{
+.clinical-support h2 span{
     color:#d8893a;
 }
 
-.section-desc{
+.clinical-support p{
     color:#bdbdbd;
-    max-width:750px;
-    margin:auto;
-    line-height:1.8;
+    line-height:1.9;
+    font-size:16px;
 }
 
-.support-box{
-    position:relative;
-    display:flex;
-    align-items:center;
-    gap:25px;
+.support-card{
     background:#111;
     border:1px solid rgba(255,255,255,.08);
     border-radius:18px;
-    padding:28px;
-    transition:.4s;
+    padding:30px 22px;
     height:100%;
+    transition:.35s;
 }
 
-.support-box:hover{
+.support-card:hover{
     transform:translateY(-8px);
     border-color:#d8893a;
-    box-shadow:0 15px 35px rgba(216,137,58,.15);
+    box-shadow:0 15px 35px rgba(216,137,58,.18);
 }
 
-.number{
-    width:70px;
-    height:70px;
+.support-card i{
+    width:65px;
+    height:65px;
     border-radius:50%;
-    background:#d8893a;
-    color:#fff;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    font-size:24px;
-    font-weight:700;
-    flex-shrink:0;
-}
-
-.support-box i{
-    font-size:34px;
+    background:rgba(216,137,58,.12);
     color:#d8893a;
-    margin-bottom:12px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:26px;
+    margin-bottom:20px;
 }
 
-.support-box h5{
+.support-card h5{
     color:#fff;
-    font-size:20px;
-    margin:0;
+    font-size:18px;
     line-height:1.5;
+    margin:0;
 }
 
-.support-last{
-    max-width:700px;
-    margin:auto;
+.support-full{
+    text-align:center;
+}
+
+.support-full i{
+    margin-left:auto;
+    margin-right:auto;
 }
 
 @media(max-width:991px){
 
-    .section-title{
+    .clinical-support h2{
         font-size:34px;
-    }
-
-    .support-box{
-        padding:22px;
     }
 
 }
 
 @media(max-width:767px){
 
-    .section-title{
+    .clinical-support h2{
         font-size:28px;
     }
 
-    .support-box{
-        flex-direction:column;
-        text-align:center;
+    .support-card{
+        padding:25px 20px;
     }
 
-    .support-box h5{
-        font-size:17px;
-    }
-
-    .number{
-        width:60px;
-        height:60px;
-        font-size:20px;
-    }
-
-    .support-box i{
-        font-size:28px;
+    .support-card h5{
+        font-size:16px;
     }
 
 }
