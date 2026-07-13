@@ -5996,10 +5996,10 @@ section.why-pla-section {
 .clinical-benefits {
     background: #000000;
     color: #fff;
+    padding: 40px 0;
 }
 
-.benefit-image img{
-    border-radius:18px;
+.benefit-image img{  
     width:100%;
 }
 
