@@ -14,7 +14,7 @@ body {
 }
 .feature-plasti-card{
     background:#111;
-    border:1px solid rgba(255,255,255,.12);
+    border:1px solid rgb(235, 98, 0);
     border-radius:18px;
     padding:0px 7px;
     text-align:center;
@@ -29,7 +29,7 @@ body {
 .feature-plasti-card:hover{
     transform:translateY(-8px);
     border-color:#d8893a;
-    box-shadow:0 12px 30px rgba(216,137,58,.18);
+    box-shadow:0 12px 30px rgb(235, 98, 0);
 }
 
 .feature-plasti-card img{
