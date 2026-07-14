@@ -9,6 +9,26 @@
 body {
     background: #0c0808;
 }
+.ent-hero{
+
+    background:#050913;
+    color:#fff;
+    overflow:hidden;
+
+}
+
+.hero-badge{
+
+    display:inline-block;
+    border:1px solid rgba(255,122,0,.4);
+    color:#ff7a00;
+    padding:8px 18px;
+    border-radius:40px;
+    font-size:14px;
+    font-weight:600;
+
+}
+
 
 .preloader {
     position: fixed;
