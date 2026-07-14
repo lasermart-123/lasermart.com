@@ -234,6 +234,43 @@ body {
     }
 
 }
+.why-lasermart{
+    background:#000000;
+}
+
+.choose-ent-item{
+    display:flex;
+    align-items:flex-start;
+    gap:18px;
+    background:#141414fa;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:14px;
+    padding:22px;
+    height:100%;
+    transition:.3s;
+
+}
+
+.choose-ent-item:hover{
+    transform:translateY(-6px);
+    border-color:rgb(235, 98, 0);
+
+}
+
+.choose-ent-item i{
+    color:rgb(235, 98, 0);
+    font-size:24px;
+    margin-top:2px;
+
+}
+
+.choose-ent-item span{
+    color:#d5dbe5;
+    font-size:17px;
+    line-height:1.7;
+
+}
+
 
 
 .preloader {
