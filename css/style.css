@@ -5999,7 +5999,7 @@ section.why-pla-section {
     width:100%;
 }
 
-.benefit-card{
+.benefit-plas-card{
     display:flex;
     align-items:flex-start;
     gap:15px;
@@ -6011,19 +6011,19 @@ section.why-pla-section {
     height:100%;
 }
 
-.benefit-card i{
+.benefit-plas-card i{
     color:rgb(235, 98, 0);
     font-size:22px;
     margin-top:3px;
 }
 
-.benefit-card span{
+.benefit-plas-card span{
     color:#fff;
     font-size:15px;
     line-height:1.6;
 }
 
-.benefit-card:hover{
+.benefit-plas-card:hover{
     transform:translateY(-5px);
     border-color:#f7941d;
     box-shadow:0 10px 30px rgba(247,148,29,.15);
@@ -6032,11 +6032,11 @@ section.why-pla-section {
 
 @media(max-width:767px){
 
-.benefit-card{
+.benefit-plas-card{
     padding:15px;
 }
 
-.benefit-card span{
+.benefit-plas-card span{
     font-size:14px;
 }
 
