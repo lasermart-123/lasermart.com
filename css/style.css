@@ -111,11 +111,11 @@ body {
 
 
 .clinical-excellence{
-    background:#050913;
+    background:#000000;
     color:#fff;
 }
 .clinical-ent-title{
-    font-size:48px;
+    font-size:37px;
     font-weight:700;
     line-height:1.2;
 }
@@ -126,10 +126,10 @@ body {
 }
 .clinical-ent-img{
     width:100%;
-    border-radius:20px;
-    box-shadow:0 20px 50px rgba(0,0,0,.4);
+    }
+section.ent-applications {
+    color: #fff;
 }
-
 
 
 .preloader {
