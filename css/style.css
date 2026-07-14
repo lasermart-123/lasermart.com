@@ -281,8 +281,8 @@ h2.atb-future-ent-title {
     line-height:1.8;
 }
 
-.atb-future-card{
-    background:#101827;
+.atb-future-ent-card{
+    background:#141414fa;
     border:1px solid rgba(255,255,255,.08);
     border-radius:16px;
     padding:30px 20px;
@@ -290,18 +290,18 @@ h2.atb-future-ent-title {
     transition:.3s;
 }
 
-.atb-future-card:hover{
+.atb-future-ent-card:hover{
     transform:translateY(-6px);
     border-color:#ff7a00;
 }
 
-.atb-future-card i{
+.atb-future-ent-card i{
     color:#ff7a00;
     font-size:38px;
     margin-bottom:18px;
 }
 
-.atb-future-card h5{
+.atb-future-ent-card h5{
     color:#fff;
     font-size:20px;
     margin:0;
