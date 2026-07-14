@@ -31,7 +31,7 @@ body {
 .ent-benefits{
     background:#000000;
     color:#fff;
-    padding:40px 0;
+    padding:50px 0;
 }
 .section-tag{
     display:inline-block;
@@ -67,7 +67,7 @@ body {
     border:1px solid rgba(255,255,255,.08);
     border-radius:18px;
     text-align:center;
-    padding:30px 15px;
+    padding:14px 10px;
     height:100%;
     transition:.35s;
 }
@@ -159,7 +159,7 @@ body {
     border:1px solid rgba(255,255,255,.08);
     border-radius:18px;
     text-align:center;
-    padding:35px 20px;
+    padding:10px 10px;
     height:100%;
     transition:.35s;
 }
@@ -174,6 +174,7 @@ body {
     color:#fff;
     margin:0;
     font-weight:600;
+    font-size:15px;
     line-height:1.5;
 }
 
