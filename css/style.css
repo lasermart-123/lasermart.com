@@ -242,7 +242,6 @@ body {
 
 
 .feature-ent-card{
-
     background:#141414fa;
     border:1px solid rgba(255,255,255,.08);
     border-radius:14px;
@@ -250,32 +249,71 @@ body {
     text-align:center;
     height:100%;
     transition:.35s;
-
 }
 
 .feature-ent-card:hover{
-
     transform:translateY(-6px);
     border-color:#ff7a00;
-
 }
-
 .feature-ent-card i{
-
     color:rgb(235, 98, 0);
     font-size:38px;
     margin-bottom:15px;
-
 }
 
 .feature-ent-card p{
-
     color:#fff;
     font-size:15px;
     line-height:1.5;
     margin:0;
-
 }
+.atb-future-ent{
+    background:#050913;
+}
+
+.atb-future-title{
+    color:#fff;
+    font-size:46px;
+    font-weight:700;
+}
+
+.atb-future-title span{
+    color:#ff7a00;
+}
+
+.atb-future-text{
+    color:#c8d1dd;
+    font-size:18px;
+    line-height:1.8;
+}
+
+.atb-future-card{
+    background:#101827;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:16px;
+    padding:30px 20px;
+    height:100%;
+    transition:.3s;
+}
+
+.atb-future-card:hover{
+    transform:translateY(-6px);
+    border-color:#ff7a00;
+}
+
+.atb-future-card i{
+    color:#ff7a00;
+    font-size:38px;
+    margin-bottom:18px;
+}
+
+.atb-future-card h5{
+    color:#fff;
+    font-size:20px;
+    margin:0;
+}
+
+
 
 
 
