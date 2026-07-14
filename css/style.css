@@ -267,18 +267,12 @@ body {
     line-height:1.5;
     margin:0;
 }
-.atb-future-ent{
-    background:#050913;
+.atb-future-ent {
+    background: #000000;
+    color: #fff;
 }
-
-.atb-future-title{
-    color:#fff;
-    font-size:46px;
-    font-weight:700;
-}
-
-.atb-future-title span{
-    color:#ff7a00;
+h2.atb-future-ent-title {
+    font-weight: 700;
 }
 
 .atb-future-text{
