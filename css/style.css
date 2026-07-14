@@ -109,30 +109,27 @@ body {
 
 }
 
-@media(max-width:767px){
 
-    .benefit-ent-wrapper{
-        padding:20px;
-        border-radius:18px;
-    }
-
-    .benefit-ent-content h2{
-        font-size:28px;
-    }
-
-    .benefit-ent-card{
-        padding:25px 12px;
-    }
-
-    .benefit-ent-card i{
-        font-size:28px;
-    }
-
-    .benefit-ent-card h6{
-        font-size:14px;
-    }
-
+.clinical-excellence{
+    background:#050913;
+    color:#fff;
 }
+.clinical-ent-title{
+    font-size:48px;
+    font-weight:700;
+    line-height:1.2;
+}
+.clinical-ent-text{
+    color:#b8c2d0;
+    font-size:17px;
+    line-height:1.9;
+}
+.clinical-ent-img{
+    width:100%;
+    border-radius:20px;
+    box-shadow:0 20px 50px rgba(0,0,0,.4);
+}
+
 
 
 .preloader {
