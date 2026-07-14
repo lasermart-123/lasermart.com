@@ -11,7 +11,7 @@ body {
 }
 .ent-hero{
 
-    background:#050913;
+    background:#000000;
     color:#fff;
     overflow:hidden;
 
@@ -29,17 +29,9 @@ body {
 
 }
 .ent-benefits{
-    background:#07111f;
+    background:#000000;
     color:#fff;
 }
-
-.benefit-ent-wrapper{
-    background:#0b1627;
-    border:1px solid rgba(255,255,255,.08);
-    border-radius:22px;
-    padding:40px;
-}
-
 .section-tag{
     display:inline-block;
     padding:8px 18px;
@@ -70,7 +62,7 @@ body {
 }
 
 .benefit-ent-card{
-    background:#101b2c;
+    background:#141414fa;
     border:1px solid rgba(255,255,255,.08);
     border-radius:18px;
     text-align:center;
@@ -81,7 +73,7 @@ body {
 
 .benefit-ent-card i{
     font-size:34px;
-    color:#0d6efd;
+    color:rgb(235, 98, 0);
     margin-bottom:18px;
 }
 
@@ -95,8 +87,8 @@ body {
 
 .benefit-ent-card:hover{
     transform:translateY(-8px);
-    border-color:#0d6efd;
-    box-shadow:0 15px 35px rgba(13,110,253,.20);
+    border-color:rgb(235, 98, 0);
+    box-shadow:0 15px 35px rgb(235, 98, 0 / 59%);
 }
 
 @media(max-width:991px){
