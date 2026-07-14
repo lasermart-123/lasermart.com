@@ -2815,6 +2815,9 @@ section.jurney-section {
             z-index: 3;
         }
 /*=============== Gallery.page ===================*/
+section.gallery-section {
+    color: #fff;
+}
 .gallery-filter{
     display:flex;   
     justify-content:center;
