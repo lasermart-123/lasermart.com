@@ -236,21 +236,14 @@ body {
 
 }
 .why-ent-section{
-    background:#070b14;
-}
-
-.why-ent-box,
-.stats-ent-box{
-    background:#0d111b;
-    border:1px solid rgba(255,255,255,.08);
-    border-radius:20px;
-    padding:30px;
+    background:#000000;
+    color:#fff;
 }
 
 
 .feature-ent-card{
 
-    background:#111827;
+    background:#141414fa;
     border:1px solid rgba(255,255,255,.08);
     border-radius:14px;
     padding:22px 15px;
@@ -269,7 +262,7 @@ body {
 
 .feature-ent-card i{
 
-    color:#ff7a00;
+    color:rgb(235, 98, 0);
     font-size:38px;
     margin-bottom:15px;
 
@@ -281,50 +274,6 @@ body {
     font-size:15px;
     line-height:1.5;
     margin:0;
-
-}
-
-.stat-ent-card{
-
-    background:#111827;
-    border:1px solid rgba(255,255,255,.08);
-    border-radius:14px;
-    padding:30px 20px;
-    text-align:center;
-    height:100%;
-    transition:.35s;
-
-}
-
-.stat-ent-card:hover{
-
-    transform:translateY(-6px);
-    border-color:#ff7a00;
-
-}
-
-.stat-ent-card i{
-
-    color:#ff7a00;
-    font-size:34px;
-    margin-bottom:15px;
-
-}
-
-.stat-ent-card h2{
-
-    color:#ff7a00;
-    font-size:42px;
-    font-weight:700;
-    margin-bottom:5px;
-
-}
-
-.stat-ent-card p{
-
-    color:#fff;
-    margin:0;
-    font-size:16px;
 
 }
 
