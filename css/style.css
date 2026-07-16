@@ -7356,8 +7356,24 @@ h2.atb-future-ent-title {
 /*===========================
       Pain=Management.Page
 ===============================*/
-.pain-applications{
-    background:#070b14;
+section.abt-pain-hero-section {
+    background: #000000;
+    color: #fff;
+    overflow: hidden;
+    width: 100%;
+}
+section.abt-pain-hero-section h1 {
+    font-weight: 700;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+.pain-applications {
+    background: #000000;
+    padding: 20px 0;
+    color: #fff;
+}
+section.pain-applications h2 {
+    font-weight: 700;
 }
 .pain-application-card{
     position:relative;
