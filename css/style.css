@@ -7381,6 +7381,10 @@ h2.atb-future-ent-title {
     inset:0;
     background:linear-gradient(to top,rgba(0,0,0,.85),rgba(0,0,0,.1));
 }
+.col-xl-2 {
+    flex: 0 0 auto;
+    width: 20%;
+}
 
 .pain-card-content h6{
     color:#fff;
