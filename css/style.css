@@ -7490,6 +7490,8 @@ section.modern-pain-section {
 }
 .modern-pain-image {
     position: relative;
+    width: 100%;
+    overflow: hidden;
 }
 .modern-pain-image::before {
     content: '';
