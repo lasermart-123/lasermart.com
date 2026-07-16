@@ -7429,12 +7429,17 @@ section.pain-applications h2 {
 .pain-clinical-advantages{
     background:#050b16;
 }
-
-.pain-advantage-card{
-    display:flex;
+section.-pain-clinical-advantages {
+    background: #000;
+    color: #fff;
+}
+section.-pain-clinical-advantages h2 {
+    font-weight: 700;
+}
+.pain-advantage-card{   
     align-items:center;
     gap:18px;
-    background:#101826;
+    background:#141414fa;
     border:1px solid rgba(255,255,255,.08);
     border-radius:15px;
     padding:22px;
@@ -7445,7 +7450,7 @@ section.pain-applications h2 {
 .pain-advantage-card i{
     width:55px;
     height:55px;
-    background:#ff8c00;
+    background:rgb(235, 98, 0);
     color:#fff;
     border-radius:50%;
     display:flex;
@@ -7465,7 +7470,7 @@ section.pain-applications h2 {
 .pain-advantage-card:hover{
     transform:translateY(-6px);
     border-color:#ff8c00;
-    box-shadow:0 15px 35px rgba(255,140,0,.20);
+    box-shadow:0 15px 35px rgb(235, 98, 0);
 }
 
 
