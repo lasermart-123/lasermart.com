@@ -7260,6 +7260,10 @@ section.global-support h2.title {
     .ent-title{
         font-size:34px;
     }
+    .col-xl-2 {
+    flex: 0 0 auto;
+    width: 25%;
+}
 
 }
 
@@ -7280,6 +7284,10 @@ section.global-support h2.title {
     .support-icon{
         margin-bottom:15px;
     }
+      .col-xl-2 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
 
 }
 .why-ent-section{
@@ -7442,7 +7450,7 @@ section.-pain-clinical-advantages h2 {
     background:#141414fa;
     border:1px solid rgba(255,255,255,.08);
     border-radius:15px;
-    padding:22px;
+    padding:18px;
     height:100%;
     transition:.35s;
 }
@@ -7467,10 +7475,10 @@ section.-pain-clinical-advantages h2 {
     line-height:1.5;
 }
 
-.pain-advantage-card:hover{
-    transform:translateY(-6px);
-    border-color:#ff8c00;
-    box-shadow:0 15px 35px rgb(235, 98, 0);
+.pain-advantage-card:hover {
+    transform: translateY(-6px);
+    border-color: rgb(235 98 0);
+    box-shadow: 0 15px 35px rgb(235 98 0 / 48%);
 }
 
 
