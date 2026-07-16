@@ -7375,20 +7375,21 @@ section.abt-pain-hero-section h1 {
 section.pain-applications h2 {
     font-weight: 700;
 }
-.pain-application-card{
-    position:relative;
-    overflow:hidden;
-    border-radius:15px;
-    border:1px solid rgba(255,255,255,.1);
-    background:#111827;
-    transition:.4s;
+.pain-application-card {
+    position: relative;
+    overflow: hidden;
+    height: 233px;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, .1);
+    background: #111827;
+    transition: .4s;
 }
 
-.pain-application-card img{
-    width:100%;
-    height:250px;
-    object-fit:cover;
-    transition:.5s;
+.pain-application-card img {
+    width: 100%;
+    height: 142px;
+    object-fit: cover;
+    transition: .5s;
 }
 
 .pain-application-card::before{
@@ -7400,6 +7401,12 @@ section.pain-applications h2 {
 .col-xl-2 {
     flex: 0 0 auto;
     width: 20%;
+}
+.pain-card-content {
+    position: relative;
+    top: 15px;
+    text-align: center;
+    z-index: 2;
 }
 
 .pain-card-content h6{
@@ -7413,7 +7420,7 @@ section.pain-applications h2 {
 .pain-application-card:hover{
     transform:translateY(-8px);
     border-color:#ff8c00;
-    box-shadow:0 10px 25px rgba(255,140,0,.25);
+    box-shadow:0 10px 25px rgb(235, 98, 0));
 }
 
 .pain-application-card:hover img{
