@@ -9,309 +9,6 @@
 body {
     background: #0c0808;
 }
-.ent-hero{
-
-    background:#000000;
-    color:#fff;
-    overflow:hidden;
-
-}
-
-.hero-badge{
-
-    display:inline-block;
-    border:1px solid rgba(255,122,0,.4);
-    color:#ff7a00;
-    padding:8px 18px;
-    border-radius:40px;
-    font-size:14px;
-    font-weight:600;
-
-}
-.ent-benefits{
-    background:#000000;
-    color:#fff;
-    padding:50px 0;
-}
-.section-tag{
-    display:inline-block;
-    padding:8px 18px;
-    border-radius:50px;
-    background:rgba(0,123,255,.12);
-    color:#39b6ff;
-    font-size:13px;
-    font-weight:600;
-    letter-spacing:.5px;
-    margin-bottom:20px;
-}
-
-.benefit-ent-content h2{
-    font-size:37px;
-    font-weight:700;
-    line-height:1.2;
-    margin-bottom:20px;
-}
-
-.benefit-ent-content h2 span{
-    color:#0d6efd;
-}
-
-.benefit-ent-content p{
-    color:#b8c4d4;
-    line-height:1.8;
-    margin-bottom:0;
-}
-
-.benefit-ent-card{
-    background:#141414fa;
-    border:1px solid rgba(255,255,255,.08);
-    border-radius:18px;
-    text-align:center;
-    padding:14px 10px;
-    height:100%;
-    transition:.35s;
-}
-
-.benefit-ent-card i{
-    font-size:34px;
-    color:rgb(235, 98, 0);
-    margin-bottom:18px;
-}
-
-.benefit-ent-card h6{
-    font-size:15px;
-    line-height:1.5;
-    margin:0;
-    color:#fff;
-    font-weight:600;
-}
-
-.benefit-ent-card:hover{
-    transform:translateY(-8px);
-    border-color:rgb(235, 98, 0);
-    box-shadow:0 15px 35px rgb(235, 98, 0 / 59%);
-}
-
-@media(max-width:991px){
-
-    .benefit-ent-wrapper{
-        padding:30px;
-    }
-
-    .benefit-ent-content{
-        text-align:center;
-        margin-bottom:10px;
-    }
-
-    .benefit-ent-content h2{
-        font-size:34px;
-    }
-
-}
-
-
-.clinical-excellence{
-    background:#000000;
-    color:#fff;
-}
-.clinical-ent-title{
-    font-size:37px;
-    font-weight:700;
-    line-height:1.2;
-}
-.clinical-ent-text{
-    color:#b8c2d0;
-    font-size:17px;
-    line-height:1.9;
-}
-.clinical-ent-img{
-    width:100%;
-    }
-.ent-applications{
-    background:#000000;
-}
-
-.ent-tag{
-    display:inline-block;
-    padding:8px 20px;
-    border-radius:50px;
-    background:rgba(13,110,253,.15);
-    color:rgb(235, 98, 0);
-    font-size:13px;
-    font-weight:600;
-    letter-spacing:.5px;
-}
-
-.ent-title{
-    color:#fff;
-    font-size:42px;
-    font-weight:700;
-}
-
-.ent-subtitle{
-    max-width:750px;
-    color:#b8c4d4;
-    line-height:1.8;
-}
-
-.ent-app-card{
-    background:#141414fa;
-    border:1px solid rgba(255,255,255,.08);
-    border-radius:18px;
-    text-align:center;
-    padding:10px 10px;
-    height:100%;
-    transition:.35s;
-}
-
-.ent-app-card i{
-    font-size:40px;
-    color:rgb(235, 98, 0);
-    margin-bottom:18px;
-}
-
-.ent-app-card h6{
-    color:#fff;
-    margin:0;
-    font-weight:600;
-    font-size:15px;
-    line-height:1.5;
-}
-
-.ent-app-card:hover{
-    transform:translateY(-8px);
-    border-color:rgb(235, 98, 0);
-    box-shadow:0 18px 35px rgba(13,110,253,.18);
-}
-
-.ent-support-box{
-    background:#141414fa;
-    border:1px solid rgba(255,255,255,.08);
-    border-radius:18px;
-    padding:30px;
-}
-
-.support-icon{
-    font-size:45px;
-    color:rgb(235, 98, 0);
-}
-
-.ent-support-box h5{
-    color:#fff;
-    margin-bottom:10px;
-    font-weight:600;
-}
-
-.ent-support-box p{
-    color:#b8c4d4;
-    margin:0;
-    line-height:1.8;
-}
-
-@media(max-width:991px){
-
-    .ent-title{
-        font-size:34px;
-    }
-
-}
-
-@media(max-width:767px){
-
-    .ent-title{
-        font-size:28px;
-    }
-
-    .ent-app-card{
-        padding:25px 15px;
-    }
-
-    .ent-app-card i{
-        font-size:34px;
-    }
-
-    .support-icon{
-        margin-bottom:15px;
-    }
-
-}
-.why-ent-section{
-    background:#000000;
-    color:#fff;
-}
-
-
-.feature-ent-card{
-    background:#141414fa;
-    border:1px solid rgba(255,255,255,.08);
-    border-radius:14px;
-    padding:22px 15px;
-    text-align:center;
-    height:100%;
-    transition:.35s;
-}
-
-.feature-ent-card:hover{
-    transform:translateY(-6px);
-    border-color:#ff7a00;
-}
-.feature-ent-card i{
-    color:rgb(235, 98, 0);
-    font-size:38px;
-    margin-bottom:15px;
-}
-
-.feature-ent-card p{
-    color:#fff;
-    font-size:15px;
-    line-height:1.5;
-    margin:0;
-}
-.atb-future-ent {
-    background: #000000;
-    color: #fff;
-}
-h2.atb-future-ent-title {
-    font-weight: 700;
-}
-
-.atb-future-text{
-    color:#c8d1dd;
-    font-size:18px;
-    line-height:1.8;
-}
-
-.atb-future-ent-card{
-    background:#141414fa;
-    border:1px solid rgba(255,255,255,.08);
-    border-radius:16px;
-    padding:30px 20px;
-    height:100%;
-    transition:.3s;
-}
-
-.atb-future-ent-card:hover{
-    transform:translateY(-6px);
-    border-color:#ff7a00;
-}
-
-.atb-future-ent-card i{
-    color:#ff7a00;
-    font-size:38px;
-    margin-bottom:18px;
-}
-
-.atb-future-ent-card h5{
-    color:#fff;
-    font-size:20px;
-    margin:0;
-}
-
-
-
-
-
-
 
 .preloader {
     position: fixed;
@@ -7360,6 +7057,351 @@ section.global-support h2.title {
     background:#fff;
     color:rgb(235, 98, 0);
 }
+/*============================
+     Ent.Page
+============================*/
+.ent-hero{
+    background:#000000;
+    color:#fff;
+    overflow:hidden;
+}
+
+.hero-badge{
+    display:inline-block;
+    border:1px solid rgba(255,122,0,.4);
+    color:#ff7a00;
+    padding:8px 18px;
+    border-radius:40px;
+    font-size:14px;
+    font-weight:600;
+}
+.ent-benefits{
+    background:#000000;
+    color:#fff;
+    padding:50px 0;
+}
+.section-tag{
+    display:inline-block;
+    padding:8px 18px;
+    border-radius:50px;
+    background:rgba(0,123,255,.12);
+    color:#39b6ff;
+    font-size:13px;
+    font-weight:600;
+    letter-spacing:.5px;
+    margin-bottom:20px;
+}
+
+.benefit-ent-content h2{
+    font-size:37px;
+    font-weight:700;
+    line-height:1.2;
+    margin-bottom:20px;
+}
+
+.benefit-ent-content h2 span{
+    color:#0d6efd;
+}
+
+.benefit-ent-content p{
+    color:#b8c4d4;
+    line-height:1.8;
+    margin-bottom:0;
+}
+
+.benefit-ent-card{
+    background:#141414fa;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:18px;
+    text-align:center;
+    padding:14px 10px;
+    height:100%;
+    transition:.35s;
+}
+
+.benefit-ent-card i{
+    font-size:34px;
+    color:rgb(235, 98, 0);
+    margin-bottom:18px;
+}
+
+.benefit-ent-card h6{
+    font-size:15px;
+    line-height:1.5;
+    margin:0;
+    color:#fff;
+    font-weight:600;
+}
+
+.benefit-ent-card:hover{
+    transform:translateY(-8px);
+    border-color:rgb(235, 98, 0);
+    box-shadow:0 15px 35px rgb(235, 98, 0 / 59%);
+}
+
+@media(max-width:991px){
+
+    .benefit-ent-wrapper{
+        padding:30px;
+    }
+
+    .benefit-ent-content{
+        text-align:center;
+        margin-bottom:10px;
+    }
+
+    .benefit-ent-content h2{
+        font-size:34px;
+    }
+
+}
+
+
+.clinical-excellence{
+    background:#000000;
+    color:#fff;
+}
+.clinical-ent-title{
+    font-size:37px;
+    font-weight:700;
+    line-height:1.2;
+}
+.clinical-ent-text{
+    color:#b8c2d0;
+    font-size:17px;
+    line-height:1.9;
+}
+.clinical-ent-img{
+    width:100%;
+    }
+.ent-applications{
+    background:#000000;
+}
+
+.ent-tag{
+    display:inline-block;
+    padding:8px 20px;
+    border-radius:50px;
+    background:rgba(13,110,253,.15);
+    color:rgb(235, 98, 0);
+    font-size:13px;
+    font-weight:600;
+    letter-spacing:.5px;
+}
+
+.ent-title{
+    color:#fff;
+    font-size:42px;
+    font-weight:700;
+}
+
+.ent-subtitle{
+    max-width:750px;
+    color:#b8c4d4;
+    line-height:1.8;
+}
+
+.ent-app-card{
+    background:#141414fa;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:18px;
+    text-align:center;
+    padding:10px 10px;
+    height:100%;
+    transition:.35s;
+}
+
+.ent-app-card i{
+    font-size:40px;
+    color:rgb(235, 98, 0);
+    margin-bottom:18px;
+}
+
+.ent-app-card h6{
+    color:#fff;
+    margin:0;
+    font-weight:600;
+    font-size:15px;
+    line-height:1.5;
+}
+
+.ent-app-card:hover{
+    transform:translateY(-8px);
+    border-color:rgb(235, 98, 0);
+    box-shadow:0 18px 35px rgba(13,110,253,.18);
+}
+
+.ent-support-box{
+    background:#141414fa;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:18px;
+    padding:30px;
+}
+
+.support-icon{
+    font-size:45px;
+    color:rgb(235, 98, 0);
+}
+
+.ent-support-box h5{
+    color:#fff;
+    margin-bottom:10px;
+    font-weight:600;
+}
+
+.ent-support-box p{
+    color:#b8c4d4;
+    margin:0;
+    line-height:1.8;
+}
+
+@media(max-width:991px){
+
+    .ent-title{
+        font-size:34px;
+    }
+
+}
+
+@media(max-width:767px){
+
+    .ent-title{
+        font-size:28px;
+    }
+
+    .ent-app-card{
+        padding:25px 15px;
+    }
+
+    .ent-app-card i{
+        font-size:34px;
+    }
+
+    .support-icon{
+        margin-bottom:15px;
+    }
+
+}
+.why-ent-section{
+    background:#000000;
+    color:#fff;
+}
+
+
+.feature-ent-card{
+    background:#141414fa;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:14px;
+    padding:22px 15px;
+    text-align:center;
+    height:100%;
+    transition:.35s;
+}
+
+.feature-ent-card:hover{
+    transform:translateY(-6px);
+    border-color:#ff7a00;
+}
+.feature-ent-card i{
+    color:rgb(235, 98, 0);
+    font-size:38px;
+    margin-bottom:15px;
+}
+
+.feature-ent-card p{
+    color:#fff;
+    font-size:15px;
+    line-height:1.5;
+    margin:0;
+}
+.atb-future-ent {
+    background: #000000;
+    color: #fff;
+}
+h2.atb-future-ent-title {
+    font-weight: 700;
+}
+
+.atb-future-text{
+    color:#c8d1dd;
+    font-size:18px;
+    line-height:1.8;
+}
+
+.atb-future-ent-card{
+    background:#141414fa;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:16px;
+    padding:30px 20px;
+    height:100%;
+    transition:.3s;
+}
+
+.atb-future-ent-card:hover{
+    transform:translateY(-6px);
+    border-color:#ff7a00;
+}
+
+.atb-future-ent-card i{
+    color:#ff7a00;
+    font-size:38px;
+    margin-bottom:18px;
+}
+
+.atb-future-ent-card h5{
+    color:#fff;
+    font-size:20px;
+    margin:0;
+}
+/*===========================
+      Pain=Management.Page
+===============================*/
+.pain-applications{
+    background:#070b14;
+}
+.pain-application-card{
+    position:relative;
+    overflow:hidden;
+    border-radius:15px;
+    border:1px solid rgba(255,255,255,.1);
+    background:#111827;
+    transition:.4s;
+}
+
+.pain-application-card img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    transition:.5s;
+}
+
+.pain-application-card::before{
+    content:'';
+    position:absolute;
+    inset:0;
+    background:linear-gradient(to top,rgba(0,0,0,.85),rgba(0,0,0,.1));
+}
+
+.pain-card-content h6{
+    color:#fff;
+    font-size:16px;
+    font-weight:600;
+    line-height:1.4;
+    margin:0;
+}
+
+.pain-application-card:hover{
+    transform:translateY(-8px);
+    border-color:#ff8c00;
+    box-shadow:0 10px 25px rgba(255,140,0,.25);
+}
+
+.pain-application-card:hover img{
+    transform:scale(1.08);
+}
+
+
+
 
 
 
