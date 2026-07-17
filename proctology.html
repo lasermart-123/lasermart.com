@@ -529,15 +529,18 @@
     <script src="./js/counter.js"></script>
     <script src="./js/custom.js"></script>
     <script>
-        const collapse = document.getElementById('haemorrhoidsContent');
-const btn = document.querySelector('.read-more-btn');
+        document.querySelectorAll('.read-more-btn').forEach(function(btn) {
 
-collapse.addEventListener('shown.bs.collapse', function () {
-    btn.innerHTML = "Read Less";
-});
+    const target = document.querySelector(btn.dataset.bsTarget);
 
-collapse.addEventListener('hidden.bs.collapse', function () {
-    btn.innerHTML = "Read More";
+    target.addEventListener('shown.bs.collapse', function () {
+        btn.innerHTML = 'Read Less';
+    });
+
+    target.addEventListener('hidden.bs.collapse', function () {
+        btn.innerHTML = 'Read More';
+    });
+
 });
 </script>
     
