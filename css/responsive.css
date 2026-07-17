@@ -375,6 +375,10 @@
     width: 391px;    
     top: -43px;  
 }
+    .row-cols-1>* {
+    flex: 0 0 auto;
+    width: 50%;
+}
     
 }
 
