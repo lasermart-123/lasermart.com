@@ -3126,6 +3126,8 @@ strong {
 .feature-product-box h3 {
     margin-bottom: 15px;
     color: #00123c;
+    font-size: 19px;
+    font-weight: 700;
 }
 
 .feature-product-box p {
