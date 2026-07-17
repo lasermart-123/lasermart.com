@@ -3429,10 +3429,17 @@ section.atb-triple-section {
 
 /*=============== varicose vein.page ==================*/
 .varicose-hero {
-    background: #000;
-    /* min-height: 100vh; */
+    background-color: #000;
+    background-image: url(../img/hero-dental.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
     overflow: hidden;
-    padding: 0px 0px 0px 40px;
+    position: relative;
+}
+.hero-content-dent {
+    width: 50%;
 }
 
 /*.hero-content-varico {
@@ -3921,6 +3928,9 @@ a.atb-laser1-btn {
         max-height: 250px;
         border-radius: 8px;
     }
+    .hero-content-dent {
+    width: 100%;
+}
 }
 .video-wrapper{
     position:relative;  
