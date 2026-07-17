@@ -3112,6 +3112,19 @@ strong {
     transition: 0.3s;
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
 }
+.read-more-btn {
+    margin-top: 15px;
+    padding: 10px 24px;
+    border: none;
+    background:rgb(235, 98, 0);
+    color: #fff;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: .3s;
+}
+.read-more-btn:hover {   
+    background:#e86d00;    
+}
 
 .feature-product-box:hover {
     transform: translateY(-10px);
