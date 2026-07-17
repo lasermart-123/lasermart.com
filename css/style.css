@@ -5852,7 +5852,10 @@ textarea.input {
 .atb-pro-img img {
     width: 100%;
 }
-aection.atb-procto-why-section h3 {
+section.atb-procto-why-section{
+    background: #000000;
+}
+section.atb-procto-why-section h3 {
     color: #fff;
     text-align: center;
     font-weight: 700;
