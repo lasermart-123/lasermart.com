@@ -276,6 +276,10 @@ body {
     background: rgb(235, 98, 0);
     color: white;
 }
+.custom-dropdown .dropdown-item{
+    background: rgb(235, 98, 0);
+    color: white;
+}
 .dropdown-submenu{
     position: relative;
 }
