@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css">
+    
 
 </head>
 
@@ -519,8 +519,7 @@
 </div>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!--slick-->
-     <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
+    <!--slick-->    
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <!-- main.js -->
@@ -530,7 +529,16 @@
     <script src="./js/counter.js"></script>
     <script src="./js/custom.js"></script>
     <script>
-  AOS.init();
+        const collapse = document.getElementById('haemorrhoidsContent');
+const btn = document.querySelector('.read-more-btn');
+
+collapse.addEventListener('shown.bs.collapse', function () {
+    btn.innerHTML = "Read Less";
+});
+
+collapse.addEventListener('hidden.bs.collapse', function () {
+    btn.innerHTML = "Read More";
+});
 </script>
     
 </body>
