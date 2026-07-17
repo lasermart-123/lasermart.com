@@ -998,7 +998,7 @@ h1.hero-title {
 .btn-custom a {
     position: relative;
     display: inline-block;
-    padding: 14px 30px;
+    padding: 14px 29px;
     background: rgb(235, 98, 0);
     color: #ffffff;
     border-radius: 10px;
@@ -3434,10 +3434,10 @@ section.atb-triple-section {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    min-height: 100vh;
+    /*min-height: 100vh;*/
     overflow: hidden;
     position: relative;
-    padding-top: 20px;
+    padding: 40px 0;
 }
 .hero-content-dent {
     width: 50%;
