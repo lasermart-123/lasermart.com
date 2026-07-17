@@ -7256,10 +7256,10 @@ section.global-support h2.title {
     line-height:1.5;
 }
 
-.ent-app-card:hover{
-    transform:translateY(-8px);
-    border-color:rgb(235, 98, 0);
-    box-shadow:0 18px 35px rgba(13,110,253,.18);
+.ent-app-card:hover {
+    transform: translateY(-8px);
+    border-color: rgb(235, 98, 0);
+    box-shadow: 0 18px 35px rgb(253 113 13 / 18%);
 }
 
 .ent-support-box{
