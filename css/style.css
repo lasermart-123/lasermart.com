@@ -6714,14 +6714,7 @@ section.atb-neuro-choose-section.py-5{
 
 }
 
-/* Small Mobile */
-@media (max-width:480px){
 
-.neuro-choose-grid{
-    grid-template-columns:1fr;
-}
-
-}
 /*======================================
        Dental.Page
 ======================================*/
