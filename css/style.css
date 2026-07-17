@@ -279,6 +279,10 @@ body {
 .dropdown-submenu{
     position: relative;
 }
+.scroll-menu {
+    overflow-y: scroll;
+    height: 250px;
+}
 
 .dropdown-submenu .submenu{
     display: none;
