@@ -3437,6 +3437,7 @@ section.atb-triple-section {
     min-height: 100vh;
     overflow: hidden;
     position: relative;
+    padding-top: 20px;
 }
 .hero-content-dent {
     width: 50%;
