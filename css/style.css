@@ -3428,6 +3428,10 @@ section.atb-triple-section {
 
 
 /*=============== varicose vein.page ==================*/
+section.atb-varicose-hero {
+    background: #000000;
+    padding: 0px 0 0px 42px;
+}
 .varicose-hero {
     background-color: #000;
     background-image: url(../img/hero-dental.jpg);
