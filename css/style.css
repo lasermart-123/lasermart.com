@@ -72,7 +72,7 @@ body {
 
 .item1{
     top:0;
-    left: 66%;
+    left: 50%;
     transform:translateX(-50%);
 }
 
@@ -299,8 +299,8 @@ body {
         /* width:140px; */
         /* height:140px; */
         position: absolute;
-        width: 111px;
-        height: 111px;
+        width: 95px;
+        height: 95px;
         border-radius: 50%;
         background: #161616;
         border: 2px solid rgb(235, 98, 0);
@@ -314,55 +314,55 @@ body {
         text-align: center;
     }
     .item1{
-    top:0;
-    left: 66%;
+    top: -64px;
+    left: 9%;
     transform:translateX(-50%);
 }
 
 .item2{
-    top:70px;
-    right:90px;
+    top: 6px;
+    right: 193px;
 }
 
 .item3{
-    top:151px;
-    right:0;
+    top: 122px;
+    right: 213px;
 }
 
 .item4{
-    bottom:157px;
-    right:0;
+    bottom: 8px;
+    right: -142px;
 }
 
 .item5{
-    bottom:70px;
-    right:90px;
+    bottom: -17px;
+    right: 165px;
 }
 
 .item6{
-    bottom:0;
-    left:50%;
+    bottom: -49px;
+    left: 102%;
     transform:translateX(-50%);
 }
 
 .item7{
-    bottom:70px;
-    left:90px;
+    bottom: 116px;
+    left: 204px;
 }
 
 .item8{
     bottom:276px;
-    left:0;
+    left: 78px;
 }
 
 .item9{
-    top:279px;
-    left:0;
+    top: 261px;
+    left: 10px;
 }
 
 .item10{
-    top:70px;
-    left:90px;
+    top: -22px;
+    left: 189px;
 }
 }
 .preloader {
