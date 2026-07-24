@@ -57,11 +57,6 @@ body {
     text-align: center;
 }
 
-.circle-item i{
-    font-size:30px;
-    color:#d4af37;
-    margin-bottom:10px;
-}
 
 .circle-item span{
     font-size:15px;
@@ -70,7 +65,7 @@ body {
 
 .circle-item:hover{
     transform:scale(1.1);
-    box-shadow:0 0 20px rgba(212,175,55,.45);
+    box-shadow:0 0 20px rgb(235, 98, 0);
 }
 
 /* Position */
@@ -87,12 +82,12 @@ body {
 }
 
 .item3{
-    top:210px;
+    top:151px;
     right:0;
 }
 
 .item4{
-    bottom:210px;
+    bottom:157px;
     right:0;
 }
 
@@ -113,12 +108,12 @@ body {
 }
 
 .item8{
-    bottom:210px;
+    bottom:276px;
     left:0;
 }
 
 .item9{
-    top:210px;
+    top:279px;
     left:0;
 }
 
@@ -197,30 +192,28 @@ body {
     pointer-events:none;
 }
 
-.circle-lines line{
-    stroke:#d4af37;
-    stroke-width:1.5;
-    opacity:.5;
+.circle-lines line {
+    stroke: rgb(235, 98, 0);
+    stroke-width: 1.5;
+    opacity: 0.5;
 }
 
-.outer-ring{
-    fill:none;
-    stroke:#d4af37;
-    stroke-width:2;
-    stroke-dasharray:10 10;
-    opacity:.45;
-    animation:rotateRing 25s linear infinite;
-    transform-origin:center;
+.outer-ring {
+    fill: none;
+    stroke: rgb(255 255 255);
+    stroke-width: 2;
+    stroke-dasharray: 10 10;
+    opacity: .45;
+    animation: rotateRing 25s linear infinite;
+    transform-origin: center;
 }
 
 /* Center */
 
-.center-logo{
-    z-index:5;
-    background:#111;
-    box-shadow:
-    0 0 25px rgba(212,175,55,.5),
-    0 0 50px rgba(212,175,55,.2);
+.center-logo {
+    z-index: 5;
+    background: #111;
+    box-shadow: 0 0 25px rgb(212 113 55 / 50%), 0 0 50px rgb(209 133 40 / 20%);
 }
 
 /* Cards */
