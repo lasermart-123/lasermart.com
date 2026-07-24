@@ -75,50 +75,57 @@ body {
 
 /* Position */
 
-.item1 {
-    left: 50%;
-    top: 47px;
-    transform: translateX(-50%);
+.item1{
+    top:0;
+    left:50%;
+    transform:translateX(-50%);
 }
 
 .item2{
-    top:80px;
-    right:40px;
+    top:70px;
+    right:90px;
 }
 
 .item3{
+    top:210px;
     right:0;
-    top:50%;
-    transform:translateY(-50%);
 }
 
 .item4{
-    right:40px;
-    bottom:80px;
+    bottom:210px;
+    right:0;
 }
 
-.item5 {
-    left: 50%;
-    bottom: 47px;
-    transform: translateX(-50%);
+.item5{
+    bottom:70px;
+    right:90px;
 }
 
 .item6{
-    left:40px;
-    bottom:80px;
+    bottom:0;
+    left:50%;
+    transform:translateX(-50%);
 }
 
 .item7{
-    left:0;
-    top:50%;
-    transform:translateY(-50%);
+    bottom:70px;
+    left:90px;
 }
 
 .item8{
-    left:40px;
-    top:80px;
+    bottom:210px;
+    left:0;
 }
 
+.item9{
+    top:210px;
+    left:0;
+}
+
+.item10{
+    top:70px;
+    left:90px;
+}
 /* Responsive */
 
 @media(max-width:991px){
@@ -178,12 +185,6 @@ body {
 
 
 
-.circle-wrapper{
-    width:650px;
-    height:650px;
-    margin:auto;
-    position:relative;
-}
 
 /* SVG */
 
@@ -223,11 +224,6 @@ body {
 
 /* Cards */
 
-.circle-item{
-    z-index:3;
-    background:#111;
-    transition:.4s;
-}
 
 .circle-item:hover{
 
