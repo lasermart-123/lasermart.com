@@ -151,6 +151,57 @@ body {
 
     width:100px;
 }
+     .item1{
+    top: -64px;
+    left: 9%;
+    transform:translateX(-50%);
+}
+
+.item2{
+    top: 6px;
+    right: 193px;
+}
+
+.item3{
+    top: 122px;
+    right: 213px;
+}
+
+.item4{
+    bottom: 8px;
+    right: -142px;
+}
+
+.item5{
+    bottom: -17px;
+    right: 165px;
+}
+
+.item6{
+    bottom: -49px;
+    left: 102%;
+    transform:translateX(-50%);
+}
+
+.item7{
+    bottom: 116px;
+    left: 204px;
+}
+
+.item8{
+    bottom:276px;
+    left: 78px;
+}
+
+.item9{
+    top: 261px;
+    left: 10px;
+}
+
+.item10{
+    top: -22px;
+    left: 189px;
+}
 
 }
 
