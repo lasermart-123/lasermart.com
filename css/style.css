@@ -90,7 +90,7 @@ body {
     transition:.5s;
 }
 
-.premium-card:hover .card-glow{
+.premium-showcase-card:hover .card-glow{
 
     opacity:.3;
 
@@ -126,7 +126,7 @@ opacity:.18;
 
 }
 
-.card-icon{
+.card-showcase-icon{
 
 width:62px;
 
@@ -152,7 +152,7 @@ transition:.4s;
 
 }
 
-.premium-showcase-card:hover .card-icon{
+.premium-showcase-card:hover .card-showcase-icon{
 
 background:#ff7a00;
 
@@ -230,7 +230,7 @@ font-weight:700;
  Button
 ==============================*/
 
-.product-btn{
+.product-showcase-btn{
 
 display:flex;
 
@@ -256,13 +256,13 @@ transition:.4s;
 
 }
 
-.product-btn i{
+.product-showcase-btn i{
 
 transition:.35s;
 
 }
 
-.product-btn:hover{
+.product-showcase-btn:hover{
 
 background:#ff7a00;
 
@@ -272,7 +272,7 @@ color:#fff;
 
 }
 
-.product-btn:hover i{
+.product-showcase-btn:hover i{
 
 transform:translateX(8px);
 
@@ -368,7 +368,7 @@ font-size:32px;
 
 }
 
-.card-icon{
+.card-showcase-icon{
 
 width:52px;
 height:52px;
@@ -400,7 +400,7 @@ border-radius:18px;
 
 }
 
-.product-btn{
+.product-showcase-btn{
 
 font-size:14px;
 
