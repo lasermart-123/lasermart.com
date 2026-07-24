@@ -1761,7 +1761,7 @@ ABOUT HERO
 
 .about-hero{
     background:#070707;
-    padding:80px 0;
+    /*padding:80px 0;*/
     overflow:hidden;
     position:relative;
 }
@@ -1923,7 +1923,7 @@ BACKGROUND GLOW
 
 .about-hero {
     position: relative;
-    padding: 39px 0 80px;
+    /*padding: 39px 0 80px;*/
     /*background: linear-gradient(135deg, #021b4e, #04296d);*/
     overflow: hidden;
 }
