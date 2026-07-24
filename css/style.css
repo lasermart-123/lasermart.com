@@ -10,6 +10,327 @@ body {
     background: #0c0808;
 }
 
+ /*==================================
+ Premium Products
+==================================*/
+
+        .premium-showcase-products {
+            background: #050505;
+            padding: 80px 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .product-subtitle {
+            display: inline-block;
+            padding: 8px 18px;
+            border: 1px solid #ff7a00;
+            color: #ff7a00;
+            border-radius: 30px;
+            font-size: 14px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 18px;
+        }
+
+        .product-title {
+            color: #fff;
+            font-size: 46px;
+            font-weight: 700;
+            margin-bottom: 0;
+        }
+
+        /*=============================
+ Card
+==============================*/
+
+        .premium-showcase-card {
+            position: relative;
+            height: 100%;
+            border: 1px solid rgba(255, 255, 255, .08);
+            background: #141414fa;
+            border-radius: 22px;
+            padding: 35px;
+            overflow: hidden;
+            transition: .45s ease;
+        }
+
+        .premium-showcase-card:hover {
+            transform: translateY(-10px);
+            border-color: #ff7a00;
+        }
+
+        /* top glow */
+
+        .card-glow {
+            position: absolute;
+            width: 180px;
+            height: 180px;
+            /*background:#ff7a00;*/
+            border-radius: 50%;
+            right: -80px;
+            top: -80px;
+            filter: blur(70px);
+            opacity: .15;
+            transition: .5s;
+        }
+
+        .premium-showcase-card:hover .card-glow {
+            transform: scale(1.2);
+
+        }
+
+        /*=============================
+ Head
+==============================*/
+
+        .card-head {
+
+            display: flex;
+
+            justify-content: space-between;
+
+            align-items: center;
+
+            margin-bottom: 35px;
+
+        }
+
+        .card-no {
+            font-size: 38px;
+            font-weight: 800;
+            color: #ffffff;
+            opacity: .18;
+        }
+
+        .card-showcase-icon {
+
+            width: 62px;
+
+            height: 62px;
+
+            border-radius: 50%;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            border: 1px solid rgba(255, 255, 255, .08);
+
+            background: #101010;
+
+            font-size: 22px;
+
+            color: #ff7a00;
+
+            transition: .4s;
+
+        }
+
+        .premium-showcase-card:hover .card-showcase-icon {
+
+            background: #ff7a00;
+
+            color: #fff;
+
+            transform: rotate(12deg);
+
+        }
+
+        /*=============================
+ Title
+==============================*/
+
+        .premium-showcase-card h3 {
+            color: #fff;
+            font-size: 19px;
+            font-weight: 700;
+            margin-bottom: 30px;
+            line-height: 1.3;
+
+        }
+
+        /*=============================
+ List
+==============================*/
+
+        .premium-showcase-card ul {
+
+            padding: 0;
+
+            margin: 0;
+
+            list-style: none;
+
+        }
+
+        .premium-showcase-card ul li {
+            position: relative;
+            padding-left: 28px;
+            color: #cfcfcf;
+            font-size: 15px;
+        }
+
+        .premium-showcase-card ul li::before {
+
+            content: "✓";
+            position: absolute;
+            left: 0;
+            top: 0;
+            color: #ff7a00;
+            font-weight: 700;
+        }
+
+        /*=============================
+ Button
+==============================*/
+
+        .product-showcase-btn {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 35px;
+            padding: 14px 22px;
+            border-radius: 50px;
+            border: 1px solid rgba(255, 122, 0, .45);
+            text-decoration: none;
+            color: #fff;
+            font-weight: 600;
+            cursor: pointer;
+            transition: .4s;
+
+        }
+
+        a#atb-show-btn-2 {
+            margin-top: 59px;
+        }
+
+        .product-showcase-btn i {
+            transition: .35s;
+        }
+
+        .product-showcase-btn:hover {
+            background: #ff7a00;
+            border-color: #ff7a00;
+            color: #fff;
+        }
+
+        .product-showcase-btn:hover i {
+            transform: translateX(8px);
+
+        }
+
+        /*=============================
+ Background Pattern
+==============================*/
+
+        /*.premium-showcase-card::after {
+            content: "";
+            position: absolute;
+            right: -40px;
+            bottom: -40px;
+            width: 140px;
+            height: 140px;
+            border: 1px solid rgba(255, 122, 0, .08);
+            border-radius: 50%;
+
+        }*/
+
+        /*.premium-showcase-card::before {
+            content: "";
+            position: absolute;
+            right: -70px;
+            bottom: -70px;
+            width: 220px;
+            height: 220px;
+            border: 1px solid rgba(255, 122, 0, .05);
+            border-radius: 50%;
+        }*/
+
+        /*=============================
+ Responsive
+==============================*/
+
+        @media(max-width:991px) {
+
+            .product-title {
+
+                font-size: 36px;
+
+            }
+
+            .premium-showcase-card {
+
+                padding: 28px;
+
+            }
+
+            .
+        }
+
+        @media(max-width:767px) {
+
+            .product-title {
+
+                font-size: 30px;
+
+            }
+
+            .card-head {
+
+                margin-bottom: 25px;
+
+            }
+
+            .card-no {
+                font-size: 32px;
+
+            }
+
+            .card-showcase-icon {
+
+                width: 52px;
+                height: 52px;
+                font-size: 18px;
+
+            }
+
+        }
+
+        @media(max-width:576px) {
+
+            .premium-showcase-products {
+
+                padding: 60px 0;
+
+            }
+
+            .product-title {
+
+                font-size: 26px;
+
+            }
+
+            .premium-showcase-card {
+
+                padding: 22px;
+
+                border-radius: 18px;
+
+            }
+
+            .product-showcase-btn {
+
+                font-size: 14px;
+
+                padding: 12px 18px;
+
+            }
+
+        }
+
 
 
 
