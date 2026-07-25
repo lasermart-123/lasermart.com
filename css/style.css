@@ -5613,7 +5613,7 @@ line-height:26px;
 }*/
 
 /* Orange Overlay */
-.application-box-1 {
+#application-box-1 {
     position: relative;
     height: 333px;
     border-radius: 22px;
@@ -5625,7 +5625,7 @@ line-height:26px;
 
     transition: all .8s ease;
 }
-.application-box-2 {
+#application-box-2 {
     position: relative;
     height: 333px;
     border-radius: 22px;
@@ -5637,7 +5637,7 @@ line-height:26px;
 
     transition: all .8s ease;
 }
-.application-box-3 {
+#application-box-3 {
     position: relative;
     height: 333px;
     border-radius: 22px;
