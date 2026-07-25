@@ -7981,10 +7981,8 @@ section.global-support h2.title {
     transition:.35s;
 }
 
-.ent-app-card i{
-    font-size:40px;
-    color:rgb(235, 98, 0);
-    margin-bottom:18px;
+.ent-app-card img{
+    width:100%;
 }
 
 .ent-app-card h6{
