@@ -7971,26 +7971,31 @@ section.global-support h2.title {
     line-height:1.8;
 }
 
-.ent-app-card{
-    background:#141414fa;
-    border:1px solid rgba(255,255,255,.08);
-    border-radius:18px;
-    text-align:center;
-    padding:10px 10px;
-    height:100%;
-    transition:.35s;
+.ent-app-card {
+    background: #141414fa;
+    border: 1px solid rgba(255, 255, 255, .08);
+    /* border-radius: 18px; */
+    text-align: center;
+    /* padding: 10px 10px; */
+    /* height: 100%; */
+    align-items: center;
+    transition: .35s;
+    position: relative;
+}
+.ent-app-card img {
+    width: 100%;
+    height: 94px;
 }
 
-.ent-app-card img{
-    width:100%;
-}
-
-.ent-app-card h6{
-    color:#fff;
-    margin:0;
-    font-weight:600;
-    font-size:15px;
-    line-height:1.5;
+.ent-app-card h6 {
+    color: #fff;
+    /* margin: 0; */
+    font-weight: 600;
+    font-size: 15px;
+    /* line-height: 1.5; */
+    /* position: absolute; */
+    text-align: center;
+    align-items: center;
 }
 
 .ent-app-card:hover {
