@@ -5613,6 +5613,43 @@ line-height:26px;
 }*/
 
 /* Orange Overlay */
+.application-box-1 {
+    position: relative;
+    height: 333px;
+    border-radius: 22px;
+    overflow: hidden;
+    background: url("../img/Application-1470.jfif") center center;
+    background-size: 100%;
+    background-size: cover;
+    background-position: 50%;
+
+    transition: all .8s ease;
+}
+.application-box-2 {
+    position: relative;
+    height: 333px;
+    border-radius: 22px;
+    overflow: hidden;
+    background: url("../img/Application-1940.jfif") center center;
+    background-size: 100%;
+    background-size: cover;
+    background-position: 50%;
+
+    transition: all .8s ease;
+}
+.application-box-3 {
+    position: relative;
+    height: 333px;
+    border-radius: 22px;
+    overflow: hidden;
+    background: url("../img/Application-405.jfif") center center;
+    background-size: 100%;
+    background-size: cover;
+    background-position: 50%;
+
+    transition: all .8s ease;
+}
+
 
 .application-box::before {
     content: "";
