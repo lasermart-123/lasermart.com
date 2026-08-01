@@ -233,23 +233,43 @@
              <h2 class="popup-title">Get Trained Today</h2>
 
             <form id="enquiryForm">
+                <div class="form-group">
+                    <label for="doctor_name">Doctor's Name</label>
+                    <input type="text" id="doctor_name" name="doctor_name" placeholder="Full Name" required>
+                 </div>
 
-                <input type="text" name="doctor_name" placeholder="Doctor's Name *" required>              
+                <!--<input type="text" name="doctor_name" placeholder="Doctor's Name *" required>-->              
 
                <!-- <input type="email" placeholder="Email Address" required>-->
                 <select required>
                     <option value="">Speciality</option>
-                    <option>General Surgery</option>
                     <option>Proctology</option>
-                    <option>ENT</option>
-                    <option>Gynecology</option>
+                    <option>Vascular Surgery</option>
+                    <option>Gynaecology</option>
+                    <option>Plastic Surgery</option
+                    <option>ENT</option>                           
                     <option>Urology</option>
-                    <option>Plastic Surgery</option>
-                    <option>Pain Management</option>
+                    <option>General Surgery</option>
+                    <option>Interventional Radiology</option>                   
                     <option>Dental</option>
+                    <option>Neuro & Spine</option>
+                     <option>Pain Management</option>
                 </select>
-                  <input type="tel" name="phone" placeholder="Phone Number *"
-        pattern="[0-9]{10}" maxlength="10" required>
+               <div class="form-group">
+                   <label for="phone">Phone Number</label>
+    <div class="phone-input">
+        <span>+91</span>
+        <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="Enter Phone Number"
+            pattern="[0-9]{10}"
+            maxlength="10"
+            required>
+    </div>
+</div>
+               
                  <select required>
                     <option value="">Training</option>
                     <option>Laser SG-1</option>
