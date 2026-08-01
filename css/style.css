@@ -241,9 +241,25 @@ font-size:28px;
 }
 
 .select2-dropdown{
-    border:1px solid #ddd !important;
+    background:#111 !important;
+    border:1px solid #333 !important;
     border-radius:8px;
 }
+/* Search box */
+.select2-search--dropdown{
+    background:#111 !important;
+    padding:10px;
+}
+.select2-search--dropdown .select2-search__field{
+    background:#1b1b1b !important;
+    color:#fff !important;
+    border:1px solid #444 !important;
+    border-radius:6px;
+}
+.select2-search--dropdown .select2-search__field::placeholder{
+    color:#888;
+}
+
 
 .select2-search__field{
     height:40px !important;
