@@ -1656,28 +1656,25 @@
     <script src="./js/crousel.js"></script>
     <script src="./js/counter.js"></script>
     <script src="./js/custom.js"></script>
-    <script>
- document.addEventListener("DOMContentLoaded", function () {
+   <script>
+document.addEventListener("DOMContentLoaded", function () {
 
-    if (!sessionStorage.getItem("popup")) {
-        setTimeout(function () {
-            document.getElementById("popupOverlay").classList.add("show");
-            sessionStorage.setItem("popup", "true");
-        }, 3000);
-    }
-
-    document.getElementById("enquiryForm").addEventListener("submit", function (e) {
-        e.preventDefault();
-        alert("Thank you! Our team will contact you.");
-        closePopup();
-    });
+    setTimeout(function () {
+        document.getElementById("popupOverlay").classList.add("show");
+    }, 3000);
 
 });
 
 function closePopup() {
     document.getElementById("popupOverlay").classList.remove("show");
 }
-    </script>
+
+document.getElementById("enquiryForm").addEventListener("submit", function (e) {
+    e.preventDefault();
+    alert("Thank you!");
+    closePopup();
+});
+</script>
    
 
  
