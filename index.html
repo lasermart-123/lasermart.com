@@ -1879,14 +1879,13 @@ document.getElementById("demoForm").addEventListener("submit",function(e){
 });
         </script>
     <script>
-$(document).ready(function(){
-
-    $('.city-select').select2({
-        placeholder:'Search & Select City',
-        width:'100%'
+$(document).ready(function () {
+    $('#city').select2({
+        placeholder: "Search & Select City",
+        allowClear: true,
+        dropdownParent: $("#demoPopup")
     });
-
-});
+});        
 </script>
    
 
