@@ -183,6 +183,33 @@ font-size:28px;
 }*/
 
 }
+.phone-field{
+    position: relative;
+}
+
+.country-code{
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #555;
+    font-weight: 600;
+    pointer-events: none;
+}
+
+.phone-field input{
+    width: 100%;
+    height: 54px;
+    padding: 0 15px 0 55px !important; /* +91 ke liye left space */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+}
+
+.phone-field input:focus{
+    border-color: #caa25d;
+}
 
  /*==================================
  Premium Products
