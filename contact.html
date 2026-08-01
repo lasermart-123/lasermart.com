@@ -237,7 +237,7 @@
                     <span class="circle one"></span>
                     <span class="circle two"></span>
                     <div class="popup-right full-width">
-             <h2 class="popup-title">Get Trained Today</h2>
+             <h2 class="popup-title">Contact Us</h2>
 
             <form id="enquiryForm">
                 <div class="form-group">
@@ -248,19 +248,25 @@
                 <!--<input type="text" name="doctor_name" placeholder="Doctor's Name *" required>-->              
 
                <!-- <input type="email" placeholder="Email Address" required>-->
-                <select required="">
-                    <option value="">Speciality</option>
-                    <option>Proctology</option>
-                    <option>Vascular Surgery</option>
-                    <option>Gynaecology</option>
-                    <option>Plastic Surgery</option>ENT                           
-                    <option>Urology</option>
-                    <option>General Surgery</option>
-                    <option>Interventional Radiology</option>                   
-                    <option>Dental</option>
-                    <option>Neuro &amp; Spine</option>
-                     <option>Pain Management</option>
-                </select>
+                 <div class="form-group">
+                    <label>Speciality</label>
+
+                    <select required>
+                        <option value="">Select Speciality</option>
+                        <option>Proctology</option>
+                        <option>Vascular Surgery</option>
+                        <option>Gynaecology</option>
+                        <option>Plastic Surgery</option>
+                        <option>ENT</option>
+                        <option>Urology</option>
+                        <option>General Surgery</option>
+                        <option>Interventional Radiology</option>
+                        <option>Dental</option>
+                        <option>Neuro & Spine</option>
+                        <option>Pain Management</option>
+                    </select>
+
+                </div>
             <div class="form-group">
     <label for="phone">Phone Number</label>
 
@@ -269,13 +275,75 @@
         <input type="tel" id="phone" name="phone" placeholder="Enter Phone Number" pattern="[0-9]{10}" maxlength="10" required="">
     </div>
 </div>
+                 <div class="form-group">
+    <label>City</label>
+
+    <select id="city" class="city-select" name="city" required>
+        <option value="">Search & Select City</option>
+
+        <option>Agra (UP)</option>
+        <option>Ahmedabad (GJ)</option>
+        <option>Ajmer (RJ)</option>
+        <option>Aligarh (UP)</option>
+        <option>Amritsar (PB)</option>
+        <option>Aurangabad (MH)</option>
+        <option>Bareilly (UP)</option>
+        <option>Bengaluru (KA)</option>
+        <option>Bhopal (MP)</option>
+        <option>Bhubaneswar (OD)</option>
+        <option>Chandigarh (CH)</option>
+        <option>Chennai (TN)</option>
+        <option>Coimbatore (TN)</option>
+        <option>Dehradun (UK)</option>
+        <option>Delhi (DL)</option>
+        <option>Faridabad (HR)</option>
+        <option>Ghaziabad (UP)</option>
+        <option>Gurugram (HR)</option>
+        <option>Guwahati (AS)</option>
+        <option>Hyderabad (TS)</option>
+        <option>Indore (MP)</option>
+        <option>Jaipur (RJ)</option>
+        <option>Jalandhar (PB)</option>
+        <option>Jammu (JK)</option>
+        <option>Jodhpur (RJ)</option>
+        <option>Kanpur (UP)</option>
+        <option>Kochi (KL)</option>
+        <option>Kolkata (WB)</option>
+        <option>Lucknow (UP)</option>
+        <option>Ludhiana (PB)</option>
+        <option>Meerut (UP)</option>
+        <option>Mumbai (MH)</option>
+        <option>Mysuru (KA)</option>
+        <option>Nagpur (MH)</option>
+        <option>Nashik (MH)</option>
+        <option>Noida (UP)</option>
+        <option>Patna (BR)</option>
+        <option>Pune (MH)</option>
+        <option>Raipur (CG)</option>
+        <option>Rajkot (GJ)</option>
+        <option>Ranchi (JH)</option>
+        <option>Surat (GJ)</option>
+        <option>Thane (MH)</option>
+        <option>Udaipur (RJ)</option>
+        <option>Vadodara (GJ)</option>
+        <option>Varanasi (UP)</option>
+        <option>Vijayawada (AP)</option>
+        <option>Visakhapatnam (AP)</option>
+    </select>
+</div>
                
-                 <select required="">
-                    <option value="">Training</option>
-                    <option>Laser SG-1</option>
-                    <option>Laser SG-2</option>
-                    <option>Laser SG-3</option>                    
-                </select>
+                   <div class="form-group">
+                    <label>Looking For</label>
+
+                    <select required>
+                        <option value="">Looking For</option>
+                        <option>980nm+635nm+405nm</option>
+                        <option>1470nm+635nm+405nm</option>
+                        <option>1940nm+635nm+405nm</option>
+                        <option>980nm+1470nm+635nm+405</option>                       
+                    </select>
+
+                </div> 
 
                 <!--<textarea rows="4" placeholder="Message"></textarea>-->
 
