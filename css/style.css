@@ -16,6 +16,7 @@ top:0;
 left:0;
 width:100%;
 height:100%;
+color:#ffffff;
 background:rgba(0,0,0,.75);
 backdrop-filter:blur(6px);
 display:flex;
@@ -89,7 +90,7 @@ margin-bottom:12px;
 .popup-right{
 width:60%;
 padding:45px;
-background:#fff;
+background:#1d1d1d;
 }
 .popup-right.full-width{
     width:100%;
@@ -106,27 +107,28 @@ background:#fff;
 .popup-right input,
 .popup-right select,
 .popup-right textarea{
-width:100%;
-padding:14px 18px;
-margin-bottom:18px;
-border:1px solid #ddd;
-border-radius:8px;
-font-size:15px;
-outline:none;
-transition:.3s;
+width: 100%;
+    padding: 14px 18px;
+    margin-bottom: 18px;
+    border: 1px solid #000000;
+    font-size: 15px;
+    color: #ffffff;
+    background: black;
+    outline: none;
+    transition: .3s;
 }
 
 .popup-right input:focus,
 .popup-right select:focus,
 .popup-right textarea:focus{
-border-color:#caa25d;
+border-color:rgb(235, 98, 0);
 }
 
 .popup-right button{
 width:100%;
 padding:15px;
 border:none;
-background:#caa25d;
+background:rgb(235, 98, 0);
 color:#111;
 font-size:17px;
 font-weight:700;
@@ -136,7 +138,8 @@ transition:.3s;
 }
 
 .popup-right button:hover{
-background:#b28b45;
+background:#000000;
+color:rgb(235, 98, 0);
 }
 
 .close-popup{
@@ -201,7 +204,7 @@ font-size:28px;
     width: 100%;
     height: 54px;
     padding: 0 15px 0 55px !important; /* +91 ke liye left space */
-    border: 1px solid #ddd;
+    border: 1px solid #000;
     border-radius: 8px;
     font-size: 15px;
     outline: none;
