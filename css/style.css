@@ -262,8 +262,8 @@ font-size:28px;
 /* Remove (×) button */
 .select2-container--default .select2-selection--single .select2-selection__clear{
     position:absolute;
-    right:35px;
-    top:50%;
+    right:28px;
+    top:46%;
     transform:translateY(-50%);
     margin:0;
     font-size:18px;
