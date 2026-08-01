@@ -190,7 +190,7 @@ font-size:28px;
 .country-code{
     position: absolute;
     left: 16px;
-    top: 50%;
+    top: 39%;
     transform: translateY(-50%);
     color: #555;
     font-weight: 600;
