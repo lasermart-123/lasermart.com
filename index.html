@@ -23,7 +23,166 @@
      <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+   <style>
    
+.popup-overlay-form{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,.75);
+backdrop-filter:blur(6px);
+display:flex;
+align-items:center;
+justify-content:center;
+padding:20px;
+opacity:0;
+visibility:hidden;
+transition:.4s;
+z-index:999999;
+}
+
+.popup-overlay.show{
+opacity:1;
+visibility:visible;
+}
+
+.popup-box{
+width:100%;
+max-width:900px;
+background:#111;
+border-radius:20px;
+overflow:hidden;
+display:flex;
+box-shadow:0 20px 60px rgba(0,0,0,.5);
+position:relative;
+animation:popup .5s ease;
+}
+
+@keyframes popup{
+
+from{
+transform:translateY(40px);
+opacity:0;
+}
+
+to{
+transform:translateY(0);
+opacity:1;
+}
+
+}
+
+.popup-left{
+width:40%;
+padding:50px;
+background:linear-gradient(135deg,#111,#222);
+color:#fff;
+display:flex;
+flex-direction:column;
+justify-content:center;
+}
+
+.popup-left h2{
+font-size:34px;
+margin-bottom:20px;
+}
+
+.popup-left p{
+color:#bbb;
+line-height:28px;
+margin-bottom:25px;
+}
+
+.popup-left ul{
+padding-left:18px;
+}
+
+.popup-left li{
+margin-bottom:12px;
+}
+
+.popup-right{
+width:60%;
+padding:45px;
+background:#fff;
+}
+
+.popup-right input,
+.popup-right select,
+.popup-right textarea{
+width:100%;
+padding:14px 18px;
+margin-bottom:18px;
+border:1px solid #ddd;
+border-radius:8px;
+font-size:15px;
+outline:none;
+transition:.3s;
+}
+
+.popup-right input:focus,
+.popup-right select:focus,
+.popup-right textarea:focus{
+border-color:#caa25d;
+}
+
+.popup-right button{
+width:100%;
+padding:15px;
+border:none;
+background:#caa25d;
+color:#111;
+font-size:17px;
+font-weight:700;
+cursor:pointer;
+border-radius:8px;
+transition:.3s;
+}
+
+.popup-right button:hover{
+background:#b28b45;
+}
+
+.close-popup{
+position:absolute;
+right:15px;
+top:15px;
+width:40px;
+height:40px;
+border:none;
+background:#fff;
+border-radius:50%;
+font-size:26px;
+cursor:pointer;
+line-height:40px;
+}
+
+@media(max-width:768px){
+
+.popup-box{
+flex-direction:column;
+max-width:95%;
+}
+
+.popup-left{
+width:100%;
+padding:30px;
+text-align:center;
+}
+
+.popup-right{
+width:100%;
+padding:25px;
+}
+
+.popup-left h2{
+font-size:28px;
+}
+
+}
+   </style>
 
 </head>
 
@@ -210,6 +369,60 @@
         </div>
 
     </header>
+    <!-- Popup Overlay form -->
+<div class="popup-overlay-form" id="popupOverlay">
+    <div class="popup-box">
+
+        <button class="close-popup" onclick="closePopup()">&times;</button>
+
+        <div class="popup-left">
+            <h2>Request a Demo</h2>
+            <p>
+                Experience advanced laser technology for modern surgical
+                applications. Fill in your details and our team will contact you.
+            </p>
+
+            <ul>
+                <li>✔ Expert Consultation</li>
+                <li>✔ Product Demonstration</li>
+                <li>✔ Quick Response</li>
+            </ul>
+        </div>
+
+        <div class="popup-right">
+
+            <form id="enquiryForm">
+
+                <input type="text" placeholder="Full Name" required>
+
+                <input type="tel" placeholder="Mobile Number" required>
+
+                <input type="email" placeholder="Email Address" required>
+
+                <select required>
+                    <option value="">Select Department</option>
+                    <option>General Surgery</option>
+                    <option>Proctology</option>
+                    <option>ENT</option>
+                    <option>Gynecology</option>
+                    <option>Urology</option>
+                    <option>Plastic Surgery</option>
+                    <option>Pain Management</option>
+                    <option>Dental</option>
+                </select>
+
+                <textarea rows="4" placeholder="Message"></textarea>
+
+                <button type="submit">
+                    Submit Enquiry
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+</div>
 
     <section class="hero-section">
         <!-- Overlay -->
@@ -1603,6 +1816,39 @@
     <script src="./js/crousel.js"></script>
     <script src="./js/counter.js"></script>
     <script src="./js/custom.js"></script>
+    <script>
+        window.onload=function(){
+
+if(!sessionStorage.getItem("popup")){
+
+setTimeout(function(){
+
+document.getElementById("popupOverlay").classList.add("show");
+
+sessionStorage.setItem("popup","true");
+
+},3000);
+
+}
+
+}
+
+function closePopup(){
+
+document.getElementById("popupOverlay").classList.remove("show");
+
+}
+
+document.getElementById("enquiryForm").addEventListener("submit",function(e){
+
+e.preventDefault();
+
+alert("Thank you! Our team will contact you.");
+
+closePopup();
+
+});
+    </script>
    
 
  
