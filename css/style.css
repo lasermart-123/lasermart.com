@@ -33,16 +33,14 @@ z-index:999999;
     visibility:visible;
 }
 
+
 .popup-box{
-width:100%;
-max-width:900px;
-background:#111;
-border-radius:20px;
-overflow:hidden;
-display:flex;
-box-shadow:0 20px 60px rgba(0,0,0,.5);
-position:relative;
-animation:popup .5s ease;
+    width:100%;
+    max-width:550px;
+    background:#fff;
+    border-radius:16px;
+    overflow:hidden;
+    position:relative;
 }
 
 @keyframes popup{
@@ -92,6 +90,17 @@ margin-bottom:12px;
 width:60%;
 padding:45px;
 background:#fff;
+}
+.popup-right.full-width{
+    width:100%;
+    padding:40px;
+}
+.popup-title{
+    font-size:32px;
+    font-weight:700;
+    color:#111;
+    text-align:center;
+    margin-bottom:10px;
 }
 
 .popup-right input,
@@ -160,6 +169,13 @@ text-align:center;
 .popup-right{
 width:100%;
 padding:25px;
+}
+    .popup-right.full-width{
+    padding:25px;
+}
+
+.popup-title{
+    font-size:26px;
 }
 
 /*.popup-left h2{
