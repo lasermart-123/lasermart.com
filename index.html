@@ -1657,37 +1657,26 @@
     <script src="./js/counter.js"></script>
     <script src="./js/custom.js"></script>
     <script>
-        window.onload=function(){
+ document.addEventListener("DOMContentLoaded", function () {
 
-if(!sessionStorage.getItem("popup")){
+    if (!sessionStorage.getItem("popup")) {
+        setTimeout(function () {
+            document.getElementById("popupOverlay").classList.add("show");
+            sessionStorage.setItem("popup", "true");
+        }, 3000);
+    }
 
-setTimeout(function(){
-
-document.getElementById("popupOverlay").classList.add("show");
-
-sessionStorage.setItem("popup","true");
-
-},3000);
-
-}
-
-}
-
-function closePopup(){
-
-document.getElementById("popupOverlay").classList.remove("show");
-
-}
-
-document.getElementById("enquiryForm").addEventListener("submit",function(e){
-
-e.preventDefault();
-
-alert("Thank you! Our team will contact you.");
-
-closePopup();
+    document.getElementById("enquiryForm").addEventListener("submit", function (e) {
+        e.preventDefault();
+        alert("Thank you! Our team will contact you.");
+        closePopup();
+    });
 
 });
+
+function closePopup() {
+    document.getElementById("popupOverlay").classList.remove("show");
+}
     </script>
    
 
