@@ -234,14 +234,11 @@
 
             <form id="enquiryForm">
 
-                <input type="text" placeholder="Full Name" required>
+                <input type="text" name="doctor_name" placeholder="Doctor's Name *" required>              
 
-                <input type="tel" placeholder="Mobile Number" required>
-
-                <input type="email" placeholder="Email Address" required>
-
+               <!-- <input type="email" placeholder="Email Address" required>-->
                 <select required>
-                    <option value="">Select Department</option>
+                    <option value="">Speciality</option>
                     <option>General Surgery</option>
                     <option>Proctology</option>
                     <option>ENT</option>
@@ -250,6 +247,14 @@
                     <option>Plastic Surgery</option>
                     <option>Pain Management</option>
                     <option>Dental</option>
+                </select>
+                  <input type="tel" name="phone" placeholder="Phone Number *"
+        pattern="[0-9]{10}" maxlength="10" required>
+                 <select required>
+                    <option value="">Training</option>
+                    <option>Laser SG-1</option>
+                    <option>Laser SG-2</option>
+                    <option>Laser SG-3</option>                    
                 </select>
 
                 <textarea rows="4" placeholder="Message"></textarea>
