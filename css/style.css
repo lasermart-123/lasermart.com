@@ -28,9 +28,9 @@ transition:.4s;
 z-index:999999;
 }
 
-.popup-overlay.show{
-opacity:1;
-visibility:visible;
+.popup-overlay-form.show{
+    opacity:1;
+    visibility:visible;
 }
 
 .popup-box{
