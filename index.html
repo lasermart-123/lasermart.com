@@ -290,6 +290,88 @@
 
     </div>
 </div>
+    <!-- Second-form-popup-->
+    <div class="popup-overlay-form" id="demoPopup">
+    <div class="popup-box">
+
+        <button class="close-popup" onclick="closeDemoPopup()">&times;</button>
+
+        <div class="popup-right full-width">
+
+            <h2 class="popup-title">Book a Free Demo</h2>
+
+            <form id="demoForm">
+
+                <div class="form-group">
+                    <label>Doctor's Name</label>
+                    <input type="text" placeholder="Full Name" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Speciality</label>
+
+                    <select required>
+                        <option value="">Select Speciality</option>
+                        <option>Proctology</option>
+                        <option>Vascular Surgery</option>
+                        <option>Gynaecology</option>
+                        <option>Plastic Surgery</option>
+                        <option>ENT</option>
+                        <option>Urology</option>
+                        <option>General Surgery</option>
+                        <option>Interventional Radiology</option>
+                        <option>Dental</option>
+                        <option>Neuro & Spine</option>
+                        <option>Pain Management</option>
+                    </select>
+
+                </div>
+
+                <div class="form-group">
+                    <label>Phone Number</label>
+
+                    <div class="phone-field">
+                        <span class="country-code">+91</span>
+                        <input type="tel"
+                               placeholder="Enter Phone Number"
+                               pattern="[0-9]{10}"
+                               maxlength="10"
+                               required>
+                    </div>
+                </div>
+
+                
+                 <div class="form-group">
+                    <label>City</label>
+
+                    <select required>
+                        <option value="">Select City</option>
+                        <option>Proctology</option>
+                        <option>Vascular Surgery</option>
+                        <option>Gynaecology</option>
+                        <option>Plastic Surgery</option>
+                        <option>ENT</option>
+                        <option>Urology</option>
+                        <option>General Surgery</option>
+                        <option>Interventional Radiology</option>
+                        <option>Dental</option>
+                        <option>Neuro & Spine</option>
+                        <option>Pain Management</option>
+                    </select>
+
+                </div>
+
+                <button type="submit">
+                    Book Free Demo
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+</div>
+    <!-- Second-form-end-->
 
     <section class="hero-section">
         <!-- Overlay -->
@@ -1683,7 +1765,7 @@
     <script src="./js/crousel.js"></script>
     <script src="./js/counter.js"></script>
     <script src="./js/custom.js"></script>
-   <script>
+  <!-- <script>
 document.addEventListener("DOMContentLoaded", function () {
 
     setTimeout(function () {
@@ -1701,7 +1783,58 @@ document.getElementById("enquiryForm").addEventListener("submit", function (e) {
     alert("Thank you!");
     closePopup();
 });
-</script>
+</script>-->
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+
+    // First Popup
+    setTimeout(function () {
+        document.getElementById("popupOverlay").classList.add("show");
+    }, 3000);
+
+});
+
+// First Popup Close
+function closePopup() {
+
+    document.getElementById("popupOverlay").classList.remove("show");
+
+    // Open second popup after 1 second
+    setTimeout(function () {
+        document.getElementById("demoPopup").classList.add("show");
+    },1000);
+
+}
+
+// Second Popup Close
+function closeDemoPopup(){
+
+    document.getElementById("demoPopup").classList.remove("show");
+
+}
+
+// First Form
+document.getElementById("enquiryForm").addEventListener("submit",function(e){
+
+    e.preventDefault();
+
+    alert("Training Request Submitted");
+
+    document.getElementById("popupOverlay").classList.remove("show");
+
+});
+
+// Second Form
+document.getElementById("demoForm").addEventListener("submit",function(e){
+
+    e.preventDefault();
+
+    alert("Demo Request Submitted");
+
+    closeDemoPopup();
+
+});
+        </script>
    
 
  
