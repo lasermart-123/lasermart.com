@@ -220,11 +220,11 @@ font-size:28px;
 
 .select2-container--default .select2-selection--single{
     height:54px !important;
-    border:1px solid #ddd !important;
+    border:1px solid #000 !important;
     border-radius:8px !important;
     display:flex !important;
     align-items:center;
-    background:#000000;
+    background:#000000 !important;
 }
 
 .select2-container--default .select2-selection__rendered{
@@ -257,7 +257,7 @@ font-size:28px;
     border-radius:6px;
 }
 .select2-search--dropdown .select2-search__field::placeholder{
-    color:#888;
+    color:#ffffff;
 }
 
 
