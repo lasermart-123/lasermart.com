@@ -210,23 +210,42 @@ font-size:28px;
 .phone-field input:focus{
     border-color: #caa25d;
 }
+/* Same size as input fields */
 .select2-container{
     width:100% !important;
 }
 
 .select2-container--default .select2-selection--single{
-    height:54px;
-    border:1px solid #ddd;
-    border-radius:8px;
+    height:54px !important;
+    border:1px solid #ddd !important;
+    border-radius:8px !important;
+    display:flex !important;
+    align-items:center;
+    background:#fff;
 }
 
 .select2-container--default .select2-selection__rendered{
-    line-height:54px;
-    padding-left:15px;
+    line-height:54px !important;
+    padding-left:18px !important;
+    color:#666;
+    font-size:16px;
 }
 
 .select2-container--default .select2-selection__arrow{
-    height:54px;
+    height:54px !important;
+    right:12px;
+}
+
+.select2-dropdown{
+    border:1px solid #ddd !important;
+    border-radius:8px;
+}
+
+.select2-search__field{
+    height:40px !important;
+    padding:8px 12px !important;
+    border-radius:6px;
+    border:1px solid #ddd !important;
 }
 /*================================
  POPUP-FORM-END
