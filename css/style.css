@@ -59,7 +59,7 @@ opacity:1;
 
 }
 
-.popup-left{
+/*.popup-left{
 width:40%;
 padding:50px;
 background:linear-gradient(135deg,#111,#222);
@@ -86,7 +86,7 @@ padding-left:18px;
 
 .popup-left li{
 margin-bottom:12px;
-}
+}*/
 
 .popup-right{
 width:60%;
@@ -151,20 +151,20 @@ flex-direction:column;
 max-width:95%;
 }
 
-.popup-left{
+/*.popup-left{
 width:100%;
 padding:30px;
 text-align:center;
-}
+}*/
 
 .popup-right{
 width:100%;
 padding:25px;
 }
 
-.popup-left h2{
+/*.popup-left h2{
 font-size:28px;
-}
+}*/
 
 }
 
