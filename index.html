@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <!--Select css -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet">
      <!--font-family-->
      <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -342,25 +344,61 @@
 
                 
                  <div class="form-group">
-                    <label>City</label>
+    <label>City</label>
 
-                    <select required>
-                        <option value="">Select City</option>
-                        <option>Proctology</option>
-                        <option>Vascular Surgery</option>
-                        <option>Gynaecology</option>
-                        <option>Plastic Surgery</option>
-                        <option>ENT</option>
-                        <option>Urology</option>
-                        <option>General Surgery</option>
-                        <option>Interventional Radiology</option>
-                        <option>Dental</option>
-                        <option>Neuro & Spine</option>
-                        <option>Pain Management</option>
-                    </select>
+    <select id="city" class="city-select" name="city" required>
+        <option value="">Search & Select City</option>
 
-                </div>
-
+        <option>Agra (UP)</option>
+        <option>Ahmedabad (GJ)</option>
+        <option>Ajmer (RJ)</option>
+        <option>Aligarh (UP)</option>
+        <option>Amritsar (PB)</option>
+        <option>Aurangabad (MH)</option>
+        <option>Bareilly (UP)</option>
+        <option>Bengaluru (KA)</option>
+        <option>Bhopal (MP)</option>
+        <option>Bhubaneswar (OD)</option>
+        <option>Chandigarh (CH)</option>
+        <option>Chennai (TN)</option>
+        <option>Coimbatore (TN)</option>
+        <option>Dehradun (UK)</option>
+        <option>Delhi (DL)</option>
+        <option>Faridabad (HR)</option>
+        <option>Ghaziabad (UP)</option>
+        <option>Gurugram (HR)</option>
+        <option>Guwahati (AS)</option>
+        <option>Hyderabad (TS)</option>
+        <option>Indore (MP)</option>
+        <option>Jaipur (RJ)</option>
+        <option>Jalandhar (PB)</option>
+        <option>Jammu (JK)</option>
+        <option>Jodhpur (RJ)</option>
+        <option>Kanpur (UP)</option>
+        <option>Kochi (KL)</option>
+        <option>Kolkata (WB)</option>
+        <option>Lucknow (UP)</option>
+        <option>Ludhiana (PB)</option>
+        <option>Meerut (UP)</option>
+        <option>Mumbai (MH)</option>
+        <option>Mysuru (KA)</option>
+        <option>Nagpur (MH)</option>
+        <option>Nashik (MH)</option>
+        <option>Noida (UP)</option>
+        <option>Patna (BR)</option>
+        <option>Pune (MH)</option>
+        <option>Raipur (CG)</option>
+        <option>Rajkot (GJ)</option>
+        <option>Ranchi (JH)</option>
+        <option>Surat (GJ)</option>
+        <option>Thane (MH)</option>
+        <option>Udaipur (RJ)</option>
+        <option>Vadodara (GJ)</option>
+        <option>Varanasi (UP)</option>
+        <option>Vijayawada (AP)</option>
+        <option>Visakhapatnam (AP)</option>
+    </select>
+</div>
                 <button type="submit">
                     Book Free Demo
                 </button>
@@ -1759,6 +1797,11 @@
     <!--slick-->    
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- select-js-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+
     <!-- main.js -->
    
     <script src="./js/main.js"></script>
@@ -1835,6 +1878,16 @@ document.getElementById("demoForm").addEventListener("submit",function(e){
 
 });
         </script>
+    <script>
+$(document).ready(function(){
+
+    $('.city-select').select2({
+        placeholder:'Search & Select City',
+        width:'100%'
+    });
+
+});
+</script>
    
 
  
