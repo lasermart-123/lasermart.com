@@ -239,31 +239,111 @@
 
                     <form action="index.html" autocomplete="off">
                         <h3 class="title">Contact us</h3>
-                        <div class="input-container">
-                            <input type="text" name="name" class="input" />
-                            <label for="">Username</label>
-                            <span>Username</span>
-                        </div>
-                        <div class="input-container">
-                            <input type="email" name="email" class="input" />
-                            <label for="">Email</label>
-                            <span>Email</span>
-                        </div>
-                        <div class="input-container">
-                            <input type="tel" name="phone" class="input" />
-                            <label for="">Phone</label>
-                            <span>Phone</span>
-                        </div>
-                        <!--<div class="input-container"> 
-                            <input type="subject" class="input"/>
-                            <label for="">Subject</label>
-                            <span>Subject</span>
-                        </div>-->
-                         <div class="input-container">
-                              <input type="city" class="input"/>
-                            <label for="">City</label>
-                            <span>City</span>
-                        </div>
+                        <div class="form-group">
+                    <label>Doctor's Name</label>
+                    <input type="text" placeholder="Full Name" required>
+                </div>
+                        <div class="form-group">
+                    <label>Speciality</label>
+
+                    <select required>
+                        <option value="">Select Speciality</option>
+                        <option>Proctology</option>
+                        <option>Vascular Surgery</option>
+                        <option>Gynaecology</option>
+                        <option>Plastic Surgery</option>
+                        <option>ENT</option>
+                        <option>Urology</option>
+                        <option>General Surgery</option>
+                        <option>Interventional Radiology</option>
+                        <option>Dental</option>
+                        <option>Neuro & Spine</option>
+                        <option>Pain Management</option>
+                    </select>
+
+                </div>
+                       <div class="form-group">
+                    <label>Phone Number</label>
+
+                    <div class="phone-field">
+                        <span class="country-code">+91</span>
+                        <input type="tel"
+                               placeholder="Enter Phone Number"
+                               pattern="[0-9]{10}"
+                               maxlength="10"
+                               required>
+                    </div>
+                </div>
+                       
+                         <div class="form-group">
+    <label>City</label>
+
+    <select id="city" class="city-select" name="city" required>
+        <option value="">Search & Select City</option>
+
+        <option>Agra (UP)</option>
+        <option>Ahmedabad (GJ)</option>
+        <option>Ajmer (RJ)</option>
+        <option>Aligarh (UP)</option>
+        <option>Amritsar (PB)</option>
+        <option>Aurangabad (MH)</option>
+        <option>Bareilly (UP)</option>
+        <option>Bengaluru (KA)</option>
+        <option>Bhopal (MP)</option>
+        <option>Bhubaneswar (OD)</option>
+        <option>Chandigarh (CH)</option>
+        <option>Chennai (TN)</option>
+        <option>Coimbatore (TN)</option>
+        <option>Dehradun (UK)</option>
+        <option>Delhi (DL)</option>
+        <option>Faridabad (HR)</option>
+        <option>Ghaziabad (UP)</option>
+        <option>Gurugram (HR)</option>
+        <option>Guwahati (AS)</option>
+        <option>Hyderabad (TS)</option>
+        <option>Indore (MP)</option>
+        <option>Jaipur (RJ)</option>
+        <option>Jalandhar (PB)</option>
+        <option>Jammu (JK)</option>
+        <option>Jodhpur (RJ)</option>
+        <option>Kanpur (UP)</option>
+        <option>Kochi (KL)</option>
+        <option>Kolkata (WB)</option>
+        <option>Lucknow (UP)</option>
+        <option>Ludhiana (PB)</option>
+        <option>Meerut (UP)</option>
+        <option>Mumbai (MH)</option>
+        <option>Mysuru (KA)</option>
+        <option>Nagpur (MH)</option>
+        <option>Nashik (MH)</option>
+        <option>Noida (UP)</option>
+        <option>Patna (BR)</option>
+        <option>Pune (MH)</option>
+        <option>Raipur (CG)</option>
+        <option>Rajkot (GJ)</option>
+        <option>Ranchi (JH)</option>
+        <option>Surat (GJ)</option>
+        <option>Thane (MH)</option>
+        <option>Udaipur (RJ)</option>
+        <option>Vadodara (GJ)</option>
+        <option>Varanasi (UP)</option>
+        <option>Vijayawada (AP)</option>
+        <option>Visakhapatnam (AP)</option>
+    </select>
+</div>
+       <div class="form-group">
+                    <label>Looking For</label>
+
+                    <select required>
+                        <option value="">Looking For</option>
+                        <option>980nm+635nm+405nm</option>
+                        <option>1470nm+635nm+405nm</option>
+                        <option>1940nm+635nm+405nm</option>
+                        <option>980nm+1470nm+635nm+405</option>                       
+                    </select>
+
+                </div>             
+
                         <!--<div class="input-container">
                             <select name="need-product" class="input select-input">
                                 <option class="disable" value="" disabled selected></option>
@@ -273,24 +353,9 @@
                             </select>
                             <label for="">Need Lasermart Product</label>
                             <span>Need Lasermart Product</span>
-                        </div>-->
-
-                        <div class="input-container">
-                            <select name="need-product" class="input select-input">
-                                <option class="disable" value="" disabled selected></option>
-                                <option value="Need Training">Need Training</option>
-                                <option value="Support">Support</option>
-                                <option value="Other">Other</option>
-                            </select>
-                            <label for="">Need Lasermart Product</label>
-                            <span>Need Lasermart Product</span>
                              <i class="fas fa-angle-down dropdown-arrow"></i>
-                        </div>
-                        <div class="input-container textarea">
-                            <textarea name="message" class="input"></textarea>
-                            <label for="">Message</label>
-                            <span>Message</span>
-                        </div>
+                        </div>-->
+                       
                         <input type="submit" value="Send" class="btn" />
                     </form>
                 </div>
