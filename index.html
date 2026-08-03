@@ -211,7 +211,202 @@
         </div>
 
     </header>
-    <!-- Popup Overlay form -->
+      <!-- Popup Overlay form -->
+    <div class="popup-overlay-form" id="popupOverlay">
+        <div class="popup-box">
+
+            <button class="close-popup" onclick="closePopup()">&times;</button>
+
+            <div class="popup-right full-width">
+                <h2 class="popup-title">Book a Free Demo</h2>
+                <form id="demoForm">
+
+                    <div class="form-group">
+                        <label>Doctor's Name</label>
+                        <input type="text" name="doctor_name" placeholder="Full Name" required>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label>Speciality</label>
+
+                        <select name="speciality" required>
+                            <option value="">Select Speciality</option>
+                            <option>Proctology</option>
+                            <option>Vascular Surgery</option>
+                            <option>Gynaecology</option>
+                            <option>Plastic Surgery</option>
+                            <option>ENT</option>
+                            <option>Urology</option>
+                            <option>General Surgery</option>
+                            <option>Interventional Radiology</option>
+                            <option>Dental</option>
+                            <option>Neuro & Spine</option>
+                            <option>Pain Management</option>
+                        </select>
+
+                    </div>
+
+                    <div class="form-group">
+                        <label>Phone Number</label>
+
+                        <div class="phone-field">
+                            <span class="country-code">+91</span>
+                            <input type="tel" name="phone" placeholder="Enter Phone Number" pattern="[0-9]{10}"
+                                maxlength="10" required>
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label>City</label>
+
+                        <select name="city" id="city" class="city-select" required>
+                            <option value="">Search & Select City</option>
+
+                            <option>Agra (UP)</option>
+                            <option>Ahmedabad (GJ)</option>
+                            <option>Ajmer (RJ)</option>
+                            <option>Aligarh (UP)</option>
+                            <option>Amritsar (PB)</option>
+                            <option>Aurangabad (MH)</option>
+                            <option>Bareilly (UP)</option>
+                            <option>Bengaluru (KA)</option>
+                            <option>Bhopal (MP)</option>
+                            <option>Bhubaneswar (OD)</option>
+                            <option>Chandigarh (CH)</option>
+                            <option>Chennai (TN)</option>
+                            <option>Coimbatore (TN)</option>
+                            <option>Dehradun (UK)</option>
+                            <option>Delhi (DL)</option>
+                            <option>Faridabad (HR)</option>
+                            <option>Ghaziabad (UP)</option>
+                            <option>Gurugram (HR)</option>
+                            <option>Guwahati (AS)</option>
+                            <option>Hyderabad (TS)</option>
+                            <option>Indore (MP)</option>
+                            <option>Jaipur (RJ)</option>
+                            <option>Jalandhar (PB)</option>
+                            <option>Jammu (JK)</option>
+                            <option>Jodhpur (RJ)</option>
+                            <option>Kanpur (UP)</option>
+                            <option>Kochi (KL)</option>
+                            <option>Kolkata (WB)</option>
+                            <option>Lucknow (UP)</option>
+                            <option>Ludhiana (PB)</option>
+                            <option>Meerut (UP)</option>
+                            <option>Mumbai (MH)</option>
+                            <option>Mysuru (KA)</option>
+                            <option>Nagpur (MH)</option>
+                            <option>Nashik (MH)</option>
+                            <option>Noida (UP)</option>
+                            <option>Patna (BR)</option>
+                            <option>Pune (MH)</option>
+                            <option>Raipur (CG)</option>
+                            <option>Rajkot (GJ)</option>
+                            <option>Ranchi (JH)</option>
+                            <option>Surat (GJ)</option>
+                            <option>Thane (MH)</option>
+                            <option>Udaipur (RJ)</option>
+                            <option>Vadodara (GJ)</option>
+                            <option>Varanasi (UP)</option>
+                            <option>Vijayawada (AP)</option>
+                            <option>Visakhapatnam (AP)</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="second-popup-btn mt-3">
+                        Book Free Demo
+                    </button>
+
+                </form>
+
+
+
+            </div>
+
+        </div>
+    </div>
+    <!-- Second-form-popup-->
+    <div class="popup-overlay-form" id="demoPopup">
+        <div class="popup-box">
+
+            <button class="close-popup" onclick="closeDemoPopup()">&times;</button>
+
+            <div class="popup-right full-width">
+
+                <h2 class="popup-title">Get Trained Today</h2>
+
+                <form id="enquiryForm">
+                    <div class="form-group">
+                        <label for="doctor_name">Doctor's Name</label>
+                        <input type="text" id="doctor_name" name="doctor_name" placeholder="Full Name" required>
+                    </div>
+
+                    <!--<input type="text" name="doctor_name" placeholder="Doctor's Name *" required>-->
+
+                    <!-- <input type="email" placeholder="Email Address" required>-->
+                    <div class="form-group">
+                        <label>Speciality</label>
+
+                        <select required>
+                            <option value="">Select Speciality</option>
+                            <option>Proctology</option>
+                            <option>Vascular Surgery</option>
+                            <option>Gynaecology</option>
+                            <option>Plastic Surgery</option>
+                            <option>ENT</option>
+                            <option>Urology</option>
+                            <option>General Surgery</option>
+                            <option>Interventional Radiology</option>
+                            <option>Dental</option>
+                            <option>Neuro & Spine</option>
+                            <option>Pain Management</option>
+                        </select>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+
+                        <div class="phone-field">
+                            <span class="country-code">+91</span>
+                            <input type="tel" id="phone" name="phone" placeholder="Enter Phone Number"
+                                pattern="[0-9]{10}" maxlength="10" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Training</label>
+                        <select required>
+                            <option value="">Training</option>
+                            <option>Proctology</option>
+                            <option>Vascular Surgery</option>
+                            <option>Gynaecology</option>
+                            <option>Plastic Surgery</option>
+                            <option>ENT</option>
+                            <option>Urology</option>
+                            <option>General Surgery</option>
+                            <option>Interventional Radiology</option>
+                            <option>Dental</option>
+                            <option>Neuro & Spine</option>
+                            <option>Pain Management</option>
+                        </select>
+                    </div>
+
+
+                    <!--<textarea rows="4" placeholder="Message"></textarea>-->
+
+                    <button type="submit">
+                        Submit Enquiry
+                    </button>
+
+                </form>
+
+
+            </div>
+
+        </div>
+    </div>
+    <!-- Second-form-end-->
+    <!-- Popup Overlay form --
 <div class="popup-overlay-form" id="popupOverlay">
     <div class="popup-box">
 
@@ -229,7 +424,7 @@
                 <li>✔ Product Demonstration</li>
                 <li>✔ Quick Response</li>
             </ul>
-        </div>-->
+        </div>--
 
         <div class="popup-right full-width">
              <h2 class="popup-title">Get Trained Today</h2>
@@ -240,9 +435,9 @@
                     <input type="text" id="doctor_name" name="doctor_name" placeholder="Full Name" required>
                  </div>
 
-                <!--<input type="text" name="doctor_name" placeholder="Doctor's Name *" required>-->              
+                <!--<input type="text" name="doctor_name" placeholder="Doctor's Name *" required>--            
 
-               <!-- <input type="email" placeholder="Email Address" required>-->
+               <!-- <input type="email" placeholder="Email Address" required>--
                 <select required>
                     <option value="">Speciality</option>
                     <option>Proctology</option>
@@ -288,7 +483,7 @@
                         <option>Pain Management</option>                    
                 </select>
 
-                <!--<textarea rows="4" placeholder="Message"></textarea>-->
+                <!--<textarea rows="4" placeholder="Message"></textarea>--
 
                 <button type="submit">
                     Submit Enquiry
@@ -299,8 +494,8 @@
         </div>
 
     </div>
-</div>
-    <!-- Second-form-popup-->
+</div>-->
+    <!-- Second-form-popup--
     <div class="popup-overlay-form" id="demoPopup">
     <div class="popup-box">
 
