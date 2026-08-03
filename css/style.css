@@ -9,6 +9,9 @@
 body {
     background: #0c0808;
 }
+a.atb-products-cards-glow {
+    text-decoration: none;
+}
 
 .popup-overlay-form{
 position:fixed;
