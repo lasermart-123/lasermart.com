@@ -262,7 +262,7 @@
 
                         <!--<select name="city" id="city" class="city-select" required="">
                             <option value="">Search &amp; Select City</option>-->
-                        <select id="city" name="city" class="city-select" style="width:100%" required>
+                        <select id="demoCity" name="city" class="city-select" style="width:100%" required>
                             <option></option>
                             <option>Agra (UP)</option>
                             <option>Ahmedabad (GJ)</option>
@@ -2082,13 +2082,11 @@ document.getElementById("demoForm").addEventListener("submit",function(e){
 });
         </script>
     <script>
-    $(function () {
-    $('#city').select2({
-        width: '100%',
-        placeholder: 'Search & Select City',
-        allowClear: true,
-        dropdownParent: $('#popupOverlay')
-    });
+ $('#demoCity').select2({
+    width: '100%',
+    placeholder: 'Search & Select City',
+    allowClear: true,
+    dropdownParent: $('#popupOverlay')
 });
     </script>
    
