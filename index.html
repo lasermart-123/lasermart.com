@@ -2083,12 +2083,15 @@ document.getElementById("demoForm").addEventListener("submit",function(e){
         </script>
     <script>
 $(document).ready(function () {
+
     $('#demoCity').select2({
         width: '100%',
         placeholder: 'Search & Select City',
         allowClear: true,
-        dropdownParent: $('#popupOverlay')
+        dropdownParent: $('#popupOverlay'),
+        minimumResultsForSearch: 0
     });
+
 });
     </script>
    
