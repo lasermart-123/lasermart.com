@@ -2081,11 +2081,12 @@ document.getElementById("demoForm").addEventListener("submit",function(e){
 });
         </script>
     <script>
-        $(document).ready(function () {
+      $(document).ready(function () {
     $('#city').select2({
-        placeholder: "Search & Select City",
-        allowClear: true,
-        dropdownParent: $("#popupOverlay")
+        width: '100%',
+        placeholder: 'Search & Select City',
+        dropdownParent: $('#popupOverlay'),
+        minimumResultsForSearch: 0
     });
 });
     </script>
