@@ -2065,6 +2065,7 @@ document.getElementById("enquiryForm").addEventListener("submit",function(e){
     e.preventDefault();
 
     alert("Training Request Submitted");
+    enquiryForm.reset();
 
     document.getElementById("popupOverlay").classList.remove("show");
 
@@ -2076,6 +2077,7 @@ document.getElementById("demoForm").addEventListener("submit",function(e){
     e.preventDefault();
 
     alert("Demo Request Submitted");
+     demoForm.reset();
 
     closeDemoPopup();
 
