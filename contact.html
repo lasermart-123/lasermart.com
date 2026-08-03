@@ -281,7 +281,7 @@
                             <span>Phone</span>
                         </div>
                         <div class="input-container">
-                            <select name="city" class="input select-input" required>
+                            <select name="contactCity" class="input select-input" required>
                                 <option class="disable" value="" disabled selected></option>
                                 <option>Agra (UP)</option>
                                 <option>Ahmedabad (GJ)</option>
@@ -474,6 +474,12 @@
     <script src="./js/crousel.js" defer></script>
     <script src="./js/counter.js" defer></script>
     <script src="./js/custom.js" defer></script>
+    <script>
+        $('#contactCity').select2({
+    width: '100%',
+    placeholder: 'Search & Select City'
+});
+    </script>
 
 
 </body>
