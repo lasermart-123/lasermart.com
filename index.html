@@ -260,9 +260,10 @@
                     <div class="form-group">
                         <label>City</label>
 
-                        <select name="city" id="city" class="city-select" required="">
-                            <option value="">Search &amp; Select City</option>
-
+                        <!--<select name="city" id="city" class="city-select" required="">
+                            <option value="">Search &amp; Select City</option>-->
+                        <select id="city" name="city" class="city-select" style="width:100%" required>
+                            <option></option>
                             <option>Agra (UP)</option>
                             <option>Ahmedabad (GJ)</option>
                             <option>Ajmer (RJ)</option>
@@ -2081,12 +2082,12 @@ document.getElementById("demoForm").addEventListener("submit",function(e){
 });
         </script>
     <script>
-      $(document).ready(function () {
+    $(function () {
     $('#city').select2({
         width: '100%',
         placeholder: 'Search & Select City',
-        dropdownParent: $('#popupOverlay'),
-        minimumResultsForSearch: 0
+        allowClear: true,
+        dropdownParent: $('#popupOverlay')
     });
 });
     </script>
