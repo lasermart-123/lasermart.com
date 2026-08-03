@@ -2082,11 +2082,13 @@ document.getElementById("demoForm").addEventListener("submit",function(e){
 });
         </script>
     <script>
- $('#demoCity').select2({
-    width: '100%',
-    placeholder: 'Search & Select City',
-    allowClear: true,
-    dropdownParent: $('#popupOverlay')
+$(document).ready(function () {
+    $('#demoCity').select2({
+        width: '100%',
+        placeholder: 'Search & Select City',
+        allowClear: true,
+        dropdownParent: $('#popupOverlay')
+    });
 });
     </script>
    
